@@ -6,8 +6,8 @@ slug: blackfriday-markdown
 categories:
   - demo
 tags: []
-description: ''
-draft: yes
+description: 'Markdown syntax of Blackfriday explained by examples'
+draft: no
 ---
 
 Markdown: Syntax
