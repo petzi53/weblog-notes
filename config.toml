@@ -1,0 +1,73 @@
+baseURL = "/"
+languageCode = "en-us"
+DefaultContentLanguage = "en"
+
+title = "Peter's Blog"
+theme = "hugo-theme-docdock"
+themesdir = "themes"
+
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+[permalinks]
+  post = "/:year/:month/:day/:slug"
+
+[params]
+ # Prefix URL to edit current page. Will display an "Edit this page" button
+ # on top right hand corner of every page.
+ # Useful to give opportunity to people to create merge request for your doc.
+editURL = "https://github.com/petzi53/hugo-theme-docdock/edit/master/"
+
+# Author of the site, will be used in meta information
+  # author = ""
+# Description of the site, will be used in meta information
+  # description = ""
+
+noHomeIcon = false # default is
+
+# Disable search function. It will hide search bar
+noSearch = false # default is false
+
+# Shows a checkmark for visited pages on the menu
+showVisitedLinks = true # default is false
+# themeStyle = "theme" # overide base css
+themeVariant = "" # choose theme variant "green", "gold" , "gray", "blue" (default)
+# Order sections in menu by "weight" or "title". Default to "weight"
+ordersectionsby = "weight"
+
+# Javascript and CSS cache are automatically busted when new version of site is generated.
+# Set this to true to disable this behavior (some proxies don't handle well this optimization)
+  # disableAssetsBusting = false
+# Set this to true to disable copy-to-clipboard button for inline code.
+  # disableInlineCopyToClipBoard = false
+# A title for shortcuts in menu is set by default. Set this to true to disable it.
+  # disableShortcutsTitle = false
+# When using mulitlingual website, disable the switch language button.
+  # disableLanguageSwitchingButton = false
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+
+[[menu.shortcuts]]
+pre = "<h3>More</h3>"
+name = "<i class='fa fa-github'></i> Github repo"
+identifier = "ds"
+url = "https://github.com/vjeantet/hugo-theme-docdock"
+weight = 10
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-camera'></i> Showcases"
+url = "/showcase"
+weight = 11
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-bookmark'></i> Hugo Documentation"
+identifier = "hugodoc"
+url = "https://gohugo.io/"
+weight = 20
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-bullhorn'></i> Credits"
+url = "/credits"
+weight = 30
+
