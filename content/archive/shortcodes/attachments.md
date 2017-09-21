@@ -7,6 +7,7 @@ The Attachments shortcode displays a list of files attached to a page.
 Example :
 {{%alert success%}}{{%attachments / %}}{{%/alert%}}
 
+
 ## Usage
 
 The shortcurt lists files found in a **specific folder**.

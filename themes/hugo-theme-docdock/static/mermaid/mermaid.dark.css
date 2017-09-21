@@ -90,8 +90,7 @@ text.actor {
 }
 /** Section styling */
 .section {
-  stroke: none;
-  opacity: 0.2;
+  stroke: none
 }
 .section0 {
   fill: rgba(255, 255, 255, 0.3);
