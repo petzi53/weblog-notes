@@ -1,4 +1,4 @@
-baseURL = "https://l3lab.netlify.com/"
+baseURL = "https://l3lab.netlify.com"
 languageCode = "en-us"
 DefaultContentLanguage = "en"
 
