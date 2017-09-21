@@ -6,7 +6,7 @@ slug: just-markdown
 categories: []
 tags: []
 description: ''
-draft: yes
+draft: no
 ---
 
 Lorem Ipsum....
