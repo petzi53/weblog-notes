@@ -3,7 +3,7 @@ creatordisplayname: Peter Baumgartner
 creatoremail: peter.baumgartner@icloud.com
 date: 2017-04-24T18:36:24+02:00
 description: ""
-lastmodifierdisplayname: Peter Baumgartner
+lastmodifierdisplayname: Petzi Baumgartner
 lastmodifieremail: peter.baumgartner@icloud.com
 pre: '<i class=''fa fa-edit''></i> '
 tags:
