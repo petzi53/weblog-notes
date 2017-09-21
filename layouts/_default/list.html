@@ -1,0 +1,39 @@
+{{ partial "header.html" . }}
+
+{{ .Content }}
+
+<ul>
+  {{ range (where .Data.Pages "Section" "!=" "") }}
+  <li>
+    <span class="date">{{ .Date.Format "2006/01/02" }}:&nbsp;&nbsp;</span>
+    <a href="{{ .URL }}">{{ .Title }}</a>  {{ .Description }}
+  </li>
+  {{ end }}
+</ul>
+
+
+<footer class=" footline" >
+	{{with .Params.LastModifierDisplayName}}
+	    <i class='fa fa-user'></i> <a href="mailto:{{ $.Params.LastModifierEmail }}">{{ . }}</a> {{with $.Date}} <i class='fa fa-calendar'></i> {{ .Format "02/01/2006" }}{{end}}
+	    </div>
+	{{end}}
+</footer>
+
+
+{{if not .Content }}
+	{{ $paginator := .Paginator }}
+
+	<div class="extra-pagination inner">
+	{{ partial "pagination.html" $paginator }}
+	</div>
+
+	{{ range $index, $page := $paginator.Pages }}
+	   {{ .Render "li" }}
+	{{ end }}
+
+	<div style="margin-bottom:2rem"></div>
+
+	{{ partial "pagination.html" $paginator }}
+{{end}}
+
+{{ partial "footer.html" . }}
