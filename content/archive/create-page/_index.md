@@ -5,7 +5,7 @@ date: 2017-04-24T18:36:24+02:00
 description: ""
 lastmodifierdisplayname: Petzi Baumgartner
 lastmodifieremail: peter.baumgartner@icloud.com
-pre: '<i class=''fa fa-edit''></i> '
+pre: "<i class='fa fa-edit'></i> "
 tags:
 - tag1
 - tag2

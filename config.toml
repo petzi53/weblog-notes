@@ -22,9 +22,6 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 # Description of the site, will be used in meta information
   # description = ""
 
-        lastModifierDisplayName = "Peter Baumgartner"
-        lastModifierEmail = "peter_baumgartner@me.com"
-
 noHomeIcon = false # default is
 
 # Disable search function. It will hide search bar
@@ -53,26 +50,26 @@ home = [ "HTML", "RSS", "JSON"]
 
 [[menu.shortcuts]]
         pre = "<h3>More</h3>"
-        name = "<i class='fa fa-github'></i> Github repo"
+        name = "<i class='fa fa-github'>&nbsp;&nbsp;</i> Github repo"
         identifier = "ds"
         url = "https://github.com/petzi53/weblog2/"
         weight = 10
 
 [[menu.shortcuts]]
-        name = "<i class='fa fa-bullhorn'></i> Credits"
+        name = "<i class='fa fa-bullhorn'>&nbsp;&nbsp;</i> Credits"
         url = "/credits"
         weight = 30
 
 [[menu.shortcuts]]
-        name = "Categories"
+        name = "<i class='fa fa-bookmark'>&nbsp;&nbsp;&nbsp;</i> Categories"
         url = "/categories/"
         weight = 40
 [[menu.shortcuts]]
-        name = "Tags"
+        name = "<i class='fa fa-tags'>&nbsp;&nbsp;</i> Tags"
         url = "/tags/"
         weight = 50
 [[menu.shortcuts]]
-        name = "Subscribe"
+        name = "<i class='fa fa-rss'>&nbsp;&nbsp;&nbsp;</i> Subscribe"
         url = "/index.xml"
         weight = 60
 

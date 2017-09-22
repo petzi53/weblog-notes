@@ -1,12 +1,12 @@
 ---
-title: Just Markdown
 author: Peter Baumgartner
-date: '2015-07-23'
-slug: just-markdown
 categories: []
+date: 2015-07-23
+description: ""
+draft: false
+slug: just-markdown
 tags: []
-description: ''
-draft: no
+title: Just Markdown
 ---
 
 Lorem Ipsum....
