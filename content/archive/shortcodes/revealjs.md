@@ -4,7 +4,7 @@ slug: revealjs
 title: revealjs
 ---
 
-This shortcode will format the enclosed markdow to render it with [reveal.js](http://lab.hakim.se/reveal-js/) at runtime (client-side)
+This shortcode will format the enclosed markdown to render it with [reveal.js](http://lab.hakim.se/reveal-js/) at runtime (client-side)
 
 Read more on [revealjs github repo](https://github.com/hakimel/reveal.js/#markdown).
 
@@ -20,7 +20,7 @@ Read more on [revealjs github repo](https://github.com/hakimel/reveal.js/#markdo
 * center
 
 
-{{%warning title="Important" %}}Even if the enclosed content is a mardown, use `<` shortcode notation instead of the `%` notation {{%/warning %}}
+{{%warning title="Important" %}}Even if the enclosed content is a markdown, use `<` shortcode notation instead of the `%` notation {{%/warning %}}
 
 ### Content formating and slide delimiters
 
@@ -28,7 +28,7 @@ Read more on [revealjs github repo](https://github.com/hakimel/reveal.js/#markdo
 
 ## Demo
 
-{{<revealjs theme="moon" progress="true">}}
+{{<revealjs theme="moon" progress="true" controls="true">}}
 
 # In the morning
 

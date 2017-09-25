@@ -23,9 +23,9 @@ In the frontmatter of your page file, set **type** and **revealOptions** params
 
 Your content will be served as a fullscreen revealjs presentation and revealOptions will be used to ajust its behaviour.
 
-        ---
+        +++
         title = "Test slide"
-        type="slide"
+        type ="slide"
         
         theme = "league"
         [revealOptions]
@@ -34,7 +34,7 @@ Your content will be served as a fullscreen revealjs presentation and revealOpti
         progress= true
         history= true
         center= true
-        ---
+        +++
 
 [read more about reveal options here](https://github.com/hakimel/reveal.js/#configuration)
 

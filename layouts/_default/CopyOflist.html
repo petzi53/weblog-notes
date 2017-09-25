@@ -1,16 +1,27 @@
+
+
 {{ partial "header.html" . }}
+
+<h3>This is the list template at layout/_default/list.html</h3>
 
 {{ .Content }}
 
-<footer class=" footline" >
-	{{with .Params.LastModifierDisplayName}}
-	    <i class='fa fa-user'></i> <a href="mailto:{{ $.Params.LastModifierEmail }}">{{ . }}</a> {{with $.Date}} <i class='fa fa-calendar'></i> {{ .Format "02/01/2006" }}{{end}}
-	    </div>
-	{{end}}
-</footer>
+
+<ul>
+   {{ range (where .Site.RegularPages "Section" .Section ) }}
+  <li>
+    <span class="date">{{ .Date.Format "2006/01/02" }}:&nbsp;&nbsp;</span>
+    <a href="{{ .URL }}">{{ .Title }}</a>
+  </li>
+  {{ end }}
+
+</ul>
+
+
 
 
 {{if not .Content }}
+No Content here means no _index.md in this folder!
 	{{ $paginator := .Paginator }}
 
 	<div class="extra-pagination inner">

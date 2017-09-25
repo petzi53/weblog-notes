@@ -5,10 +5,7 @@ date: 2017-04-24T18:36:24+02:00
 description: ""
 lastmodifierdisplayname: Petzi Baumgartner
 lastmodifieremail: peter.baumgartner@icloud.com
-pre: "<i class='fa fa-edit'></i> "
-tags:
-- tag1
-- tag2
+lastmod: 2017-09-23
 title: Create Page
 weight: 110
 ---
@@ -24,6 +21,7 @@ To tell Hugo-theme-docdock to consider a page as a slide, just add a `type="slid
 
 
 Hugo-theme-docdock provides archetypes to help you create this kind of pages.
+
 
 
 ## Front Matter

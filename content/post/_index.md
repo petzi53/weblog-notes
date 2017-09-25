@@ -4,11 +4,7 @@ description: ""
 title: My Notes (Posts)
 weight: 5
 pre: "<i class='fa fa-user'>&nbsp;&nbsp;&nbsp;</i> "
+commentsNotAllowed: true
 ---
 
-<footer class=" footline" >
-	{{with .Params.LastModifierDisplayName}}
-	    <i class='fa fa-user'></i> <a href="mailto:{{ $.Params.LastModifierEmail }}">{{ . }}</a> {{with $.Date}} <i class='fa fa-calendar'></i> {{ .Format "02/01/2006" }}{{end}}
-	    </div>
-	{{end}}
-</footer>
+Here at `content/post/index.md` I can write an overview about the following pages e.g. about my weblog.

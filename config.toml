@@ -6,6 +6,9 @@ title = "Peter's Blog"
 theme = "hugo-theme-docdock"
 themesdir = "themes"
 
+footnotereturnlinkcontents = "↩"
+
+
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [permalinks]
@@ -21,6 +24,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   # author = ""
 # Description of the site, will be used in meta information
   # description = ""
+
+commentsNotAllowed = false
 
 noHomeIcon = false # default is
 

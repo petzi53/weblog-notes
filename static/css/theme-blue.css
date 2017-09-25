@@ -1,0 +1,35 @@
+/* Additions by pb */
+
+.display-centered{
+        display:block;
+        margin-left:auto;
+        margin-right:auto
+}
+
+
+.small {
+	max-width: 30%;
+	width: auto\9*0.3; /* ie8 */
+	height: auto;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.floatright {
+	max-width: 30%;
+	width: auto\9*0.3; /* ie8 */
+	height: auto;
+	float: right;
+}
+
+.floatleft {
+	max-width: 30%;
+	width: auto\9*0.3; /* ie8 */
+	height: auto;
+	float: left;
+}
+
+
+/* end of additions by pb */
+
