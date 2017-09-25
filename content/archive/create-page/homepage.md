@@ -1,9 +1,6 @@
 ---
 date: 2017-04-28T18:36:24+02:00
 description: ""
-tags:
-- tag1
-- tag2
 title: Home page
 ---
 

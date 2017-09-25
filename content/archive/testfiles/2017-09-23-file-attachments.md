@@ -6,7 +6,7 @@ slug: files-attachments
 tags: [test]
 title: Files attachment
 draft: false
-description: How to use shortcodes for file attachments? There is a (not yed completely solved) problem with URLs.
+description: How to use shortcodes for file attachments? 
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 description: ""
 title: Installation
-weight: 1
+date: 2017-04-24
 ---
 
 {{% alert theme="warning" %}}HUGO **v0.25** minimum required to use this theme{{%/alert%}}
