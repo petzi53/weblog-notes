@@ -2,7 +2,7 @@
 date: 2017-04-24T18:36:24+02:00
 description: ""
 title: Slides
-weight: 25
+weight: 30
 pre: "<i class='fa fa-desktop'>&nbsp;&nbsp;</i> "
 commentsNotAllowed: true
 ---
