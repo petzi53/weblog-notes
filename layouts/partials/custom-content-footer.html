@@ -2,6 +2,7 @@
 
 {{ partial "copyright.html" . }}
 
+{{ if .Site.Params.staticman}}
 {{ if not .Page.Params.commentsnotallowed}}
         <div>
                 <h3>Start/Join the Discussion:</h3>
@@ -16,5 +17,6 @@
                   <button type="submit">Go!</button>
                 </form>
         </div>
+{{ end }}
 {{ end }}
 

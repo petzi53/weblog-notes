@@ -18,14 +18,14 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
  # Prefix URL to edit current page. Will display an "Edit this page" button
  # on top right hand corner of every page.
  # Useful to give opportunity to people to create merge request for your doc.
-        editURL = "https://github.com/petzi53/weblog2/edit/master/content/"
+editURL = "https://github.com/petzi53/weblog2/edit/master/content/"
 
 # Author of the site, will be used in meta information
   # author = ""
 # Description of the site, will be used in meta information
   # description = ""
 
-commentsNotAllowed = false
+staticman = false
 
 noHomeIcon = false # default is
 

@@ -3,29 +3,17 @@
 <a href="#" id="sidebar-toggle" data-sidebar-toggle=""><i class="fa fa-bars"></i> navigation</a>
 </span>
 
-{{if .Site.Home.Content }}
-{{.Site.Home.Content}}
-{{else}}
-	{{if eq .Site.Language.Lang "fr"}}
-		<h1>Personaliser la page d'accueil</h1>
-		<p>
-		  Le site fonctionne. Ne pas oublier de personaliser cette page avec votre propre contenu. 2 façons de faire :
-		</p>
-		<ul>
-		  <li><b>1. </b> Créer un fichier _index.md dans le dossier content</li>
-		  <li><b>2. </b> Configurer le serveur http pour rediriger automatiquement la homepage vers la page de votre choix dans le site</li>
-		</ul>
-	{{else}}
-		<h1>Customize your own home page</h1>
-		<h3>Homepage template at layouts/index.html</h3>
-		<p>
-		  The site is working. Don't forget to customize this homepage with your own. You typically have 2 choices :
-		</p>
-		<ul>
-		  <li><b>1. </b> Create an _index.md document in the content folder</li>
-		  <li><b>2. </b> Configure your server to automatically redirect this home page to one of your documentation pages</li>
-		</ul>
-	{{end}}
-	<p><i class="fa fa-heart fa-5x"></i></p>
-{{ end }}
+
+<p>This is my new English weblog, which I startet with October 2017. It should be an supplement to my German homepage.</p>
+
+<p>In <a href="http://peter.baumgartner.name/">Gedankensplitter</a> I focus on educational design of blended learning arrangement whereas here I will write mainly about new workflows and tools for scientitic research. Both sites are related to educational technology, but with this one here I want to set a special focus on reproducible reserch and the possible new workflows the present digital era is permitting. As the discussion on reproducible reasearch is at the moment almost exclusively an international one I decided to write on this subject in (my poor) English.</p>
+
+<p>I am busy learning about the many nice features of this template and how to adapt them for my need. This means to learn a lot about Hugo and its templates structure. But this is already part of the content (tools) I want to explore and write. Explore the many yourself in the <a href="/archive/">archive section</a>.</p>
+
+<p>The structure of the site is still under construction, but there are already some articles in the <a href="/post/">post section</a> you could be interested.</p>
+
+<!--
+<p><strong>At the moment the discussion forum does not work.</strong> I am still looking for a better alternative to disqus.</p>
+-->
+
 {{ partial "footer.html" . }}
