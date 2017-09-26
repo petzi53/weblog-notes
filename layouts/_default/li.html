@@ -6,7 +6,14 @@
         <h2 class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
     </header>
     <section class="post-excerpt">
-        <p>{{ .Summary }} <a class="read-more" href="{{.RelPermalink}}">&raquo;</a></p>
+        {{ with .Description }}
+                {{ $.Scratch.Set "summary" (markdownify .) }}
+        {{ else }}
+                {{ $.Scratch.Set "summary" ((delimit (findRE "(<p.*?>.*?</p>\\s*)+" .Content) "[&hellip;] ") | plainify | truncate (default 200 .Site.Params.summary_length) (default "&hellip;" .Site.Params.text.truncated ) | replaceRE "&amp;" "&" | safeHTML) }}
+        {{ end }}
+        {{ $.Scratch.Get "summary" }}
+
+<!--        <p>{{ .Summary }} <a class="read-more" href="{{.RelPermalink}}">&raquo;</a></p> -->
     </section>
         {{if .Params.categories }}
             {{ range $index, $category := .Params.categories }}
