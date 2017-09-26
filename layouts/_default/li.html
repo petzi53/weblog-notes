@@ -1,4 +1,6 @@
+<!--
 <h3>This is the list template at layout/_default/li.html</h3>
+-->
 
 <article class="post {{ .Section }}">
     <header class="post-header">
@@ -7,16 +9,14 @@
     <section class="post-excerpt">
         <p>{{ .Summary }} <a class="read-more" href="{{.RelPermalink}}">&raquo;</a></p>
     </section>
-    <footer class=" footline" >
-
-{{ partial "last-modified.html" . }}
-
-
         {{if .Params.tags }}
             {{ range $index, $tag := .Params.tags }}
                 <a class="label label-default" href="{{$.Site.BaseURL}}tags/{{ $tag | urlize }}/">{{ $tag }}</a>
             {{ end }}
         {{end}}
+    <footer class=" footline" >
+
+
 
     </footer>
 </article>
