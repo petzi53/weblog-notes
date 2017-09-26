@@ -5,7 +5,7 @@ date: '2017-09-04'
 slug: blogdown-tutorial-part-1
 tags: [r, rstudio, blogdown, hugo, git, github, academic-theme]
 categories: [tutorial, blog engines, static sites, how-to]
-summary: Part 1 of this tutorial explains how to install the hugo-academic theme on top of R, RStudio and blogdown.
+description: Part 1 of this tutorial explains how to install the hugo-academic theme on top of R, RStudio and blogdown.
 ---
 
 #### From R and RStduio with blogdown to Git and Github

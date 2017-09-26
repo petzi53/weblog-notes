@@ -7,5 +7,5 @@ pre: "<i class='fa fa-user'>&nbsp;&nbsp;&nbsp;</i> "
 commentsNotAllowed: true
 ---
 
-This section is my new (English) weblog. I started it in September 2017 using a static site generator named [Hugo](https://gohugo.io/). The pages here are a supplement to my [WordPress](https://wordpress.com/) powered German blog [Gedankensplitter](http://www.peter.baumgartner.name/).
+This section is my new (English) weblog. I started it in September 2017 using a static site generator named [Hugo](https://gohugo.io/). These pages here are a supplement to my [WordPress](https://wordpress.com/) powered German blog [Gedankensplitter](http://www.peter.baumgartner.name/).
 ***

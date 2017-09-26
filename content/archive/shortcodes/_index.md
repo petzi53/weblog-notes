@@ -7,4 +7,4 @@ weight: 130
 
 A bunch of Shortcodes are available with this theme :
 
-{{%children style="h3" description="true" %}}
+{{%children style="h4" description="true" %}}
