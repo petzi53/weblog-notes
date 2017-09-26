@@ -1,5 +1,5 @@
 ---
-description: present content as a reveal.js slide
+description: Present content as a slide, using reveal.js
 slug: revealjs
 title: revealjs
 ---

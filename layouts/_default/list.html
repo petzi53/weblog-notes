@@ -6,14 +6,14 @@
 -->
 {{ .Content }}
 
-{{if eq .Content "" }}
-<!-- Not content here means no _index.md in this folder! -->
-<!-- if no content then list available pages -->
+{{if .Page.Params.filelisting }}
+
         {{ range ($hiddenPages := where .Site.RegularPages "Section" .Section ) }}
                 {{ if ne .Params.hidden true  }}
                  <li>
                         <span class="date">{{ .Date.Format "2006/01/02" }}:&nbsp;&nbsp;</span>
                         <a href="{{ .URL }}">{{ .Title }}</a>
+                        {{ if eq .Draft true}}<span class="label label-default">DRAFT</span>{{ end }}
                 </li>
                 {{ end }}
         {{ end }}

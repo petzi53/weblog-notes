@@ -1,5 +1,5 @@
 ---
-description: ""
+description: "It displays ‘excerpted’ (that is, a segment of) content from one page into another."
 title: excerpt-include
 ---
 

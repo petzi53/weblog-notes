@@ -1,5 +1,5 @@
 ---
-description: ""
+description: "Draw flowcharts, GANTT-diagrams and other utility graphic."
 title: mermaid
 ---
 
