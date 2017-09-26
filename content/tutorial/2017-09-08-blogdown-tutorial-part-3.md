@@ -4,7 +4,7 @@ author: "Peter Baumgartner"
 date: '2017-09-08'
 draft: no
 slug: blogdown-tutorial-part-3
-summary: In part 3 I will show the necessary steps to get a live preview of the website.
+description: In part 3 I will show the necessary steps to get a live preview of the website.
 tags: [rstudio, blogdown, hugo, git, github, academic-theme]
 categories: [tutorial, blog engines, static sites, how-to]
 ---
@@ -13,7 +13,7 @@ In this third part of the blogdown tutorial I will explain the necessary steps t
 
 
 
-1. **Warning after installation**: After we have finishing the installation we have gotten a red warning. It is a reminder not to transfer files which are not used displaying the website. At that time we didn't bother about it. I have replicated the [picture of step number 8](/2017/09/04/tutorial-hugo-academic-theme-with-blogdown-part-1/) of the first part of this tutorial as a starting point for this third part of the tutorial. {{< figure src="/img/blogdown-tutorial/four-pane-view-after-installation.png" title="RStudio's four pane view immediately after installation. " >}}
+1. **Warning after installation**: After we have finishing the installation we have gotten a red warning. It is a reminder not to transfer files which are not used displaying the website. At that time we didn't bother about it. I have replicated the [picture of step number 8]({{% relref "2017-09-04-blogdown-tutorial.md" %}}) of the first part of this tutorial as a starting point for this third part of the tutorial. {{< figure src="/img/blogdown-tutorial/four-pane-view-after-installation.png" title="RStudio's four pane view immediately after installation. " >}}
 
 2. **Ignore some file types**: After the installation `config.toml` is opened automatically by RStudio. We add the recommended line `ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]` in an upper place. On this occasion we also change the base URL (first line) to `/`. After saving theses changes the version control (Git tab right upper pane) will display `config.toml` with a blue `M` (modified). {{< figure src="/img/blogdown-tutorial/changes-in-config-toml.png" title="Some changes in the config.toml " >}}
 

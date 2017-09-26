@@ -4,6 +4,7 @@ description: "This tutorial explains how to install blogdown. I will assume that
 title: Slides
 pre: "<i class='fa fa-desktop'>&nbsp;&nbsp;</i> "
 commentsNotAllowed: true
+weight: 40
 ---
 
 Here you will find some interactive slide shows in full screen mode.

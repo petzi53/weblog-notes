@@ -2,34 +2,40 @@
 
 {{ partial "header.html" . }}
 
+<h3>This is the list template at layout/_default/list.html</h3>
 {{ .Content }}
 
+{{if eq .Content "" }}
+<!-- Not content here means no _index.md in this folder! -->
+<!-- if no content then list available pages -->
+        {{ range ($hiddenPages := where .Site.RegularPages "Section" .Section ) }}
+                {{ if ne .Params.hidden true  }}
+                 <li>
+                        <span class="date">{{ .Date.Format "2006/01/02" }}:&nbsp;&nbsp;</span>
+                        <a href="{{ .URL }}">{{ .Title }}</a>
+                </li>
+                {{ end }}
+        {{ end }}
 
-{{ range ($hiddenPages := where .Site.RegularPages "Section" .Section ) }}
-{{ if ne .Params.hidden true  }}
- <li>
-        <span class="date">{{ .Date.Format "2006/01/02" }}:&nbsp;&nbsp;</span>
-        <a href="{{ .URL }}">{{ .Title }}</a>
-        </li>
-{{ end }}
-{{ end }}
+
+{{ else }}
+        {{ if not .Page.Params.children}}
 
 
-{{if not .Content }}
-<!-- No Content here means no _index.md in this folder! -->
-	{{ $paginator := .Paginator }}
+        	{{ $paginator := .Paginator }}
 
-	<div class="extra-pagination inner">
-	{{ partial "pagination.html" $paginator }}
-	</div>
+        	<div class="extra-pagination inner">
+        	{{ partial "pagination.html" $paginator }}
+        	</div>
 
-	{{ range $index, $page := $paginator.Pages }}
-	   {{ .Render "li" }}
-	{{ end }}
+        	{{ range $index, $page := $paginator.Pages }}
+        	   {{ .Render "li" }}
+        	{{ end }}
 
-	<div style="margin-bottom:2rem"></div>
+        	<div style="margin-bottom:2rem"></div>
 
-	{{ partial "pagination.html" $paginator }}
+        	{{ partial "pagination.html" $paginator }}
+        {{ end }}
 {{end}}
 
 {{ partial "footer.html" . }}

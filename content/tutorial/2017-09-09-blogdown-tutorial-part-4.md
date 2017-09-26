@@ -6,16 +6,16 @@ slug: blogdown-tutorial-part-4
 tags: [rstudio, blogdown, hugo, git, github, academic-theme]
 categories: [tutorial, blog engines, static sites, how-to]
 draft: no
-summary: In this fourth part of the tutorial I will explain a method how to bring your website online. My preferred method is to transfer the files via [GitHub](https://github.com/) to [Netlify](https://www.netlify.com/), a service specialized for quickly [rolling out static websites](https://techcrunch.com/2016/08/17/netlify-a-sevice-for-quickly-rolling-out-static-websites-raises-2-1m/).
+description: In this fourth part of the tutorial I will explain a method how to bring your website online. My preferred method is to transfer the files via [GitHub](https://github.com/) to [Netlify](https://www.netlify.com/), a service specialized for quickly [rolling out static websites](https://techcrunch.com/2016/08/17/netlify-a-sevice-for-quickly-rolling-out-static-websites-raises-2-1m/).
 ---
 
 #### Bring your website online: From blogdown via GitHub to Netlify
 
-We start this last part of the tutorial where we with picture 10 of part 3.
+We start this last part of the tutorial where we have finished last time  ([picture 10 of part 3]({{% relref "2017-09-08-blogdown-tutorial-part-3.md" %}})).
 
 1. **Ignore public folder**: One benefit of using Netlify is that that there is no need to upload your large public folder to get your website. Netlify will compile the source files and build by its own the Hugo site. You should take advantage of this feature by telling RStudio that the `public`-folder does not need version control, committed and uploaded. Select the public folder under the Git tab on the right upper pane and select from the configuration menu `ignore…`. {{< figure src="/img/blogdown-tutorial/ignore-public-folder.png" title="Ignore public folder" >}}
 
-2. **Confirm git ignore**: This will bring up a window where you can specify which files are to be ignored. Confirm the inclusion of the public folder with clicking 'Save'. {{< figure src="/img/blogdown-tutorial/git-ignore-public-folder.png" title="Confirm the exclusion of the public folder." >}} This saved file (`.gitignore') will be added as modified to the version control. {{< figure src="/img/blogdown-tutorial/gitignore-modified.png"  >}} 
+2. **Confirm git ignore**: This will bring up a window where you can specify which files are to be ignored. Confirm the inclusion of the public folder with clicking 'Save'. {{< figure src="/img/blogdown-tutorial/git-ignore-public-folder.png" title="Confirm the exclusion of the public folder." >}} This saved file (`.gitignore`) will be added as modified to the version control. {{< figure src="/img/blogdown-tutorial/gitignore-modified.png"  >}} 
 
 3. **Clean up**: Before we are going to rebuild the complete site, I recommend to take some precaution. To rebuild from a clean slate I restart R (Under the RStudio menu 'Session' or CMD-Shift-F10 on MacOS.) and clean up all unnecessary files ('Clean All’ in the 'Build' tab under the 'More' menu in the upper right pane.) {{< figure src="/img/blogdown-tutorial/clean-all.png" title="Rebuild website from a clean status." >}}
 
