@@ -3,7 +3,7 @@
 <ul class="terms">
   {{ range $key, $value := .Data.Terms }}
   <li>
-    <a href="{{ (print "/" $.Data.Plural "/" $key | urlize) | relURL }}">
+    <a class="label label-default" href="{{ (print "/" $.Data.Plural "/" $key | urlize) | relURL }}">
       {{ $key }}
     </a>
     ({{ len $value }})
