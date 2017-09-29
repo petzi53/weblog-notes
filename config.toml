@@ -81,23 +81,3 @@ home = [ "HTML", "RSS", "JSON"]
         weight = 60
 
 
-posts:
-  allowedFields: ["name", "email", "url", "message"]
-  # allowedOrigins: ["localhost", "hugo.staticman.net"]
-  branch: "master"
-  generatedFields:
-    date:
-      type: date
-    slug:
-      type: slugify
-      options:
-        field: title
-    tags: ["user-generated"]
-  format: "frontmatter"
-  moderation: true
-  name: "Hugo + Staticman"
-  path: "content/post"
-  filename: "{fields.slug}"
-  requiredFields: ["name", "email", "message"]
-  transforms:
-    body: "frontmatterContent"
