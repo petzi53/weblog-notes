@@ -6,7 +6,7 @@
 {{ if not .Page.Params.commentsnotallowed}}
         <div>
                 <h3>Start/Join the Discussion:</h3>
-                <form method="POST" action="https://api.staticman.net/v2/entry/petzi53/weblog2/master/comments">
+                <form method="POST" action="https://api.staticman.net/v2/entry/petzi53/weblog2/master/posts">
                   <input name="options[redirect]" type="hidden" value="https://l3lab.netlify.com/">
                   <!-- e.g. "2016-01-02-this-is-a-post" -->
                   <input name="options[slug]" type="hidden" value="{{ .URL }}">
