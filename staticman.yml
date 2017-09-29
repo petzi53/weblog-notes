@@ -73,3 +73,23 @@ comments:
   # the name of the field and values are possible transformation types.
   transforms:
     email: md5
+
+posts:
+  allowedFields: ["title", "body"]
+  # allowedOrigins: ["localhost", "hugo.staticman.net"]
+  branch: "master"
+  generatedFields:
+    date:
+      type: date
+    slug:
+      type: slugify
+      options:
+        field: title
+    tags: ["user-generated"]
+  format: "frontmatter"
+  moderation: true
+  name: "Hugo + Staticman"
+  path: "content/post"
+  filename: "{fields.slug}"
+  requiredFields: ["title", "body"]
+  transforms:
