@@ -75,7 +75,7 @@ comments:
     email: md5
 
 posts:
-  allowedFields: ["title", "body"]
+  allowedFields: ["name", "email", "url", "message"]
   # allowedOrigins: ["localhost", "hugo.staticman.net"]
   branch: "master"
   generatedFields:
@@ -86,10 +86,11 @@ posts:
       options:
         field: title
     tags: ["user-generated"]
-  format: "frontmatter"
+  format: "yaml"
   moderation: true
-  name: "Hugo + Staticman"
+  name: "Peter's Weblog"
   path: "content/post"
   filename: "{fields.slug}"
-  requiredFields: ["title", "body"]
+  requiredFields: ["name", "email", "message"]
   transforms:
+    body: "frontmatterContent"
