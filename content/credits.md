@@ -3,6 +3,7 @@ description: contributors and packages used by hugo-theme-docdock
 title: Credits
 ---
 
+
 ## github contributors
 {{%ghcontributors "https://api.github.com/repos/vjeantet/hugo-theme-docdock/contributors?per_page=100" %}}
 

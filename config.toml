@@ -25,7 +25,7 @@ editURL = "https://github.com/petzi53/weblog2/edit/master/content/"
 # Description of the site, will be used in meta information
   # description = ""
 
-staticman = true
+staticman = false
 
 noHomeIcon = false # default is
 

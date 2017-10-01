@@ -85,7 +85,7 @@ posts:
       type: slugify
       options:
         field: title
-    tags: ["user-generated"]
+  tags: ["user-generated"]
   format: "yaml"
   moderation: true
   name: "Peter's Weblog"
