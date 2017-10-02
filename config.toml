@@ -12,7 +12,7 @@ footnotereturnlinkcontents = "↩"
 disqusShortname = "petzi"
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = ""
+googleAnalytics = "UA-107416076-1"
 
 
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
