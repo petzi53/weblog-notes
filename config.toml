@@ -2,7 +2,7 @@ baseURL = "//notes.peter-baumgartner.net"
 languageCode = "en-us"
 DefaultContentLanguage = "en"
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = "UA-107416076-1"
+googleAnalytics = "UA-106334854-6"
 
 title = "Peter's Blog"
 theme = "hugo-theme-docdock"
