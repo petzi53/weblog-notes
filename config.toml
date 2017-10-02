@@ -1,8 +1,12 @@
-baseURL = "//notes.peter-baumgartner.net"
+baseURL = "/"
 languageCode = "en-us"
 DefaultContentLanguage = "en"
+
 # Enable analytics by entering your Google Analytics tracking ID
 googleAnalytics = "UA-106334854-6"
+# Enable comments by entering your Disqus shortname
+disqusShortname = "petzi"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 title = "Peter's Blog"
 theme = "hugo-theme-docdock"
@@ -10,13 +14,6 @@ themesdir = "themes"
 
 footnotereturnlinkcontents = "↩"
 
-# Enable comments by entering your Disqus shortname
-disqusShortname = "petzi"
-
-
-
-
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [permalinks]
   post = "/:year/:month/:day/:slug"
