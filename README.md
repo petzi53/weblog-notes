@@ -6,7 +6,7 @@ slug: readme.md
 categories: []
 tags: []
 description: ''
-draft: yes
+draft: no
 ---
 
 My new personal English weblog will focus on methods and tools for reproducible research. I will collect material for my new book on "Wissenschaftliches Arbeiten im digitalen Zeitalter: Methoden und Werkzeuge reproduzierbarer Forschung"
