@@ -5,7 +5,7 @@ DefaultContentLanguage = "en"
 # Enable analytics by entering your Google Analytics tracking ID
 googleAnalytics = "UA-106334854-6"
 # Enable comments by entering your Disqus shortname
-disqusShortname = "petzi-1"
+disqusShortname = "petzi-2"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 title = "Peter's Blog"
