@@ -17,6 +17,7 @@ themesdir = "themes"
 
 footnotereturnlinkcontents = "↩"
 
+enableEmoji = true
 
 [permalinks]
   post = "/:year/:month/:day/:slug"
