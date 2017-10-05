@@ -15,6 +15,8 @@ title = "Peter's Blog"
 theme = "hugo-theme-docdock"
 themesdir = "themes"
 
+
+
 footnotereturnlinkcontents = "↩"
 
 enableEmoji = true
@@ -23,6 +25,8 @@ enableEmoji = true
   post = "/:year/:month/:day/:slug"
 
 [params]
+localSite = "https://127.0.0.1;4321"
+productionSite = "https://notes.peter-baumgartner.net"
  # Prefix URL to edit current page. Will display an "Edit this page" button
  # on top right hand corner of every page.
  # Useful to give opportunity to people to create merge request for your doc.

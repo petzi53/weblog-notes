@@ -21,7 +21,9 @@
 			{{end}}
 		{{else}}
 			<li>
-				<a href="{{ printf "%s/%s%s/%s" $.Site.BaseURL $fileDir ($.Scratch.Get "filesName") .Name }}" >
+
+
+				<a href="{{ printf "%s/%s%s/%s" $.Site.Params.productionSite $fileDir ($.Scratch.Get "filesName") .Name }}" >
 					{{.Name}}
 				</a>
 				({{div .Size 1024 }} kB)
@@ -30,4 +32,7 @@
 	{{end}}
 </section>
 
+
 {{.Inner}}
+
+

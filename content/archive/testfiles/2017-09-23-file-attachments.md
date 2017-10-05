@@ -16,5 +16,5 @@ Example :
 
 Weiterer Text
 
-{{%alert success%}}Here comes text. The green panel has nothing to do with attachments. {{%/alert%}}
+{{%alert success%}}Here comes text. The green panel has nothing to do with attachments. It is just a nice design feature for formating text. {{%/alert%}}
 
