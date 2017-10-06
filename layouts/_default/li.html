@@ -15,17 +15,7 @@
 
 <!--        <p>{{ .Summary }} <a class="read-more" href="{{.RelPermalink}}">&raquo;</a></p> -->
     </section>
-        {{if .Params.categories }}
-            {{ range $index, $category := .Params.categories }}
-               <a class="label label-default" href="{{$.Site.BaseURL}}/categories/{{ $category | urlize }}/">{{ $category }}</a>
-            {{ end }}
-        ||
-        {{end}}
-         {{if .Params.tags }}
-            {{ range $index, $tag := .Params.tags }}
-               <a class="label label-default" href="{{$.Site.BaseURL}}/tags/{{ $tag | urlize }}/">{{ $tag }}</a>
-            {{ end }}
-        {{end}}
+        {{ partial "taxonomy.html" . }}
     <footer class=" footline" >
 
     </footer>
