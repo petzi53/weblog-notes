@@ -13,6 +13,7 @@ description: 'Inspired from a blog post by Yihui Xie I reflect in this post abou
 draft: no
 ---
 
+
 In the last view weeks I tried to work with [bookdown](https://bookdown.org/yihui/bookdown/), an R package developed by Yihui Xie. This program is/was for me much harder to understand as [blogdown](https://bookdown.org/yihui/blogdown/) by the same author. In blogdown I could even -- after some initial problems -- write a tutorial which even [the developer applauded](https://yihui.name/en/2017/10/bloggers-vs-book-authors/) :sweat_smile:. 
 
 But with bookdown it was different: Not only that I misunderstood some program functions but more important I could not report my problems in an adequate way. In one case [I did not communicate an important information](https://github.com/rstudio/bookdown/issues/474) in the other case [I did not look on the right place](https://stackoverflow.com/questions/46742700/is-it-possible-to-change-to-documentclass-scrbook-in-bookdown) where my question was explicitly addressed. No surprise that Yihui Xie got angry with me and even wrote a [blog post about the incident](https://yihui.name/en/2017/10/not-obvious/). He gave me the advice…
