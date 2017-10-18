@@ -18,7 +18,7 @@ In the last view weeks I tried to work with [bookdown](https://bookdown.org/yihu
 
 But with bookdown it was different: Not only that I misunderstood some program functions but more important I could not report my problems in an adequate way. In one case [I did not communicate an important information](https://github.com/rstudio/bookdown/issues/474) in the other case [I did not look on the right place](https://stackoverflow.com/questions/46742700/is-it-possible-to-change-to-documentclass-scrbook-in-bookdown) where my question was explicitly addressed. No surprise that Yihui Xie got angry with me and even wrote a [blog post about the incident](https://yihui.name/en/2017/10/not-obvious/). He gave me the advice…
 
-## Please do not make … assumptions when filing issues
+## Please do not make this assumptions when filing issues
 
 For me as a professional educator, this is a very important question. Where to start with explanations and where to stop? Should I provide just the information to solve the problem or should I give some background information? What kind of advice should I give to prevent similar problems in the future? These are examples of questions I have to consider as a teacher all the time. But this time I am on the other side of this communication exchange - I am the learner and student and I am the one who has to ask the expert.
 
