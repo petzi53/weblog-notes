@@ -4,7 +4,7 @@ description: ""
 title: My Notes (Posts)
 weight: 20
 pre: "<i class='fa fa-user'>&nbsp;&nbsp;&nbsp;</i> "
-commentsNotAllowed: true
+disable_comments: true
 fileListing: true
 ---
 

@@ -3,7 +3,7 @@ date: 2017-04-24T18:36:24+02:00
 description: "This tutorial explains how to install blogdown. I will assume that you already have a running installation or R and RStudio."
 title: Slides
 pre: "<i class='fa fa-desktop'>&nbsp;&nbsp;</i> "
-commentsNotAllowed: true
+disable_comments: true
 weight: 40
 ---
 
