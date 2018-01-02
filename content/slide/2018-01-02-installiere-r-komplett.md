@@ -10,8 +10,8 @@ revealOptions:
   transition: concave
 slug: installiere-r-deutsch
 theme: league
-description: Installiere R (Mac OS und Windows) - R mit RStudio und LaTeX (zum
-  Generieren von PDFs)
+description: Installiere R (Mac OS und Windows) - R mit RStudio und LaTeX (zum Generieren
+  von PDFs)
 type: slide
 ---
 ## Bedienung dieser Diashow
@@ -34,3 +34,10 @@ Then start RStudio: You will see the following window...
 
 ---
 
+## 1. Create New Project
+
+<img src="../../static/img/blogdown-tutorial/create-new-project.png">
+<!-- .element height="70%" width="70%" -->
+
+
+---
