@@ -64,7 +64,7 @@ Gehen Sie auf die [Download-Seite für Mac OS X](https://cran.r-project.org/bin/
 <!-- .element height="70%" width="70%" -->
 
 
----
+___
 
 
 ## 1a Das ist eine Unterfolie
@@ -75,7 +75,7 @@ Gehen Sie auf die [Download-Seite für Mac OS X](https://cran.r-project.org/bin/
 <!-- .element height="70%" width="70%" -->
 
 
----
+___
 
 ## 1b das ist die zweite Unterfolie
 
