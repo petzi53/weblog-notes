@@ -15,10 +15,10 @@ type: slide
 ---
 ## Bedienung dieser Diashow
 
-- Benutze die Steuerungselemente (Pfeile rechts unten)
-- Achtung: Manchmal gibt es außer vor und zürück auch hinauf und hinunter
-- Überblick zur Folienstruktur: Drücke die ESC-Taste
-- Beende die Diashow: Gehe mit dem Browser zurück
+- Benutzen Sie die Steuerungselemente (Pfeile rechts unten)
+- Achtung: Manchmal gibt es außer vor und zurück auch hinauf und hinunter
+- Überblick zur Folienstruktur: Drücken Sie die ESC-Taste
+- Diashow beenden: Gehen Sie mit dem Browser zurück
 
 ---
 
@@ -26,17 +26,49 @@ type: slide
 
 Bevor wir komfortabel mit R arbeiten können, müssen wir einige Programme installieren
 
-- Die aktuelle Version von [R](https://cran.r-project.org/)
-- Die aktuelle Version der Entwicklungsumgebung [RStudio](https://www.rstudio.com/products/rstudio/download/)
-- Die aktuelle Version von [LaTeX](https://www.latex-project.org/get/)
+1. Die aktuelle Version von [R](https://cran.r-project.org/)
+2. Die aktuelle Version der Entwicklungsumgebung [RStudio](https://www.rstudio.com/products/rstudio/download/)
+3. Die aktuelle Version von [LaTeX](https://www.latex-project.org/get/)
 
 Alle Programme sind [Open Source](http://praxistipps.chip.de/open-source-was-ist-das-genau_12877): Sowohl Quellcode als auch Programme sind frei und kostenlos erhältlich.
 
 ---
 
-## 1. Create Neues Project
+## R neu installieren
 
-<img src="/img/r-install-tutorial/create-new-project.png">
+- Hiere erkläre ich den ersten Schritt: die **Neu**-Installation von R 
+- Und zwar für [Mac OS](https://cran.r-project.org/bin/macosx/) und für [Windows](https://cran.r-project.org/bin/windows/) Betriebssysteme
+
+**ACHTUNG:** Wenn Sie bereits (eine ältere Version von) R installiert haben, dann folgen Sie statt dessen [diesem Tutorial](http://bioinfo.umassmed.edu/bootstrappers/bootstrappers-courses/courses/rCourse/Additional_Resources/Updating_R.html#updating-on-mac-and-ubuntu)
+
+---
+
+## R-Startseite aufrufen
+
+- Die R-Startseite heißt CRAN (The Comprehensive R Archive Network)
+- Sie ist der Ausgangspunkt für alle R-Installationsbelange
+- Sie müsste bei Ihnen etwa so aussehen:
+
+<img src="/img/r-install-tutorial/CRAN-Startpage.png">
+<!-- .element height="70%" width="70%" -->
+
+---
+
+## 1. R für Mac OS X installieren
+
+Gehen Sie auf die [Download-Seite für Mac OS X](https://cran.r-project.org/bin/macosx/)
+
+<img src="/img/r-install-tutorial/R-MacOS-Download.png">
+<!-- .element height="70%" width="70%" -->
+
+
+---
+
+## 2. R für Windows installieren
+
+Gehen Sie auf die [Download-Seite für Windows](https://cran.r-project.org/bin/windows/)
+
+<img src="/img/r-install-tutorial/R-Windows-Download.png">
 <!-- .element height="70%" width="70%" -->
 
 
