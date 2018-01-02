@@ -53,7 +53,7 @@ Alle Programme sind [Open Source](http://praxistipps.chip.de/open-source-was-ist
 
 ---
 
-## 1. R für Mac OS X installieren
+## 1. Installiere R für MacOS X
 
 Gehen Sie auf die [Download-Seite für Mac OS X](https://cran.r-project.org/bin/macosx/)
 
@@ -64,7 +64,7 @@ Gehen Sie auf die [Download-Seite für Mac OS X](https://cran.r-project.org/bin/
 ---
 
 
-## 1a R für Mac OS X installieren (1)
+## 1a Das ist eine Unterfolie
 
 Gehen Sie auf die [Download-Seite für Mac OS X](https://cran.r-project.org/bin/macosx/)
 
@@ -74,7 +74,7 @@ Gehen Sie auf die [Download-Seite für Mac OS X](https://cran.r-project.org/bin/
 
 ---
 
-## 1b R für Mac OS X installieren (2)
+## 1b das ist die zweite Unterfolie
 
 Gehen Sie auf die [Download-Seite für Mac OS X](https://cran.r-project.org/bin/macosx/)
 
@@ -84,7 +84,7 @@ Gehen Sie auf die [Download-Seite für Mac OS X](https://cran.r-project.org/bin/
 
 ---
 
-# 2. R für Windows installieren
+# 2. Installiere R für Windows
 
 Gehen Sie auf die [Download-Seite für Windows](https://cran.r-project.org/bin/windows/)
 
