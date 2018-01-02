@@ -23,14 +23,15 @@ type: slide
 
 ---
 
-## Requirements
+## Voraussetzungen
 
-At first you have to install 
+Bevor wir komfortabel mit R arbeiten können, müssen wir einige Programme installieren
 
-- [R](https://cran.r-project.org/) latest verison and 
-- [RStudio](https://www.rstudio.com/products/RStudio/) ([Preview > v.1.1](https://www.rstudio.com/products/rstudio/download/preview/)). 
+- Die aktuelle Version von [R](https://cran.r-project.org/)
+- Die aktuelle Version der Entwicklungsumgebung [RStudio](https://www.rstudio.com/products/rstudio/download/)
+- Die aktuelle Version von [LaTeX](https://www.latex-project.org/get/)
 
-Then start RStudio: You will see the following window...
+Alle Programme sind **Open Source**. Sowohl Quellcode als auch Programme frei und kostenlos zugänglich.
 
 ---
 
