@@ -15,10 +15,10 @@ type: slide
 ---
 ## Bedienung dieser Diashow
 
-- Benutzen Sie die Steuerungselemente (Pfeile rechts unten)
+- Steuerungselemente sind die Pfeile rechts unten
 - Achtung: Manchmal gibt es außer vor und zurück auch hinauf und hinunter
-- Überblick zur Folienstruktur: Drücken Sie die ESC-Taste
-- Diashow beenden: Gehen Sie mit dem Browser zurück
+- Folienstruktur-Überblick: ESC-Taste
+- Beenden: Mit dem Browser zurück gehen
 
 ---
 
@@ -36,8 +36,8 @@ Alle Programme sind [Open Source](http://praxistipps.chip.de/open-source-was-ist
 
 ## R neu installieren
 
-- Hiere erkläre ich den ersten Schritt: die **Neu**-Installation von R 
-- Und zwar für [Mac OS](https://cran.r-project.org/bin/macosx/) und für [Windows](https://cran.r-project.org/bin/windows/) Betriebssysteme
+- Wir beginnen mit der **Neu**-Installation von R 
+- Und zwar für [Mac OS](https://cran.r-project.org/bin/macosx/) und für [Windows](https://cran.r-project.org/bin/windows/)
 
 **ACHTUNG:** Wenn Sie bereits (eine ältere Version von) R installiert haben, dann folgen Sie statt dessen [diesem Tutorial](http://bioinfo.umassmed.edu/bootstrappers/bootstrappers-courses/courses/rCourse/Additional_Resources/Updating_R.html#updating-on-mac-and-ubuntu)
 
@@ -45,9 +45,7 @@ Alle Programme sind [Open Source](http://praxistipps.chip.de/open-source-was-ist
 
 ## R-Startseite aufrufen
 
-- Die R-Startseite heißt CRAN (The Comprehensive R Archive Network)
-- Sie ist der Ausgangspunkt für alle R-Installationsbelange
-- Sie müsste bei Ihnen etwa so aussehen:
+- Die R-Startseite heißt [CRAN](https://cran.r-project.org/)
 
 <img src="/img/r-install-tutorial/CRAN-Startpage.png">
 <!-- .element height="70%" width="70%" -->
@@ -55,6 +53,17 @@ Alle Programme sind [Open Source](http://praxistipps.chip.de/open-source-was-ist
 ---
 
 ## 1. R für Mac OS X installieren
+
+Gehen Sie auf die [Download-Seite für Mac OS X](https://cran.r-project.org/bin/macosx/)
+
+<img src="/img/r-install-tutorial/R-MacOS-Download.png">
+<!-- .element height="70%" width="70%" -->
+
+
+---
+
+
+## 1A. R für Mac OS X installieren
 
 Gehen Sie auf die [Download-Seite für Mac OS X](https://cran.r-project.org/bin/macosx/)
 
