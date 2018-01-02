@@ -56,7 +56,7 @@ Alle Programme sind [Open Source](http://praxistipps.chip.de/open-source-was-ist
 
 ---
 
-## 1a R-Installation für MacOS X
+#### 1a R-Installation für MacOS X
 
 - Gehen Sie auf die [Download-Seite für Mac OS X](https://cran.r-project.org/bin/macosx/)
 - Klicken Sie auf die neueste R-Version 
