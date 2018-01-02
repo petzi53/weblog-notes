@@ -50,10 +50,11 @@ Alle Programme sind [Open Source](http://praxistipps.chip.de/open-source-was-ist
 ## R-Startseite aufrufen
 
 - Die R-Startseite heißt [CRAN](https://cran.r-project.org/)
-- Klicken Sie auf die [Download-Seite für Mac OS X](https://cran.r-project.org/bin/macosx/)
 
 <img src="/img/r-install-tutorial/1-0_CRAN-Startpage.png">
 <!-- .element height="70%" width="70%" -->
+
+- Klicken Sie auf die [Download-Seite für Mac OS X](https://cran.r-project.org/bin/macosx/)
 
 ---
 
