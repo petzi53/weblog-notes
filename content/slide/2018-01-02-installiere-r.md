@@ -107,7 +107,7 @@ ___
 - > 2 + 2
 
 <img src="/img/r-install-tutorial/1-5_MacOS-R-App-min.png">
-<!-- .element height="50%" width="50%" -->
+<!-- .element height="50%" width="40%" -->
 
 ___
 
@@ -118,19 +118,18 @@ ___
 - Dann haben Sie R erfolgreich installiert!
 
 <img src="/img/r-install-tutorial/1-6_MacOS-R-App-min.png">
-<!-- .element height="50%" width="50%" -->
+<!-- .element height="50%" width="40%" -->
 
 ___
 
 ## Präsentation beenden
 
-- Es kann sein, dass der Text Ihrer R-Version leicht unterschiedlich ist
-- So kann er z.B. komplett in Deutsch geschrieben sein
+Es kann sein, dass der Text Ihrer R-Version leicht unterschiedlich ist. So kann er z.B. komplett in Deutsch geschrieben sein.
 
 ***
 
 - Sie beenden nun diese Präsentation mit (**Browser** Pfeil rückwärts)
-- ACHTUNG: Browser rückwärts -- nicht Folien Pfeil links
+- ACHTUNG: Browser rückwärts -- und nicht Folien Pfeil links!
 
 ---
 
