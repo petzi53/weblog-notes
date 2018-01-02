@@ -63,7 +63,7 @@ Gehen Sie auf die [Download-Seite für Mac OS X](https://cran.r-project.org/bin/
 ---
 
 
-## 1A. R für Mac OS X installieren
+## 1a R für Mac OS X installieren
 
 Gehen Sie auf die [Download-Seite für Mac OS X](https://cran.r-project.org/bin/macosx/)
 
