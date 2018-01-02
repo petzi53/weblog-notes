@@ -124,7 +124,12 @@ ___
 
 ## Präsentation beenden
 
-- Sie beenden die Präsentation mit (**Browser** Pfeil rückwärts)
+- Es kann sein, dass der Text Ihrer R-Version leicht unterschiedlich ist
+- So kann er z.B. komplett in Deutsch geschrieben sein
+
+***
+
+- Sie beenden nun diese Präsentation mit (**Browser** Pfeil rückwärts)
 - ACHTUNG: Browser rückwärts -- nicht Folien Pfeil links
 
 ---
