@@ -2,6 +2,9 @@
 title: "R installieren (Deutsch)"
 author: "Peter Baumgartner"
 date: '2018-01-02'
+output:
+  html_document:
+    df_print: paged
 revealOptions:
   center: yes
   controls: yes
@@ -14,7 +17,7 @@ description: Tutorial zum Installieren der Statistik-Software R
 type: slide
 ---
 
-# Bedienung dieser Diashow
+## Bedienung dieser Diashow
 
 - Steuerungselemente: Pfeile rechts unten
 - **Achtung:** Manchmal gibt es außer vor und zurück auch hinauf und hinunter
@@ -23,7 +26,7 @@ type: slide
 
 ---
 
-# Voraussetzungen
+## Voraussetzungen
 
 Bevor wir komfortabel mit R arbeiten können, müssen wir einige Programme installieren
 
@@ -35,7 +38,7 @@ Alle Programme sind [Open Source](http://praxistipps.chip.de/open-source-was-ist
 
 ---
 
-# R neu installieren
+## Neuinstallation von R
 
 - Wir beginnen mit der **Neu**-Installation von R 
 - Und zwar für [Mac OS](https://cran.r-project.org/bin/macosx/) und für [Windows](https://cran.r-project.org/bin/windows/)
@@ -44,7 +47,7 @@ Alle Programme sind [Open Source](http://praxistipps.chip.de/open-source-was-ist
 
 ---
 
-# R-Startseite aufrufen
+## R-Startseite aufrufen
 
 - Die R-Startseite heißt [CRAN](https://cran.r-project.org/)
 
@@ -84,7 +87,7 @@ Gehen Sie auf die [Download-Seite für Mac OS X](https://cran.r-project.org/bin/
 
 ---
 
-# 2. Installiere R für Windows
+## 2. Installiere R für Windows
 
 Gehen Sie auf die [Download-Seite für Windows](https://cran.r-project.org/bin/windows/)
 
