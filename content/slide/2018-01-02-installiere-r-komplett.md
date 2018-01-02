@@ -15,8 +15,8 @@ type: slide
 ---
 ## Bedienung dieser Diashow
 
-- Steuerungselemente sind die Pfeile rechts unten
-- Achtung: Manchmal gibt es außer vor und zurück auch hinauf und hinunter
+- Steuerungselemente: Pfeile rechts unten
+- **Achtung:** Manchmal gibt es außer vor und zurück auch hinauf und hinunter
 - Folienstruktur-Überblick: ESC-Taste
 - Beenden: Mit dem Browser zurück gehen
 
@@ -63,7 +63,17 @@ Gehen Sie auf die [Download-Seite für Mac OS X](https://cran.r-project.org/bin/
 ---
 
 
-## 1a R für Mac OS X installieren
+## 1a R für Mac OS X installieren (1)
+
+Gehen Sie auf die [Download-Seite für Mac OS X](https://cran.r-project.org/bin/macosx/)
+
+<img src="/img/r-install-tutorial/R-MacOS-Download.png">
+<!-- .element height="70%" width="70%" -->
+
+
+---
+
+## 1b R für Mac OS X installieren (2)
 
 Gehen Sie auf die [Download-Seite für Mac OS X](https://cran.r-project.org/bin/macosx/)
 
