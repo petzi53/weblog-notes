@@ -31,7 +31,7 @@ Bevor wir komfortabel mit R arbeiten können, müssen wir einige Programme insta
 - Die aktuelle Version der Entwicklungsumgebung [RStudio](https://www.rstudio.com/products/rstudio/download/)
 - Die aktuelle Version von [LaTeX](https://www.latex-project.org/get/)
 
-Alle Programme sind **Open Source**. Sowohl Quellcode als auch Programme frei und kostenlos zugänglich.
+Alle Programme sind **Open Source**. Sowohl Quellcode als auch Programme sind frei und kostenlos erhältlich.
 
 ---
 
