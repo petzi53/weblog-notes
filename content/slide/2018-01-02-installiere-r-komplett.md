@@ -1,5 +1,5 @@
 ---
-title: "Installiere R mit RStudio und LaTeX"
+title: "R installieren (Deutsch)"
 author: "Peter Baumgartner"
 date: '2018-01-02'
 revealOptions:
@@ -10,8 +10,7 @@ revealOptions:
   transition: concave
 slug: installiere-r-deutsch
 theme: league
-description: Installiere R (Mac OS und Windows) - R mit RStudio und LaTeX (zum Generieren
-  von PDFs)
+description: Tutorial zum Installieren der Statistik-Software R
 type: slide
 ---
 ## Bedienung dieser Diashow
@@ -31,7 +30,7 @@ Bevor wir komfortabel mit R arbeiten können, müssen wir einige Programme insta
 - Die aktuelle Version der Entwicklungsumgebung [RStudio](https://www.rstudio.com/products/rstudio/download/)
 - Die aktuelle Version von [LaTeX](https://www.latex-project.org/get/)
 
-Alle Programme sind **Open Source**. Sowohl Quellcode als auch Programme sind frei und kostenlos erhältlich.
+Alle Programme sind [Open Source](http://praxistipps.chip.de/open-source-was-ist-das-genau_12877): Sowohl Quellcode als auch Programme sind frei und kostenlos erhältlich.
 
 ---
 
