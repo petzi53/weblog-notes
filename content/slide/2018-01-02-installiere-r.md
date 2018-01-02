@@ -102,6 +102,13 @@ ___
 
 ## Rufen Sie R auf
 
+- Rufen Sie die R.app auf
+- Geben Sie `2 + 2` + `return` ein
+
+Wenn als Ergebnis `[1] 4` haben Sie R erfolgreich installiert!
+
+Beenden Sie die Präsentation (**Browser** Pfeil rückwärts).
+
 ---
 
 ## 2. Installiere R für Windows
