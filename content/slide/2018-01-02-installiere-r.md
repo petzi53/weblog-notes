@@ -103,8 +103,7 @@ ___
 ### Rufen Sie R auf
 
 - Rufen Sie die R.app auf
-- Geben Sie als Test ein:
-- > 2 + 2
+- Geben Sie 2 +2 als Test ein:
 
 <img src="/img/r-install-tutorial/1-5_MacOS-R-App-min.png">
 <!-- .element height="50%" width="40%" -->
