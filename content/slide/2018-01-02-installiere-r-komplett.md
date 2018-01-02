@@ -96,3 +96,57 @@ Gehen Sie auf die [Download-Seite für Windows](https://cran.r-project.org/bin/w
 
 
 ---
+
+
+## 3. Select website using blogdown
+
+<img src="/img/blogdown-tutorial/create-website-using-blogdown.png">
+<!-- .element height="70%" width="70%" -->
+
+---
+
+## 4. Choose directory name & location
+
+<img src="/img/blogdown-tutorial/create-website-using-hugo-and-blogdown.png">
+<!-- .element height="70%" width="70%" -->
+
+___
+
+
+## 4a Pick your [preferred theme](https://themes.gohugo.io/)
+
+<img src="/img/blogdown-tutorial/hugo-themes.png">
+<!-- .element height="70%" width="70%" -->
+
+___
+
+## 4b Select theme & get URL
+
+<img src="/img/blogdown-tutorial/academic-theme.png">
+<!-- .element height="70%" width="70%" -->
+
+___
+
+## 4c Finish form and install
+
+<img src="/img/blogdown-tutorial/create-website-using-hugo-and-blogdown.png">
+<!-- .element height="70%" width="70%" -->
+
+___
+
+## 4d Click "Create Project" button
+
+Click "Create Project" Button und wait some seconds. RStudio will install
+
+- Hugo
+- your selected theme and
+- blogdown with all dependencies
+
+---
+
+## 5 Installation is finished!
+
+<img src="/img/blogdown-tutorial/four-pane-view-after-installation.png">
+<!-- .element height="70%" width="70%" -->
+
+---
