@@ -54,16 +54,23 @@ Alle Programme sind [Open Source](http://praxistipps.chip.de/open-source-was-ist
 <img src="/img/r-install-tutorial/1-0_CRAN-Startpage.png">
 <!-- .element height="70%" width="70%" -->
 
+---
+
+## Klicke "Downlad R for Mac" 
+
 - Klicken Sie auf die [Download-Seite für Mac OS X](https://cran.r-project.org/bin/macosx/)
 
----
+<img src="/img/r-install-tutorial/1-1_Choose-Mac-Download.png">
+<!-- .element height="70%" width="70%" -->
+
+___
 
 ### 1a R-Installation für MacOS X
 
 - Klicken Sie auf die neueste R-Version 
 - (hier `R-3.4.3.pkg`: Stand Januar 2018)
 
-<img src="/img/r-install-tutorial/1-1_R-MacOS-Download.png">
+<img src="/img/r-install-tutorial/1-2_R-MacOS-Download.png">
 <!-- .element height="70%" width="70%" -->
 
 
@@ -76,7 +83,7 @@ ___
 - Wählen Sie einen Speicherort
 - Sichern Sie die Datei
 
-<img src="/img/r-install-tutorial/1-2_R-Package-save.png">
+<img src="/img/r-install-tutorial/1-3_R-Package-save.png">
 <!-- .element height="50%" width="70%" -->
 
 
@@ -88,7 +95,7 @@ ___
 - Es öffnet sich das Installationsprogramm
 - Befolgen Sie die Anweisungen ("Fortfahren")
 
-<img src="/img/r-install-tutorial/1-3_MacOS-Installation-R.png">
+<img src="/img/r-install-tutorial/1-4_MacOS-Installation-R.png">
 <!-- .element height="50%" width="50%" -->
 
 ___
