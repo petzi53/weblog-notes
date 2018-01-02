@@ -36,7 +36,7 @@ Then start RStudio: You will see the following window...
 
 ## 1. Create New Project
 
-<img src="../../static/img/blogdown-tutorial/create-new-project.png">
+<img src="../../static/img/r-install-tutorial/create-new-project.png">
 <!-- .element height="70%" width="70%" -->
 
 
