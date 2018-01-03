@@ -75,9 +75,8 @@ Alle Programme sind [Open Source](http://praxistipps.chip.de/open-source-was-ist
 
 ## Erste Erkundungen
 
-- Erkunden Sie Fenster und Reiter
+- Erkunden Sie Fenster und Reiter, mehr dann später
 - Siehe auch diesen [Video](https://www.youtube.com/watch?v=riONFzJdXcs)
-- Mehr dann, wenn wir beginnen mit R zu arbeiten
 
 <img src="/img/rstudio-installation-deutsch/RStudio-4-panes-min.png">
 <!-- .element height="70%" width="70%" -->
@@ -86,7 +85,7 @@ Alle Programme sind [Open Source](http://praxistipps.chip.de/open-source-was-ist
 
 ## Zusammenfassung
 
-- Sie können auch im Internet nach YouTube-Videos suchen
+- Es gibt auch YouTube-Videos zum Ansehen
 - Die Schritte für Mac und Window sind ähnlich:
 - z.B. für Mac [hier](https://www.youtube.com/watch?v=cX532N_XLIs) und [hier](https://www.youtube.com/watch?v=d-u_7vdag-0)
 - und für Windows [hier](https://www.youtube.com/watch?v=MFfRQuQKGYg) und [hier](https://www.youtube.com/watch?v=9-RrkJQQYqY)
