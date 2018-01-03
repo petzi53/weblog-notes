@@ -64,30 +64,31 @@ Alle Programme sind [Open Source](http://praxistipps.chip.de/open-source-was-ist
 ---
 
 - Es erscheint nun die Entwicklungsumgebung
-- Klicken Sie in die obere Leiste
+- Klicken Sie in die obere Leiste, damit Sie alle 4 Fensterbereiche sehen
 
 
 <img src="/img/rstudio-installation-deutsch/Rstudio-virgin-min.png">
-<!-- .element height="80%" width="80%" -->
+<!-- .element height="60%" width="60%" -->
 
 ---
 
-
-- Erkunden Sie Fenster und Reiter, mehr dann später
-- Siehe auch diesen [Video](https://www.youtube.com/watch?v=riONFzJdXcs)
+- Erkunden Sie Fenster und Reiter von RStudio
 
 <img src="/img/rstudio-installation-deutsch/RStudio-4-panes-min.png">
 <!-- .element height="80%" width="80%" -->
 
 ---
 
+- Hilfreich ist auch diesen [Video](https://www.youtube.com/watch?v=riONFzJdXcs)
+- Mehr zu Entwicklungsumgebung dann, wenn wir mit R zu arbeiten beginnen
+
 ## Zusammenfassung
 
 - Es gibt auch YouTube-Videos zum Ansehen
-- Die Schritte für Mac und Window sind ähnlich:
+- Die Schritte für Mac und Windows sind ähnlich:
 - z.B. für Mac [hier](https://www.youtube.com/watch?v=cX532N_XLIs) und [hier](https://www.youtube.com/watch?v=d-u_7vdag-0)
 - und für Windows [hier](https://www.youtube.com/watch?v=MFfRQuQKGYg) und [hier](https://www.youtube.com/watch?v=9-RrkJQQYqY)
-- Ein Link der nochmals [alle Schritte](https://courses.edx.org/courses/UTAustinX/UT.7.01x/3T2014/56c5437b88fa43cf828bff5371c6a924/) zusammenfasst
+- Ein Link, der nochmals [alle Schritte](https://courses.edx.org/courses/UTAustinX/UT.7.01x/3T2014/56c5437b88fa43cf828bff5371c6a924/) zusammenfasst
 - Sie sollten jetzt R und RStudio installiert haben
 
 ---
