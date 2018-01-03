@@ -13,7 +13,7 @@ revealOptions:
   transition: concave
 slug: installiere-r-deutsch
 theme: league
-description: Tutorial zum Installieren der R Entwicklungsumgebung RStudio
+description: Tutorial zum Installieren der R Entwicklungsumgebung RStudio für Mac und Windows
 type: slide
 ---
 
