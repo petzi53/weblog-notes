@@ -50,7 +50,7 @@ Alle Programme sind [Open Source](http://praxistipps.chip.de/open-source-was-ist
 ## Wählen Sie Mac oder Windows-Downlaod
 
 <img src="/img/rstudio-installation-deutsch/download2-rstudio-min.png">
-<!-- .element height="80%" width="80%" -->
+<!-- .element height="60%" width="60%" -->
 
 ---
 
@@ -69,7 +69,7 @@ Alle Programme sind [Open Source](http://praxistipps.chip.de/open-source-was-ist
 
 
 <img src="/img/rstudio-installation-deutsch/Rstudio-virgin-min.png">
-<!-- .element height="70%" width="70%" -->
+<!-- .element height="60%" width="60%" -->
 
 ---
 
@@ -79,7 +79,7 @@ Alle Programme sind [Open Source](http://praxistipps.chip.de/open-source-was-ist
 - Siehe auch diesen [Video](https://www.youtube.com/watch?v=riONFzJdXcs)
 
 <img src="/img/rstudio-installation-deutsch/RStudio-4-panes-min.png">
-<!-- .element height="70%" width="70%" -->
+<!-- .element height="60%" width="60%" -->
 
 ---
 
