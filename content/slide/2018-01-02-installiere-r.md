@@ -11,7 +11,7 @@ revealOptions:
   history: no
   progress: yes
   transition: concave
-slug: installiere-r-deutsch
+slug: installiere-r
 theme: league
 description: Tutorial zum Installieren der Statistik-Software R
 type: slide

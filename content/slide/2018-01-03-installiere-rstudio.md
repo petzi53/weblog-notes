@@ -11,7 +11,7 @@ revealOptions:
   history: no
   progress: yes
   transition: concave
-slug: installiere-r-deutsch
+slug: installiere-rstudio
 theme: league
 description: Tutorial zum Installieren der R Entwicklungsumgebung RStudio für Mac und Windows
 type: slide
