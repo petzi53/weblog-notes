@@ -40,11 +40,18 @@ Alle Programme sind [Open Source](http://praxistipps.chip.de/open-source-was-ist
 
 ## Installation von RStudio
 
-- R noch nicht installiert? Beginnen Sie mit [diesem Link](http://notes.peter-baumgartner.net/slide/installiere-r-deutsch/) 
+- R noch nicht installiert? Beginnen Sie mit [diesem Link](http://notes.peter-baumgartner.net/slide/installiere-r/) 
 - Ansonsten rufen Sie die [RStudio-Downloadseite](https://www.rstudio.com/products/rstudio/download/#download) auf
 
-<img src="/img/rstudio-install-tutorial/download-rstudio-min.png">
+<img src="/img/rstudio-installation-deutsch/download1-rstudio-min.png">
 <!-- .element height="70%" width="70%" -->
+---
+
+## Wählen Sie Mac oder Windows-Downlaod
+
+<img src="/img/rstudio-installation-deutsch/download2-rstudio-min.png">
+<!-- .element height="80%" width="80%" -->
+
 ---
 
 ## Speichern Sie Ihre Programm-Version
@@ -55,24 +62,24 @@ Alle Programme sind [Open Source](http://praxistipps.chip.de/open-source-was-ist
 
 ---
 
-## Rufen Sie R.Studio auf
+## Rufen Sie RStudio auf
 
 - Es erscheint nun die Entwicklungsumgebung
 - Klicken Sie in die obere Leiste
 
 
-<img src="/img/rstudio-install-tutorial/Rstudio-virign-min.png">
+<img src="/img/rstudio-installation-deutsch/Rstudio-virgin-min.png">
 <!-- .element height="70%" width="70%" -->
 
 ---
 
 ## Erste Erkundungen
 
-- Sehen Sie sich alle Fensterbereiche und Reiter genauer an
+- Erkunden Sie Fenster und Reiter
 - Siehe auch diesen [Video](https://www.youtube.com/watch?v=riONFzJdXcs)
 - Mehr dann, wenn wir beginnen mit R zu arbeiten
 
-<img src="/img/rstudio-install-tutorial/RStudio-4-panes-min.png">
+<img src="/img/rstudio-installation-deutsch/RStudio-4-panes-min.png">
 <!-- .element height="70%" width="70%" -->
 
 ---
@@ -86,6 +93,7 @@ Alle Programme sind [Open Source](http://praxistipps.chip.de/open-source-was-ist
 - Ein Link der nochmals [alle Schritte](https://courses.edx.org/courses/UTAustinX/UT.7.01x/3T2014/56c5437b88fa43cf828bff5371c6a924/) zusammenfasst
 - Sie sollten jetzt R und RStudio installiert haben
 
+---
 
 ## Präsentation beenden
 
