@@ -59,27 +59,25 @@ Alle Programme sind [Open Source](http://praxistipps.chip.de/open-source-was-ist
 - Klicken Sie auf den Download-Link
 - Speichern Sie die Installationsdatei
 - Entpacken Sie RStudio
+- Rufen Sie RStudio dann auf
 
 ---
-
-## Rufen Sie RStudio auf
 
 - Es erscheint nun die Entwicklungsumgebung
 - Klicken Sie in die obere Leiste
 
 
 <img src="/img/rstudio-installation-deutsch/Rstudio-virgin-min.png">
-<!-- .element height="60%" width="60%" -->
+<!-- .element height="80%" width="80%" -->
 
 ---
 
-## Erste Erkundungen
 
 - Erkunden Sie Fenster und Reiter, mehr dann später
 - Siehe auch diesen [Video](https://www.youtube.com/watch?v=riONFzJdXcs)
 
 <img src="/img/rstudio-installation-deutsch/RStudio-4-panes-min.png">
-<!-- .element height="60%" width="60%" -->
+<!-- .element height="80%" width="80%" -->
 
 ---
 
