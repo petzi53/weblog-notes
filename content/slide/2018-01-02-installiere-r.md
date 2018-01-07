@@ -17,7 +17,9 @@ description: Tutorial zum Installieren der Statistik-Software R
 type: slide
 ---
 
-## Bedienung dieser Diashow
+## R installieren
+
+**Bedienung dieser Präsentation**
 
 - Steuerungselemente: Pfeile rechts unten
 - **Achtung:** Manchmal gibt es außer vor und zurück auch hinauf und hinunter
