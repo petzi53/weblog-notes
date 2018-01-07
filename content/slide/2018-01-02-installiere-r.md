@@ -170,5 +170,4 @@ Ich baue sie dann in diese Präsentation ein!
 - Sie beenden nun diese Präsentation mit (**Browser** Pfeil rückwärts)
 - ACHTUNG: Browser rückwärts -- und nicht Folien Pfeil links!
 
----
 
