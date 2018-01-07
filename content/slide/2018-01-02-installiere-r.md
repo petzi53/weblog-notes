@@ -138,8 +138,25 @@ Es kann sein, dass der Text Ihrer R-Version leicht unterschiedlich ist. So kann 
 
 Gehen Sie auf die [Download-Seite für Windows](https://cran.r-project.org/bin/windows/)
 
-<img src="/img/r-installation-deutsch/R-Windows-Download-min.png">
+<img src="/img/r-installation-deutsch/2-1_R-Windows-Download-min.png">
 <!-- .element height="70%" width="70%" -->
 
 
 ---
+
+### Download der aktuellen R-Version
+
+[R Download für Windows](https://cran.r-project.org/bin/windows/base/)
+
+<img src="/img/r-installation-deutsch/2-2_R-Windows-Download-min.png">
+<!-- .element height="70%" width="70%" -->
+
+### Windows-Bilschirmfotos gesucht
+
+Ich habe leider keine weiteren Screenshots.
+
+Installieren Sie gerade R für Windows?
+
+Dann schicken Sie mir bitte Screenshots. 
+
+Ich baue sie dann in diese Präsentation ein!
