@@ -142,7 +142,7 @@ Gehen Sie auf die [Download-Seite für Windows](https://cran.r-project.org/bin/w
 <!-- .element height="70%" width="70%" -->
 
 
----
+___
 
 ### Download der aktuellen R-Version
 
@@ -150,6 +150,8 @@ Gehen Sie auf die [Download-Seite für Windows](https://cran.r-project.org/bin/w
 
 <img src="/img/r-installation-deutsch/2-2_R-Windows-Download-min.png">
 <!-- .element height="70%" width="70%" -->
+
+___
 
 ### Windows-Bilschirmfotos gesucht
 
