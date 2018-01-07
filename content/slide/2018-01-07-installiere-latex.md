@@ -11,7 +11,7 @@ revealOptions:
   history: no
   progress: yes
   transition: concave
-slug: installiere-rstudio
+slug: installiere-latex
 theme: league
 description: Tutorial zum Installieren des LaTeX Textsystems für Mac und Windows
 type: slide
