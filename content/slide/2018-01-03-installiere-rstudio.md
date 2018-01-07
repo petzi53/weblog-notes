@@ -79,7 +79,7 @@ Alle Programme sind [Open Source](http://praxistipps.chip.de/open-source-was-ist
 
 ---
 
-- Hilfreich ist auch diesen [Video](https://www.youtube.com/watch?v=riONFzJdXcs)
+- Hilfreich ist auch dieses [Video](https://www.youtube.com/watch?v=riONFzJdXcs)
 - Mehr zu Entwicklungsumgebung dann, wenn wir mit R zu arbeiten beginnen
 
 ---
