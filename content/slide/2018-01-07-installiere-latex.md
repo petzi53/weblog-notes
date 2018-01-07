@@ -43,6 +43,7 @@ Alle Programme sind [Open Source](http://praxistipps.chip.de/open-source-was-ist
 ## Installation von LaTeX für Mac (1)
 
 Windows: Pfeil rechts unten nach rechts!
+Mac: Weiter mit Pfeil nach unten!
 
 <img src="/img/latex-installation-deutsch/1-1_MacOS-Startpage-min.png">
 <!-- .element height="55%" width="55%" -->
