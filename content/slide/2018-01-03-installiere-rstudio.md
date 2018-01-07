@@ -17,7 +17,9 @@ description: Tutorial zum Installieren der R Entwicklungsumgebung RStudio für M
 type: slide
 ---
 
-## Bedienung dieser Diashow
+## RStudio installieren
+
+Bedienung dieser Diashow
 
 - Steuerungselemente: Pfeile rechts unten
 - **Achtung:** Manchmal gibt es außer vor und zurück auch hinauf und hinunter
