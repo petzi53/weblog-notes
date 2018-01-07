@@ -162,3 +162,13 @@ Installieren Sie gerade R für Windows?
 Dann schicken Sie mir bitte Screenshots. 
 
 Ich baue sie dann in diese Präsentation ein!
+
+---
+
+## Präsentation beenden
+
+- Sie beenden nun diese Präsentation mit (**Browser** Pfeil rückwärts)
+- ACHTUNG: Browser rückwärts -- und nicht Folien Pfeil links!
+
+---
+
