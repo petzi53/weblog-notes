@@ -11,7 +11,7 @@ revealOptions:
   history: no
   progress: yes
   transition: concave
-  controlsTutorial: true
+  controlsBackArrows: 'hidden'
 slug: installiere-r
 theme: league
 description: Tutorial zum Installieren der Statistik-Software R
