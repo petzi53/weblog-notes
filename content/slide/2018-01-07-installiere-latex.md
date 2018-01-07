@@ -45,25 +45,21 @@ Alle Programme sind [Open Source](http://praxistipps.chip.de/open-source-was-ist
 Für Windows wählen Sie rechts unten den Pfeil nach rechts!
 
 <img src="/img/latex-installation-deutsch/1-1_MacOS-Startpage-min.png">
-<!-- .element height="40%" width="40%" -->
+<!-- .element height="50%" width="50%" -->
 
 ___
 
 ## Installation von LaTeX für Mac (2)
 
-Für Windows wählen Sie rechts unten den Pfeil nach rechts!
-
 <img src="/img/latex-installation-deutsch/1-2_MacOS-Distribution-min.png">
-<!-- .element height="70%" width="70%" -->
+<!-- .element height="60%" width="60%" -->
 
 ___
 
 ## Installation von LaTeX für Mac (3)
 
-Für Windows wählen Sie rechts unten den Pfeil nach rechts!
-
 <img src="/img/latex-installation-deutsch/1-3_MacOS-Download-min.png">
-<!-- .element height="70%" width="70%" -->
+<!-- .element height="60%" width="60%" -->
 
 ___
 
@@ -76,28 +72,22 @@ ___
 
 ## Installation von LaTeX für Windows (1)
 
-Für Windows wählen Sie rechts unten den Pfeil nach links!
-
 <img src="/img/latex-installation-deutsch/2-1_Windows-Startpage-min.png">
-<!-- .element height="40%" width="40%" -->
+<!-- .element height="50%" width="50%" -->
 
 ___
 
 ## Installation von LaTeX für Windows (2)
 
-Für Windows wählen Sie rechts unten den Pfeil nach links!
-
 <img src="/img/latex-installation-deutsch/2-2_Windows-TexLive-Distribution-min.png">
-<!-- .element height="70%" width="70%" -->
+<!-- .element height="60%" width="60%" -->
 
 ___
 
 ## Installation von LaTeX für Windows (3)
 
-Für Windows wählen Sie rechts unten den Pfeil nach links!
-
 <img src="/img/latex-installation-deutsch/2-3_Windows-Download-min.png">
-<!-- .element height="70%" width="70%" -->
+<!-- .element height="60%" width="60%" -->
 
 ___
 
