@@ -15,4 +15,4 @@ slug: r-demo-for-edudays
 
 Heute halte ich ein Referat für die [Edudays](http://www.edudays.at).
 
-Gehen auch die Umlaute?
+Gehen auch die Umlaute? ÄÖÜßäöü
