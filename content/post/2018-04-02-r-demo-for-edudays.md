@@ -7,7 +7,7 @@ categories:
 tags:
   - test
 description: Nur eine kleine Demo
-draft: yes
+draft: no
 slug: r-demo-for-edudays
 ---
 
