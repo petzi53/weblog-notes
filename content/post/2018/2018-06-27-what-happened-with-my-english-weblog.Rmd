@@ -1,0 +1,51 @@
+---
+title: "What happened with my English weblog?"
+author: "Peter Baumgartner"
+date: '2018-06-27'
+slug: what-happened-with-my-english-weblog
+tags:
+- blogdown
+- hugo
+- weblog
+categories:
+- reflection
+- how-to
+description: ''
+draft: yes
+---
+
+The static website generator I am using for this weblog is `blogdown`. Blogdown itself is developed to make writing for the web as easy as possible. At least this is the intention and the theory. But blogdown is also a very sophisticated tool. It is not only built upon many other technologies but has also built-in a lot of facililties which themselves are using advanced technologies. As long as you keep using just the default options all of these complexities are hidden. But if you want to use some of the provided nice features -- and I am sure that there will come the time where you want like me to adjust something to your growing needs -- then some difficulties could emerge. At least this happened to me.
+
+## Some observations
+
++ **Draft:** Notice `draft` is set to true. This means that a deploy with netlify does not show this article!! So I can safely make my commits to GitHub until the article is ready for publication. I can also withdraw articles by setting `draft: true` again.
+
++ **Rmd-File:** I am not sure if there aren't some imcompatiblities with my very special (advanced) theme, especially concerning the creation of new types of pages. But there should be no problem as I can always change the file extension latern on. 
+        - At the moment I am not writing about R topics where I would need .Rmd files. But this could change in the very near future, e.g. when I writing posts to SO, to the learnr packages or other R subjects. 
+        - The intermediate hmtl-files can be cleaned up with the button "Clean All" under the "More" menue using the command `rmarkdown::cleansite()`.
+
++ **Compiling:** There is a slight difference between using the RStudio addin "Serve Site" using `blogdown:::serve_site()` or the "Build Website" button using `rmarkdown::render_site(encoding = 'UTF-8')`. Whereas `serve_site()` always displays the homepage, remains render_site()` on the page I am working on.
+
+
+
+***
+
+### Demo for Edudays (2018-04-02)
+
+Heute halte ich ein Referat für die [Edudays](http://www.edudays.at).
+
+Gehen auch die Umlaute? ÄÖÜßäöü
+
+### Von R/RStudio über Git und GitHub zu Netlify und Hugo
+
+Es ist ein recht komplexer Prozess, der im Hintergrund abläuft.
+
+1. Zuerst die neue/geändert Datei speichern
+2. Das erzeugt eine Änderung im Reiter "Git" (rechtes obereres Fenster)
+3. Wähle "Commit", dh. im Versionierungssystem abspreichern
+4. Änderung mit einer Meldung versehen und absenden "Commit"
+5. Danach diese Änderung in das [ferne (remote) Repositorium](https://github.com/petzi53/weblog2-new) senden: Push
+6. Das erzeugt jetzt auf [Netlify.com](https://netlify.com) die entsprechende Webseite. (Meine Netlify-Seite ist auf https://app.netlify.com/sites/pb/overview). Netlify "wacht" über Änderungen auf meiner GitHub-Seite.
+7. Der Website wird nun mit Hilfe von [Hugo](https://gohugo.io/), einem statischen Website-Generator, kompiliert.
+
+New deploy

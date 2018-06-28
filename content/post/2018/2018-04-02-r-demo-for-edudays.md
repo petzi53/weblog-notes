@@ -3,7 +3,7 @@ title: "R Demo for Edudays"
 author: "Peter Baumgartner"
 date: '2018-04-02'
 description: Nur eine kleine Demo
-draft: no
+draft: yes
 slug: r-demo-for-edudays
 tags: test
 categories: test
