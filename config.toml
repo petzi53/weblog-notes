@@ -5,6 +5,7 @@ googleAnalytics = "UA-106334854-6"
 # Enable comments by entering your Disqus shortname
 disqusShortname = "petzi-2"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+relativeURls = false
 
 languageCode = "en-us"
 DefaultContentLanguage = "en"
@@ -30,7 +31,7 @@ productionSite = "https://notes.peter-baumgartner.net"
  # Prefix URL to edit current page. Will display an "Edit this page" button
  # on top right hand corner of every page.
  # Useful to give opportunity to people to create merge request for your doc.
-editURL = "https://github.com/petzi53/weblog2/edit/master/content/"
+editURL = "https://github.com/petzi53/weblog-portfolio/edit/master/content/"
 
 # Author of the site, will be used in meta information
   # author = ""
@@ -71,7 +72,7 @@ home = [ "HTML", "RSS", "JSON"]
         pre = "<h3>More</h3>"
         name = "<i class='fa fa-github'>&nbsp;&nbsp;</i> Github repo"
         identifier = "ds"
-        url = "https://github.com/petzi53/weblog2/"
+        url = "https://github.com/petzi53/weblog-notes/"
         weight = 10
 
 [[menu.shortcuts]]

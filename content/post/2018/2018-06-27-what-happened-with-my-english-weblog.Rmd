@@ -26,7 +26,20 @@ The static website generator I am using for this weblog is `blogdown`. Blogdown 
 
 + **Compiling:** There is a slight difference between using the RStudio addin "Serve Site" using `blogdown:::serve_site()` or the "Build Website" button using `rmarkdown::render_site(encoding = 'UTF-8')`. Whereas `serve_site()` always displays the homepage, remains render_site()` on the page I am working on.
 
+## Checklist for new blogdown project
 
+1. Immediately after the project is started, create two git branches: `config` and `posts` to prevent that everything is directly commited into the `master` branch.
+2. Change to branch config and do the necessary changes in the config.toml
+
+
+## config.toml
+
++ Add `title = "<name of website>"`
++ Add `themes = "<name of theme used>"`
++ Add `themesdir= "<path-to-theme>"`
++ Add `ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]`
++ Backup your site and run `blogdown::hugo_convert(to = "YAML", unsafe = TRUE)`
++ Set `relativeURLs = true` (default is false) to view your website with the `build_site()` command. If you want to see it in your browser than set "Preview in Window" under the configuration menue in the code pane. You can always view it with the `serve_site()` command (shortcut: CTRL-S) in the viewer pane or on the browser with a click in "Show in a new window" icon, right from the broom icon in the viewer pane.
 
 ***
 
@@ -48,4 +61,3 @@ Es ist ein recht komplexer Prozess, der im Hintergrund abläuft.
 6. Das erzeugt jetzt auf [Netlify.com](https://netlify.com) die entsprechende Webseite. (Meine Netlify-Seite ist auf https://app.netlify.com/sites/pb/overview). Netlify "wacht" über Änderungen auf meiner GitHub-Seite.
 7. Der Website wird nun mit Hilfe von [Hugo](https://gohugo.io/), einem statischen Website-Generator, kompiliert.
 
-New deploy
