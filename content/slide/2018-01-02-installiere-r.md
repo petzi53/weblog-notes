@@ -45,7 +45,7 @@ Alle Programme sind [Open Source](http://praxistipps.chip.de/open-source-was-ist
 - Wir beginnen mit der **Neu**-Installation von R 
 - Und zwar für [Mac OS](https://cran.r-project.org/bin/macosx/) und für [Windows](https://cran.r-project.org/bin/windows/)
 
-**ACHTUNG:** Wenn Sie bereits (eine ältere Version von) R installiert haben, dann folgen Sie statt dessen [diesem Tutorial](http://bioinfo.umassmed.edu/bootstrappers/bootstrappers-courses/courses/rCourse/Additional_Resources/Updating_R.html#updating-on-mac-and-ubuntu)
+**ACHTUNG:** Wenn Sie bereits (eine ältere Version von) R installiert haben, dann folgen Sie statt dessen [for Windows dieser Anleitung ](http://bioinfo.umassmed.edu/bootstrappers/bootstrappers-courses/courses/rCourse/Additional_Resources/Updating_R.html#updating-on-mac-and-ubuntu) and [for Mac dieser Anleitung](https://www.quora.com/What-is-the-easiest-way-to-update-R-in-OSX/answer/Kshira-Saagar).
 
 ---
 
@@ -56,7 +56,7 @@ Alle Programme sind [Open Source](http://praxistipps.chip.de/open-source-was-ist
 
 ---
 
-## Wähles Sie Ihre R-Version aus
+## Wählen Sie Ihre R-Version aus
 
 - Mac: Klicken Sie auf [Download-Seite für Mac OS X](https://cran.r-project.org/bin/macosx/)
 - Windows: gehen Sie zur nächsten Folie (Pfeil rechts)
