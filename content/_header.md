@@ -7,12 +7,5 @@ title: header
 <img src="/img/petzi.jpg" alt="Foto Peter"
         style="width: 80px; height 80px; float: left"/>
 
-<strong>Tools for<br />reproducible<br />research</strong>
-
-
-<!-- 
-<strong>LIFELONG<br /> 
-LEARNING<br />
-LAB</strong>
--->
+<strong>Open Science &<br />Data Science<br />Education<br /></strong>
 
