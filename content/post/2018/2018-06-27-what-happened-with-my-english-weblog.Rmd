@@ -14,7 +14,7 @@ description: ''
 draft: yes
 ---
 
-The static website generator I am using for this weblog is `blogdown`. Blogdown itself is developed to make writing for the web as easy as possible. At least this is the intention and the theory. But blogdown is also a very sophisticated tool. It is not only built upon many other technologies but has also built-in a lot of facililties which themselves are using advanced technologies. As long as you keep using just the default options all of these complexities are hidden. But if you want to use some of the provided nice features -- and I am sure that there will come the time where you want like me to adjust something to your growing needs -- then some difficulties could emerge. At least this happened to me.
+The static website generator I am using for this weblog is `hugo`. Blogdown itself is developed to make writing for the web as easy as possible. At least this is the intention and the theory. But blogdown is also a very sophisticated tool. It is not only built upon many other technologies but has also built-in a lot of facililties which themselves are using advanced technologies. As long as you keep using just the default options all of these complexities are hidden. But if you want to use some of the provided nice features -- and I am sure that there will come the time where you want like me to adjust something to your growing needs -- then some difficulties could emerge. At least this happened to me.
 
 ## Some observations
 
