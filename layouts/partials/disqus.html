@@ -14,6 +14,8 @@
       try { iframe = window.self !== window.top; } catch (e) {}
       return iframe;
     };
+
+
     if (inIFrame()) return;
     var disqus_js = '//{{ .Site.DisqusShortname }}.disqus.com/embed.js';
     // do not use lazy loading when the hash means to jump to a comment

@@ -1,0 +1,86 @@
+---
+title: "Install blogdown & Hugo<br/>with your preferred theme<br/>in less than two minutes</br>---------"
+subtitle: "Prerequisite: R and RStudio are already installed"
+author: "Peter Baumgartner"
+date: "2017/09/19 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+#    chakra: libs/remark-latest.min.js
+    css: [default, default-fonts]
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      beforeInit: "macros.js"
+      # navigation:
+      #   ratio: '16:9'
+      #   click: true
+---
+
+```{r setup, include=FALSE}
+# options(htmltools.dir.version = FALSE)
+```
+
+layout: true
+class: inverse, center, middle
+
+---
+
+# Step 01: Create new project in RStudio
+
+<!-- <img src="/img/blogdown-tutorial/create-new-project.png"> -->
+![](/img/blogdown-tutorial/create-new-project.png)
+
+Click on the right top of your RStudio window to create a new project.
+
+---
+
+# Step 02: Choose "New Directory"
+
+![:scale 80%](/img/blogdown-tutorial/create-new-directory.png)
+
+Start a project in a new working directory on your hard disk.
+
+---
+
+# Step 03: Select "Website using blogdown"
+
+![:scale 80%](/img/blogdown-tutorial/create-website-using-blogdown.png)
+
+If you cannot see this option: Scroll the window down.
+
+---
+
+# Step 04: Fill out the form. 
+
+![:scale 75%](/img/blogdown-tutorial/create-website-using-hugo-and-blogdown.png)
+
+If you don't know how and what theme to choose -> _Choose your theme_
+
+If you know what theme you prefer, than click the "Create Project" button.
+
+---
+
+# Wait some seconds…
+
+RStudio is busy installing
+
+blogdown with all its dependencies
+
+Hugo and
+
+the theme you have chosen
+
+---
+
+
+
+
+
+# Finished!
+
+![](/img/blogdown-tutorial/blogdown-installation-finished.png)
+
+You can now go to the next slideshow -> _Connect your website with GitHub_
+

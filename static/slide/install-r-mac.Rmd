@@ -1,0 +1,106 @@
+---
+title: "Install R for OS X (Mac)"
+subtitle: ""
+author: "Peter Baumgartner"
+date: "2018-01-02 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: ["default", "my-remark.css"]
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      beforeInit: "macros.js"
+      
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+layout: true
+class: inverse, middle, center
+
+---
+
+# Fresh installation of R
+
+.left[
++ If you have already installed (an older version of) R: Do not follow this presentation! Instead look up this [apple stackexchange answer](https://www.quora.com/What-is-the-easiest-way-to-update-R-in-OSX/answer/Kshira-Saagar).
+
++ To download R follow the link of the [CRAN website](https://cran.r-project.org/) to the installation page for OS X (Mac).
+]
+
+.center[![:scale 65%](/img/r-installation-mac-EN/1-1_Choose-Mac-Download-min.png)]
+
+<hr>
+
+**You prefer videos? Then look at the [RStudio Video](https://vimeo.com/203516510) [1:30]**
+---
+
+# Download lastest R Version
+
+.left[
++ Download the lastest R Version (here: R-3.4-3, January 2018)
++ Read the text on the right side of the package link of the latest release.
++ If your are new to R: I suggest not yet to download XQuartz and the compilers for Clang and Fortran.
+]
+
+.center[![:scale 75%](/img/r-installation-mac-EN/1-2_R-MacOS-Download-min.png)]
+
+---
+
+# Store R package file to your hard disk
+
+.center[Choose a directory and safe the file.]
+
+.center[![](/img/r-installation-mac-EN/1-3_R-Package-save-min.png)]
+
+---
+
+# Install R on your computer
+
+.left[
++ Open the saved R package file in your operating system
++ This opens the installation program
++ Follow the instructions: Click the Continue Button
+]
+
+.center[![:scale 85%](/img/r-installation-mac-EN/1-4_MacOS-Installation-R-min.png)]
+
+# Check installation (1)
+
+.left[
++ Go to your application folder and start the R.app
++ This opens the R console window
++ Check the version number
+]
+
+.center[![:scale 85%](/img/r-installation-mac-EN/1-5_MacOS-Installation-R-min.png)]
+
+---
+
+# Check installation (2)
+
+.left[
++ Input as a test example .red[`[2 + 2]<RETURN>`] and 
++ If a new line appears with .red[`[1] 4`]: then… 
+]
+
+.center[![:scale 50%](/img/r-installation-mac-EN/1-6_MacOS-R-App-min.png)]
+
+---
+
+# Congratulation!
+
+.left[
+You can now follow the next slideshow -> Install RStudio (not yet finished)
+
+[RStudio](https://www.rstudio.com/) is a sophisticated Integrated Development Environment (IDE) Almost everyone uses RStudio nowadays.
+
+There is a [short video](https://vimeo.com/97166163) (1:30) to show you what’s inside the RStudio IDE!
+
+Install it now - it is open source and free!
+]
+

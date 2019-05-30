@@ -1,4 +1,22 @@
-baseURL = "/"
+# The URL of your website.
+# End your URL with a `/` trailing slash, e.g. `https://example.com/`.
+baseurl = "https://notes.peter-baumgartner.net/"
+
+###### better would be to add layouts/partials/disqus.html
+
+## see https://github.com/rstudio/blogdown/issues/52
+## <div id="disqus_thread"></div>
+## <script>
+## (function() {
+## var d = document, s = d.createElement('script');
+## s.src = 'https://petzi2.disqus.com/embed.js';
+## s.setAttribute('data-timestamp', +new Date());
+## (d.head || d.body).appendChild(s);
+## })();
+## </script>
+## <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+####### Turn off Disqus when output is locally: blogdown:::serve_site()
 
 # Enable analytics by entering your Google Analytics tracking ID
 googleAnalytics = "UA-106334854-6"
@@ -38,11 +56,18 @@ editURL = "https://github.com/petzi53/weblog-portfolio/edit/master/content/"
 # Description of the site, will be used in meta information
   # description = ""
 
+# Configure BlackFriday Markdown rendering.
+#   See: https://gohugo.io/getting-started/configuration/#configure-blackfriday
+[blackfriday]
+  hrefTargetBlank = true  # `true` opens external links in a new tab.
+  fractions = true  # `false` disables smart fractions (e.g. 5/12 formatted as a fraction).
+  smartypants = true  # `false` disables all smart punctuation substitutions (e.g. smart quotes, dashes, fractions).
+
 staticman = false
 
 noHomeIcon = false # default is
 
-summary_length = 200
+summary_length = 500
 
 # Disable search function. It will hide search bar
         noSearch = false # default is false
@@ -57,10 +82,13 @@ summary_length = 200
 # Javascript and CSS cache are automatically busted when new version of site is generated.
 # Set this to true to disable this behavior (some proxies don't handle well this optimization)
   # disableAssetsBusting = false
+
 # Set this to true to disable copy-to-clipboard button for inline code.
   # disableInlineCopyToClipBoard = false
+
 # A title for shortcuts in menu is set by default. Set this to true to disable it.
   # disableShortcutsTitle = false
+
 # When using mulitlingual website, disable the switch language button.
   # disableLanguageSwitchingButton = false
 
