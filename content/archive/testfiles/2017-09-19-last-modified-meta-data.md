@@ -6,11 +6,11 @@ date: 2017-09-19
 description: How to apply last modified data to the footer?
 slug: last-modified-meta-data
 title: Last modified meta data
-creatordisplayname: Peter Baumgartner
-creatoremail: peter.baumgartner@icloud.com
-lastmodifierdisplayname: Petzi Baumgartner
+creatordisplayname: Jack Praker
+creatoremail: jack.praker@icloud.com
+lastmodifierdisplayname: Petzer Baumgartner
 lastmodifieremail: peter.baumgartner@icloud.com
-lastmod: 2017-09-23
+lastmod: 2019-05-31
 draft: false
 ---
 
@@ -42,3 +42,5 @@ Include the partial in an adequat place in your templates. (Either `single.html`
 
 
 **But how to use the `creator` metadata?**
+
+It does only work with modifier as there is only for this keyword the snippet designed and included into the partial 'last-modified.html'.

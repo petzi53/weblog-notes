@@ -5,6 +5,7 @@ title: Extra menu entries
 
 You can define additional menu entries in the navigation menu without any link to content.
 
+
 Edit the website configuration `config.toml` and add a `[[menu.shortcuts]]` entry for each link your want to add.
 
 

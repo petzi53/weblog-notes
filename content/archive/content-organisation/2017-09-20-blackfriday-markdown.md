@@ -44,9 +44,9 @@ Markdown: Syntax
 
 
 **Note:** This document is itself written using Markdown; you
-can [see the source for it by adding '.text' to the URL][src].
+can [see the source for it by adding '.text' to the URL][src]. /* DOES NOT WORK! Maybe link to Github page? */
 
-  [src]: /projects/markdown/syntax.text
+  [src]: /archive/content-organisation/2017-09-20-blackfriday-markdown 
 
 * * *
 
@@ -104,6 +104,7 @@ The only restrictions are that block-level HTML elements -- e.g. `<div>`,
 content by blank lines, and the start and end tags of the block should
 not be indented with tabs or spaces. Markdown is smart enough not
 to add extra (unwanted) `<p>` tags around HTML block-level tags.
+
 
 For example, to add an HTML table to a Markdown article:
 

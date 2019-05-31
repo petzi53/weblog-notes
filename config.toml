@@ -49,12 +49,12 @@ productionSite = "https://notes.peter-baumgartner.net"
  # Prefix URL to edit current page. Will display an "Edit this page" button
  # on top right hand corner of every page.
  # Useful to give opportunity to people to create merge request for your doc.
-editURL = "https://github.com/petzi53/weblog-portfolio/edit/master/content/"
+editURL = "https://github.com/petzi53/weblog-notes/edit/master/content/"
 
 # Author of the site, will be used in meta information
-  # author = ""
+  author = "Peter Baumgartner"
 # Description of the site, will be used in meta information
-  # description = ""
+  description = "Open Science & Data Science Education"
 
 # Configure BlackFriday Markdown rendering.
 #   See: https://gohugo.io/getting-started/configuration/#configure-blackfriday
@@ -71,7 +71,7 @@ summary_length = 500
 
 
 # Disable search function. It will hide search bar
-        noSearch = false # default is false
+        noSearch = true # default is false
 
 # Shows a checkmark for visited pages on the menu
         showVisitedLinks = true # default is false
