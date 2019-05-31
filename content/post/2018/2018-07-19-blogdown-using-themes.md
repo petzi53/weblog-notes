@@ -5,11 +5,11 @@ date: '2018-07-19'
 slug: blogdown-using-themes
 categories: ["blogdown"]
 tags: ["hugo", "theme"]
-draft: yes
+draft: no
 description: 'After almost one year of interruption I started using blogdown again and was confronted with a serie of problems. In this post I will report on my Odyssean experience and --- more important --- I will suggest guidelines how to start, explore and use themes in blogdown.'
 ---
 
-Finally --- after almost one year of interruption --- I could reorganize my responsibilities to spend more time working with blogdown and Hugo.
+Finally --- after almost one year of interruption --- I could reorganize my working responsibilities to spend more time working with blogdown and Hugo.
 
 But (re-)starting blogging using these tools was not easy after such a long period. I did not only forget many procedures but ran also into compatibility problems with the necessary updates. It turned out for me that the R Markdown ecosphere produces not only valuable and powerful tools but is a continuously changing complex still stricken with some fragilities.
 
