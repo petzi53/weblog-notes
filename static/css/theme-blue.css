@@ -1,13 +1,18 @@
-/* Additions by pb */
+/**********************************************************************
+ *
+ *  pb: The following code adds to the theme-blue of the docdock theme
+ *
+ *********************************************************************/
+
 
 .display-centered{
         display:block;
         margin-left:auto;
-        margin-right:auto
+        margin-right:auto;
 }
 
 
-.small {
+.smallpb {
 	max-width: 30%;
 	width: auto\9*0.3; /* ie8 */
 	height: auto;
@@ -15,6 +20,7 @@
 	margin-left:auto;
 	margin-right:auto;
 }
+
 
 .floatright {
 	max-width: 30%;
@@ -30,6 +36,35 @@
 	float: left;
 }
 
+.home-section {
+    padding: 30px 0 30px 0;
+  }
 
-/* end of additions by pb */
+footer {
+  margin: -1rem 0 0;
+  padding: -1rem 0;
+  width: 100%;
+}
+
+figcaption {
+  text-align: center;
+}
+
+# https://discourse.gohugo.io/t/handling-images-size-aligning/1940/2
+img[src$='#floatleft']
+{
+	max-width: 30%;
+	width: auto\9*0.3; /* ie8 */
+	height: auto;
+	float: left;
+}
+
+img[src$='#floatright']
+{
+	max-width: 30%;
+	width: auto\9*0.3; /* ie8 */
+	height: auto;
+	float: right;
+}
+
 

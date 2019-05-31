@@ -705,6 +705,17 @@ h1 {
     color: #222;
     font-weight: 200;
 }
+
+/* my new version with dark blue bar and light blue text */
+blockquote {
+    border-left: 10px solid #1f53ab;
+}
+blockquote p {
+    font-size: 1.1rem;
+    color: #09f;
+}
+
+/* old (original) version
 blockquote {
     border-left: 10px solid #F0F2F4;
 }
@@ -712,6 +723,9 @@ blockquote p {
     font-size: 1.1rem;
     color: #999;
 }
+
+*/
+
 blockquote cite {
     display: block;
     text-align: right;

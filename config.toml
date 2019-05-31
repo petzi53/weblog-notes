@@ -69,6 +69,7 @@ noHomeIcon = false # default is
 
 summary_length = 500
 
+
 # Disable search function. It will hide search bar
         noSearch = false # default is false
 
