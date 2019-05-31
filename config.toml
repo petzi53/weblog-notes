@@ -2,6 +2,7 @@
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
 baseurl = "https://notes.peter-baumgartner.net/"
 
+
 ###### better would be to add layouts/partials/disqus.html DOES NOT WORK!
 
 ## see https://github.com/rstudio/blogdown/issues/52
@@ -23,12 +24,13 @@ googleAnalytics = "UA-106334854-6"
 # Enable comments by entering your Disqus shortname
 disqusShortname = "petzi-2"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
-relativeURls = false
+
 
 languageCode = "en-us"
 DefaultContentLanguage = "en"
 
-
+# pb: Disable comments on the whole site or use it in the header for just one article
+# disable_comments = true
 
 title = "Peter's Blog"
 theme = "hugo-theme-docdock"
@@ -39,6 +41,9 @@ themesdir = "themes"
 footnotereturnlinkcontents = "↩"
 
 enableEmoji = true
+
+# relativeURLs = false # default value!
+# e.g. I have to give the path but I can use slugs!
 
 [permalinks]
   post = "/:year/:month/:day/:slug"
