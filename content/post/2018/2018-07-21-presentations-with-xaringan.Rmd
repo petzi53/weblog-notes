@@ -1,14 +1,17 @@
 ---
-title: 'Xaringan presentations with blogdown'
-author: 'Peter Baumgartner'
+title: Xaringan presentations with blogdown
+author: Peter Baumgartner
 date: '2018-07-21'
 categories:
   - how-to
 tags:
-  - bookdown
   - blogdown
+  - bookdown
+  - slides
 slug: presentations-with-xaringan
-description: 'This post demonstrates how to present slideshows with the `Xaringan` package. I explain how to integrate slideshows with `Xaringan` into blogdown via internal and external links.'
+description: This post demonstrates how to present slideshows with the `Xaringan`
+  package. I explain how to integrate slideshows with `Xaringan` into blogdown via
+  internal and external links.
 draft: no
 ---
 
