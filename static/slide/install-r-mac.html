@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Install R for OS X (Mac)</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Peter Baumgartner" />
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link rel="stylesheet" href="my-remark.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Install R for OS X (Mac)
+### Peter Baumgartner
+### 2018-01-02 (updated: 2018-07-22)
+
+---
+
+
+
+
+layout: true
+class: inverse, middle, center
+
+---
+
+# Fresh installation of R
+
+.left[
++ If you have already installed (an older version of) R: Do not follow this presentation! Instead look up this [apple stackexchange answer](https://www.quora.com/What-is-the-easiest-way-to-update-R-in-OSX/answer/Kshira-Saagar).
+
++ To download R follow the link of the [CRAN website](https://cran.r-project.org/) to the installation page for OS X (Mac).
+]
+
+.center[![:scale 65%](/img/r-installation-mac-EN/1-1_Choose-Mac-Download-min.png)]
+
+&lt;hr&gt;
+
+**You prefer videos? Then look at the [RStudio Video](https://vimeo.com/203516510) [1:30]**
+---
+
+# Download lastest R Version
+
+.left[
++ Download the lastest R Version (here: R-3.4-3, January 2018)
++ Read the text on the right side of the package link of the latest release.
++ If your are new to R: I suggest not yet to download XQuartz and the compilers for Clang and Fortran.
+]
+
+.center[![:scale 75%](/img/r-installation-mac-EN/1-2_R-MacOS-Download-min.png)]
+
+---
+
+# Store R package file to your hard disk
+
+.center[Choose a directory and safe the file.]
+
+.center[![](/img/r-installation-mac-EN/1-3_R-Package-save-min.png)]
+
+---
+
+# Install R on your computer
+
+.left[
++ Open the saved R package file in your operating system
++ This opens the installation program
++ Follow the instructions: Click the Continue Button
+]
+
+.center[![:scale 85%](/img/r-installation-mac-EN/1-4_MacOS-Installation-R-min.png)]
+
+# Check installation (1)
+
+.left[
++ Go to your application folder and start the R.app
++ This opens the R console window
++ Check the version number
+]
+
+.center[![:scale 85%](/img/r-installation-mac-EN/1-5_MacOS-Installation-R-min.png)]
+
+---
+
+# Check installation (2)
+
+.left[
++ Input as a test example .red[`[2 + 2]&lt;RETURN&gt;`] and 
++ If a new line appears with .red[`[1] 4`]: then… 
+]
+
+.center[![:scale 50%](/img/r-installation-mac-EN/1-6_MacOS-R-App-min.png)]
+
+---
+
+# Congratulation!
+
+.left[
+You can now follow the next slideshow -&gt; Install RStudio (not yet finished)
+
+[RStudio](https://www.rstudio.com/) is a sophisticated Integrated Development Environment (IDE) Almost everyone uses RStudio nowadays.
+
+There is a [short video](https://vimeo.com/97166163) (1:30) to show you what’s inside the RStudio IDE!
+
+Install it now - it is open source and free!
+]
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="macros.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function() {
+  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})();</script>
+
+<script>
+(function() {
+  var i, text, code, codes = document.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+})();
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

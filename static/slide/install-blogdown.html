@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Install blogdown &amp; Hugo with your preferred theme in less than two minutes———</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Peter Baumgartner" />
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Install blogdown &amp; Hugo<br/>with your preferred theme<br/>in less than two minutes</br>———
+## Prerequisite: R and RStudio are already installed
+### Peter Baumgartner
+### 2017/09/19 (updated: 2018-07-22)
+
+---
+
+
+
+
+layout: true
+class: inverse, center, middle
+
+---
+
+# Step 01: Create new project in RStudio
+
+&lt;!-- &lt;img src="/img/blogdown-tutorial/create-new-project.png"&gt; --&gt;
+![](/img/blogdown-tutorial/create-new-project.png)
+
+Click on the right top of your RStudio window to create a new project.
+
+---
+
+# Step 02: Choose "New Directory"
+
+![:scale 80%](/img/blogdown-tutorial/create-new-directory.png)
+
+Start a project in a new working directory on your hard disk.
+
+---
+
+# Step 03: Select "Website using blogdown"
+
+![:scale 80%](/img/blogdown-tutorial/create-website-using-blogdown.png)
+
+If you cannot see this option: Scroll the window down.
+
+---
+
+# Step 04: Fill out the form. 
+
+![:scale 75%](/img/blogdown-tutorial/create-website-using-hugo-and-blogdown.png)
+
+If you don't know how and what theme to choose -&gt; _Choose your theme_
+
+If you know what theme you prefer, than click the "Create Project" button.
+
+---
+
+# Wait some seconds…
+
+RStudio is busy installing
+
+blogdown with all its dependencies
+
+Hugo and
+
+the theme you have chosen
+
+---
+
+
+
+
+
+# Finished!
+
+![](/img/blogdown-tutorial/blogdown-installation-finished.png)
+
+You can now go to the next slideshow -&gt; _Connect your website with GitHub_
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="macros.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function() {
+  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})();</script>
+
+<script>
+(function() {
+  var i, text, code, codes = document.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+})();
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

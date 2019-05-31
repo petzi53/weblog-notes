@@ -10,7 +10,7 @@ tags:
   - organization
   - academic networking
 draft: no
-description: 'Here comes some introductory text'
+description: 'I applied for my ORCID-ID already several years ago, but only yesterday I understood the advantage of yet another web presence: ORCID is a non-profit organization and aims to identify researchers uniquely and to connect their contributions and affiliations across disciplines, borders, and time. With this post, I will tell you some advantages of ORCID to convince you to join.'
 ---
 Do you know [ORCID](https://orcid.org/)? I applied for my [ORCID-ID](https://orcid.org/0000-0003-4526-8791) already several years ago, but only yesterday I understood the advantage of yet another web presence: ORCID is a non-profit organization and aims to identify researchers uniquely and to connect their contributions and affiliations across disciplines, borders, and time. With this post, I will tell you some advantages of ORCID to convince you to join.
 

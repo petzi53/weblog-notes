@@ -13,6 +13,7 @@ tags:
 description: 'Another year has elapsed since I wrote my last blog entry. At first, I thought the problem is only my English. But in the meanwhile, I see several other reasons why I do not blog for the new static website(s).'
 draft: no
 ---
+Another year has elapsed since I wrote my last blog entry. At first, I thought the problem is only my English. But in the meanwhile, I see several other reasons why I do not blog for the new static website(s).
 
 I will elaborate later on the following thoughts. At the moment, I want to list the possible reasons for my blogging abstinence:
 
