@@ -106,6 +106,7 @@ not be indented with tabs or spaces. Markdown is smart enough not
 to add extra (unwanted) `<p>` tags around HTML block-level tags.
 
 
+
 For example, to add an HTML table to a Markdown article:
 
     This is a regular paragraph.

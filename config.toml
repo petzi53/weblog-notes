@@ -2,7 +2,7 @@
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
 baseurl = "https://notes.peter-baumgartner.net/"
 
-###### better would be to add layouts/partials/disqus.html
+###### better would be to add layouts/partials/disqus.html DOES NOT WORK!
 
 ## see https://github.com/rstudio/blogdown/issues/52
 ## <div id="disqus_thread"></div>
@@ -16,7 +16,7 @@ baseurl = "https://notes.peter-baumgartner.net/"
 ## </script>
 ## <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
-####### Turn off Disqus when output is locally: blogdown:::serve_site()
+####### Turn off Disqus when output is locally: blogdown:::serve_site() DOES NOT WORK!
 
 # Enable analytics by entering your Google Analytics tracking ID
 googleAnalytics = "UA-106334854-6"
@@ -85,7 +85,8 @@ summary_length = 500
   # disableAssetsBusting = false
 
 # Set this to true to disable copy-to-clipboard button for inline code.
-  # disableInlineCopyToClipBoard = false
+# DOES NOT WORK
+  disableInlineCopyToClipBoard = true
 
 # A title for shortcuts in menu is set by default. Set this to true to disable it.
   # disableShortcutsTitle = false
@@ -96,9 +97,14 @@ summary_length = 500
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
 
-
 [[menu.shortcuts]]
         pre = "<h3>More</h3>"
+        name = "<i class='fa fa-envelope-o'>&nbsp;&nbsp;</i> Contact"
+        url = "/contact"
+        weight = 5
+
+
+[[menu.shortcuts]]
         name = "<i class='fa fa-github'>&nbsp;&nbsp;</i> Github repo"
         identifier = "ds"
         url = "https://github.com/petzi53/weblog-notes/"

@@ -1,6 +1,6 @@
 ---
 description: contributors and packages used by hugo-theme-docdock
-title: Credits
+title: Credits for the docdock theme
 ---
 
 
