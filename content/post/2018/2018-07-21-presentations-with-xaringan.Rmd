@@ -4,7 +4,6 @@ author: 'Peter Baumgartner'
 date: '2018-07-21'
 categories:
   - how-to
-  - tacit knowledge
 tags:
   - bookdown
   - blogdown
