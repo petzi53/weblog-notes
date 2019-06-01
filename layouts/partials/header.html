@@ -23,10 +23,15 @@
     <link rel="stylesheet" href="{{"css/bootstrap.min.css" | relURL}}">
     <script src="{{"js/jquery-2.x.min.js" | relURL}}"></script>
     <style type="text/css">
-      :root #header + #content > #left > #rlblock_left {
-        display:none !important;
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
       }
-    </style>
+      {{ if .Site.Params.disableInlineCopyToClipBoard }}
+        :not(pre) > code + span.copy-to-clipboard {
+            display: none;
+        }
+      {{ end }}
+    </style>>
 
 
 
@@ -51,6 +56,8 @@
             </div>
               {{ end }}
             {{ end }}
+
+
 
             <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
                 <span id="sidebar-toggle-span">

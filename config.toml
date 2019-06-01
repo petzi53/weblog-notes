@@ -38,61 +38,67 @@ enableEmoji = true
 # e.g. I have to give the path but I can use slugs!
 
 [permalinks]
-  post = "/:year/:month/:day/:slug"
-
-[params]
-localSite = "https://127.0.0.1;4321"
-productionSite = "https://notes.peter-baumgartner.net"
- # Prefix URL to edit current page. Will display an "Edit this page" button
- # on top right hand corner of every page.
- # Useful to give opportunity to people to create merge request for your doc.
-editURL = "https://github.com/petzi53/weblog-notes/edit/master/content/"
-
-# Author of the site, will be used in meta information
-  author = "Peter Baumgartner"
-# Description of the site, will be used in meta information
-  description = "Open Science & Data Science Education"
-
-# Configure BlackFriday Markdown rendering.
-#   See: https://gohugo.io/getting-started/configuration/#configure-blackfriday
-[blackfriday]
-  hrefTargetBlank = true  # `true` opens external links in a new tab.
-  fractions = true  # `false` disables smart fractions (e.g. 5/12 formatted as a fraction).
-  smartypants = true  # `false` disables all smart punctuation substitutions (e.g. smart quotes, dashes, fractions).
-
-staticman = false
-
-noHomeIcon = false # default is
-
-summary_length = 500
-
-
-# Disable search function. It will hide search bar
-        noSearch = true # default is false
-
-# Shows a checkmark for visited pages on the menu
-        showVisitedLinks = true # default is false
-# themeStyle = "theme" # overide base css
-        themeVariant = "" # choose theme variant "green", "gold" , "gray", "blue" (default)
-# Order sections in menu by "weight" or "title". Default to "weight"
-        ordersectionsby = "weight"
-
-# Javascript and CSS cache are automatically busted when new version of site is generated.
-# Set this to true to disable this behavior (some proxies don't handle well this optimization)
-  # disableAssetsBusting = false
-
-# Set this to true to disable copy-to-clipboard button for inline code.
-# DOES NOT WORK
-  disableInlineCopyToClipBoard = true
-
-# A title for shortcuts in menu is set by default. Set this to true to disable it.
-  # disableShortcutsTitle = false
-
-# When using mulitlingual website, disable the switch language button.
-  # disableLanguageSwitchingButton = false
+    post = "/:year/:month/:day/:slug"
 
 [outputs]
-home = [ "HTML", "RSS", "JSON"]
+    home = [ "HTML", "RSS", "JSON"]
+
+[blackfriday]
+    hrefTargetBlank = true  # `true` opens external links in a new tab.
+    fractions = true  # `false` disables smart fractions (e.g. 5/12 formatted as a fraction).
+    smartypants = true  # `false` disables all smart punctuation substitutions (e.g. smart quotes, dashes, fractions).
+
+
+[params]
+    localSite = "https://127.0.0.1;4321"
+    productionSite = "https://notes.peter-baumgartner.net"
+    # Prefix URL to edit current page. Will display an "Edit this page" button
+    # on top right hand corner of every page.
+    # Useful to give opportunity to people to create merge request for your doc.
+    editURL = "https://github.com/petzi53/weblog-notes/edit/master/content/"
+
+    # Author of the site, will be used in meta information
+    author = "Peter Baumgartner"
+    # Description of the site, will be used in meta information
+    description = "Open Science & Data Science Education"
+
+    staticman = false
+
+    noHomeIcon = true # default is
+
+    summary_length = 500
+
+    # Configure BlackFriday Markdown rendering.
+    # See: https://gohugo.io/getting-started/configuration/#configure-blackfriday
+
+    # Disable search function. It will hide search bar
+    noSearch = false # default is false
+
+    # Shows a checkmark for visited pages on the menu
+    # if true then a new item Clear History appears:
+    showVisitedLinks = false # default is false
+
+    themeStyle = "" # overide base css e.g. "theme-new", "theme-gold", ... "theme" (default)
+    themeVariant = "" # choose theme variant "green", "gold" , "gray", "new" "blue" (default)
+
+    # Order sections in menu by "weight" or "title". Default to "weight"
+    ordersectionsby = "weight"
+
+    # Javascript and CSS cache are automatically busted when new version of site is generated.
+    # Set this to true to disable this behavior (some proxies don't handle well this optimization)
+    disableAssetsBusting = false
+
+    # Set this to true to disable copy-to-clipboard button for inline code.
+    # DOES NOT WORK
+    disableInlineCopyToClipBoard = true
+
+    # A title for shortcuts in menu is set by default. Set this to true to disable it.
+    # disableShortcutsTitle = false
+
+    # When using mulitlingual website, disable the switch language button.
+    # disableLanguageSwitchingButton = false
+
+
 
 [[menu.shortcuts]]
         pre = "<h3>More</h3>"
