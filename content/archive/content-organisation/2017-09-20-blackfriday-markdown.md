@@ -45,11 +45,17 @@ Markdown: Syntax
 
 
 **Note:** This document is itself written using Markdown; you
-can [see the source for it by adding '.text' to the URL][src]. /* DOES NOT WORK! Maybe link to Github page? */
+can [see the source for it by adding '.text' to the URL][src].  **DOES NOT WORK!**
+
+Instead use the link from [Edit this page](https://github.com/petzi53/weblog-notes/edit/master/content/archive/content-organisation/2017-09-20-blackfriday-markdown.md)
+
+For instance: you
+can [see the source for it by adding '.text' to the URL][src1].
 
   [src]: /archive/content-organisation/2017-09-20-blackfriday-markdown 
+  [src1]: https://github.com/petzi53/weblog-notes/edit/master/content/archive/content-organisation/2017-09-20-blackfriday-markdown.md
 
-* * *
+***
 
 <h2 id="overview">Overview</h2>
 
