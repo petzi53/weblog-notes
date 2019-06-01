@@ -823,8 +823,9 @@ pre code {
     margin: 0;
     font-size: 15px;
 }
+
 hr {
-    border-bottom: 4px solid #F0F2F4;
+    border-bottom: 4px solid #a9caea; /* #F0F2F4; */
 }
 .page-title {
     margin-top: -25px;
