@@ -41,7 +41,12 @@ One has to inspect the differences detailed.
 
 
 ### Test with an R code snippet
-```{r}
+
+```r
 2 + 2
+```
+
+```
+## [1] 4
 ```
 

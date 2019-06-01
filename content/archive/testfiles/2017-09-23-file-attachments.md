@@ -7,6 +7,7 @@ tags: [test]
 title: Files attachment
 draft: false
 description: How to use shortcodes for file attachments? 
+disable_comments: true
 ---
 
 

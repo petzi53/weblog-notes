@@ -1,6 +1,7 @@
 ---
 description: Display an actionable button in your page.
 title: button
+disable_comments: true
 ---
 
 Display an actionable button in your page.

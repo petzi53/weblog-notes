@@ -9,8 +9,13 @@ slug: comments-not-allowed
 title: Comments not allowed
 commentsNotAllowed: true
 draft: false
+disable_comments: true
 ---
 
-This example demonstrates how to forbid comments (with `staticman`):
+This example demonstrates how to forbid comments (with _staticman_):
 
 add `commentsNotAllowed: true` to the YAML-Header.
+
+This does not work or works only with *staticman*?
+
+Use instead `disable_comments: true` in the front matter (YAML-header).

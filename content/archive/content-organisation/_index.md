@@ -2,6 +2,7 @@
 description: ""
 title: Content Organisation
 weight: 120
+disable_comments: true
 ---
 
 With **Hugo**, pages are the core of your site. Organize your site like any other Hugo project. **Magic occurs with the nested sections implemention done in v0.22 of hugo (congrats @bep)**.

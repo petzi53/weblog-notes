@@ -4,6 +4,7 @@ description: ""
 title: Shortcodes
 weight: 130
 children: true
+disable_comments: true
 ---
 
 A bunch of Shortcodes are available with this theme :

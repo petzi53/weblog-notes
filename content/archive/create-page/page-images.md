@@ -3,6 +3,7 @@ date: 2017-04-24T18:36:24+02:00
 slug: about-images-md
 title: About images (.md)
 description: This post demonstrates different methods to display pictures.
+disable_comments: true
 ---
 
 Images have a similar syntax to links but include a preceding exclamation point.

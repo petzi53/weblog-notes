@@ -2,6 +2,7 @@
 description: The Excerpt shortcode is used to mark a part of a page's content for
   re-use.
 title: excerpt
+disable_comments: true
 ---
 
 The Excerpt shortcode is used to mark a part of a page's content for re-use. Defining an excerpt enables other shortcodes, such as the excerpt-include shortcode, to display the marked content elsewhere.

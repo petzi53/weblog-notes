@@ -2,6 +2,10 @@
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
 baseurl = "https://notes.peter-baumgartner.net/"
 
+# Enable analytics by entering your Google Analytics tracking ID
+googleAnalytics = "UA-106334854-6"
+# Enable comments by entering your Disqus shortname
+disqusShortname = "petzi-2"
 
 ###### better would be to add layouts/partials/disqus.html DOES NOT WORK!
 
@@ -19,24 +23,19 @@ baseurl = "https://notes.peter-baumgartner.net/"
 
 ####### Turn off Disqus when output is locally: blogdown:::serve_site() DOES NOT WORK!
 
-# Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = "UA-106334854-6"
-# Enable comments by entering your Disqus shortname
-disqusShortname = "petzi-2"
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 languageCode = "en-us"
 DefaultContentLanguage = "en"
 
 # pb: Disable comments on the whole site or use it in the header for just one article
-# disable_comments = true
+# TOML: disable_comments = true
+# YAML: disable_comments: true
 
 title = "Peter's Blog"
 theme = "hugo-theme-docdock"
 themesdir = "themes"
-
-
 
 footnotereturnlinkcontents = "↩"
 

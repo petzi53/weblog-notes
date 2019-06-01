@@ -2,6 +2,7 @@
 description: Present content as a slide, using reveal.js
 slug: revealjs
 title: revealjs
+disable_comments: true
 ---
 
 This shortcode will format the enclosed markdown to render it with [reveal.js](http://lab.hakim.se/reveal-js/) at runtime (client-side)

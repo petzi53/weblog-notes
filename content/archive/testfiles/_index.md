@@ -3,6 +3,7 @@ alwaysopen: false
 description: ""
 title: Test files
 weight: 1000
+disable_comments: true
 ---
 
 ## Requirements

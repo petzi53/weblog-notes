@@ -2,6 +2,7 @@
 description: ""
 title: About the Search Engine
 weight: 140
+disable_comments: true
 ---
 
 **Nothing to do on your side. :-)**

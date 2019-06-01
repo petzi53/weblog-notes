@@ -8,6 +8,7 @@ draft: false
 slug: blackfriday-markdown
 tags: []
 title: Blackfriday markdown
+disable_comments: true
 ---
 
 Markdown: Syntax

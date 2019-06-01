@@ -1,6 +1,7 @@
 ---
 description: Displays an expandable/collapsible section of text on your page
 title: expand
+disable_comments: true
 ---
 
 The Expand shortcode displays an expandable/collapsible section of text on your page.

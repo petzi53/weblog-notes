@@ -1,6 +1,7 @@
 ---
 description: Display an icon.
 title: icon
+disable_comments: true
 ---
 
 Display an icon like `{{% icon cloud %}}`

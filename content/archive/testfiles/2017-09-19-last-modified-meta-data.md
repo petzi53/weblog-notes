@@ -12,6 +12,7 @@ lastmodifierdisplayname: Petzer Baumgartner
 lastmodifieremail: peter.baumgartner@icloud.com
 lastmod: 2019-05-31
 draft: false
+disable_comments: true
 ---
 
 #### add to the YAML frontmatter
@@ -37,7 +38,7 @@ lastmod: 2017-09-23
 
 #### include partial in template
 
-Include the partial in an adequat place in your templates. (Either `single.html` oder `footer.html` etc.)
+Include the partial in an adequat place in your templates. (Either `single.html` or `footer.html` etc.)
 
 
 

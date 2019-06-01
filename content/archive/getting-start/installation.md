@@ -2,6 +2,7 @@
 description: ""
 title: Installation
 date: 2017-04-24
+disable_comments: true
 ---
 
 {{% alert theme="warning" %}}HUGO **v0.25** minimum required to use this theme{{%/alert%}}

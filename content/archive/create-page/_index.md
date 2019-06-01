@@ -8,6 +8,7 @@ lastmodifieremail: peter.baumgartner@icloud.com
 lastmod: 2017-09-23
 title: Create Page
 weight: 110
+disable_comments: true
 ---
 
 Hugo-theme-docdock defines two types of pages. _Default_ and _Slide_.

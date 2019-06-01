@@ -1,6 +1,7 @@
 ---
 description: "It displays ‘excerpted’ (that is, a segment of) content from one page into another."
 title: excerpt-include
+disable_comments: true
 ---
 
 The Excerpt Include shortcode is used to display 'excerpted' (that is, a segment of) content from one page in another.

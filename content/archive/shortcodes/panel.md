@@ -1,6 +1,7 @@
 ---
 description: Allow you to highlight information or put it in a box.
 title: panel
+disable_comments: true
 ---
 
 {{% panel theme="success" header="The panel shortcode" %}}Allow you to highlight information or put it in a box. They create a colored box surrounding your text{{% /panel %}}

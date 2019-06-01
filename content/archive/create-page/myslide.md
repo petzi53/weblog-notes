@@ -10,6 +10,7 @@ revealOptions:
 theme: league
 title: My Slide ! fullscreen
 type: slide
+disable_comments: true
 ---
 
 # In the morning

@@ -2,6 +2,7 @@
 date: 2017-04-24T18:36:24+02:00
 description: ""
 title: Present a Slide
+disable_comments: true
 ---
 
 A basic md content page can be rendered as a reveal.js presentation full screen.

@@ -1,6 +1,7 @@
 ---
 description: "Draw flowcharts, GANTT-diagrams and other utility graphic."
 title: mermaid
+disable_comments: true
 ---
 
 ## Flowchart example

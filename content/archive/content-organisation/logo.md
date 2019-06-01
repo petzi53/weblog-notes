@@ -2,6 +2,7 @@
 date: 2017-04-24T18:36:24+02:00
 description: ""
 title: Logo placeholder
+disable_comments: true
 ---
 
 Create a `_header.md` page in content folder. Its content is what you get in the logo placeholder (top left of the screen).

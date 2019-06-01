@@ -1,6 +1,7 @@
 ---
 date: 2017-04-29T18:36:24+02:00
 title: Extra menu entries
+disable_comments: true
 ---
 
 You can define additional menu entries in the navigation menu without any link to content.

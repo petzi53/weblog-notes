@@ -7,7 +7,7 @@ tags: [test]
 categories: [test]
 description: Still to write
 draft: false
-
+disable_comments: true
 
 ---
 

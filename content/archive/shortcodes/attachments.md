@@ -1,6 +1,7 @@
 ---
 description: The Attachments shortcode displays a list of files attached to a page.
 title: attachments
+disable_comments: true
 ---
 
 The Attachments shortcode displays a list of files attached to a page.
