@@ -2,7 +2,7 @@
 <html lang="en" class="js csstransforms3d">
 
 <head>
-  <meta charset="utf-8"> {{ partial "meta.html" . }} 
+  <meta charset="utf-8"> {{ partial "meta.html" . }}
   <link rel="shortcut icon" href="{{"images/favicon.png" | relURL}}" type="image/x-icon" />
   {{ .Scratch.Add "title" "" }}{{ if eq .Site.Data.titles .Title }}{{ .Scratch.Set "title" (index .Site.Data.titles .Title).title }}{{ else }}{{ .Scratch.Set "title" .Title}}{{end}}
   <title>{{ .Scratch.Get "title" }}</title>
@@ -41,6 +41,7 @@
           <p>
           </p>
           <p>{{T "message-404"}}</p>
+          <p>Here comes another text.</p>
           <p></p>
           <p><a href="{{.Site.BaseURL}}">{{T "Go-to-homepage"}}</a></p>
           <p><img src="{{"images/gopher-404.jpg" | relURL}}" style="width:50%"></img></p>
