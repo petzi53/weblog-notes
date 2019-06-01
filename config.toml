@@ -1,27 +1,15 @@
 # The URL of your website.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "https://notes.peter-baumgartner.net/"
+baseurl = "https://notes-peter.baumgartner.net/"
+
 
 # Enable analytics by entering your Google Analytics tracking ID
 googleAnalytics = "UA-106334854-6"
 # Enable comments by entering your Disqus shortname
 disqusShortname = "petzi-2"
 
-###### better would be to add layouts/partials/disqus.html DOES NOT WORK!
-
-## see https://github.com/rstudio/blogdown/issues/52
-## <div id="disqus_thread"></div>
-## <script>
-## (function() {
-## var d = document, s = d.createElement('script');
-## s.src = 'https://petzi2.disqus.com/embed.js';
-## s.setAttribute('data-timestamp', +new Date());
-## (d.head || d.body).appendChild(s);
-## })();
-## </script>
-## <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-####### Turn off Disqus when output is locally: blogdown:::serve_site() DOES NOT WORK!
+## Turn off Disqus when output is locally: blogdown:::serve_site() DOES NOT WORK!
+## see https://github.com/rstudio/blogdown/issues/52#issuecomment-288407836
 
 
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
