@@ -1,7 +1,11 @@
 ---
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
 date: {{ .Date }}
+lastmodifierdisplayname: 'Peter'
+lastmodifieremail: 'jack.praker@icloud.com'
+lastmod:
 description: ""
+disable_comments: true
 draft: true
 ---
 
