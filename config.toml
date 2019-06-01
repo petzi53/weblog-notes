@@ -21,7 +21,7 @@ DefaultContentLanguage = "en"
 # TOML: disable_comments = true
 # YAML: disable_comments: true
 
-title = "Peter's Blog"
+title = "Peter on Open Science & Data Science Education"
 theme = "docdock"
 themesdir = "themes"
 
