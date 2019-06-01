@@ -34,11 +34,16 @@ DefaultContentLanguage = "en"
 # YAML: disable_comments: true
 
 title = "Peter's Blog"
-theme = "hugo-theme-docdock"
+theme = "docdock"
 themesdir = "themes"
 
 footnotereturnlinkcontents = "↩"
 
+# for emoji use the following format: :<name of emoji>:
+# for example: :wink:
+# list of names at: https://github.com/afeld/emoji-css/tree/gh-pages/emoji
+# list of icons: https://afeld.github.io/emoji-css/ (e.g. convert <i class="em em-anchor"></i> to :anchor:)
+# see also: https://emojipedia.org/ (copy & paste)
 enableEmoji = true
 
 # relativeURLs = false # default value!
