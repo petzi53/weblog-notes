@@ -17,6 +17,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 languageCode = "en-us"
 DefaultContentLanguage = "en"
 rssLimit = 100
+copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
+
 
 # pb: Disable comments on the whole site or use it in the header for just one article
 # TOML: disable_comments = true
