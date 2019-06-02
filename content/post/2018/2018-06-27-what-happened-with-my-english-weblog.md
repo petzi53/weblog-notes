@@ -9,7 +9,7 @@ description: "Spring 2017, I started to experiment with the static website gener
 draft: no
 lastmodifierdisplayname: Peter
 lastmodifieremail: jack.praker@icloud.com
-lastmod: 2019-06-01
+lastmod: 2019-05-31
 ---
 The <a href="https://bookdown.org/yihui/blogdown/">R package blogdown</a> was developed by Yihui Xie to make writing for the web as easy as possible. At least this is the intention and the theory. 
 
@@ -24,7 +24,7 @@ I have written recently a post <a href="/2019/05/31/blog-writing-barriers-to-ove
 + **Draft:** Starting a new article it is set by default to `draft: true`. This means that to deploy the website with <a href="https://www.netlify.com/">Netlify</a> does not show this article! So I can safely make my commits to <a href="https://github.com/">GitHub</a> until the article is ready for publication. Then I have to set `draft: true` and commit the article to GitHub. I can also withdraw articles by setting `draft: true` again.
 
 <div class="alert alert-danger" role="alert">
-**Update 2019-05-31:** The following four paragraphs about _.Rmd files_ and _compiling_ are not correct. It turned out that I didn't understand quite well the interplay blogdown -> Github and Netlify. There is a new post coming on this subject.
+<strong>Update:</strong> The following four paragraphs about _.Rmd files_ and _compiling_ are not correct. It turned out that I didn't understand quite well the interplay blogdown -> Github and Netlify. There is a new post coming on this subject.
 </div>
 + **Rmd-File:** I am not sure if there aren't some incompatibilities with my sophisticated theme, especially concerning the creation of new types of pages. But there should be no problem as I can always change the file extension later on. 
         - At the moment, I am not writing about R topics where I would need _.Rmd files_. But this could change very shortly, e.g., when I am writing posts about statistic subjects or using R packages in these posts. 
@@ -40,5 +40,5 @@ I have written recently a post <a href="/2019/05/31/blog-writing-barriers-to-ove
 ## config.toml
 
 <div class="alert alert-danger" role="alert">
-**Update 2019-05-31:** Again there is some confusion until the end of the article. I decided not to delete the wrong parts as these text passages will document my learning experiences. In the upcoming new blog post I will reference these wrong explanations.
+<b>Update:</b> Again there is some confusion until the end of the article. I decided not to delete the wrong parts as these text passages will document my learning experiences. In the upcoming new blog post I will reference these wrong explanations.
 </div>
