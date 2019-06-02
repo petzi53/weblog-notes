@@ -6,7 +6,7 @@ slug: what-happened-with-my-english-weblog
 tags: ["blogdown","hugo", "weblog"]
 categories: ["reflection","how-to"]
 description: "Spring 2017, I started to experiment with the static website generator `Hugo` in alliance with the R package `blogdown` to publish weblogs post written in English. I planned to write, but after one year I have to say that it didn't turn out the way I have projected it."
-draft: no
+draft: yes
 lastmodifierdisplayname: Peter
 lastmodifieremail: jack.praker@icloud.com
 lastmod: 2019-05-31
@@ -26,6 +26,7 @@ I have written recently a post <a href="/2019/05/31/blog-writing-barriers-to-ove
 <div class="alert alert-danger" role="alert">
 <strong>Update:</strong> The following four paragraphs about _.Rmd files_ and _compiling_ are not correct. It turned out that I didn't understand quite well the interplay blogdown -> Github and Netlify. There is a new post coming on this subject.
 </div>
+
 + **Rmd-File:** I am not sure if there aren't some incompatibilities with my sophisticated theme, especially concerning the creation of new types of pages. But there should be no problem as I can always change the file extension later on. 
         - At the moment, I am not writing about R topics where I would need _.Rmd files_. But this could change very shortly, e.g., when I am writing posts about statistic subjects or using R packages in these posts. 
         - The intermediate HTML files can be cleaned up with the button "Clean All" under the "More" menu using the command `rmarkdown::cleansite()`.
@@ -42,3 +43,5 @@ I have written recently a post <a href="/2019/05/31/blog-writing-barriers-to-ove
 <div class="alert alert-danger" role="alert">
 <b>Update:</b> Again there is some confusion until the end of the article. I decided not to delete the wrong parts as these text passages will document my learning experiences. In the upcoming new blog post I will reference these wrong explanations.
 </div>
+
++ Add `title = ""` + Add `themes = ""` + Add `themesdir= ""` + Add `ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]` + Backup your site and run `blogdown::hugo_convert(to = "YAML", unsafe = TRUE)` + Set `relativeURLs = true` (default is false) to view your website with the `build_site()` command. If you want to see it in your browser than set "Preview in Window" under the configuration menue in the code pane. You can always view it with the `serve_site()` command (shortcut: CTRL-S) in the viewer pane or on the browser with a click in "Show in a new window" icon, right from the broom icon in the viewer pane.
