@@ -13,7 +13,8 @@ description: How to set comments in markdown?
 disable_comments: yes
 draft: no
 ---
-In reworking this ` docdock-theme` I wanted to document the reasons for these changes and how it is done. But I didn't know how to write comments in markdown. Searching in `Stack Overflow` I came up the following [solution](https://stackoverflow.com/questions/4823468/comments-in-markdown):
+
+In reworking this ` docdock-theme,` I wanted to document the reasons for my changes and how I have done it. But I didn't know how to write comments in markdown. Searching in `Stack Overflow` I came up with the following [solution](https://stackoverflow.com/questions/4823468/comments-in-markdown):
 
 ```
 [comment]: # (This is a comment, it will not be included.)
@@ -25,9 +26,9 @@ There exist other versions as well, but the example above is the most portable s
 It is also possible to write lengthy comments or to comment out a whole paragraph. 
 
 ```
-[comment]: # (In reworking this ` docdock-theme` I wanted to document the reasons for these changes and how it is done. But I didn't know how to write comments in markdown. Searching in `Stack Overflow` I came up the following [solution](https://stackoverflow.com/questions/4823468/comments-in-markdown):)
+In reworking this ` docdock-theme,` I wanted to document the reasons for my changes and how I have done it. But I didn't know how to write comments in markdown. Searching in `Stack Overflow` I came up with the following [solution](https://stackoverflow.com/questions/4823468/comments-in-markdown):
 ```
 
-[comment]: # (In reworking these `docdock-theme` I wanted to document the reasons for these changes and how it is done. But I didn't know how to write comments in markdown. Searching in `Stack Overflow` I came up the following [solution](https://stackoverflow.com/questions/4823468/comments-in-markdown):)
+[comment]: # (In reworking this ` docdock-theme,` I wanted to document the reasons for my changes and how I have done it. But I didn't know how to write comments in markdown. Searching in `Stack Overflow` I came up with the following [solution](https://stackoverflow.com/questions/4823468/comments-in-markdown):)
 
 But line breaks are not allowed.
