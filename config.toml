@@ -22,7 +22,7 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
 
 # pb: Disable comments on the whole site or use it in the header for just one article
 # TOML: disable_comments = true
-# YAML: disable_comments: true
+# YAML: disable_comments: yes
 
 title = "Open Science Education" # for RSS feed
 theme = "docdock"
@@ -31,7 +31,7 @@ themesdir = "themes"
 footnotereturnlinkcontents = "↩"
 
 # for emoji use the following format: :<name of emoji>:
-# for example: :wink:
+# for example: :wink: ATTN: does not work within Expand shortcode!
 # list of names at: https://github.com/afeld/emoji-css/tree/gh-pages/emoji
 # list of icons: https://afeld.github.io/emoji-css/ (e.g. convert <i class="em em-anchor"></i> to :anchor:)
 # see also: https://emojipedia.org/ (copy & paste)
@@ -98,7 +98,6 @@ enableEmoji = true
     disableAssetsBusting = false
 
     # Set this to true to disable copy-to-clipboard button for inline code.
-    # DOES NOT WORK
     disableInlineCopyToClipBoard = true
 
     # A title for shortcuts in menu is set by default. Set this to true to disable it.

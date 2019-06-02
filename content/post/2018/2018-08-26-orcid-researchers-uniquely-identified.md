@@ -8,17 +8,20 @@ categories:
 tags:
   - infrastructure
   - academic networking
+toc: yes
 lastmodifierdisplayname: Peter
 lastmodifieremail: jack.praker@icloud.com
 lastmod: 2019-06-02
 draft: no
 description: 'I applied for my ORCID-ID already several years ago, but only yesterday I understood the advantage of yet another web presence: ORCID is a non-profit organization and aims to identify researchers uniquely and to connect their contributions and affiliations across disciplines, borders, and time. With this post, I will tell you some advantages of ORCID to convince you to join.'
 ---
+
 Do you know [ORCID](https://orcid.org/)? I applied for my [ORCID-ID](https://orcid.org/0000-0003-4526-8791) already several years ago, but only yesterday I understood the advantage of yet another web presence: ORCID is a non-profit organization and aims to identify researchers uniquely and to connect their contributions and affiliations across disciplines, borders, and time. With this post, I tell you some advantages of ORCID to convince you to join.
 
 ## What is an ORCID ID?
 
 The last two week I worked hard to finish the 'official' nitty-gritty this web presence: CV, downloads for [publications](publication), [disclaimer](/disclaimer) and [privacy policy](/privacy). By this occasion, I cleaned up my .bib files and subsequently my [Zotero](https://www.zotero.org/petzi) and [ORCID](https://orcid.org/0000-0003-4526-8791) presence.
+
 
 The goal of ORCID is to provide an identifying infrastructure for individual research activities. The main idea is to connect research, funding, and publishing institutions with the individual researcher via a unique ID. It is similar to an electronic portfolio where you can establish so-called 'trusted' connections, e.g., where institutions are allowed to look into your scientific record and to add information to it. These institutional connections are --- by the way --- also the funding structure of ORCID: Membership organizations have to pay a pretty high subscription fee (starting with 5.150 US $) to connect and use their infrastructure with ORCID.
 
