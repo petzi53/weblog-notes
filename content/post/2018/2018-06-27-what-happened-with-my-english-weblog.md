@@ -7,6 +7,9 @@ tags: ["blogdown","hugo", "weblog"]
 categories: ["reflection","how-to"]
 description: "Spring 2017, I started to experiment with the static website generator `Hugo` in alliance with the R package `blogdown` to publish weblogs post written in English. I planned to write, but after one year I have to say that it didn't turn out the way I have projected it."
 draft: no
+lastmodifierdisplayname: Peter
+lastmodifieremail: jack.praker@icloud.com
+lastmod: 2018-06-01
 ---
 The <a href="https://bookdown.org/yihui/blogdown/">R package blogdown</a> was developed by Yihui Xie to make writing for the web as easy as possible. At least this is the intention and the theory. 
 
@@ -39,9 +42,3 @@ I have written recently a post <a href="/2019/05/31/blog-writing-barriers-to-ove
 <div class="alert alert-danger" role="alert">
 **Update 2019-05-31:** Again there is some confusion until the end of the article. I decided not to delete the wrong parts as these text passages will document my learning experiences. In the upcoming new blog post I will reference these wrong explanations.
 </div>
-+ Add `title = "<name of website>"`
-+ Add `themes = "<name of theme used>"`
-+ Add `themesdir= "<path-to-theme>"`
-+ Add `ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]`
-+ Backup your site and run `blogdown::hugo_convert(to = "YAML", unsafe = TRUE)`
-+ Set `relativeURLs = true` (default is false) to view your website with the `build_site()` command. If you want to see it in your browser than set "Preview in Window" under the configuration menue in the code pane. You can always view it with the `serve_site()` command (shortcut: CTRL-S) in the viewer pane or on the browser with a click in "Show in a new window" icon, right from the broom icon in the viewer pane.
