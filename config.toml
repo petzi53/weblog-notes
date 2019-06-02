@@ -43,6 +43,8 @@ enableEmoji = true
 [outputs]
     home = [ "HTML", "RSS", "JSON"]
 
+# Configure BlackFriday Markdown rendering.
+# See: https://gohugo.io/getting-started/configuration/#configure-blackfriday
 [blackfriday]
     hrefTargetBlank = true  # `true` opens external links in a new tab.
     fractions = true  # `false` disables smart fractions (e.g. 5/12 formatted as a fraction).
@@ -62,14 +64,17 @@ enableEmoji = true
     # Description of the site, will be used in meta information
     description = "Open Science & Data Science Education"
 
+    # options for highlight.js (version, additional languages, and theme)
+    highlightjsVersion: "9.12.0"
+    highlightjsCDN: "//cdn.bootcss.com"
+    highlightjsLang: ["r", "yaml", "tex"]
+    highlightjsTheme: "github"
+
     staticman = false
 
     noHomeIcon = false # Link in Menue to Homepage (default = false)
 
     summary_length = 200
-
-    # Configure BlackFriday Markdown rendering.
-    # See: https://gohugo.io/getting-started/configuration/#configure-blackfriday
 
     # Disable search function. It will hide search bar
     noSearch = false # default is false
