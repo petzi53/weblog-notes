@@ -15,12 +15,8 @@ disqusShortname = "petzi-2"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 languageCode = "en-us"
-rssLimit = 100
 DefaultContentLanguage = "en"
-copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
-
-[author]
-    name = "Peter Baumgartner"
+rssLimit = 100
 
 # pb: Disable comments on the whole site or use it in the header for just one article
 # TOML: disable_comments = true
