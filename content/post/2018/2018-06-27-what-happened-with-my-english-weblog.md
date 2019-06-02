@@ -9,7 +9,7 @@ description: "Spring 2017, I started to experiment with the static website gener
 draft: no
 lastmodifierdisplayname: Peter
 lastmodifieremail: jack.praker@icloud.com
-lastmod: 2018-06-01
+lastmod: 2019-06-01
 ---
 The <a href="https://bookdown.org/yihui/blogdown/">R package blogdown</a> was developed by Yihui Xie to make writing for the web as easy as possible. At least this is the intention and the theory. 
 
