@@ -140,4 +140,9 @@ enableEmoji = true
         url = "/index.xml"
         weight = 60
 
-
+### some notes about parameter for the YAML front matter for this theme:
+### included in /archetypes/default.md
+# lastmodifierdisplayname: Peter
+# lastmodifieremail: jack.praker@icloud.com
+# lastmod: ~
+# disable_comments: yes/no
