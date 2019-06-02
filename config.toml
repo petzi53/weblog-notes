@@ -64,9 +64,9 @@ enableEmoji = true
 
     staticman = false
 
-    noHomeIcon = true # default is
+    noHomeIcon = false # Link in Menue to Homepage (default = false)
 
-    summary_length = 500
+    summary_length = 200
 
     # Configure BlackFriday Markdown rendering.
     # See: https://gohugo.io/getting-started/configuration/#configure-blackfriday
