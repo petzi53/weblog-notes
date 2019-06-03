@@ -677,11 +677,6 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     text-align: center;
     font-size: 1.2rem;
 }
-.copyright {
-  font-size: 10pt;
-  text-align: center;
-  margin-top: -4rem;
-}
 
 
 #footer {
@@ -1365,4 +1360,90 @@ pre .copy-to-clipboard:hover {
   #body{
     margin-left: 0px;
   }
+}
+
+/**********************************************************************
+ *
+ *  pb: The following code adds to the theme-blue of the docdock theme
+ *
+ *********************************************************************/
+
+
+.display-centered{
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+}
+
+.centered{
+        text-align: center;
+}
+
+.smallpb {
+	max-width: 30%;
+	width: auto\9*0.3; /* ie8 */
+	height: auto;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+.floatright {
+	max-width: 30%;
+	width: auto\9*0.3; /* ie8 */
+	height: auto;
+	float: right;
+}
+
+.floatleft {
+	max-width: 30%;
+	width: auto\9*0.3; /* ie8 */
+	height: auto;
+	float: left;
+}
+
+.home-section {
+    padding: 30px 0 30px 0;
+  }
+
+footer {
+  margin: -1rem 0 0;
+  padding: -1rem 0;
+  width: 100%;
+}
+
+figcaption {
+  text-align: center;
+}
+
+# https://discourse.gohugo.io/t/handling-images-size-aligning/1940/2
+img[src$='#floatleft']
+{
+	max-width: 30%;
+	width: auto\9*0.3; /* ie8 */
+	height: auto;
+	float: left;
+}
+
+img[src$='#floatright']
+{
+	max-width: 30%;
+	width: auto\9*0.3; /* ie8 */
+	height: auto;
+	float: right;
+}
+
+
+.copyright {
+  font-size: 10pt;
+  text-align: center;
+  margin-top: -4rem;
+}
+
+#body img.inline-icon {
+    display: inline !important;
+    margin: 0 !important;
+    padding-right: 10px;
+    vertical-align: bottom;
 }

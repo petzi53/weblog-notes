@@ -10,11 +10,12 @@ slug: comments-in-markdown
 lastmodifierdisplayname: Peter
 lastmodifieremail: jack.praker@icloud.com
 description: How to set comments in markdown?
-disable_comments: yes
+disable_comments: no
 draft: no
 ---
 
 In reworking this ` docdock-theme,` I wanted to document the reasons for my changes and how I have done it. But I didn't know how to write comments in markdown. Searching in `Stack Overflow` I came up with the following [solution](https://stackoverflow.com/questions/4823468/comments-in-markdown):
+
 
 ```
 [comment]: # (This is a comment, it will not be included.)

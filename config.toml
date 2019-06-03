@@ -24,7 +24,7 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
 # TOML: disable_comments = true
 # YAML: disable_comments: yes
 
-title = "Open Science Education" # for RSS feed
+title = "Open Science Education" # for RSS feed and Search Engines
 theme = "docdock"
 themesdir = "themes"
 

@@ -65,11 +65,14 @@ After taking a short nap to calm down, I reconsidered my situation: Yes, it took
 
 And there also came some encouraging signals from the community: Both --- Georg Cushen and Yihui Xie --- responded almost immediately to my posts. Even the problem was not solved at that time; I decided to stick with the `academic-theme`. From some other interactions (issues and questions to the theme), I had built up trust to the theme author. George is committed to his theme and very busy to deliver the best product possible. So after a roll back to an older version, I began with this article. As it stands now, this was the right decision. George and Yuhus solved the issue together within two days.
 
-{{% notice info %}}
-UPDATE: As you can see from the footer, this website is using the `docdock` theme. After another year of a creative break in writing, I fired up the `blogdown` machinery again. And promptly: Because of several updates of Huge and the academic-theme I ran once more into error messages. In the last year, there were several breaking changes resulting in incompatibilities I have lost track and couldn't recover. --- So I changed to `docdock` back, but this time with somewhat more knowledge. Hopefully, I will not write another article next year, addressing still the same problem.
-{{% /notice %}}
-
 {{% /expand%}}
+
+<p id="from-docdock-to-academic"></p>
+{{% panel theme="primary" header="From docdock to academic theme and back again" %}}
+UPDATE: As you can see from the footer, this website is using the `docdock`- and not the `academic` theme I wrote above. I started with the `docdock` and abandoned it for reasons I mentioned above. After another year of creative abstinence of blog writing, in May 2019, I fired up the `blogdown` machinery again. But because of a combination of many updates of `Hugo` (from 0.27 to 0.55.6!) and the `academic` theme (from 2.4 to 4.3), I not only ran into a bunch of error messages, but I have also lost track of different breaking changes and couldn't recover. ---😳  So I changed to `docdock` back, but this time with somewhat more knowledge. Hopefully, my activities were not a circle but a helix movement where I managed some advances. I doThinking positively,  nhope I can stick with this theme in the future. I otw'itant to we another complaining article next year, addressing the same problems again.
+{{% /panel %}}
+
+
 
 {{%expand "EXPAND to read my conclusion and guidelines" %}}
 ## <a name="guidelines"></a>Lesson learned from my own experience
