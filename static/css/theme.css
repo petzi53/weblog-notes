@@ -677,6 +677,13 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     text-align: center;
     font-size: 1.2rem;
 }
+.copyright {
+  font-size: 10pt;
+  text-align: center;
+  margin-top: -4rem;
+}
+
+
 #footer {
     padding: 2rem 1rem 0 ;
     color: #b3b3b3;
