@@ -1,0 +1,46 @@
+---
+title: "Test Pictures in .Rmd File"
+author: "Peter Baumgartner"
+date: '2017-09-13'
+slug: test-pictures-in-rmd-file
+tags: [test]
+categories: [test]
+description: Still to write
+draft: true
+
+
+---
+
+## Pictures with shortcodes
+
+There is a problem of rendering with hugo pictures shortcodes in blogdown. You need to frame the doble quotes of the picture source with single quotes.
+
+```
+blogdown::shortcode("figure", src = '"/img/blogdown-tutorial/four-pane-view-after-installation.png"', alt = "Some alt text")
+```
+
+With this workaorund pictured called via Hugo shortcodes should now show up:
+
+
+```{r starting-point, echo=FALSE}
+blogdown::shortcode("figure", src = '"/img/blogdown-tutorial/four-pane-view-after-installation.png"', alt = "Some alt text")
+```
+YEP! It worked!
+
+
+## Pictures with knitr
+
+
+```{r echo=TRUE}
+knitr::include_graphics("/img/blogdown-tutorial/four-pane-view-after-installation.png")
+```
+
+## Pictures with standard markdown: 
+
+Image is shown but the alt text is also shown as normal text.
+
+```
+![my alt text](/img/blogdown-tutorial/four-pane-view-after-installation.png)
+```
+
+![my alt text](/img/blogdown-tutorial/four-pane-view-after-installation.png)

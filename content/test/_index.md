@@ -1,13 +1,15 @@
 ---
-date: 2017-04-24T18:36:24+02:00
+alwaysopen: false
+filelisting: yes
 description: ""
 title: Test
-weight: 20
-pre: "<i class='fa fa-user'>&nbsp;&nbsp;&nbsp;</i> "
-disable_comments: true
-draft: yes
-fileListing: yes
-lastmod: 2019-06-04
+pre: "<i class='fa fa-wrench'>&nbsp;&nbsp;</i> "
+weight: 1000
+disable_comments: yes
+draft: true
 hidden: true
 ---
-Description of Test
+
+Some experiments with this theme. In the end I will integrate these pages into my folder "Documentation".
+
+

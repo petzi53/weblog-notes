@@ -21,8 +21,10 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
 
 
 # pb: Disable comments on the whole site or use it in the header for just one article
+# DOES NOT WORK! (I have to do it in every article!)
 # TOML: disable_comments = true
 # YAML: disable_comments: yes
+# disable_comments = yes
 
 title = "Open Science Education" # for RSS feed and Search Engines
 theme = "docdock"
@@ -49,7 +51,7 @@ enableEmoji = true
 # Configure BlackFriday Markdown rendering.
 # See: https://gohugo.io/getting-started/configuration/#configure-blackfriday
 [blackfriday]
-    hrefTargetBlank = true  # `true` opens external links in a new tab.
+    hrefTargetBlank = false  # `true` opens external links in a new tab.
     fractions = true  # `false` disables smart fractions (e.g. 5/12 formatted as a fraction).
     smartypants = true  # `false` disables all smart punctuation substitutions (e.g. smart quotes, dashes, fractions).
 
