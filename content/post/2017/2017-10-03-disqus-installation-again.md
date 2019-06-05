@@ -2,13 +2,17 @@
 title: Disqus installation again
 author: Peter Baumgartner
 date: '2017-10-03'
-slug: disqus-installation-again
 categories:
-  - static sites
+  - webService
 tags:
   - disqus
   - hugo
-description: 'A short personal note on my tutorial on Disqus installation: I have used for my screenshots, not this `docdock` but the hugo-academic theme. I have changed from `docdock` to `hugo-academic` and now (2017-05-31) I am back at `docdock` again. I will explain the reason for this twofold change in one of my next blog post. I am also planning to update text and screenshots to the new blogdown versions.'
+slug: disqus-installation-again
+description: 'A short personal note on my tutorial on Disqus installation: I have
+  used for my screenshots, not this `docdock` but the hugo-academic theme. I have
+  changed from `docdock` to `hugo-academic` and now (2017-05-31) I am back at `docdock`
+  again. I will explain the reason for this twofold change in one of my next blog
+  post. I am also planning to update text and screenshots to the new blogdown versions.'
 draft: no
 ---
 

@@ -1,14 +1,15 @@
 ---
+title: Comments not allowed
 author: Peter Baumgartner
+date: '2017-09-17'
 categories:
-- test
-tags: [test]
-date: 2017-09-17T09:00:00+02:00
+  - test
+tags:
+  - staticman
 description: This example demonstrates how to forbid comments in certain post?
 slug: comments-not-allowed
-title: Comments not allowed
-commentsNotAllowed: true
-draft: true
+commentsNotAllowed: yes
+draft: yes
 ---
 
 This example demonstrates how to forbid comments (with `staticman`):

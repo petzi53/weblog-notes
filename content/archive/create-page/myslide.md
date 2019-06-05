@@ -1,14 +1,20 @@
 ---
-date: 2017-04-24T18:36:24+02:00
-hidden: true
+title: My Slide ! fullscreen
+author: Peter Baumgartner
+date: '2017-04-24'
+categories:
+  - demo
+  - slide
+tags:
+  - reveal.js
+hidden: yes
 revealOptions:
-  center: true
-  controls: true
-  history: false
-  progress: true
+  center: yes
+  controls: yes
+  history: no
+  progress: yes
   transition: concave
 theme: league
-title: My Slide ! fullscreen
 type: slide
 disable_comments: yes
 draft: yes

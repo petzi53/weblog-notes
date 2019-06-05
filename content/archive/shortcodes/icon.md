@@ -1,6 +1,13 @@
 ---
-description: Display an icon.
 title: icon
+author: Peter Baumgartner
+date: '2019-06-05'
+categories:
+  - demo
+  
+  - how-to
+  - shortcode
+description: Display an icon.
 disable_comments: yes
 draft: yes
 ---

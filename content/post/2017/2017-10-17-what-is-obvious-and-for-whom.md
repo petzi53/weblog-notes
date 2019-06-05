@@ -2,14 +2,14 @@
 title: What is obvious and for whom?
 author: Peter Baumgartner
 date: '2017-10-17'
-slug: what-is-obvious-and-for-whom
 categories:
-  - how-to
-  - tacit knowledge
-tags:
-  - bookdown
-  - blogdown
-description: 'Inspired from a blog post by Yihui Xie, I reflect in this post about communications difficulties between experts (e.g., software engineers) and lay persons (users). Starting position is my own fault in providing the full and correct information when filing issues about bookdown and blogdown. Be aware: This is a somewhat theoretical/philosophical discussion.'
+  - opinion
+slug: what-is-obvious-and-for-whom
+description: 'Inspired from a blog post by Yihui Xie, I reflect in this post about
+  communications difficulties between experts (e.g., software engineers) and lay persons
+  (users). Starting position is my own fault in providing the full and correct information
+  when filing issues about bookdown and blogdown. Be aware: This is a somewhat theoretical/philosophical
+  discussion.'
 draft: no
 ---
 

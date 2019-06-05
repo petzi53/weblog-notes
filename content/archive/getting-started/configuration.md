@@ -1,7 +1,12 @@
 ---
-description: ""
 title: Configuration
-date: 2017-04-24
+author: Peter Baumgartner
+date: '2017-04-24'
+categories:
+  - how-to
+  
+tags:
+  - config
 disable_comments: yes
 draft: yes
 ---

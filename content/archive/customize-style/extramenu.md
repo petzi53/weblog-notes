@@ -1,6 +1,12 @@
 ---
-date: 2017-04-29T18:36:24+02:00
 title: Extra menu entries
+author: Peter Baumgartner
+date: '2017-04-29'
+categories:
+  
+tags:
+  - docdockTheme
+  - menu
 disable_comments: yes
 draft: yes
 ---

@@ -2,11 +2,19 @@
 title: Learned
 author: Peter Baumgartner
 date: '2019-06-04'
+categories:
+  - collection
+  - how-to
+  - lessonLearned
+  - notes
+  - update
+tags:
+  - addins
+  - config
+  - rstudio
+  - YAML
 slug: changes
-categories: []
-tags: []
-lastmod: 2019-06-05
-description: ''
+lastmod: '2019-06-05'
 toc: no
 disable_comments: yes
 draft: yes
@@ -35,7 +43,7 @@ draft: yes
 
 ### RStudio
 + Looking for text in files (in RStudio)
-+ Shortcuts for RStudio adding: 
++ Shortcuts for RStudio addins: 
     * Serve Site = CTRL S
     * New Post = CTRL P
     * Update Metadata = CTRL M

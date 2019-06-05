@@ -1,7 +1,16 @@
 ---
-date: 2017-04-24
-slug: about-images-md
 title: About images (.md)
+author: Peter Baumgartner
+date: '2017-04-24'
+categories:
+  - collection
+  - demo
+  
+  - how-to
+tags:
+  - image
+  - markdown
+slug: about-images-md
 description: This post demonstrates different methods to display pictures.
 disable_comments: yes
 draft: yes

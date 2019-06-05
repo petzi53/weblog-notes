@@ -1,7 +1,13 @@
 ---
-date: 2017-04-24T18:36:24+02:00
-description: ""
 title: Present a Slide
+author: Peter Baumgartner
+date: '2017-04-24'
+categories:
+  - demo
+  - how-to
+  
+tags:
+  - reveal.js
 disable_comments: yes
 draft: yes
 ---

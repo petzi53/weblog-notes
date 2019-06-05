@@ -2,11 +2,14 @@
 title: File Extension '.Rmarkdown'
 author: Peter Baumgartner
 date: '2017-09-11'
+categories:
+  - test
+tags:
+  - .Rmarkdown
 slug: rmarkdown-file-extension
-categories: [test]
-tags: [test]
-draft: true
-description: What are the properties of the `.Rmarkdown` extension in relation to `Rmd` and `md` files?
+draft: yes
+description: What are the properties of the `.Rmarkdown` extension in relation to
+  `Rmd` and `md` files?
 ---
 
 ## Advantages of using `.Rmarkdown` files

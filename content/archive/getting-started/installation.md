@@ -1,7 +1,14 @@
 ---
-description: ""
 title: Installation
-date: 2017-04-24
+author: Peter Baumgartner
+date: '2017-04-24'
+categories:
+  
+  - installation
+  - how-to
+tags:
+  - docdockTheme
+  - hugo
 disable_comments: yes
 draft: yes
 ---

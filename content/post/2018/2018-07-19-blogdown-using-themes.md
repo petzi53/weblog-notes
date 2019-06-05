@@ -2,14 +2,22 @@
 title: 'Using themes with blogdown: Lesson learned'
 author: Peter Baumgartner
 date: '2018-07-19'
+categories:
+  - lessonLearned
+tags:
+  - hugo
+  - academicTheme
+  - docdockTheme
+  - ghostwriterTheme
+  - blogdown
 slug: blogdown-using-themes
-categories: ["blogdown"]
-tags: ["hugo", "theme"]
 draft: no
-lastmodifierdisplayname: Peter
-lastmodifieremail: jack.praker@icloud.com
-lastmod: 2019-06-03
-description: 'After almost one year of interruption, I started re-using blogdown again.  But instead of writing new content, I had to struggle once again with using the sophisticated machinery of  Hugo hidden in the functionality of its themes.  In this post, I will report on my Odyssean experience and --- more important --- I will suggest guidelines on how to start, explore, and use themes in blogdown.'
+lastmod: '2019-06-03'
+description: After almost one year of interruption, I started re-using blogdown again.  But
+  instead of writing new content, I had to struggle once again with using the sophisticated
+  machinery of  Hugo hidden in the functionality of its themes.  In this post, I will
+  report on my Odyssean experience and --- more important --- I will suggest guidelines
+  on how to start, explore, and use themes in blogdown.
 ---
 After almost one year of interruption, I started re-using [blogdown](https://bookdown.org/yihui/blogdown/) again.  But instead of writing new content, I had to struggle once again using the sophisticated machinery of  [Hugo](https://gohugo.io/) and my [academic-theme](https://sourcethemes.com/academic/). With painful experiences, I learned that one has to be cautious with updates to prevent breaking changes. In this post, I will report on my Odyssean experience and --- more important --- I will suggest guidelines on how to start, explore, and use themes in blogdown.
 

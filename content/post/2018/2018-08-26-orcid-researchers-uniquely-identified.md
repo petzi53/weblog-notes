@@ -7,10 +7,8 @@ categories:
   - openScience
 tags:
   - infrastructure
-  - academic networking
+  - academicNetworking
 toc: yes
-lastmodifierdisplayname: Peter
-lastmodifieremail: jack.praker@icloud.com
 lastmod: 2019-06-02
 draft: no
 description: 'I applied for my ORCID-ID already several years ago, but only yesterday I understood the advantage of yet another web presence: ORCID is a non-profit organization and aims to identify researchers uniquely and to connect their contributions and affiliations across disciplines, borders, and time. With this post, I will tell you some advantages of ORCID to convince you to join.'

@@ -1,14 +1,18 @@
 ---
-title: "Test Pictures in .Rmd File"
-author: "Peter Baumgartner"
+title: Test Pictures in .Rmd File
+author: Peter Baumgartner
 date: '2017-09-13'
+categories:
+  - test
+  - demo
+  - how-to
+tags:
+  - image
+  - blogdown
+  - hugo
 slug: test-pictures-in-rmd-file
-tags: [test]
-categories: [test]
 description: Still to write
-draft: true
-
-
+draft: yes
 ---
 
 ## Pictures with shortcodes

@@ -2,11 +2,16 @@
 title: Changed
 author: Peter Baumgartner
 date: '2019-06-04'
+categories:
+  - collection
+  - demo
+  - notes
+  - partial
+tags:
+  - archetype
+  - blackFriday
+  - lastmod
 slug: changed
-categories: []
-tags: []
-lastmod: ~
-description: ''
 toc: no
 disable_comments: yes
 draft: yes

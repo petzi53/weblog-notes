@@ -1,7 +1,14 @@
 ---
-title: "RStudio installieren (Deutsch)"
-author: "Peter Baumgartner"
+title: RStudio installieren (Deutsch)
+author: Peter Baumgartner
 date: '2018-01-03'
+categories:
+  - german
+  - how-to
+  - installation
+  - slide
+tags:
+  - rstudio
 output:
   html_document:
     df_print: paged
@@ -13,7 +20,8 @@ revealOptions:
   transition: concave
 slug: installiere-rstudio
 theme: league
-description: Tutorial zum Installieren der R Entwicklungsumgebung RStudio für Mac und Windows
+description: Tutorial zum Installieren der R Entwicklungsumgebung RStudio für Mac
+  und Windows
 type: slide
 ---
 

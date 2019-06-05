@@ -1,19 +1,20 @@
 ---
-title: 'Blog writing barriers to overcome'
-author: 'Peter Baumgartner'
+title: Blog writing barriers to overcome
+author: Peter Baumgartner
 date: '2019-05-31'
-slug: blog-writing-barriers-to-overcome
 categories:
-  - blogdown
   - reflection
+  - lessonLearned
 tags:
-  - academic-theme
+  - academicTheme
   - hugo
   - weblog
-lastmodifierdisplayname: Peter
-lastmodifieremail: jack.praker@icloud.com
-lastmod: 2019-06-03
-description: 'Another year has elapsed since I wrote my last blog entry. At first, I thought the problem is only my English. But in the meanwhile, I see several other reasons why I do not blog for the new static website(s).'
+  - blogdown
+slug: blog-writing-barriers-to-overcome
+lastmod: '2019-06-03'
+description: Another year has elapsed since I wrote my last blog entry. At first,
+  I thought the problem is only my English. But in the meanwhile, I see several other
+  reasons why I do not blog for the new static website(s).
 draft: no
 ---
 Another year has elapsed since I wrote my last blog entry. At first, I thought the problem is only my English. But in the meanwhile, I see several other reasons why I do not blog for the new static website(s).

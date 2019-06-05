@@ -1,12 +1,15 @@
 ---
-title: "Hello R Markdown"
-author: "Frida Gomam"
-date: 2015-07-23T21:13:14-05:00
-categories: ["test"]
-tags: ["R Markdown", "plot", "regression"]
+title: Hello R Markdown
+author: Frida Gomam
+date: '2015-07-24'
+categories:
+  - test
+  - demo
+tags:
+  - R Markdown
 slug: hello-r-markdown
 description: This is the test file included with the standard installation procedure.
-draft: true
+draft: yes
 ---
 
 ```{r setup, include=FALSE}

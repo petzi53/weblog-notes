@@ -1,17 +1,21 @@
 ---
+title: Last modified meta data
 author: Peter Baumgartner
-categories: [test, help]
-tags: [test]
-date: 2017-09-19
+date: '2017-09-19'
+categories:
+  - how-to
+  - test
+  - partial
+tags:
+  - lastmod
 description: How to apply last modified data to the footer?
 slug: last-modified-meta-data
-title: Last modified meta data
 creatordisplayname: Peter Baumgartner
 creatoremail: peter.baumgartner@icloud.com
 lastmodifierdisplayname: Petzi Baumgartner
 lastmodifieremail: peter.baumgartner@icloud.com
-lastmod: 2017-09-23
-draft: true
+lastmod: '2017-09-23'
+draft: yes
 ---
 
 #### add to the YAML frontmatter

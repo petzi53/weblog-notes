@@ -1,10 +1,20 @@
 ---
-title: "R installieren (Deutsch)"
-author: "Peter Baumgartner"
+title: R installieren (Deutsch)
+author: Peter Baumgartner
 date: '2018-01-02'
+categories:
+  - how-to
+  - installation
+  - slide
+  - german
+tags:
+  - blogdown
+  - hugo
+  - r
+  - rstudio
 output:
-  html_document:
-    df_print: paged
+  html_document: ~
+  df_print: paged
 revealOptions:
   center: yes
   controls: yes

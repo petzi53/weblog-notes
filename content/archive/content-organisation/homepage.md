@@ -1,7 +1,12 @@
 ---
-date: 2017-04-28T18:36:24+02:00
-description: ""
 title: Home page
+author: Peter Baumgartner
+date: '2017-04-28'
+categories:
+  - how-to
+  
+tags:
+  - indexPage
 disable_comments: yes
 draft: yes
 ---

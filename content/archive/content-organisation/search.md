@@ -1,12 +1,16 @@
 ---
-date: 2017-04-24
-description: ""
 title: Search Engine
+author: Peter Baumgartner
+date: '2017-04-24'
+categories:
+  
+tags:
+  - docdockTheme
+  - search
 slug: search
 weight: 140
 disable_comments: yes
 draft: yes
-
 ---
 
 **Nothing to do on your side. :-)**

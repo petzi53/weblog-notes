@@ -1,6 +1,14 @@
 ---
-description: "It displays ‘excerpted’ (that is, a segment of) content from one page into another."
 title: excerpt-include
+author: Peter Baumgartner
+date: '2019-06-05'
+categories:
+  - demo
+  
+  - how-to
+  - shortcode
+description: It displays ‘excerpted’ (that is, a segment of) content from one page
+  into another.
 disable_comments: yes
 draft: yes
 ---

@@ -3,9 +3,7 @@ title: 'Physics Libre:  A bookdown project'
 author: Peter Baumgartner
 date: '2019-06-05'
 categories:
-  - article
-  - experience
-  - interview
+  - project
   - report
 tags:
   - bookdown

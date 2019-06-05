@@ -1,11 +1,14 @@
 ---
+title: Blackfriday markdown
+author: Peter Baumgartner
+date: '2017-09-20'
 categories:
-- demo
-date: 2017-09-20
+  - demo
+tags:
+  - blackFriday
+  - markdown
 description: Markdown syntax of Blackfriday explained by examples
 slug: blackfriday-markdown
-tags: []
-title: Blackfriday markdown
 disable_comments: yes
 draft: yes
 ---

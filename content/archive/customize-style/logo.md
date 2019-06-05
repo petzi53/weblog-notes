@@ -1,7 +1,11 @@
 ---
-date: 2017-04-24T18:36:24+02:00
-description: ""
 title: Logo placeholder
+author: Peter Baumgartner
+date: '2017-04-24'
+categories:
+  
+tags:
+  - logo
 draft: yes
 disable_comments: yes
 ---

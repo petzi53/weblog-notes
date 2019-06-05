@@ -1,7 +1,13 @@
 ---
-title: "LaTeX installieren (Deutsch)"
-author: "Peter Baumgartner"
+title: LaTeX installieren (Deutsch)
+author: Peter Baumgartner
 date: '2018-01-07'
+categories:
+  - installation
+  - how-to
+  - german
+tags:
+  - latex
 output:
   html_document:
     df_print: paged

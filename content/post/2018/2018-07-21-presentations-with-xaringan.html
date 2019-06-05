@@ -4,12 +4,14 @@ author: Peter Baumgartner
 date: '2018-07-21'
 categories:
   - how-to
+  - R-Package
 tags:
   - blogdown
-  - bookdown
-  - slides
+  - xaringan
 slug: presentations-with-xaringan
-description: 'This post demonstrates how to present slideshows with the Xaringan package. I explain how to integrate slideshows with Xaringan into blogdown via internal and external links.'
+description: This post demonstrates how to present slideshows with the Xaringan package.
+  I explain how to integrate slideshows with Xaringan into blogdown via internal and
+  external links.
 draft: no
 ---
 
@@ -36,7 +38,7 @@ draft: no
 <p><strong>Two observations:</strong></p>
 <ol style="list-style-type: decimal">
 <li>There is no need to load the Xaringan package with <code>library(xaringan)</code>. At the moment, I do not understand why this is not necessary.</li>
-<li>In the second example, the gray left and right margin have disappeared. The parameter <code>height = &quot;505px&quot;</code> does this. To tweak this, I had to experiment with the optimal pixel value. (Maybe there is a better way to tweak this parameter with the valid value, e.g., taking the value from the CSS.)</li>
+<li>In the second example, the gray left and right margin have disappeared. The parameter <code>height = "505px"</code> does this. To tweak this, I had to experiment with the optimal pixel value. (Maybe there is a better way to tweak this parameter with the valid value, e.g., taking the value from the CSS.)</li>
 </ol>
 <p>The height parameter solves one of the problems mentioned by Tim:</p>
 <blockquote>
