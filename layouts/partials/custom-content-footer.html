@@ -2,6 +2,8 @@
 
 {{ partial "copyright.html" . }}
 
+{{ template "_internal/disqus.html" . }}
+
 {{ if .Site.Params.staticman}}
 {{ if not .Page.Params.commentsnotallowed}}
         <div>
@@ -20,8 +22,4 @@
 {{ end }}
 {{ end }}
 
-<!--
-{{ template "_internal/disqus.html" . }}
--->
 
-{{ partial "disqus.html" . }}

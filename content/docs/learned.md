@@ -20,7 +20,19 @@ disable_comments: yes
 draft: yes
 ---
 
+## Recommended workflow
+
++ After editing / changing a file, do not forget to save it!
+
++ To submit these changes to Hugo you have to start the server with CTRL-S.
+
 + If somethings goes wrong with lines in the  configuration files, YAML header or with a shortcut or other command, Hugo does not necessarily show the problem. But when I restart R and server I will get an error message. **Therefore:** Always check with CMD-SHIFT-10 (restart R) and CTRL-S (start server) if everything is ok!
+
++ I noticed that for some critical issues restarting R was not enough: I had to restart RStudio,
+
++ When checking the changes do not forget to force a reload of the page to delete the browser cache.
+
+***
 
 + Install RStudio Addins and provide shortcuts: https://rstudio.github.io/rstudio-extensions/rstudio_addins.html and https://www.youtube.com/watch?v=zAtf9NkSOUg
 
