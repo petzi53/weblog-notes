@@ -1,5 +1,5 @@
 ---
-title: 'Physics Libre:  A bookdown project'
+title: 'Physik Libre:  A bookdown project'
 author: Peter Baumgartner
 date: '2019-06-05'
 categories:
@@ -28,7 +28,7 @@ The article is an interview with Michael Rundel. Michael is a teacher at a gramm
 This article is an interview with Michael Rundel. Michael is a teacher at a grammar school in Vienna/Austria and teaches physics, computer science, and media design. He talks about his experiences with blogdown in writing Physik Libre ( https://physikbuch.schule/), a new textbook on physics. His project is a practical implementation of cross-media publishing with `bookdown`, which I had described by in my  [7-part German tutorial](https://peter.baumgartner.name/schlagwort/cmp/) on my other blog [Gedankensplitter](https://peter.baumgartner.name). 
 
 
-{{< figure src="/post/2019/2019-06-04-physics-libre.en_files/michael-rundel-min.jpg" class="floatleft"
+{{< figure src="/img/2019-06-04-physik-libre.en_files/michael-rundel-min.jpg?classes=border, shadow" class="floatleft"
     alt="Photo of Michael Rundel" title="Michael Rundel (CC-BY Michael Rundel)" >}}
 
 The interview took place two years ago, but I didn't find until now the time to translate it into English and to publish the article in this weblog. I asked the questions in German via email and translated the text with the help of [Google Translate](https://translate.google.com/), [dict.cc], and [thesarus.com]. Where it was useful, I have links provided the first time the concept or software was mentioned. Subsequently, I have these same notions marked as red text. I edited the article with the premium version of [Grammarly](https://www.grammarly.com/). If you are a native English speaker, I would be happy to know about the mistakes in grammar or other language issues. Please use the `Edit Page` button on the top right corner to provide improvement via a pull request to my [GitHub](https://github.com/) repository.
@@ -44,11 +44,11 @@ There is already a very long tradition of Open Education Resources (OER) in the 
 
 We can see many extremely positive developments in recent years: web technologies have matured, projects like [Gitbook](https://www.gitbook.com/) allow you to create documents with minimal effort, we now have a variety of free program tools and [Creative Commons](https://creativecommons.org/) licensed [more than 1.1 billion media available](https://www.oercommons.org/) on different [websites and repositories for educational purposes](https://www.smartcopying.edu.au/open-education/creative-commons/creative-commons-information-pack-for-teachers-and-students/quick-reference-guide-to-finding-creative-commons-material) available , and collaborative platforms like [GitHub](https://github.com/), [GitLab](https://about.gitlab.com/) or `Bitbucket` are no longer used exclusively by programmers.
 
-## Physics Libre as "Proof of Concept"
+## Physik Libre as "Proof of Concept"
 
-With `Physics Libre` I want to show what is possible today with the latest technology using the example of a physics book for the secondary school.  It is a proof of concept – if you will. The last few years of Linux have shaped me, I'm afraid. The following points are important to me personally for the implementation of the project:
+With `Physik Libre` I want to show what is possible today with the latest technology using the example of a physics book for the secondary school.  It is a proof of concept – if you will. The last few years of Linux have shaped me, I'm afraid. The following points are important to me personally for the implementation of the project:
 
-{{< figure src="/post/2019/2019-06-04-physics-libre.en_files/physics-browser-smartphone-min-576x1024.jpg?classes=border, shadow" class="floatright" alt="Page of 'Physics Libre' on a smartphone" title="Page of 'Physics Libre' on a smartphone" >}}
+{{< figure src="/img/2019-06-04-physik-libre.en_files/physik-browser-smartphone-min-576x1024.jpg?classes=border, shadow" class="floatright" alt="Page of 'Physik Libre' on a smartphone" title="Page of 'Physik Libre' on a smartphone" >}}
 
 + Device-independent (Smart TV, PC, notebook, tablet, smartphone, e-book reader, print)
 + Operating system independent (web browser, ePub reader, PDF reader)
@@ -69,12 +69,12 @@ _**Question:** Could you give me a short overview of the historical development 
 
 The idea was roughly born three years ago when I was experimenting with the [canvas element]( https://en.wikipedia.org/wiki/Canvas_element), which I was using in my physics applets. This technology helped me to abandon flash applets. Don't get me wrong! – Flash was a neat tool in its time, and I loved working with it. But it always felt like a workaround, and furthermore, it was proprietary software. At that time (2016), I thought there are all building blocks available to realize such a project with pure web technology.
 
-{{< figure src="/post/2019/2019-06-04-physics-libre.en_files/cover-physics-libre-min.jpg?classes=border, shadow" class="floatleft"
-    alt="Cover of the online physics book 'Physics Libre'" title="Cover of the online physics book 'Physics Libre'" >}}
+{{< figure src="/img/2019-06-04-physik-libre.en_files/cover-physik-libre-min.jpg?classes=border, shadow" class="floatleft"
+    alt="Cover of the online physics book 'Physik Libre'" title="Cover of the online physics book 'Physik Libre'" >}}
 
 The following months I learned [SVG] (https://en.wikipedia.org/wiki/Scalable_Vector_Graphics) and `Inkscape`, discovered [Markdown](https://daringfireball.net/projects/markdown/) and the document converter `pandoc`, the version control system [git](https://git-scm.com/) and the `GitBook` project. Summer 2017, I learned about the `R` package `bookdown`. The following school year, I have taught a class of 5th grades of Austrian secondary school (second year of the upper school) in physics. So I decided to start the work on the project.
 
-**Question:** What were your most significant hurdles to overcome in finishing the `Physics Libre` project successfully?? 
+**Question:** What were your most significant hurdles to overcome in finishing the `Physik Libre` project successfully?? 
 
 The biggest challenge for me was time constraints. I managed to finish the project with sleeping sparsely.
 
@@ -101,8 +101,8 @@ At the beginning of the project, two considerations were crucial.
 
 But real life is quite different!
 
-{{< figure src="/post/2019/2019-06-04-physics-libre.en_files/physics-browser-desktop-min.jpg?classes=border, shadow"
-    alt="Page of 'Physics Libre' on a desktop computer" title="Page of 'Physics Libre' on a desktop computer" >}}
+{{< figure src="/img/2019-06-04-physik-libre.en_files/physik-browser-desktop-min.jpg?classes=border, shadow"
+    alt="Page of 'Physik Libre' on a desktop computer" title="Page of 'Physik Libre' on a desktop computer" >}}
 
 
 Concerning the first point: Although there are already many excellent free tools such as `pandoc` and `bookdown` for the generation of documents and final formats, the devil is in the details. For example, many images from [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page), have wrong dots per inch ([DPI](https://en.wikipedia.org/wiki/Dots_per_inch) entries in the metadata. But this piece of information is essential for printing. If I use, for example, an animated gif picture in the web version, a particular frame must be captured and integrated for the print version.
