@@ -3,7 +3,10 @@ title: What is obvious and for whom?
 author: Peter Baumgartner
 date: '2017-10-17'
 categories:
-  - opinion
+  - reflection
+  - lessens-learned
+tags:
+  - bookdown
 slug: what-is-obvious-and-for-whom
 description: 'Inspired from a blog post by Yihui Xie, I reflect in this post about
   communications difficulties between experts (e.g., software engineers) and lay persons
@@ -101,7 +104,6 @@ There is no possibility to examine all belief systems at the same time. The whol
 
 [StackOverflow](https://stackoverflow.com/) for instance, is very, very good for “ready-to-hand” explanations but does - as far as I know - does a lousy job for building up mental models. Discussions about different but similar software packages, their advantages and disadvantages are forbidden.^[At least this is _my_ mental model from [StackOverflow](https://stackoverflow.com/). For instance, my question about the difference between [packrat](https://rstudio.github.io/packrat/) and [checkpoint](https://cran.r-project.org/web/packages/checkpoint/index.html) was closed as off-topic.]
 
-***
 
 
 

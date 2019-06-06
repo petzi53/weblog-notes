@@ -5,7 +5,7 @@ date: '2019-06-04'
 categories:
   - collection
   - how-to
-  - lessonLearned
+  - lessens-learned
   - notes
   - update
 tags:

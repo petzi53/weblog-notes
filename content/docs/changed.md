@@ -4,13 +4,14 @@ author: Peter Baumgartner
 date: '2019-06-04'
 categories:
   - collection
+  - config
   - demo
-  - notes
-  - partial
+  - my-notes
 tags:
   - archetype
   - blackFriday
   - lastmod
+  - partial
 slug: changed
 toc: no
 disable_comments: yes

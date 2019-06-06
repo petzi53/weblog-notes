@@ -4,10 +4,10 @@ author: Peter Baumgartner
 date: '2018-08-26'
 slug: orcid-researchers-uniquely-identified
 categories:
-  - openScience
+  - open-science
 tags:
   - infrastructure
-  - academicNetworking
+  - academic-networking
 toc: yes
 lastmod: 2019-06-02
 draft: no

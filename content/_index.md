@@ -1,6 +1,7 @@
 ---
-date: 2017-04-24T18:36:24+02:00
+date: 2017-04-27
 description: ""
-title: Peter's Blog
-lastmod: 2019-06-04
+title: "Peter's Blog"
+lastmod:
+disable_comments: true
 ---

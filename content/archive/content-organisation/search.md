@@ -5,7 +5,7 @@ date: '2017-04-24'
 categories:
   
 tags:
-  - docdockTheme
+  - theme-docdock
   - search
 slug: search
 weight: 140

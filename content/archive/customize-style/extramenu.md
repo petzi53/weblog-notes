@@ -5,7 +5,7 @@ date: '2017-04-29'
 categories:
   
 tags:
-  - docdockTheme
+  - theme-docdock
   - menu
 disable_comments: yes
 draft: yes

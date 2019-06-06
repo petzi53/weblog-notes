@@ -7,7 +7,7 @@ categories:
   - installation
   - how-to
 tags:
-  - docdockTheme
+  - theme-docdock
   - hugo
 disable_comments: yes
 draft: yes

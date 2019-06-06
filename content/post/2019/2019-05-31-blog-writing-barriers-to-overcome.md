@@ -4,9 +4,9 @@ author: Peter Baumgartner
 date: '2019-05-31'
 categories:
   - reflection
-  - lessonLearned
+  - lessens-learned
 tags:
-  - academicTheme
+  - theme-academic
   - hugo
   - weblog
   - blogdown
