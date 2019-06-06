@@ -2,10 +2,10 @@
 title: attachments
 author: Peter Baumgartner
 date: '2019-06-05'
+weight: 20
 categories:
   - shortcode
   - demo
-  
   - how-to
 description: The Attachments shortcode displays a list of files attached to a page.
 disable_comments: yes

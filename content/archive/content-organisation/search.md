@@ -3,12 +3,11 @@ title: Search Engine
 author: Peter Baumgartner
 date: '2017-04-24'
 categories:
-  
 tags:
   - theme-docdock
   - search
 slug: search
-weight: 140
+weight: 2000
 disable_comments: yes
 draft: yes
 ---
