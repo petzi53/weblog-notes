@@ -108,7 +108,27 @@ enableEmoji = true
     # When using mulitlingual website, disable the switch language button.
     # disableLanguageSwitchingButton = false
 
-
+# Parameter for the General Data Protection Regulation (GDPR)
+[privacy]
+  [privacy.disqus]
+    disable = false
+  [privacy.googleAnalytics]
+    disable = false
+    anonymizeIP = true
+    respectDoNotTrack = true
+    useSessionStorage = true
+  [privacy.instagram]
+    disable = true
+  [privacy.twitter]
+    disable = false
+    enableDNT = false
+    simple = false
+  [privacy.vimeo]
+    disable = false
+    simple = true
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = true
 
 [[menu.shortcuts]]
         pre = "<h3>More</h3>"

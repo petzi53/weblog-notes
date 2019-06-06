@@ -1447,3 +1447,14 @@ img[src$='#floatright']
     padding-right: 10px;
     vertical-align: bottom;
 }
+
+.video-wrapper {
+  position: absolte;
+  overflow: hidden;
+  height: 75%;
+  width: 75%;
+  padding-bottom: 56.25%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
