@@ -4,13 +4,9 @@ baseurl = "https://notes-peter.baumgartner.net/"
 
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = "UA-106334854-6"
+googleAnalytics = UA-"106194253-6"
 # Enable comments by entering your Disqus shortname
 disqusShortname = "petzi-2"
-
-## Turn off Disqus when output is locally: blogdown:::serve_site() DOES NOT WORK!
-## see https://github.com/rstudio/blogdown/issues/52#issuecomment-288407836
-
 
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
