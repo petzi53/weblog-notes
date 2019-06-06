@@ -17,7 +17,7 @@ description: 'The article is an interview with Michael Rundel. Michael is a teac
   in writing Physik Libre ( https://physikbuch.schule/), a new textbook on physics.
   which I had described in my [7-part German tutorial](https://peter.baumgartner.name/schlagwort/cmp/)
   on my other blog [Gedankensplitter](https://peter.baumgartner.name). '
-slug: physics-libre-a-bookdown-project
+slug: physik-libre-a-bookdown-project
 toc: no
 ---
 
@@ -28,7 +28,7 @@ The article is an interview with Michael Rundel. Michael is a teacher at a gramm
 This article is an interview with Michael Rundel. Michael is a teacher at a grammar school in Vienna/Austria and teaches physics, computer science, and media design. He talks about his experiences with blogdown in writing Physik Libre ( https://physikbuch.schule/), a new textbook on physics. His project is a practical implementation of cross-media publishing with `bookdown`, which I had described by in my  [7-part German tutorial](https://peter.baumgartner.name/schlagwort/cmp/) on my other blog [Gedankensplitter](https://peter.baumgartner.name). 
 
 
-{{< figure src="/img/2019-06-04-physik-libre.en_files/michael-rundel-min.jpg?classes=border, shadow" class="floatleft"
+{{< figure src="/img/2019-06-04-physik-libre/michael-rundel-min.jpg?classes=border, shadow" class="floatleft"
     alt="Photo of Michael Rundel" title="Michael Rundel (CC-BY Michael Rundel)" >}}
 
 The interview took place two years ago, but I didn't find until now the time to translate it into English and to publish the article in this weblog. I asked the questions in German via email and translated the text with the help of [Google Translate](https://translate.google.com/), [dict.cc], and [thesarus.com]. Where it was useful, I have links provided the first time the concept or software was mentioned. Subsequently, I have these same notions marked as red text. I edited the article with the premium version of [Grammarly](https://www.grammarly.com/). If you are a native English speaker, I would be happy to know about the mistakes in grammar or other language issues. Please use the `Edit Page` button on the top right corner to provide improvement via a pull request to my [GitHub](https://github.com/) repository.
@@ -48,7 +48,7 @@ We can see many extremely positive developments in recent years: web technologie
 
 With `Physik Libre` I want to show what is possible today with the latest technology using the example of a physics book for the secondary school.  It is a proof of concept – if you will. The last few years of Linux have shaped me, I'm afraid. The following points are important to me personally for the implementation of the project:
 
-{{< figure src="/img/2019-06-04-physik-libre.en_files/physik-browser-smartphone-min-576x1024.jpg?classes=border, shadow" class="floatright" alt="Page of 'Physik Libre' on a smartphone" title="Page of 'Physik Libre' on a smartphone" >}}
+{{< figure src="/img/2019-06-04-physik-libre/physik-browser-smartphone-min-576x1024.jpg?classes=border, shadow" class="floatright" alt="Page of 'Physik Libre' on a smartphone" title="Page of 'Physik Libre' on a smartphone" >}}
 
 + Device-independent (Smart TV, PC, notebook, tablet, smartphone, e-book reader, print)
 + Operating system independent (web browser, ePub reader, PDF reader)
@@ -69,7 +69,7 @@ _**Question:** Could you give me a short overview of the historical development 
 
 The idea was roughly born three years ago when I was experimenting with the [canvas element]( https://en.wikipedia.org/wiki/Canvas_element), which I was using in my physics applets. This technology helped me to abandon flash applets. Don't get me wrong! – Flash was a neat tool in its time, and I loved working with it. But it always felt like a workaround, and furthermore, it was proprietary software. At that time (2016), I thought there are all building blocks available to realize such a project with pure web technology.
 
-{{< figure src="/img/2019-06-04-physik-libre.en_files/cover-physik-libre-min.jpg?classes=border, shadow" class="floatleft"
+{{< figure src="/img/2019-06-04-physik-libre/cover-physik-libre-min.jpg?classes=border, shadow" class="floatleft"
     alt="Cover of the online physics book 'Physik Libre'" title="Cover of the online physics book 'Physik Libre'" >}}
 
 The following months I learned [SVG] (https://en.wikipedia.org/wiki/Scalable_Vector_Graphics) and `Inkscape`, discovered [Markdown](https://daringfireball.net/projects/markdown/) and the document converter `pandoc`, the version control system [git](https://git-scm.com/) and the `GitBook` project. Summer 2017, I learned about the `R` package `bookdown`. The following school year, I have taught a class of 5th grades of Austrian secondary school (second year of the upper school) in physics. So I decided to start the work on the project.
@@ -101,7 +101,7 @@ At the beginning of the project, two considerations were crucial.
 
 But real life is quite different!
 
-{{< figure src="/img/2019-06-04-physik-libre.en_files/physik-browser-desktop-min.jpg?classes=border, shadow"
+{{< figure src="/img/2019-06-04-physik-libre/physik-browser-desktop-min.jpg?classes=border, shadow"
     alt="Page of 'Physik Libre' on a desktop computer" title="Page of 'Physik Libre' on a desktop computer" >}}
 
 
