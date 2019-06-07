@@ -1,7 +1,8 @@
 ---
-title: What is obvious, and for whom?
+title: 'What is obvious, and for whom?'
 author: Peter Baumgartner
 date: '2017-10-17'
+lastmod: '2019-06-07'
 categories:
   - reflection
   - lessens-learned
