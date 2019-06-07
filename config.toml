@@ -78,6 +78,12 @@ relativeURLs = true # default value!
 
     summary_length = 200
 
+    # Show estimated reading time for posts?
+    reading_time = true
+
+    # Display comment count? Requires commenting to be enabled.
+    comment_count = true
+
     # Disable search function. It will hide search bar
     noSearch = false # default is false
 
@@ -163,3 +169,5 @@ relativeURLs = true # default value!
 # lastmodifieremail: jack.praker@icloud.com
 # lastmod: ~
 # disable_comments: yes/no
+
+

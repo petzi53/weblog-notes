@@ -19,6 +19,8 @@ description: 'The article is an interview with Michael Rundel. Michael is a teac
   on my other blog [Gedankensplitter](https://peter.baumgartner.name). '
 slug: physik-libre-a-bookdown-project
 toc: no
+reading_time: yes
+comment_count: yes
 ---
 
 The article is an interview with Michael Rundel. Michael is a teacher at a grammar school in Vienna/Austria and teaches physics, computer science, and media design. He talks about his experiences with [bookdown](https://bookdown.org/yihui/bookdown/) in writing Physik Libre ( https://physikbuch.schule/), a new textbook on physics. His project is a practical implementation of cross-media publishing with `bookdown`, which I had described in my [7-part German tutorial](https://peter.baumgartner.name/schlagwort/cmp/) on my other blog [Gedankensplitter](https://peter.baumgartner.name). 
