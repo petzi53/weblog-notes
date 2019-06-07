@@ -1,5 +1,5 @@
-{{ range where .Site.Pages "Source.BaseFileName" "_header" }} 
-	{{ .Content }} 
+{{ range where .Site.Pages "BaseFileName" "_header" }}
+	{{ .Content }}
 {{else}}
 <span style="font-size:smaller">
 	<a id="logo" href="{{.Site.BaseURL}}">

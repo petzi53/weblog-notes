@@ -35,7 +35,7 @@ footnotereturnlinkcontents = "↩"
 # see also: https://emojipedia.org/ (copy & paste)
 enableEmoji = true
 
-# relativeURLs = false # default value!
+relativeURLs = true # default value!
 # e.g. I have to give the path but I can use slugs!
 
 [permalinks]

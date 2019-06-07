@@ -11,7 +11,7 @@ tags:
   - blogdown
 slug: blogdown-using-themes
 draft: no
-lastmod: '2019-06-03'
+lastmod: '2019-06-07'
 description: After almost one year of interruption, I started re-using blogdown again.  But
   instead of writing new content, I had to struggle once again with using the sophisticated
   machinery of  Hugo hidden in the functionality of its themes.  In this post, I will
@@ -70,16 +70,19 @@ Can you imagine my emotional state? I changed between desperation and depression
 
 After taking a short nap to calm down, I reconsidered my situation: Yes, it took me much time, but at the same time, I learned a lot. I am not referring primarily to my speed generating a new `blogdown` website from scratch with a `GitHub` repo and deployed by `Netlify` (It takes my now only 60 seconds 🚀). But hopefully, I will not need this skill so frequently in the future. 😊 In addition to being more comfortable with `Git` and `Github`, I had learned general strategies to avoid similar problems in the future!
 
-And there also came some encouraging signals from the community: Both --- Georg Cushen and Yihui Xie --- responded almost immediately to my posts. Even the problem was not solved at that time; I decided to stick with the `academic-theme`. From some other interactions (issues and questions to the theme), I had built up trust to the theme author. George is committed to his theme and very busy to deliver the best product possible. So after a roll back to an older version, I began with this article. As it stands now, this was the right decision. George and Yuhus solved the issue together within two days.
+And there also came some encouraging signals from the community: Both --- Georg Cushen and Yihui Xie --- responded almost immediately to my posts. Even the problem was not solved at that time; I decided to stick with the `academic-theme`. From some other interactions (issues and questions to the theme), I had built up trust to the theme author. George is committed to his theme and very busy to deliver the best product possible. So after a roll back to an older version, I began with this article. As it stands now, this was the right decision. George and Yihui solved the issue together within two days.
 
 {{% /expand%}}
 
 <p id="from-docdock-to-academic"></p>
 {{% panel theme="primary" header="From docdock to academic theme and back again" %}}
-UPDATE: As you can see from the footer, this website is using the `docdock`- and not the `academic` theme I wrote above. I started with the `docdock` and abandoned it for reasons I mentioned above. After another year of creative abstinence of blog writing, in May 2019, I fired up the `blogdown` machinery again. But because of a combination of many updates of `Hugo` (from 0.27 to 0.55.6!) and the `academic` theme (from 2.4 to 4.3), I not only ran into a bunch of error messages, but I have also lost track of different breaking changes and couldn't recover. ---😳  So I changed to `docdock` back, but this time with somewhat more knowledge. Hopefully, my activities were not a circle but a helix movement where I managed some advances. I doThinking positively,  nhope I can stick with this theme in the future. I otw'itant to we another complaining article next year, addressing the same problems again.
+
+**Update (2019-06-03):** As you can see from the footer, this website is using the `docdock`- and not the `academic` theme I wrote above. I started with the `docdock` and abandoned it for reasons I mentioned above. After another year of creative abstinence of blog writing, in May 2019, I fired up the `blogdown` machinery again. But because of a combination of many updates of `Hugo` (from 0.27 to 0.55.6!) and the `academic` theme (from 2.4 to 4.3), I not only ran into a bunch of error messages, but I have also lost track of different breaking changes and couldn't recover. ---😳  
+
+So I changed to `docdock` back, but this time with somewhat more knowledge. Hopefully, my activities were not a circle but a helix movement where I managed some advances. Thinking positively, hopefully, I can stick with this theme in the future. I do not want writing another complaining article next year, addressing the same problems again.
+
+The reason for my problems mentioned above was an old version of pandoc. I had installed pandoc 1.19.2, but the latest release of the date of this writing is 2.7.2.
 {{% /panel %}}
-
-
 
 {{%expand "EXPAND to read my conclusion and guidelines" %}}
 ## <a name="guidelines"></a>Lesson learned from my own experience
