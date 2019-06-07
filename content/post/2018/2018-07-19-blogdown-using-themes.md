@@ -74,16 +74,6 @@ And there also came some encouraging signals from the community: Both --- Georg 
 
 {{% /expand%}}
 
-<p id="from-docdock-to-academic"></p>
-{{% panel theme="primary" header="From docdock to academic theme and back again" %}}
-
-**Update (2019-06-03):** As you can see from the footer, this website is using the `docdock`- and not the `academic` theme I wrote above. I started with the `docdock` and abandoned it for reasons I mentioned above. After another year of creative abstinence of blog writing, in May 2019, I fired up the `blogdown` machinery again. But because of a combination of many updates of `Hugo` (from 0.27 to 0.55.6!) and the `academic` theme (from 2.4 to 4.3), I not only ran into a bunch of error messages, but I have also lost track of different breaking changes and couldn't recover. ---😳  
-
-So I changed to `docdock` back, but this time with somewhat more knowledge. Hopefully, my activities were not a circle but a helix movement where I managed some advances. Thinking positively, hopefully, I can stick with this theme in the future. I do not want writing another complaining article next year, addressing the same problems again.
-
-The reason for my problems mentioned above was an old version of pandoc. I had installed pandoc 1.19.2, but the latest release of the date of this writing is 2.7.2.
-{{% /panel %}}
-
 {{%expand "EXPAND to read my conclusion and guidelines" %}}
 ## <a name="guidelines"></a>Lesson learned from my own experience
 
@@ -144,3 +134,17 @@ Most important: Keep calm <b>and</b> RTFM!
 3. If the problem persists in your theme, then there are still two possibilities: Either you did something wrong, or it really is a bug in one of the pieces in the R Markdown machinery. Produce a [reproducible example](https://stackoverflow.com/help/minimal-reproducible-example) ( aka `repex`,) and [report the problem at Stack Overflow](https://stackoverflow.com/questions/5963269/how-to-make-a-great-r-reproducible-example). Your replication on the otherwise empty reference site will help you to focus on the essential question and will also provide an excellent reproducible example.
 
 {{% /expand %}}
+
+
+<p id="from-docdock-to-academic"></p>
+{{% panel theme="primary" header="From docdock to academic theme and back again" %}}
+
+**Update (2019-06-03):** As you can see from the footer, this website is using the `docdock`- and not the `academic` theme I wrote above. I started with the `docdock` and abandoned it for reasons I mentioned above. After another year of creative abstinence of blog writing, in May 2019, I fired up the `blogdown` machinery again. But because of a combination of many updates of `Hugo` (from 0.27 to 0.55.6!) and the `academic` theme (from 2.4 to 4.3), I not only ran into a bunch of error messages, but I have also lost track of different breaking changes and couldn't recover. ---😳  
+
+So I changed to `docdock` back, but this time with somewhat more knowledge. Hopefully, my activities were not a circle but a helix movement where I managed some advances. Thinking positively, hopefully, I can stick with this theme in the future. I do not want writing another complaining article next year, addressing the same problems again.
+
+**Update (2019-06-07):** The reason for my problems mentioned above was an old version of [pandoc](https://pandoc.org/). I had installed "pandoc-1.19.2-29-jan-2017", but the latest release of the date of this writing is "pandoc-2.7.2-5-april-2019". Now I could successfully update [Hugo](https://gohugo.io/) to "v0.55.6" By this occasion I also updated [jQuery](https://jquery.com/) v2.2.3 to v.3.4.1.
+
+Now there wouldn't be any reason not to return to the `academic` theme. But I had worked hard the last week and learned so much about my `docdock` theme, that I am feeling now very comfortable and will stick with it.
+{{% /panel %}}
+
