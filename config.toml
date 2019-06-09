@@ -37,8 +37,8 @@ enableEmoji = true
 
 # It seems to me that I do not need relativeURLs:
 # https://gohugo.io/content-management/urls/#relative-urls
-relativeURLs = true # false = default value!
-# e.g. I have to give the path but I can use slugs!
+# relativeURLs = true # false = default value! It has to be false!!!
+# even if it works in local mode!
 
 [permalinks]
     post = "/:year/:month/:day/:slug"
