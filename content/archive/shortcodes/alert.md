@@ -15,6 +15,7 @@ draft: yes
 The `alert` shortcode allow you to highlight information in your page. They create a colored box surrounding your text, like this:
 
 {{%alert%}}**This is** an alert !{{%/alert%}}
+
 ## Usage 
 
 | Parameter | Default | Description |
@@ -24,6 +25,16 @@ The `alert` shortcode allow you to highlight information in your page. They crea
 {{%alert info%}}
 **Tips :** setting only the theme as argument works too : 
 `{{%/*alert warning*/%}}`  instead of `{{%/*alert theme="warning"*/%}}`
+{{%/alert%}}
+
+{{%alert danger%}}
+<b>Danger:</b>
+<ol>
+</li>Writing with quotes generates an Error in .Rmd files.
+Instead of `{{%/*alert theme="warning"*/%}}` USE ALWAYS `{{%/*alert warning*/%}}`</li>
+</li>Markdown formating like extra lines or bold with ** do not work neither, use HTML insted!</li>
+</ol>
+
 {{%/alert%}}
 
 ## Basic examples

@@ -1,0 +1,92 @@
+---
+title: Xaringan presentations with blogdown
+author: Peter Baumgartner
+date: '2018-07-21'
+categories:
+  - how-to
+  - R-Package
+tags:
+  - blogdown
+  - xaringan
+slug: presentations-with-xaringan
+description: This post demonstrates how to present slideshows with the Xaringan package.
+  I explain how to integrate slideshows with Xaringan into blogdown via internal and
+  external links.
+draft: no
+
+---
+
+
+
+<div id="how-to-integrate-xaringan-in-blogdown" class="section level1">
+<h1>How to integrate Xaringan in blogdown?</h1>
+<p>I am following in this short post the detailed description by <a href="https://timmastny.rbind.io/">Tim Mastny</a> in his blog entry <a href="https://timmastny.rbind.io/blog/embed-slides-knitr-blogdown/">Embed Slides in Your Blog</a>. Please read his article — especially the second half of it, where he is explaining the <a href="https://timmastny.rbind.io/blog/embed-slides-knitr-blogdown/#upload-your-slideshow-to-your-website">installation procedure</a>.</p>
+<div id="refer-to-an-external-slideshow" class="section level2">
+<h2>Refer to an external slideshow</h2>
+<pre class="r"><code>knitr::include_url(&#39;https://timmastny.rbind.io/slides/first_presentation&#39;)</code></pre>
+<iframe src="https://timmastny.rbind.io/slides/first_presentation" width="672" height="400px">
+</iframe>
+</div>
+<div id="refer-to-an-internal-slideshow" class="section level2">
+<h2>Refer to an internal slideshow</h2>
+<pre class="r"><code>knitr::include_url(&#39;/slide/xaringan-demo.html&#39;, height = &quot;505px&quot;)</code></pre>
+<iframe src="/slide/xaringan-demo.html" width="672" height="505px">
+</iframe>
+</div>
+<div id="summary" class="section level2">
+<h2>Summary</h2>
+<p>Both examples above are the same as in Tim’s article.</p>
+<p><strong>Two observations:</strong></p>
+<ol style="list-style-type: decimal">
+<li>There is no need to load the Xaringan package with <code>library(xaringan)</code>. At the moment, I do not understand why this is not necessary.</li>
+<li>In the second example, the gray left and right margin have disappeared. The parameter <code>height = "505px"</code> does this. To tweak this, I had to experiment with the optimal pixel value. (Maybe there is a better way to tweak this parameter with the valid value, e.g., taking the value from the CSS.)</li>
+</ol>
+<p>The height parameter solves one of the problems mentioned by Tim:</p>
+<blockquote>
+<p>I’m also investigating to see if I can trim the iframe, so I only see the slides and not the gray bars on the side.</p>
+</blockquote>
+</div>
+</div>
+<div id="how-to-present-slides-in-full-screen-view" class="section level1">
+<h1>How to present slides in full-screen view?</h1>
+<p>Here I wanted to address his second issue:</p>
+<blockquote>
+<p>I’d like to be able to use a relative reference to the slideshow’s HTML file in the static/ directory, but I think <code>knitr::include_url()</code> requires a live URL. I’ll have to do more research.</p>
+</blockquote>
+<div id="my-first-try-using-markdown-image-links" class="section level2">
+<h2>My first try: Using Markdown image links</h2>
+<p>My first try was: <code>![](/slide/xaringan-demo.html/#5)</code></p>
+<p><embed src="/slide/xaringan-demo.html#5" /></p>
+<p>It generates a kind of thumbnail. Maybe this is theme dependent. I once tried it out in another theme and got other sizes, e.g., over the whole width of the text column. Presumably, this has to be done in one of the CSS files of the corresponding template.</p>
+<p>A kind of a thumbnail was not the result I was looking for, but it could become handy anyway. For instance, as a reference in an article. With the slide number behind the URL, one can reference easy every slide frame directly.</p>
+</div>
+<div id="my-second-try-using-markdown-with-absolute-links" class="section level2">
+<h2>My second try: Using Markdown with absolute links</h2>
+<p>The second try is a <a href="https://portfolio.peter-baumgartner.net/slide/xaringan-demo#1">link in standard Markdown</a> to the file. It opens up the full-screen presentation. The code:</p>
+<p><code>The second try is a [link in standard markdown](https://portfolio.peter-baumgartner.net/slide/xaringan-demo#1) to the file.</code></p>
+<p>This is not ideal one always needs an internet connection for the presentation.</p>
+</div>
+<div id="my-third-try-using-markdown-with-relative-links" class="section level2">
+<h2>My third try: Using Markdown with relative links</h2>
+<p>The third try is a <a href="/slide/xaringan-demo.html">relative link in Markdown</a> to the file. It opens up the full-screen presentation. The code:</p>
+<p><code>The third try is a  [relative link in Markdown](/slide/xaringan-demo.html) to the file.</code></p>
+</div>
+<div id="summary-1" class="section level2">
+<h2>Summary</h2>
+<p>This is the solution Tim was looking for. I tried several approaches in vain. Then I remembered that there is a demo <a href="https://github.com/yihui/blogdown-static">blogdown-static website</a> by Yihui Xie. There I found the solution!</p>
+</div>
+</div>
+<div id="summary-and-conclusion" class="section level1">
+<h1>Summary and conclusion</h1>
+<p>This third approach solves the second question mentioned by Tim. And this is an excellent solution: With a simple relative link in Markdown can everyone present (Xaringan) slideshows without an internet connection in full-screen view.</p>
+<p>Sure there would have always been the possibility to go via the operating system to the file on the hard disk directly. But this is not very elegant and would complicate to present an integrated presentation via browser with other (multimedia) elements. One reason out of 11 <a href="https://yihui.name/en/2017/08/why-xaringan-remark-js/">why Xihui Yui hotly favors remark.js</a> is the feature that you can press the back button in the browser, and you will go back to the page from which you visited the slides, instead of reading the slides in the reverse order again.</p>
+<p>The next thing on my agenda is to learn how to apply Xaringan for everyday use. I have to read and try out:</p>
+<ul>
+<li>the example slides (<a href="/slide/xaringan-demo.html">Xaringan</a> and <a href="https://remarkjs.com/#1">remark</a>),</li>
+<li>the <a href="https://github.com/gnab/remark">readme file</a> at the remark GitHub site and</li>
+<li>the documentation in the <a href="https://github.com/gnab/remark/wiki">remark wiki</a>.</li>
+</ul>
+<p>Then I will transfer — as a first real live application — my slideshows written with <a href="https://revealjs.com/">reveal.js</a> stored at my abandoned site at <a href="https://notes.peter-baumgartner.net/slide/" class="uri">https://notes.peter-baumgartner.net/slide/</a> to this new site here.</p>
+<hr />
+<p>To inspect the full code of this post <a href="https://github.com/petzi53/weblog-portfolio/blob/master/content/post/2018-07-18-presentations-with-xaringan.Rmd">follow this link to my GitHub repo</a>.</p>
+</div>

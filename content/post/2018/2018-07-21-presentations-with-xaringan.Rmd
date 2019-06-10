@@ -13,6 +13,7 @@ description: This post demonstrates how to present slideshows with the Xaringan 
   I explain how to integrate slideshows with Xaringan into blogdown via internal and
   external links.
 draft: no
+
 ---
 
 # How to integrate Xaringan in blogdown?
