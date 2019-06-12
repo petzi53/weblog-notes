@@ -289,10 +289,14 @@ pre {
     background: #fff;
     border: 1px solid #eaeaea;
 }
+
 b, strong, label, th {
     text-transform: uppercase;
     font-weight: 700;
 }
+
+
+
 .default-animation, #header #logo-svg, #header #logo-svg path, #sidebar, #sidebar ul, #body, #body .padding, #body .nav {
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -710,11 +714,11 @@ h1 {
 
 /* my new version with dark blue bar and light blue text */
 blockquote {
-    border-left: 10px solid #1f53ab;
+    border-left: 5px solid #1f53ab;
 }
-blockquote p {
-    font-size: 1.1rem;
-    color: #09f;
+blockquote p, blockquote ul, blockquote ol {
+    font-size: 1.0rem;
+    color: color: #323232
 }
 
 /* old (original) version
@@ -760,19 +764,19 @@ div.notices p:first-child:after {
     color: #fff;
     left: 2rem;
 }
-div.notices.info {
+div.notices.warning {
     border-top: 30px solid #F0B37E;
     background: #FFF2DB;
 }
-div.notices.info p:first-child:after {
-    content: 'Info';
+div.notices.warning p:first-child:after {
+    content: 'Warning';
 }
-div.notices.warning {
+div.notices.danger {
     border-top: 30px solid rgba(217, 83, 79, 0.8);
     background: #FAE2E2;
 }
-div.notices.warning p:first-child:after {
-    content: 'Warning';
+div.notices.danger p:first-child:after {
+    content: 'Danger';
 }
 div.notices.note {
     border-top: 30px solid #6AB0DE;
@@ -781,6 +785,20 @@ div.notices.note {
 div.notices.note p:first-child:after {
     content: 'Note';
 }
+div.notices.info {
+    border-top: 30px solid #6AB0DE;
+    background: #E7F2FA;
+}
+div.notices.info p:first-child:after {
+    content: 'Info';
+}
+div.notices.success {
+    border-top: 30px solid rgba(92, 184, 92, 0.8);
+    background: #E6F9E6;
+}
+div.notices.success p:first-child:after {
+    content: 'Success';
+}
 div.notices.tip {
     border-top: 30px solid rgba(92, 184, 92, 0.8);
     background: #E6F9E6;
@@ -788,6 +806,10 @@ div.notices.tip {
 div.notices.tip p:first-child:after {
     content: 'Tip';
 }
+em {
+  color: #B67474;
+}
+
 code, kbd, pre, samp {
     font-family: "Consolas", menlo, monospace;
     font-size: 92%;
@@ -825,9 +847,11 @@ pre code {
     font-size: 15px;
 }
 
+
 hr {
-    border-bottom: 4px solid #a9caea; /* #F0F2F4; */
+    border-bottom: 1px solid #1F53AB /* #183F81  (blue dark) #a9caea; (blue) #F0F2F4; (blue ligth) */
 }
+
 .page-title {
     margin-top: -25px;
     padding: 25px;
@@ -1457,4 +1481,9 @@ img[src$='#floatright']
   display:block;
   margin-left:auto;
   margin-right:auto;
+}
+
+
+.footnotes {
+  font-size: 0.9rem;
 }

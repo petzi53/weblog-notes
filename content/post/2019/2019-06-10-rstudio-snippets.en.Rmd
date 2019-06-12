@@ -1,0 +1,154 @@
+---
+title: RStudio Snippets
+author: Peter Baumgartner
+date: '2019-06-10'
+slug: rstudio-snippets
+categories: []
+tags: []
+lastmod: ~
+description: ''
+disable_comments: yes
+draft: yes
+output:
+    bookdown::html_book:
+        includes:
+            in_header: style.css
+            toc: yes
+---
+
+## CSS theme (as HTML)
+
+<div class="notices info" ><p class="centered">There is a <a href="https://www.peter-baumgartner.net/" >landing page</a> where you can find information, images and links to my other web presences.<br />I have sorted the following list of links alphabetically.</p>
+</div>
+
+<div class="notices note" ><p class="centered">There is a <a href="https://www.peter-baumgartner.net/" >landing page</a> where you can find information, images and links to my other web presences.<br />I have sorted the following list of links alphabetically.</p>
+</div>
+
+<div class="notices success" ><p class="centered">There is a <a href="https://www.peter-baumgartner.net/" >landing page</a> where you can find information, images and links to my other web presences.<br />I have sorted the following list of links alphabetically.</p>
+</div>
+
+<div class="notices tip" ><p class="centered">There is a <a href="https://www.peter-baumgartner.net/" >landing page</a> where you can find information, images and links to my other web presences.<br />I have sorted the following list of links alphabetically.</p>
+</div>
+
+<div class="notices warning" ><p class="centered">There is a <a href="https://www.peter-baumgartner.net/" >landing page</a> where you can find information, images and links to my other web presences.<br />I have sorted the following list of links alphabetically.</p>
+</div>
+
+<div class="notices danger" ><p class="centered">There is a <a href="https://www.peter-baumgartner.net/" >landing page</a> where you can find information, images and links to my other web presences.<br />I have sorted the following list of links alphabetically.</p>
+</div>
+
+***
+
+## Alerts (as in Bootstrap 3, but with shortcode)
+
+### Info
+
+{{% alert info %}}
+_INFO:_ This is intended as an information.
+
+Link in alerts: <a href="https://peter.baumgartner.name/" class="alert-link">German Blog</a>
+
+Are links blue in blue ok? [German blog](https://peter.baumgartner.name/)
+{{% /alert %}}
+
+### Success
+
+{{% alert success %}}
+This is intended as positive feedback.
+
+Link in alerts: <a href="https://peter.baumgartner.name/" class="alert-link">German Blog</a>
+{{% /alert %}}
+
+### Warning
+
+{{% alert warning %}}
+This is intended as a warning.
+
+Link in alerts: <a href="https://peter.baumgartner.name/" class="alert-link">German Blog</a>
+{{% /alert %}}
+
+### Danger
+
+{{% alert danger %}}
+Danger: This is intended to make you aware of problem.
+
+Is this line also smaller like in the next example? Are links ok? [German blog](https://peter.baumgartner.name/)
+
+Link in alerts: <a href="https://peter.baumgartner.name/" class="alert-link">German Blog</a>
+{{% /alert %}}
+
+***
+
+## Panel (as in Bootstrap 3, but shortcode)
+
+The panel comes with different variants. 
+
+### Just a Box (= default)
+
+{{% panel %}}
+This is the text inside the box.  
+{{% /panel %}}
+
+### Panel with Title
+
+{{% panel theme=\"primary\" header=\"PRIMARY\" %}}
+This is an info panel (blue dark) 
+{{% /panel %}}
+
+{{% panel theme=\"info\" header=\"INFO\" %}}
+This is an info panel (blue light)
+{{% /panel %}}
+
+{{% panel theme=\"success\" header=\"SUCCESS\" %}}
+This is an success panel (green)
+{{% /panel %}}
+
+{{% panel theme=\"warning\" header=\"WARNING\" %}}
+This is an info panel (orange) 
+{{% /panel %}}
+
+{{% panel theme=\"danger\" header=\"DANGER\" %}}
+This is an info panel (red)
+{{% /panel %}}
+
+### Footer Panel
+{{% panel footer=\"title for footer panel = below text\" %}}
+Here comes the footer text
+{{% /panel %}}
+
+***
+
+
+## Notice (no equivalent in Bootstrap, take better CSS variant!)
+
+### Note 
+
+{{% notice note %}}
+<b>Note: </b>This is intended for a longer note, because otherwise the header would be to dominant. For short messages use better the alert box above. This is inteded for a longer note, because otherwise the header would be to dominant. For short messages use better the alert box above.
+
+Above this paragraph there is an empty line. With this small modification changes the text of the notice box its appearce. I do not know where this feature (bug?) comes from.
+
+HTML for styling is <b>allowed</b> in this book. This <i>colour</i> is inteded for a longer note, because otherwise the header would be to dominant. For short messages use better the alert box above. This is inteded for a longer note, because otherwise the header would be to dominant. For short messages use better the alert box above.
+
+How about URLs. Here is a link to my [German blog](https://peter.baumgartner.name/).
+{{% /alert %}}
+
+### Tip
+
+{{% notice tip %}}
+<b>Tip: </b>This is inteded for a tip or hint, but corresponds with the green color to  a success report.
+{{% /alert %}}
+
+
+### Info
+{{% notice info %}}
+<b>Info: </b>This is inteded for information, but corresponds with the organge color to  a warning.
+{{% /alert %}}
+
+### Warning
+
+{{% notice warning %}}
+<b>Warning: </b>This is inteded as a warning, but corresponds with the red color to  a danger.
+{{% /alert %}}
+
+
+

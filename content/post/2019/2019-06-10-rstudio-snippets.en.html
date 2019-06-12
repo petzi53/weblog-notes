@@ -1,0 +1,153 @@
+---
+title: RStudio Snippets
+author: Peter Baumgartner
+date: '2019-06-10'
+slug: rstudio-snippets
+categories: []
+tags: []
+lastmod: ~
+description: ''
+disable_comments: yes
+draft: yes
+output:
+    bookdown::html_book:
+        includes:
+            in_header: style.css
+            toc: yes
+---
+
+
+
+<div id="css-theme-as-html" class="section level2">
+<h2>CSS theme (as HTML)</h2>
+<div class="notices info">
+<p class="centered">
+There is a <a href="https://www.peter-baumgartner.net/" >landing page</a> where you can find information, images and links to my other web presences.<br />I have sorted the following list of links alphabetically.
+</p>
+</div>
+<div class="notices note">
+<p class="centered">
+There is a <a href="https://www.peter-baumgartner.net/" >landing page</a> where you can find information, images and links to my other web presences.<br />I have sorted the following list of links alphabetically.
+</p>
+</div>
+<div class="notices success">
+<p class="centered">
+There is a <a href="https://www.peter-baumgartner.net/" >landing page</a> where you can find information, images and links to my other web presences.<br />I have sorted the following list of links alphabetically.
+</p>
+</div>
+<div class="notices tip">
+<p class="centered">
+There is a <a href="https://www.peter-baumgartner.net/" >landing page</a> where you can find information, images and links to my other web presences.<br />I have sorted the following list of links alphabetically.
+</p>
+</div>
+<div class="notices warning">
+<p class="centered">
+There is a <a href="https://www.peter-baumgartner.net/" >landing page</a> where you can find information, images and links to my other web presences.<br />I have sorted the following list of links alphabetically.
+</p>
+</div>
+<div class="notices danger">
+<p class="centered">
+There is a <a href="https://www.peter-baumgartner.net/" >landing page</a> where you can find information, images and links to my other web presences.<br />I have sorted the following list of links alphabetically.
+</p>
+</div>
+<hr />
+</div>
+<div id="alerts-as-in-bootstrap-3-but-with-shortcode" class="section level2">
+<h2>Alerts (as in Bootstrap 3, but with shortcode)</h2>
+<div id="info" class="section level3">
+<h3>Info</h3>
+<p>{{% alert info %}}
+<em>INFO:</em> This is intended as an information.</p>
+<p>Link in alerts: <a href="https://peter.baumgartner.name/" class="alert-link">German Blog</a></p>
+<p>Are links blue in blue ok? <a href="https://peter.baumgartner.name/">German blog</a>
+{{% /alert %}}</p>
+</div>
+<div id="success" class="section level3">
+<h3>Success</h3>
+<p>{{% alert success %}}
+This is intended as positive feedback.</p>
+<p>Link in alerts: <a href="https://peter.baumgartner.name/" class="alert-link">German Blog</a>
+{{% /alert %}}</p>
+</div>
+<div id="warning" class="section level3">
+<h3>Warning</h3>
+<p>{{% alert warning %}}
+This is intended as a warning.</p>
+<p>Link in alerts: <a href="https://peter.baumgartner.name/" class="alert-link">German Blog</a>
+{{% /alert %}}</p>
+</div>
+<div id="danger" class="section level3">
+<h3>Danger</h3>
+<p>{{% alert danger %}}
+Danger: This is intended to make you aware of problem.</p>
+<p>Is this line also smaller like in the next example? Are links ok? <a href="https://peter.baumgartner.name/">German blog</a></p>
+<p>Link in alerts: <a href="https://peter.baumgartner.name/" class="alert-link">German Blog</a>
+{{% /alert %}}</p>
+<hr />
+</div>
+</div>
+<div id="panel-as-in-bootstrap-3-but-shortcode" class="section level2">
+<h2>Panel (as in Bootstrap 3, but shortcode)</h2>
+<p>The panel comes with different variants.</p>
+<div id="just-a-box-default" class="section level3">
+<h3>Just a Box (= default)</h3>
+<p>{{% panel %}}
+This is the text inside the box.<br />
+{{% /panel %}}</p>
+</div>
+<div id="panel-with-title" class="section level3">
+<h3>Panel with Title</h3>
+<p>{{% panel theme="primary" header="PRIMARY" %}}
+This is an info panel (blue dark)
+{{% /panel %}}</p>
+<p>{{% panel theme="info" header="INFO" %}}
+This is an info panel (blue light)
+{{% /panel %}}</p>
+<p>{{% panel theme="success" header="SUCCESS" %}}
+This is an success panel (green)
+{{% /panel %}}</p>
+<p>{{% panel theme="warning" header="WARNING" %}}
+This is an info panel (orange)
+{{% /panel %}}</p>
+<p>{{% panel theme="danger" header="DANGER" %}}
+This is an info panel (red)
+{{% /panel %}}</p>
+</div>
+<div id="footer-panel" class="section level3">
+<h3>Footer Panel</h3>
+<p>{{% panel footer="title for footer panel = below text" %}}
+Here comes the footer text
+{{% /panel %}}</p>
+<hr />
+</div>
+</div>
+<div id="notice-no-equivalent-in-bootstrap-take-better-css-variant" class="section level2">
+<h2>Notice (no equivalent in Bootstrap, take better CSS variant!)</h2>
+<div id="note" class="section level3">
+<h3>Note</h3>
+<p>{{% notice note %}}
+<b>Note: </b>This is intended for a longer note, because otherwise the header would be to dominant. For short messages use better the alert box above. This is inteded for a longer note, because otherwise the header would be to dominant. For short messages use better the alert box above.</p>
+<p>Above this paragraph there is an empty line. With this small modification changes the text of the notice box its appearce. I do not know where this feature (bug?) comes from.</p>
+<p>HTML for styling is <b>allowed</b> in this book. This <i>colour</i> is inteded for a longer note, because otherwise the header would be to dominant. For short messages use better the alert box above. This is inteded for a longer note, because otherwise the header would be to dominant. For short messages use better the alert box above.</p>
+<p>How about URLs. Here is a link to my <a href="https://peter.baumgartner.name/">German blog</a>.
+{{% /alert %}}</p>
+</div>
+<div id="tip" class="section level3">
+<h3>Tip</h3>
+<p>{{% notice tip %}}
+<b>Tip: </b>This is inteded for a tip or hint, but corresponds with the green color to a success report.
+{{% /alert %}}</p>
+</div>
+<div id="info-1" class="section level3">
+<h3>Info</h3>
+<p>{{% notice info %}}
+<b>Info: </b>This is inteded for information, but corresponds with the organge color to a warning.
+{{% /alert %}}</p>
+</div>
+<div id="warning-1" class="section level3">
+<h3>Warning</h3>
+<p>{{% notice warning %}}
+<b>Warning: </b>This is inteded as a warning, but corresponds with the red color to a danger.
+{{% /alert %}}</p>
+</div>
+</div>
