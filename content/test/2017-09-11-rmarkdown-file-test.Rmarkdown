@@ -12,6 +12,7 @@ description: What are the properties of the `.Rmarkdown` extension in relation t
   `Rmd` and `md` files?
 ---
 
+
 ## Advantages of using `.Rmarkdown` files
 
 + This file type is able to run R code snippets like `.Rmd` files. Numbered tables, figures, equations, and theorems are also supported.

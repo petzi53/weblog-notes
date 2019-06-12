@@ -1,0 +1,36 @@
+---
+title: RStudio Snippets for Markdown
+author: Peter Baumgartner
+date: '2019-06-12'
+slug: rstudio-snippets-for-markdown
+categories: [tip, app]
+tags: [snippet, RStudio]
+lastmod: ~
+description: 'Code snippets are text macros which you can insert into your programs. They are used for repetitive tasks and can boost your productivity tremendously. After providing some link to tutorials about RStudio snippets, I am going to summarize eight reminders for practical usage.'
+disable_comments: no
+draft: no
+---
+
+## Tutorial for RStudio code snippets
+
+Code snippets are text macros which you can insert into your programs. They are used for repetitive tasks and can boost your productivity tremendously. Here I am not going to explain how to use it. There are already several good tutorials around:
+
++ The official [RStudio tutorial](https://support.rstudio.com/hc/en-us/articles/204463668-Code-Snippets) on code snippets
++ A [Blog entry by Jake Daniels](https://datacritics.com/2019/01/28/rstudio-snippets/): How RStudio Snippets Improve My Productivity
++ A [Blog entry by Jozef Hajnala](https://jozef.io/r906-rstudio-snippets/): 4 ways to be more efficient using RStudio's Code Snippets, with 11 ready to use examples
++ A [Video by Sharon Machlis](https://www.youtube.com/watch?v=h_i__VTSurU&list=PL7D2RMSmRO9JOvPC1gbA8Mc3azvSfm8Vv&index=28&t=141s): R tip: Save time with RStudio code snippets (part of her video channel [Do more with R](https://www.youtube.com/playlist?list=PL7D2RMSmRO9JOvPC1gbA8Mc3azvSfm8Vv))
+
+## Eight useful reminders
+
+In this post, I want to summarize some important details, which I learned laboriously after time-consuming trials:
+
+1. The Markdown section in the snippet editor works only with `.Rmd` and `.Rmarkdown` files.
+2. The snippets in the R section are for code chunks whereas the snippets in the Markdown section work only in markdown text of `.Rmd` / `.Rmarkdown` files. -- So if you are going to use RStudio snippets to insert shortcodes for your blog entries you have to write your text into `.Rmd` / `.Rmarkdown` files.
+3. To insert snippets in the Markdown part of `.Rmd` / `.Rmarkdown` files, you have to use SHIFT-TAB (and not just TAB as for R snippets in the code chunks).
+4. To write your snippets, you have to use the TAB key for indenting. 4 Spaces do not work!
+5. It is legitimate to write huge snippets for large code junks. For instance, you can write complex `ggplot2` snippets as a kind of a template you are going to use frequently.
+6. For large code chunks, it may be preferable to write the snippets with the RStudio code pane. You can load the snippet files under `~/.R/r.snippets` respectively ~`.R/markdown.snippets` into RStudio.
+7. You can share you snippets sending these files to your colleagues and collaborators.
+8. Do not use names, which are difficult to type to call your snippets. For instance, to insert the markdown syntax for an do not name it "![" but "iii". 
+
+
