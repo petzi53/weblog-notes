@@ -43,7 +43,7 @@ Clearly, this an applaudable quote! It targets to foster social responsibility a
 
 ## Openness as conditia qua non for transparency
 
-A better approach is, in my opinion, the definition by [Foster](https://www.fosteropenscience.eu), an EU funded project:
+A better approach is, in our opinion, the definition by [Foster](https://www.fosteropenscience.eu), an EU funded project:
 
 > Open Science is the practice of science in such a way that others can collaborate and contribute, where research data, lab notes and other research processes are freely available, under terms that enable reuse, redistribution and reproduction of the research and its underlying data and methods. [Foster](https://www.fosteropenscience.eu/foster-taxonomy/open-science-definition)
 
