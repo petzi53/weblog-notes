@@ -2,6 +2,7 @@
 title: ".Rmarkdown File Test"
 author: Peter Baumgartner
 date: '2017-09-11'
+lastmod: '2019-06-16'
 categories:
   - test
 tags:
@@ -22,14 +23,16 @@ You can use the `back apostroph` or the <code>code command</code> for red flagge
 
 ## Diadvantages of using `.Rmarkdown` files
 
-* It uses Hugo `Blackfriday` und not `Pandoc` as rendering machine. Consequently you cannot use the much richer set of `Pandoc` converter such as citations. 
+* It uses Hugo `Blackfriday` und not `Pandoc` as rendering machine. Consequently you cannot use the much richer set of `Pandoc` converter such as citations.
 
     + Math expressions only work if you have installed the `xaringan` package and applied the JavaScript solution mentioned in [Section A.3 of the blogdown book](https://bookdown.org/yihui/blogdown/javascript.html).
-        
+
     + You cannot directly use Markdown syntax in table or figure captions, but you can use text references as a workaround (see bookdown’s documentation).
-        
+
   * HTML widgets are not supported.
   * RStudio snippets are not supported
+
+
 
 
 {{% notice note %}}
@@ -40,7 +43,9 @@ Tab work again only when it defaults to 4 spaces.
 
 ## Detailed comparison is necessary
 
-One has to inspect the differences detailed. 
+see table at: https://github.com/rstudio/blogdown/issues/358#issuecomment-465821489
+
+One has to inspect the differences detailed.
 
 * See the possiblities and options for Hugo [Blackfriday](https://gohugo.io/content-management/formats/) or look into in the [GitHub pages of the Blackfriday project](https://github.com/russross/blackfriday).
 
