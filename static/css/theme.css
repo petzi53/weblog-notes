@@ -1484,6 +1484,6 @@ img[src$='#floatright']
 }
 
 
-.footnotes {
+.footnotes, .references {
   font-size: 0.9rem;
 }
