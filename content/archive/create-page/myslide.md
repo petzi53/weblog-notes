@@ -2,11 +2,6 @@
 title: My Slide ! fullscreen
 author: Peter Baumgartner
 date: '2017-04-24'
-categories:
-  - demo
-  - slide
-tags:
-  - reveal.js
 hidden: yes
 revealOptions:
   center: yes

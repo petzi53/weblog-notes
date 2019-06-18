@@ -2,12 +2,6 @@
 title: Last modified meta data
 author: Peter Baumgartner
 date: '2017-09-19'
-categories:
-  - how-to
-  - test
-  - partial
-tags:
-  - lastmod
 description: How to apply last modified data to the footer?
 slug: last-modified-meta-data
 creatordisplayname: Peter Baumgartner

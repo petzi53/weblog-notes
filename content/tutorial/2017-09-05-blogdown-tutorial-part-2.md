@@ -4,9 +4,9 @@ author: Peter Baumgartner
 date: '2017-09-05'
 categories:
   - how-to
-  - installation
 tags:
   - github
+  - installation
 slug: blogdown-tutorial-part-2
 description: In part 2 we will create a GitHub repository and link it to our local
   repository, which we have created in part 1 of this tutorial.

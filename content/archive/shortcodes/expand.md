@@ -2,11 +2,6 @@
 title: expand
 author: Peter Baumgartner
 date: '2019-06-05'
-categories:
-  - demo
-  
-  - how-to
-  - shortcode
 description: Displays an expandable/collapsible section of text on your page
 disable_comments: yes
 draft: yes

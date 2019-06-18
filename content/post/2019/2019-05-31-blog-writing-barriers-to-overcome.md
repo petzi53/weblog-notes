@@ -4,11 +4,7 @@ author: Peter Baumgartner
 date: '2019-05-31'
 categories:
   - reflection
-  - lessens-learned
 tags:
-  - theme-academic
-  - hugo
-  - weblog
   - blogdown
 slug: blog-writing-barriers-to-overcome
 lastmod: '2019-06-03'

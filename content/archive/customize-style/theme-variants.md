@@ -2,10 +2,6 @@
 title: Theme variants
 author: Peter Baumgartner
 date: '2017-04-29'
-categories:
-  
-tags:
-  - theme-docdock
 description: change theme style/colors
 disable_comments: yes
 draft: yes

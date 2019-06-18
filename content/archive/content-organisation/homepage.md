@@ -2,11 +2,6 @@
 title: Home page
 author: Peter Baumgartner
 date: '2017-04-28'
-categories:
-  - how-to
-  
-tags:
-  - indexPage
 disable_comments: yes
 draft: yes
 ---

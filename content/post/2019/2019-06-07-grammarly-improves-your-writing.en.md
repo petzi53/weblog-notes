@@ -6,8 +6,7 @@ date: '2019-06-07'
 lastmod: '2019-06-08'
 categories:
   - review
-  - report
-  - webService
+  - web-service
   - app
 tags:
   - grammarly

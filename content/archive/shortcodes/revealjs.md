@@ -2,12 +2,6 @@
 title: revealjs
 author: Peter Baumgartner
 date: '2019-06-05'
-categories:
-  
-  - shortcode
-  - demo
-tags:
-  - reveal.js
 description: Present content as a slide, using reveal.js
 slug: revealjs
 disable_comments: yes

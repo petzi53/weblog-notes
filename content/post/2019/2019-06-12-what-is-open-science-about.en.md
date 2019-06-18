@@ -4,10 +4,8 @@ author: Peter Baumgartner
 date: '2019-06-12'
 description: "By discussing different definitions of 'Open Science' quoted in the literature, the author develops its own perspective: He argues that the openness must include not only the scientific findings but also the process of knowledge creation.  The paper contrasts a  holistic understanding of Open Science with the concepts of eScience, Cyberscience or Science 2.0, Libre Science and Open respective Libre Knowledge."
 categories:
-  - theory
-  - book
+  - open-science
 tags:
-  - openScience
   - definition
 slug: what-is-open-science-about
 disable_comments: no
@@ -77,3 +75,5 @@ For Open Science, it is not decisive whether the research process takes place in
 ## Wrapping up
 
 We have discussed several elements and approaches to defining Open Science. It turns out that this notion suffers from some inherent and implicit shortcoming. It would be better to use the term 'Libre Knowledge' to avoid possible misunderstandings. But as the concept of 'Libre Knowledge' is not widespread and in common use, for the sake of simplicity we will apply  'Open Knowledge' or even 'Open Science,' but in the broader meaning as we have outlined above.
+
+<span class='Z3988' title='url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=blogPost&amp;rft.title=What%20is%20Open%20Science%20About%3F%20%3A%3A%20Open%20Science%20Education&amp;rft.source=Open%20Science%20Education&amp;rft.rights=CC%20BY-SA%204.0&amp;rft.description=By%20discussing%20different%20definitions%20of%20%E2%80%98Open%20Science%E2%80%99%20quoted%20in%20the%20literature%2C%20the%20author%20develops%20its%20own%20perspective%3A%20He%20argues%20that%20the%20openness%20must%20include%20not%20only%20the%20scientific%20findings%20but%20also%20the%20process%20of%20knowledge%20creation.%20The%20paper%20contrasts%20a%20holistic%20understanding%20of%20Open%20Science%20with%20the%20concepts%20of%20eScience%2C%20Cyberscience%20or%20Science%202.0%2C%20Libre%20Science%20and%20Open%20respective%20Libre%20Knowledge.&amp;rft.identifier=https%3A%2F%2Fnotes.peter-baumgartner.net%2F2019%2F06%2F12%2Fwhat-is-open-science-about%2F&amp;rft.aufirst=Peter&amp;rft.aulast=Baumgartner&amp;rft.au=Peter%20Baumgartner&amp;rft.date=2019-06-12&amp;rft.language=EN'></span>

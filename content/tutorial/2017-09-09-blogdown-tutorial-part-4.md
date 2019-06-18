@@ -4,7 +4,6 @@ author: Peter Baumgartner
 date: '2017-09-09'
 categories:
   - how-to
-  - workflow
 tags:
   - blogdown
   - netlify

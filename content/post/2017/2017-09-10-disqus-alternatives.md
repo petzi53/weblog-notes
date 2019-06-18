@@ -3,11 +3,10 @@ title: Alternatives for Disqus?
 author: Peter Baumgartner
 date: '2017-09-14'
 categories:
-  - webService
+  - web-service
   - review
 tags:
   - disqus
-  - tools
 lastmod: '2019-06-05'
 slug: alternatives-for-disqus
 draft: no

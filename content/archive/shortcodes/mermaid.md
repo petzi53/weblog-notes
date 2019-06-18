@@ -2,11 +2,6 @@
 title: mermaid
 author: Peter Baumgartner
 date: '2019-06-05'
-categories:
-  - demo
-  
-  - how-to
-  - shortcode
 description: Draw flowcharts, GANTT-diagrams and other utility graphic.
 disable_comments: yes
 draft: yes

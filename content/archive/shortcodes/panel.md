@@ -2,11 +2,6 @@
 title: panel
 author: Peter Baumgartner
 date: '2019-06-05'
-categories:
-  - demo
-  
-  - how-to
-  - shortcode
 description: Allow you to highlight information or put it in a box.
 disable_comments: yes
 draft: yes

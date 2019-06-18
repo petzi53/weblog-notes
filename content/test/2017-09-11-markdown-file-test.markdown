@@ -2,10 +2,6 @@
 title: ".markdown File Test"
 author: Peter Baumgartner
 date: '2017-09-11'
-categories:
-  - test
-tags:
-  - markdown
 slug: markdown-file-extension
 draft: yes
 description: What are the properties of the `.Rmarkdown` extension in relation to

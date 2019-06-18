@@ -4,9 +4,9 @@ author: Peter Baumgartner
 date: '2017-09-04'
 categories:
   - how-to
-  - installation
 tags:
   - blogdown
+  - installation
 slug: blogdown-tutorial-part-1
 description: Part 1 of this tutorial explains how to install a Hugo theme on top of
   R, RStudio and blogdown. For this demonstration I will use the new (preview) version

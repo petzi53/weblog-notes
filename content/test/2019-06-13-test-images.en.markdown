@@ -24,7 +24,7 @@ draft: yes
 
 ## An Image Test
 
-<img class="border shadow " class="border shadow" src="/test/2019-06-13-test-images.en/my-github-changes.png" alt="Alternative Text" width="600px"/> <figcaption><h4>**Figure 03:** Test</h4></figcaption>
+<img class="border shadow " src="/test/2019-06-13-test-images.en/my-github-changes.png" alt="Alternative Text" width="600px"/> <figcaption><h4>**Figure 03:** Test</h4></figcaption>
 
 
 

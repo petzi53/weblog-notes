@@ -2,9 +2,6 @@
 title: Files attachment
 author: Peter Baumgartner
 date: '2017-09-23'
-categories:
-  - test
-  - shortcode
 slug: files-attachments
 draft: yes
 description: How to use shortcodes for file attachments?

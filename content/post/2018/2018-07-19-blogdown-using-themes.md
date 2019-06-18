@@ -3,11 +3,8 @@ title: 'Using themes with blogdown: Lesson learned'
 author: Peter Baumgartner
 date: '2018-07-19'
 categories:
-  - lessens-learned
+  - reflection
 tags:
-  - hugo
-  - theme-academic
-  - theme-docdock
   - blogdown
 slug: blogdown-using-themes
 draft: no

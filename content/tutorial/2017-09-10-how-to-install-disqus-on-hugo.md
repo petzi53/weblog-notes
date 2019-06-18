@@ -4,11 +4,11 @@ author: Peter Baumgartner
 date: '2017-09-10'
 categories:
   - how-to
-  - installation
 tags:
   - blogdown
   - disqus
   - hugo
+  - installation
 slug: how-to-install-disqus-on-hugo
 draft: no
 description: This post explains how to integrate Disqus as a discussion forum for

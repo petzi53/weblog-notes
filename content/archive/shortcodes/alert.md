@@ -2,10 +2,6 @@
 title: alert
 author: Peter Baumgartner
 date: '2019-06-05'
-categories:
-  - shortcode
-  - demo
-  - how-to
 weight: 10
 description: The alert shortcode allows you to highlight information in your page.
 disable_comments: yes

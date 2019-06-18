@@ -5,8 +5,8 @@ date: '2019-06-09'
 slug: grammarly-a-case-study
 categories:
   - app
-  - webService
-  - caseStudy
+  - web-service
+  - case-study
 tags:
   - grammarly
 lastmod: ~

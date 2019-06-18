@@ -2,11 +2,6 @@
 title: notice
 author: Peter Baumgartner
 date: '2019-06-05'
-categories:
-  - demo
-  
-  - how-to
-  - shortcode
 description: Disclaimers to help you structure your page
 disable_comments: yes
 draft: yes

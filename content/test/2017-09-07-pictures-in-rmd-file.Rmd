@@ -2,14 +2,6 @@
 title: Test Pictures in .Rmd File
 author: Peter Baumgartner
 date: '2017-09-13'
-categories:
-  - test
-  - demo
-  - how-to
-tags:
-  - image
-  - blogdown
-  - hugo
 slug: test-pictures-in-rmd-file
 description: Still to write
 draft: yes

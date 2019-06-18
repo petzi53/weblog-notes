@@ -2,17 +2,6 @@
 title: Learned
 author: Peter Baumgartner
 date: '2019-06-04'
-categories:
-  - collection
-  - how-to
-  - lessens-learned
-  - notes
-  - update
-tags:
-  - addins
-  - config
-  - rstudio
-  - YAML
 slug: changes
 lastmod: '2019-06-05'
 toc: no

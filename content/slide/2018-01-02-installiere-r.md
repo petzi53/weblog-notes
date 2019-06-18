@@ -4,14 +4,11 @@ author: Peter Baumgartner
 date: '2018-01-02'
 categories:
   - how-to
-  - installation
   - slide
   - german
 tags:
-  - blogdown
-  - hugo
   - r
-  - rstudio
+  - installation
 output:
   html_document: ~
   df_print: paged

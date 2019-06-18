@@ -5,10 +5,10 @@ date: '2018-01-03'
 categories:
   - german
   - how-to
-  - installation
   - slide
 tags:
   - rstudio
+  - installation
 output:
   html_document:
     df_print: paged

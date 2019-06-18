@@ -4,7 +4,6 @@ author: Peter Baumgartner
 date: '2017-09-08'
 categories:
   - how-to
-  - workflow
 tags:
   - blogdown
 draft: no

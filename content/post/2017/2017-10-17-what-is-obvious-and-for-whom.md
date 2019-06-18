@@ -5,7 +5,6 @@ date: '2017-10-17'
 lastmod: '2019-06-07'
 categories:
   - reflection
-  - lessens-learned
 tags:
   - bookdown
 slug: what-is-obvious-and-for-whom

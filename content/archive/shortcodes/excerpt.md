@@ -2,13 +2,6 @@
 title: excerpt
 author: Peter Baumgartner
 date: '2019-06-05'
-categories:
-  - shortcode
-  - demo
-  
-  - how-to
-tags:
-  - excerpt
 description: The Excerpt shortcode is used to mark a part of a page's content for
   re-use.
 disable_comments: yes

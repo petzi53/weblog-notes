@@ -3,7 +3,7 @@ title: Disqus installation again
 author: Peter Baumgartner
 date: '2017-10-03'
 categories:
-  - webService
+  - web-service
 tags:
   - disqus
   - hugo

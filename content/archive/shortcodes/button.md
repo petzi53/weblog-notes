@@ -3,10 +3,6 @@ title: button
 author: Peter Baumgartner
 weight: 30
 date: '2019-06-05'
-categories:
-  - shortcode
-  - demo
-  - how-to
 description: Display an actionable button in your page.
 disable_comments: yes
 draft: yes

@@ -3,11 +3,9 @@ title: 'Physik Libre:  A bookdown project'
 author: Peter Baumgartner
 date: '2019-06-05'
 categories:
-  - project
-  - report
+  - case-study
 tags:
   - bookdown
-  - edutech
 disable_comments: no
 draft: no
 description: 'The article is an interview with Michael Rundel. Michael is a teacher
