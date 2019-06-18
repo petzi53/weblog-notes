@@ -1418,6 +1418,7 @@ pre .copy-to-clipboard:hover {
 	width: auto\9*0.3; /* ie8 */
 	height: auto;
 	float: right;
+	padding-left: 20px;
 }
 
 .floatleft {
@@ -1425,6 +1426,7 @@ pre .copy-to-clipboard:hover {
 	width: auto\9*0.3; /* ie8 */
 	height: auto;
 	float: left;
+	padding-right: 20px;
 }
 
 .home-section {
@@ -1442,9 +1444,10 @@ figcaption {
 }
 
 # https://discourse.gohugo.io/t/handling-images-size-aligning/1940/2
+# usage: ![](/image.png#floatleft)
 img[src$='#floatleft']
 {
-	max-width: 30%;
+	max-width: 40%;
 	width: auto\9*0.3; /* ie8 */
 	height: auto;
 	float: left;
@@ -1452,7 +1455,7 @@ img[src$='#floatleft']
 
 img[src$='#floatright']
 {
-	max-width: 30%;
+	max-width: 40%;
 	width: auto\9*0.3; /* ie8 */
 	height: auto;
 	float: right;
@@ -1484,6 +1487,10 @@ img[src$='#floatright']
 }
 
 
-.footnotes, .references {
+.footnotes {
   font-size: 0.9rem;
+}
+
+.references {
+  font-size: medium;
 }
