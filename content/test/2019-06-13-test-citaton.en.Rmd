@@ -12,8 +12,12 @@ draft: yes
 bibliography: ["NBB.bib"]
 ---
 
-Lorem Ipsum....
-Notice `draft` is set to true. [@bratengeyer_osterreichische_2016]
+This is a test bilbiographical entry [@bratengeyer_osterreichische_2016].
+
+See: 
++ https://cran.r-project.org/web/packages/citr/citr.pdf
++ https://github.com/crsh/citr
+
 
 
 
