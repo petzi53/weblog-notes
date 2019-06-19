@@ -58,7 +58,7 @@ In this tutorial, I will show how to produce and embed bibliographic metadata in
 <img class="border shadow" src="/tutorial/2019-06-19-coins.files/zotero-coins-08-min.png" alt="Screenshot shows MacOS Save File dialog window with export mode 'COinS'." width="60%" />
 <figcaption><h4>**Figure 09:** MacOS Save File dialog window with export mode "COinS".</h4></figcaption>
 
-9. Open the exported file with your text editor and select the COinS HTML code.
+9. Open the exported file with your text editor and select the COinS HTML code. You will see the text of your bibliography record [URL encoded](https://www.w3schools.com/tags/ref_urlencode.asp) in the COinS standard format. URL Encoding replaces unsafe ASCII characters with a "%" followed by two hexadecimal digits. But don't worry, it is not necessary to understand the code snippet.
 <img class="border shadow" src="/tutorial/2019-06-19-coins.files/zotero-coins-09-min.png" alt="Screenshot shows exported COinS code in a text editor." width="60%" />
 <figcaption><h4>**Figure 10:** Exported COinS code as it is seen after opening the file with a text editor.</h4></figcaption>
 
