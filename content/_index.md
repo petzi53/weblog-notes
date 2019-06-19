@@ -4,4 +4,7 @@ description: ""
 title: "Peter's Blog"
 lastmod:
 disable_comments: true
+children: yes
+fileListing: yes
 ---
+
