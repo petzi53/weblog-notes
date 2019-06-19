@@ -12,6 +12,9 @@ disable_comments: no
 draft: no
 ---
 
+In an <a href="/2019/06/19/bibliographic-metadata-for-your-web-page">accompanying post</a> I explain why to provide bibliographic metadata for your web entries could be beneficial.
+
+
 ## Requirements
 
 In this tutorial, I will show how to produce and embed bibliographic metadata into your web page. To follow this guide, I assume that 
