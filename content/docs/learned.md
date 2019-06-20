@@ -27,19 +27,37 @@ draft: yes
 
 + `fileListing: yes`: in YAML header is default value. Displays oneliner with title only.
 
-+ `fileListing: no`: or no filelisting parameter in YAML displays title, short description but also categories and tags.
++ `fileListing: yes`: or no filelisting parameter in YAML displays title, short description but also categories and tags.
 
-+ the shortcut `%children style="h4" description="true"%` displays title, short description but no categories and tags.
++ the shortcut `children style="h4" description="true"` displays title, short description but no categories and tags.
 
-+ `children: yes`: displays just the children shortcut, otherwise you get also at the end of the page a fileListing. 
++ `children: no`: displays just the children shortcut, otherwise you get also at the end of the page a commented
+
+### How to use the children shortcode in frontmatter and text
+
+The Combination in children front matter and children shortcode is counterintuitive:
+
++ frontmatter=yes and no shortcode: results in **empty page**
++ frontmatter=yes and shortcode: results in content of shortcode e.g.
+    + `children style="h4"`: **just the title**, without description and tags
+    + `children style="h4" description="false"`: title, and **description but without tags**
++ frontmatter=no and no shortcode: results in h2 title and description 
++ frontmatter=no and shortcode: result of the shortcode but after that h2 title, description and tags
+    + `children style="h4"`: title, without description **but with tags**
+    + `children style="h4" description="false"`: title **description and tags**
+    
+`fileListing: yes` is almost the same as children: frontmatter=no and shortcode `children` but **includes a date**!
+
 
 + If there are no visible file or folders under a directory (folder), then there is a design problem with the menu.
 
 ### YAML front matter
 * lastmod: my first Hugotemplate with logic (if then)
+* draft yes/no 
+* disable_comments yes/no
+* fileListing yes/no
+* children yes/no in combination with children shortcode in text (see list above) 
 * hidden yes/no (for menus)
-* draft yes/no with disable_comments yes/no
-* children yes/no in combination with fileListing yes/no
 * alwaysopen yes/no (for menus)
 
 ### RStudio

@@ -43,7 +43,7 @@ Add a HTTP `classes` parameter to the link image to add CSS classes. `shadow` an
 ![Foto Peter](/img/petzi.jpg?height=180px)
 
 
-### Other solution ist HTML for `.md` files
+### Other solution is HTML for `.md` files
 
 
         <img src="/img/petzi.jpg" alt="Foto Peter" style="width: 100px; height: 100px"/>
