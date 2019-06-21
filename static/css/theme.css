@@ -291,8 +291,7 @@ pre {
 }
 
 b, strong, label, th {
-    text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 900;
 }
 
 
@@ -805,9 +804,6 @@ div.notices.tip {
 }
 div.notices.tip p:first-child:after {
     content: 'Tip';
-}
-em {
-  color: #B67474;
 }
 
 code, kbd, pre, samp {
@@ -1486,6 +1482,9 @@ img[src$='#floatright']
   margin-right:auto;
 }
 
+.upper {
+  text-transform: uppercase;
+}
 
 .footnotes {
   font-size: 0.9rem;
