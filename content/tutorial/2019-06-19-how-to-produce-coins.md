@@ -37,11 +37,11 @@ In this tutorial, I will show how to produce and embed bibliographic metadata in
 <img class="border shadow" src="/tutorial/2019-06-19-coins.files/zotero-coins-03-min.png" alt="Sreenshot of the Zotero bilbiograpy with the new downloaed biobliographic entry." width="60%" />
 <figcaption><h4>**Figure 03:** Zotero bilbiograpy with the new downloaed biobliographic entry. </h4></figcaption>
 
-4. Change the item type to an appropriate value: in my case "Blog Post". You will see that the Zotero icon changes to reflect the new value.
+4. Change the item type to an appropriate value: in my case "Blog Post". You will see that the Zotero icon changes to reflect the new value. Different item types have different fields.
 <img class="border shadow" src="/tutorial/2019-06-19-coins.files/zotero-coins-04-min.png" alt="Annoted screenshot explains missing bibliographic information." width="60%" />
 <figcaption><h4>**Figure 04:** The standard web page entry misses many information in its bilbiographic record.</h4></figcaption>
 
-5. Add the relevant information as shown on the screenshot.
+5. Add the relevant information as shown on the screenshot. Depending on the chosen item type, there are different fields to fill in. There is a list of item types, fields, and their meanings on a [Zotero help page](https://www.zotero.org/support/kb/item_types_and_fields).
 <img class="border shadow" src="/tutorial/2019-06-19-coins.files/zotero-coins-05-min.png" alt="Screenshot shows the information added." width="60%" />
 <figcaption><h4>**Figure 05:** Adding information into the bibliographic record.</h4></figcaption>
 
