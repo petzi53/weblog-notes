@@ -7,6 +7,8 @@ categories:
   - open-science
 tags:
   - definition
+bibliography:
+  - ../../references.bib
 slug: what-is-open-science-about
 disable_comments: no
 draft: no
