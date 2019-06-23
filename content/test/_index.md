@@ -1,5 +1,4 @@
 ---
-alwaysopen: false
 filelisting: yes
 description: ""
 title: Test
