@@ -26,7 +26,7 @@ The following graphics summarizes my proposal for the first level of a taxonomy 
 
 <map name="open-science-map">
   <area alt="CC-BY-SA 4.0" title="CC-BY-SA 4.0" href="https://creativecommons.org/licenses/by-sa/4.0/" coords="225,693,646,738" shape="rect">
-  <area alt="Open Science" title="Open Science" href="/2019/06/21/toward-a-taxonomy-of-open-science/" coords="136,270,370,349" shape="rect">
+  <area alt="Toward a taxonomy of Open Science" title="Toward a taxonomy of Open Science" href="/2019/06/24/toward-a-taxonomy-of-open-science/" coords="136,270,370,349" shape="rect">
 </map>
 
 ## Citations: An essential activity during the research process
