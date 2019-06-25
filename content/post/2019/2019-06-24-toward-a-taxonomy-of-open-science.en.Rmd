@@ -47,7 +47,7 @@ My proposal contains also nine elements for the first level, but they differ ess
   <area alt="Open Science" title="Open Science" href="2019/06/24/toward-a-taxonomy-of-open-science/" coords="136,270,370,349" shape="rect">
 </map>
 
-I believe that **the essence of Open Science is a particular (new) set of activities during the research process**. These nine categories designate a particular set of activities.To describe these activities in detail is the keypart of a better understanding about Open Science. I have already stated in [another post](/2019/06/24/toward-a-taxonomy-of-open-science/), that the "Open" in Open Science refers to the **participatory way of knowledge creation and the shared usage of its products**. Therefore we are going to look into the different phases of the research process and its exploitation. 
+I believe that **the essence of Open Science is a particular (new) set of activities during the research process**. These nine categories designate a particular set of activities.To describe these activities in detail is the keypart of a better understanding about Open Science. I have already stated in [another post](/2019/06/12/what-is-open-science-about/), that the "Open" in Open Science refers to the **participatory way of knowledge creation and the shared usage of its products**. Therefore we are going to look into the different phases of the research process and its exploitation. 
 
 In the next couple of weeks, I will therefore look into these activities of the research process. Hopefully this will provide me nd a deeper understaning what kinds of processes Open Science constitute. This should provide me with the material for the third tier of a taxonomy for Open Science.
 
