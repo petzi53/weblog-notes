@@ -2,12 +2,19 @@
 title: What is Open Science About?
 author: Peter Baumgartner
 date: '2019-06-12'
-lastmod: '2019-06-23'
-description: "By discussing different definitions of ‘Open Science’ quoted in the literature, the post develops a particular perspective: We argue that openness must include not only scientific findings but also the process of knowledge creation. The article is the first of a series and contrasts a holistic understanding of Open Science with the concepts of eScience, Cyberscience or Science 2.0, Libre Science and Open respective Libre Knowledge."
 categories:
   - open-science
+  - theory
 tags:
   - definition
+  - taxonomy
+lastmod: '2019-06-23'
+description: 'By discussing different definitions of ‘Open Science’ quoted in the
+  literature, the post develops a particular perspective: We argue that openness must
+  include not only scientific findings but also the process of knowledge creation.
+  The article is the first of a series and contrasts a holistic understanding of Open
+  Science with the concepts of eScience, Cyberscience or Science 2.0, Libre Science
+  and Open respective Libre Knowledge.'
 bibliography:
   - ../../references.bib
 slug: what-is-open-science-about
