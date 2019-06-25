@@ -22,7 +22,7 @@ This is the second post of a series of ten contributions about a better understa
 
 The following graphics summarizes my proposal for the first level of a taxonomy of Open Science (TOS). Branches with red pointers are active links connecting to the corresponding posts I have written so far.
 
-<img class="border shadow" src="/post/2019/2019-06-21-toward-a-taxonomy-of-open-science.en.files/Open-Science-0-min.png" usemap="#open-science-map" alt="Open Science Taxonomie" /> <figcaption><h4>**Figure 01:** TThe first level of a sugeested Taxonomy of Open Science (TOS)</h4></figcaption>
+<img class="border shadow" src="/post/2019/2019-06-21-toward-a-taxonomy-of-open-science.en.files/Open-Science-0-min.png" usemap="#open-science-map" alt="Open Science Taxonomie" /> <figcaption><h4>**Figure 1:** The first level of a sugeested Taxonomy of Open Science (TOS)</h4></figcaption>
 
 <map name="open-science-map">
   <area alt="CC-BY-SA 4.0" title="CC-BY-SA 4.0" href="https://creativecommons.org/licenses/by-sa/4.0/" coords="225,693,646,738" shape="rect">
@@ -54,7 +54,7 @@ Even if an article is published as Open Access, its citations are not automatica
 
 The origins of this movement can be traced back to [OpenCitaton](http://opencitations.net/), a project funded by [JISC](https://www.jisc.ac.uk/), a UK based organization, which provides digital solutions for the education and research. In 2016 the [Initiative for Open Citation](https://i4oc.org/) was launched, which today is the driving force behind the movement. It aims for free availability and usage of all metadata from publications with a digital object identifier (DOI) registered by [Crossref](https: //www.crossref. org /). Freely available citation data are accessible through the [Crossref program interface](https://github.com/CrossRef/rest-api-doc) or the [Open Citation Corpus](http://opencitations.net/). Open Citations can be used to find publications, but also for the analysis of the citation corpus as well (e.g., "how do different fields of knowledge fit together?").
 
-<img class="border shadow" src="/post/2019/2019-06-23-open-citation-toward-a-taxonomy-of-open-science.en.files/open-citation.png" alt="" /> <figcaption><h4>**Figure 01:** How many citation referenced by Crossref are Open Citations? (see: [https://web.archive.org/web/20190623212728/https://i4oc.org/](https://web.archive.org/web/20190623212728/https://i4oc.org/), accessed 2019-06-23.</h4></figcaption>
+<img class="border shadow" src="/post/2019/2019-06-23-open-citations-TOS.en.files/how-many-citations-are-open-min.png" alt="Graphs shows how many citations referenced by Crossref are Open Citations" /> <figcaption><h4>**Figure 2:** How many citations referenced by Crossref are Open Citations? (see: [https://web.archive.org/web/20190623212728/https://i4oc.org/](https://web.archive.org/web/20190623212728/https://i4oc.org/), accessed 2019-06-23.)</h4></figcaption>
 
 Keep in mind that the figures above refer only to those citations referenced by Crossref. The relation of all scientific publication to Open Citations is much worse. The biggest problem is that Open Citations are not in the business interests of two key players: [Elsevier](https://www.elsevier.com/) ([Scopus](https://www.scopus.com/)) and [Clarivate Analytics](https://clarivate.com/) ([Web of Science](https://clarivate.com/products/web-of-science/)).
 
@@ -64,9 +64,9 @@ WoS (previously known as Web of Knowledge) is a commercial online citation index
 
 > Clarivate Analytics was formerly the Intellectual Property and Science division of [Thomson Reuters](https://www.thomsonreuters.com/en.html). In 2016 Thomson Reuters struck a 3.55 billion dollar deal in which they spun it off into an independent company and sold it. [Wikipedia](https://en.wikipedia.org/wiki/Clarivate_Analytics). See more in detail the [The Scientist](https://www.the-scientist.com/the-nutshell/web-of-science-sold-for-more-than-3-billion-33184), a magazine for life science professionals.
 
-<img class="border shadow" src="/post/2019/2019-06-23-open-citations-TOS.en.files/WoS-Clarivate-Product-Portfolio.png" alt="Graphic about the structure of Web of Science services" width=40% /> <figcaption><h4>**Figure 2:** Clarivate Analytics [Web of Science product portfolio](https://clarivate.libguides.com/webofscienceplatform/introduction)</h4></figcaption>
+<img class="border shadow" src="/post/2019/2019-06-23-open-citations-TOS.en.files/WoS-Clarivate-Product-Portfolio-min.png" alt="Graphic about the structure of Web of Science services" width=40% /> <figcaption><h4>**Figure 3:** Clarivate Analytics [Web of Science product portfolio](https://clarivate.libguides.com/webofscienceplatform/introduction)</h4></figcaption>
 
-WoS is not only one product but platform with many different indexing services and several scientific literature search databases. The central product in the portfolio of Clarivate Analytics is the Web of Science Core Collection (see Figure 2). It includes:
+WoS is not only one product but platform with many different indexing services and several scientific literature search databases. The central product in the portfolio of Clarivate Analytics is the Web of Science Core Collection (see Figure 3). It includes:
 
 + [Science Citation Index]( http://mjl.clarivate.com/cgi-bin/jrnlst/jlresults.cgi?PC=K) (SCI), 
 + [Social Sciences Citation Index](http://mjl.clarivate.com/cgi-bin/jrnlst/jlresults.cgi?PC=SS) (SSCI) and 
@@ -136,7 +136,7 @@ In this post, I have outlined the rationale and significance of the Open Citatio
 
 I have also argued that the economic interests of two key players in the research business are obstacles to overcome for a higher rate of Open Citations. Clarivate Analytics form together with Elsevier a duopoly and maybe with Google even a tripoly [@schoolworkhelper_business_2018]: Because of the competition between two or three sellers they cannot work like a monopoly and dictate without consideration their market condition. However, they can work in a kind competition-cooperation relationship; an economic framework called the coopetition paradox [@raza-ullah_coopetition_2014].
 
-See to the subject of Open Citation also my permanently updated pointers on my [Wakelet page](https://wakelet.com/@PeterBaumgartner).
+Add relevants links to the subject of Open Citation on my [Wakelet page](https://wakelet.com/@PeterBaumgartner).
 
 <iframe class="wakeletEmbed" width="100%" height="760px" src="https://embed.wakelet.com/wakes/bab0729d-157f-453b-9ea6-87d0c6cfdb45/list?border=1"style="border: none" allow="autoplay"></iframe><!-- Please only call https://embed-assets.wakelet.com/wakelet-embed.js once per page --><script src="https://embed-assets.wakelet.com/wakelet-embed.js" charset="UTF-8"></script>
 
