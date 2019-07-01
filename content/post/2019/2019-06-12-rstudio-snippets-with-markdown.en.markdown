@@ -5,7 +5,6 @@ date: '2019-06-12'
 slug: rstudio-snippets-for-markdown
 categories: [how-to]
 tags: [snippet, RStudio]
-lastmod: '2019-06-16'
 description: 'Code snippets are text macros which you can insert into your programs. They are used for repetitive tasks and can boost your productivity tremendously. After providing some link to tutorials about RStudio snippets, I am going to summarize eight reminders for practical usage.'
 disable_comments: no
 draft: no

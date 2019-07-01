@@ -13,7 +13,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 languageCode = "en-us"
 DefaultContentLanguage = "en"
 rssLimit = 100
-copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
+copyright = "CC BY-SA 4.0"
 
 
 # pb: Disable comments on the whole site or use it in the header for just one article
@@ -44,6 +44,11 @@ enableGitInfo = true
 # https://gohugo.io/content-management/urls/#relative-urls
 relativeURLs = true # false = default value!
 
+[frontmatter]
+  date = ["date", "publishDate", "lastmod"]
+  lastmod = [":git", "lastmod", "date", "publishDate"]
+  publishDate = ["publishDate", "date"]
+  expiryDate = ["expiryDate"]
 
 [permalinks]
     post = "/:year/:month/:day/:slug"
