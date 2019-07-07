@@ -5,6 +5,7 @@ baseurl = "https://notes.peter-baumgartner.net/"
 
 # Enable analytics by entering your Google Analytics tracking ID
 googleAnalytics = "UA-106194253-6"
+
 # Enable comments by entering your Disqus shortname
 disqusShortname = "petzi-2"
 
@@ -14,20 +15,19 @@ languageCode = "en-us"
 DefaultContentLanguage = "en"
 rssLimit = 100
 copyright = "CC BY-SA 4.0"
+title = "Open Science Education" # for RSS feed and Search Engines
+theme = "docdock"
+themesdir = "themes"
+footnotereturnlinkcontents = "↩"
 
-
-# pb: Disable comments on the whole site or use it in the header for just one article
+################################################################################
+# Disable comments on the whole site
 # DOES NOT WORK! (I have to do it in every article!)
 # TOML: disable_comments = true
 # YAML: disable_comments: yes
 # disable_comments = yes
 
-title = "Open Science Education" # for RSS feed and Search Engines
-theme = "docdock"
-themesdir = "themes"
-
-footnotereturnlinkcontents = "↩"
-
+################################################################################
 # for emoji use the following format: :<name of emoji>:
 # for example: :wink: ATTN: does not work within Expand shortcode!
 # list of names at: https://github.com/afeld/emoji-css/tree/gh-pages/emoji
@@ -41,6 +41,7 @@ enableEmoji = true
 enableGitInfo = true
 
 # It seems to me that I do not need relativeURLs:
+# they are not relevant as I have a base URL without subdirectory???
 # https://gohugo.io/content-management/urls/#relative-urls
 relativeURLs = true # false = default value!
 
@@ -63,7 +64,6 @@ relativeURLs = true # false = default value!
     fractions = true  # `false` disables smart fractions (e.g. 5/12 formatted as a fraction).
     smartypants = true  # `false` disables all smart punctuation substitutions (e.g. smart quotes, dashes, fractions).
 
-
 [params]
     # not used anymore: replaced with relURL
     # localSite = "http://127.0.0.1:4321"
@@ -74,7 +74,7 @@ relativeURLs = true # false = default value!
     # Useful to give opportunity to people to create merge request for your doc.
     editURL = "https://github.com/petzi53/weblog-notes/edit/master/content/"
 
-    # Author of the site, will be used in meta information
+    # author of the site, will be used in meta information
     author = "Peter Baumgartner"
     # Description of the site, will be used in meta information
     description = "Open Science & Data Science Education"
@@ -183,5 +183,3 @@ relativeURLs = true # false = default value!
 # lastmodifieremail: jack.praker@icloud.com
 # lastmod: ~
 # disable_comments: yes/no
-
-
