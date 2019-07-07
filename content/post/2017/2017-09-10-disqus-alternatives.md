@@ -76,3 +76,6 @@ I reviewed superficially different commenting systems. I was looking for a free,
 
 A competent review of these four systems requires a test installation, which I plan to do in the next few weeks. 
 
+
+
+<span class='Z3988' title='url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=blogPost&amp;rft.title=Alternatives%20for%20Disqus?%20::%20Open%20Science%20Education&amp;rft.source=Alternatives%20for%20Disqus?&amp;rft.rights=CC%20BY-SA%204.0&amp;rft.description=Disqus%20is%20a%20top-rated%20service%20for%20hosting%20and%20managing%20comments.%20But%20it%20has%20as%20an%20external%20service%20several%20disadvantages%20which%20oppose%20the%20philosophy%20of%20static%20websites%20diametrically.%20I%20discuss%20some%20alternatives%20for%20integrating%20discussion%20fora%20with%20static%20websites.&amp;rft.identifier=https%3A%2F%2Fnotes.peter-baumgartner.net%2F2017%2F09%2F14%2Falternatives-for-disqus&amp;rft.aufirst=Peter&amp;rft.aulast=Baumgartner&amp;rft.au=Peter%20Baumgartner&amp;rft.date=&amp;rft.language=en'></span>

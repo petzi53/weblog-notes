@@ -69,3 +69,6 @@ ORCID aims to be a part of a broader social and technical infrastructure for uni
 {{< vimeo 237730655 >}}
 
 
+
+
+<span class='Z3988' title='url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=blogPost&amp;rft.title=ORCID%20-%20Researchers%20uniquely%20identified%20and%20connected%20::%20Open%20Science%20Education&amp;rft.source=ORCID%20-%20Researchers%20uniquely%20identified%20and%20connected&amp;rft.rights=CC%20BY-SA%204.0&amp;rft.description=I%20applied%20for%20my%20ORCID-ID%20already%20several%20years%20ago,%20but%20only%20yesterday%20I%20understood%20the%20advantage%20of%20yet%20another%20web%20presence:%20ORCID%20is%20a%20non-profit%20organization%20and%20aims%20to%20identify%20researchers%20uniquely%20and%20to%20connect%20their%20contributions%20and%20affiliations%20across%20disciplines,%20borders,%20and%20time.%20With%20this%20post,%20I%20will%20tell%20you%20some%20advantages%20of%20ORCID%20to%20convince%20you%20to%20join.&amp;rft.identifier=https%3A%2F%2Fnotes.peter-baumgartner.net%2F2018%2F08%2F26%2Forcid-researchers-uniquely-identified&amp;rft.aufirst=Peter&amp;rft.aulast=Baumgartner&amp;rft.au=Peter%20Baumgartner&amp;rft.date=&amp;rft.language=en'></span>

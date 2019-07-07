@@ -149,3 +149,6 @@ Last, but not least, I would like to add that Grammarly is not idiot-proof. You 
 
 
 
+
+
+<span class='Z3988' title='url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=blogPost&amp;rft.title=Grammarly%20improves%20your%20writing%20::%20Open%20Science%20Education&amp;rft.source=Grammarly%20improves%20your%20writing&amp;rft.rights=CC%20BY-SA%204.0&amp;rft.description=The%20article%20reports%20on%20my%20experiences%20with%20the%20premium%20version%20of%20Grammarly,%20an%20AI-powered%20web%20service%20for%20grammar%20and%20spell%20checking.%20As%20this%20is%20going%20to%20be%20a%20very%20positive%20review,%20I%20want%20to%20disclose%20that%20I%20am%20not%20affiliated%20in%20any%20way%20with%20Grammarly%20Inc.,%20the%20enterprise%20behind%20this%20product.&amp;rft.identifier=https%3A%2F%2Fnotes.peter-baumgartner.net%2F2019%2F06%2F07%2Fgrammarly-improves-your-writing&amp;rft.aufirst=Peter&amp;rft.aulast=Baumgartner&amp;rft.au=Peter%20Baumgartner&amp;rft.date=&amp;rft.language=en'></span>

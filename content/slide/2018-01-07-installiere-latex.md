@@ -104,3 +104,6 @@ ___
 - Sie beenden nun diese Präsentation mit (**Browser** Pfeil rückwärts)
 - ACHTUNG: Browser rückwärts -- und nicht Folien Pfeil links!
 
+
+
+<span class='Z3988' title='url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=blogPost&amp;rft.title=LaTeX%20installieren%20(Deutsch)%20::%20Open%20Science%20Education&amp;rft.source=LaTeX%20installieren%20(Deutsch)&amp;rft.rights=CC%20BY-SA%204.0&amp;rft.description=Tutorial%20zum%20Installieren%20des%20LaTeX%20Textsystems%20f%C3%BCr%20Mac%20und%20Windows&amp;rft.identifier=https%3A%2F%2Fnotes.peter-baumgartner.net%2Fslide%2Finstalliere-latex&amp;rft.aufirst=Peter&amp;rft.aulast=Baumgartner&amp;rft.au=Peter%20Baumgartner&amp;rft.date=&amp;rft.language=en'></span>

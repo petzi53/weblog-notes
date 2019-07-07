@@ -1,9 +1,9 @@
 ---
 title: Thank you!
-
 date: 2019-05-31
 draft: false
 disable_comments: true
+no_coins: yes
 ---
 
 Thank you for your message. I will reply as fast as possible.

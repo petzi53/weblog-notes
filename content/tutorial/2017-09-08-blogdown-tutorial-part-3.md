@@ -49,3 +49,6 @@ It may be the case that the generation of you first post produces a warning. Aft
 
 
 
+
+
+<span class='Z3988' title='url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=blogPost&amp;rft.title=Blogdown%20tutorial%20(Part%203)%20::%20Open%20Science%20Education&amp;rft.source=Blogdown%20tutorial%20(Part%203)&amp;rft.rights=CC%20BY-SA%204.0&amp;rft.description=In%20part%203%20I%20will%20show%20the%20necessary%20steps%20to%20get%20a%20live%20preview%20of%20the%20website.&amp;rft.identifier=https%3A%2F%2Fnotes.peter-baumgartner.net%2Ftutorial%2Fblogdown-tutorial-part-3&amp;rft.aufirst=Peter&amp;rft.aulast=Baumgartner&amp;rft.au=Peter%20Baumgartner&amp;rft.date=&amp;rft.language=en'></span>

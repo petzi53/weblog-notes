@@ -53,3 +53,6 @@ This was a very quick tour where I have covered just the things I believed to be
 
 
 
+
+
+<span class='Z3988' title='url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=blogPost&amp;rft.title=Blogdown%20tutorial%20(Part%204)%20::%20Open%20Science%20Education&amp;rft.source=Blogdown%20tutorial%20(Part%204)&amp;rft.rights=CC%20BY-SA%204.0&amp;rft.description=In%20this%20fourth%20part%20of%20the%20tutorial%20I%20will%20explain%20a%20method%20how%20to%20bring%20your%20website%20online.%20My%20preferred%20method%20is%20to%20transfer%20the%20files%20via%20GitHub%20to%20Netlify,%20a%20service%20specialized%20for%20quickly%20rolling%20out%20static%20websites.&amp;rft.identifier=https%3A%2F%2Fnotes.peter-baumgartner.net%2Ftutorial%2Fblogdown-tutorial-part-4&amp;rft.aufirst=Peter&amp;rft.aulast=Baumgartner&amp;rft.au=Peter%20Baumgartner&amp;rft.date=&amp;rft.language=en'></span>

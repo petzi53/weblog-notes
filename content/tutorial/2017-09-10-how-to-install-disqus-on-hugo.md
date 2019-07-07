@@ -37,3 +37,6 @@ description: This post explains how to integrate Disqus as a discussion forum fo
 I should mention that there is growing skepticism in the community about Disqus. People are not only criticizing slowness (load-time behavior) but above all they are concerned about data integrity. It seems that there are lots of [irrelevant requests](http://donw.io/post/github-comments/) to track the data traffic for whatever purpose nobody knows. 
 
 
+
+
+<span class='Z3988' title='url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=blogPost&amp;rft.title=How%20to%20install%20Disqus%20on%20Hugo?%20::%20Open%20Science%20Education&amp;rft.source=How%20to%20install%20Disqus%20on%20Hugo?&amp;rft.rights=CC%20BY-SA%204.0&amp;rft.description=This%20post%20explains%20how%20to%20integrate%20Disqus%20as%20a%20discussion%20forum%20for%20your%20website.%20It%20is%20not%20a%20thing%20you%20can%20do%20directly%20applying%20the%20Hugo%20documentation%20because%20there%20is%20a%20faulty%20template%20to%20change.&amp;rft.identifier=https%3A%2F%2Fnotes.peter-baumgartner.net%2Ftutorial%2Fhow-to-install-disqus-on-hugo&amp;rft.aufirst=Peter&amp;rft.aulast=Baumgartner&amp;rft.au=Peter%20Baumgartner&amp;rft.date=&amp;rft.language=en'></span>

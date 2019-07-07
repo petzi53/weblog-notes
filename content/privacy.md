@@ -5,6 +5,7 @@ date: 2019-06-06
 draft: false
 disable_comments: true
 lastmod:
+no_coins: yes
 ---
 
 There are several places on this website that requires you to identify yourself:

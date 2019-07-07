@@ -30,3 +30,6 @@ I will elaborate later on the following thoughts. At the moment, I want to list 
 
 As you can see: A considerable bulk of difficulties and barriers to overcome! Some of the points of this list, I will reflect more in detail at a later time.
 
+
+
+<span class='Z3988' title='url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=blogPost&amp;rft.title=Blog%20writing%20barriers%20to%20overcome%20::%20Open%20Science%20Education&amp;rft.source=Blog%20writing%20barriers%20to%20overcome&amp;rft.rights=CC%20BY-SA%204.0&amp;rft.description=Another%20year%20has%20elapsed%20since%20I%20wrote%20my%20last%20blog%20entry.%20At%20first,%20I%20thought%20the%20problem%20is%20only%20my%20English.%20But%20in%20the%20meanwhile,%20I%20see%20several%20other%20reasons%20why%20I%20do%20not%20blog%20for%20the%20new%20static%20website(s).&amp;rft.identifier=https%3A%2F%2Fnotes.peter-baumgartner.net%2F2019%2F05%2F31%2Fblog-writing-barriers-to-overcome&amp;rft.aufirst=Peter&amp;rft.aulast=Baumgartner&amp;rft.au=Peter%20Baumgartner&amp;rft.date=&amp;rft.language=en'></span>

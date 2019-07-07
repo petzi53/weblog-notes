@@ -2,6 +2,7 @@
 description: contact form
 title: Contact me
 disable_comments: true
+no_coins: true
 ---
 
 <form action="https://formspree.io/peter.baumgartner@icloud.com" method="POST">

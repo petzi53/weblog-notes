@@ -6,6 +6,7 @@ slug: changed
 toc: no
 disable_comments: yes
 draft: yes
+no_coins: yes
 ---
 
 ### Link attribute _target="_blank"

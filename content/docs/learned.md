@@ -7,6 +7,7 @@ lastmod: '2019-06-05'
 toc: no
 disable_comments: yes
 draft: yes
+no_coins: yes
 ---
 
 ## Recommended workflow

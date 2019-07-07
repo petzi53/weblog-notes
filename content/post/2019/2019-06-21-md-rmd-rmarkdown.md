@@ -5,6 +5,7 @@ date: '2019-06-21'
 slug: md-rmd-rmarkdown
 disable_comments: yes
 draft: yes
+description: Summary of differences in behavior with .md, Rmd, and .Rmarkdown files.
 ---
 
 <span class="upper">read pandoc!</span>
@@ -49,3 +50,6 @@ Whenever I change a Rmd or Rmarkdown file and cannot see the changes, try the fo
 2. Restart R
 3. Restart the server
 4. AND touch the file (or type something in it) to change the date of the last modification!
+
+
+<span class='Z3988' title='url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=blogPost&amp;rft.title=Md%20vs.%20Rmd%20vs.%20Rmarkdown%20::%20Open%20Science%20Education&amp;rft.source=Md%20vs.%20Rmd%20vs.%20Rmarkdown&amp;rft.rights=CC%20BY-SA%204.0&amp;rft.description=Summary%20of%20differences%20in%20behavior%20with%20.md,%20Rmd,%20and%20.Rmarkdown%20files.&amp;rft.identifier=https%3A%2F%2Fnotes.peter-baumgartner.net%2F2019%2F06%2F21%2Fmd-rmd-rmarkdown&amp;rft.aufirst=Peter&amp;rft.aulast=Baumgartner&amp;rft.au=Peter%20Baumgartner&amp;rft.date=&amp;rft.language=en'></span>

@@ -2,6 +2,7 @@
 description: contributors and packages used by hugo-theme-docdock
 title: Credits for the docdock theme
 disable_comments: true
+no_coins: true
 ---
 
 

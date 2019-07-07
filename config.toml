@@ -38,7 +38,7 @@ enableEmoji = true
 # Enable .GitInfo object for each page (if the Hugo site is versioned by Git).
 # This will then update the Lastmod parameter for each page
 # using the last git commit date for that content file.
-enableGitInfo = true
+# enableGitInfo = true
 
 # It seems to me that I do not need relativeURLs:
 # they are not relevant as I have a base URL without subdirectory???

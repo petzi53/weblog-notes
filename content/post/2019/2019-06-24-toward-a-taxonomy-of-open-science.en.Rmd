@@ -56,3 +56,6 @@ Every time I will publish one of these articles, I will repeat my graph with a s
 
 
 ## References
+
+
+<span class='Z3988' title='url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=blogPost&amp;rft.title=Toward%20a%20Taxonomy%20of%20Open%20Science%20(TOS)%20::%20Open%20Science%20Education&amp;rft.source=Toward%20a%20Taxonomy%20of%20Open%20Science%20(TOS)&amp;rft.rights=CC%20BY-SA%204.0&amp;rft.description=This%20post%20starts%20a%20series%20of%20ten%20contributions%20about%20a%20better%20understanding%20of%20the%20different%20aspects%20of%20Open%20Science.%20I%20want%20to%20collect%20material%20to%20develop%20a%20taxonomy%20of%20Open%20Science%20(TOS).%20The%20primary%20goal%20of%20this%20undertaking%20is%20not%20only%20to%20build%20a%20hierarchical%20system%20where%20every%20notion%20is%20unambiguous%20but%20to%20develop%20a%20heuristic%20tool%20useful%20for%20further%20research.&amp;rft.identifier=https%3A%2F%2Fnotes.peter-baumgartner.net%2F2019%2F06%2F24%2Ftoward-a-taxonomy-of-open-science&amp;rft.aufirst=Peter&amp;rft.aulast=Baumgartner&amp;rft.au=Peter%20Baumgartner&amp;rft.date=&amp;rft.language=en'></span>
