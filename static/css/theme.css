@@ -1434,9 +1434,6 @@ footer {
   width: 100%;
 }
 
-figcaption {
-  text-align: center;
-}
 
 # https://discourse.gohugo.io/t/handling-images-size-aligning/1940/2
 # usage: ![](/image.png#floatleft)
