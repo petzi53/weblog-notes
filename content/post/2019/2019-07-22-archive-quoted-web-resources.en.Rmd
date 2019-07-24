@@ -41,6 +41,13 @@ With [WebCite](https://webcitation.org/), there used to be a web service to circ
 
 Luckily with [Wayback Machine](https://web.archive.org/save)^[To access this page you must be registered by [archive.org](https://archive.org/)], operated by the [Internet Archive](https://en.wikipedia.org/wiki/Internet_Archive), there is recently a new and reliable web service available. Although there is a [sophisticated how-to use](https://en.wikipedia.org/wiki/Help:Using_the_Wayback_Machine) of this service in the Wikipedia context, I have prepared my own [How-to use Wayback Machine for the general public](/slide/wayback-machine-tutorial/).
 
+<div class="notices info" >
+<p class="centered">
+Visit my tutorial on [How-to use Wayback Machine for the general public](/slide/wayback-machine-tutorial/).
+</div>
+
+
+
 <img class="border shadow" src="/post/2019/2019-07-21-archive-quoted-web-resources.en.files/wayback-machine-start-page-min.png" alt="Start page of the Wayback Machine, a service by the Internet Archive" width=60% /> <figcaption><h4>**Figure 2:** Start page of the Wayback Machine, a service by the Internet Archive</h4></figcaption>
 
 ## How to cite archived resources?
