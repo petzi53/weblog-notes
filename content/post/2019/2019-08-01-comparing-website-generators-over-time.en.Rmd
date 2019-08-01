@@ -28,7 +28,7 @@ This blog entry is the first time that I am using RMarkdown for programming and 
 
 The data for this article comes from the previous article, and I will load them with the following code chunk:
 
-```{r load-data}
+```{r load-data, include=FALSE}
 ### Load dataset
 sg_crawllist <- readRDS("../../../data/sg_crawllist.rds")
 sg_data_collection <- readRDS("../../../data/sg_data_collection.rds")
