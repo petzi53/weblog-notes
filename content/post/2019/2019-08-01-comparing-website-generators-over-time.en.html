@@ -1,0 +1,405 @@
+---
+title: "Comparing Website Generators Over Time"
+author: "Peter Baumgartner"
+date: '2019-08-01'
+description: "This article is the follow-up of [Retrieving And Scrapping Archived Data
+  dates, starting from May 2014 to August 2019. The data for this article comes from
+  at seven the previous article mentioned above With The Wayback Machine](https://rpubs.com/pbaumgartner/wayback). Here I will display some results from the scrapped archived web site https://www.staticgen.com/."
+
+disable_comments: no
+draft: no
+slug: comparing-website-generators-over-time
+tags:
+- r
+- Static-Generators
+categories:
+- API
+- data-science-education
+- Apps
+---
+
+
+
+<div id="introduction" class="section level1">
+<h1>Introduction</h1>
+<p>This article is the follow-up of <a href="https://rpubs.com/pbaumgartner/wayback">Retrieving And Scrapping Archived Data With The Wayback Machine</a>. Here I will display some results from the scrapped archived web site <a href="https://www.staticgen.com/" class="uri">https://www.staticgen.com/</a> at seven dates, starting from May 2014 to August 2019.</p>
+<p>{{% panel theme="info" header="A remark on my own account" %}}
+This blog entry is the first time that I am using RMarkdown for programming and displaying R code. I am not yet skilled how to do this. For instance I have included all code chunks even with my comments and some of my abandoned trials of programming code. This works well for me as a reminder and learning experience. I am not sure if this is valuable for other people as well or if its distracting because of an overload of information. Comments on this isssue are welcome.
+{{% /panel %}}</p>
+<p>The data for this article comes from the previous article, and I will load them with the following code chunk:</p>
+<pre class="r"><code>### Load dataset
+sg_crawllist &lt;- readRDS(&quot;../../../data/sg_crawllist.rds&quot;)
+sg_data_collection &lt;- readRDS(&quot;../../../data/sg_data_collection.rds&quot;)
+sg_names &lt;- readRDS(&quot;../../../data/sg_names.rds&quot;)
+sg_data &lt;- readRDS(&quot;../../../data/sg_data.rds&quot;)</code></pre>
+</div>
+<div id="setup" class="section level1">
+<h1>Setup</h1>
+<pre class="r"><code>knitr::opts_chunk$set(
+        message = F,
+        error = F,
+        warning = F,
+        comment = NA,
+        highlight = T,
+        prompt = T
+        )
+### Set the global option options(stringsAsFactors = FALSE) 
+### inside a parent function and restore the option after the parent function exits
+if (!require(&quot;xfun&quot;))
+        {install.packages(&quot;xfun&quot;, repos = &#39;http://cran.wu.ac.at/&#39;)
+        library(xfun)}</code></pre>
+<pre><code>## Loading required package: xfun</code></pre>
+<pre><code>## 
+## Attaching package: &#39;xfun&#39;</code></pre>
+<pre><code>## The following objects are masked from &#39;package:base&#39;:
+## 
+##     attr, isFALSE</code></pre>
+<pre class="r"><code>xfun::stringsAsStrings()
+
+### install and load some important packages
+### https://github.com/tidyverse/tidyverse
+if (!require(&quot;tidyverse&quot;))
+        {install.packages(&quot;tidyverse&quot;, repos = &#39;http://cran.wu.ac.at/&#39;)
+        library(tidyverse)}</code></pre>
+<pre><code>## Loading required package: tidyverse</code></pre>
+<pre><code>## ── Attaching packages ──────────────────────────────────────────────────────────── tidyverse 1.2.1 ──</code></pre>
+<pre><code>## ✔ ggplot2 3.2.0     ✔ purrr   0.3.2
+## ✔ tibble  2.1.3     ✔ dplyr   0.8.3
+## ✔ tidyr   0.8.3     ✔ stringr 1.4.0
+## ✔ readr   1.3.1     ✔ forcats 0.4.0</code></pre>
+<pre><code>## ── Conflicts ─────────────────────────────────────────────────────────────── tidyverse_conflicts() ──
+## ✖ dplyr::filter() masks stats::filter()
+## ✖ dplyr::lag()    masks stats::lag()</code></pre>
+<pre class="r"><code># lubridate, for date/times.
+if (!require(&quot;lubridate&quot;))
+        {install.packages(&quot;lubridate&quot;, repos = &#39;http://cran.wu.ac.at/&#39;)
+        library(lubridate)}</code></pre>
+<pre><code>## Loading required package: lubridate</code></pre>
+<pre><code>## 
+## Attaching package: &#39;lubridate&#39;</code></pre>
+<pre><code>## The following object is masked from &#39;package:base&#39;:
+## 
+##     date</code></pre>
+<pre class="r"><code># reshape2, restructure and aggregate data using melt and dcast
+if (!require(&quot;reshape2&quot;))
+        {install.packages(&quot;reshape2&quot;, repos = &#39;http://cran.wu.ac.at/&#39;)
+        library(reshape2)}</code></pre>
+<pre><code>## Loading required package: reshape2</code></pre>
+<pre><code>## 
+## Attaching package: &#39;reshape2&#39;</code></pre>
+<pre><code>## The following object is masked from &#39;package:tidyr&#39;:
+## 
+##     smiths</code></pre>
+</div>
+<div id="introduction-1" class="section level1">
+<h1>Introduction</h1>
+<p>This article is the follow-up of <a href="https://rpubs.com/pbaumgartner/wayback">Retrieving And Scrapping Archived Data With The Wayback Machine</a>. Here I will display some results from the scrapped archived web site <a href="https://www.staticgen.com/" class="uri">https://www.staticgen.com/</a> at seven dates, starting from May 2014 to August 2019. The data for this article comes from the previous article, and I will load them with the following code chunk:</p>
+<p>My analysis will concentrate on three issues:</p>
+<ol style="list-style-type: decimal">
+<li>Development of the number of static web site generators as displayed by the website <a href="https://www.staticgen.com/" class="uri">https://www.staticgen.com/</a>.</li>
+<li>Name of static website generators ranked by the number of stars for their repositories as a proxy for their popularity.</li>
+<li>Relative rankings of 18 website generators among each other at seven different dates.</li>
+</ol>
+<p>Other data (the number of forks, open issues, and followers on twitter) are not analyzed. They have, in my opinion, only a weak relationship with the diffusion of the web site generator. Perhaps the exclusion of twitter followers needs more reflection:</p>
+<ul>
+<li>The display of the number of twitter followers started only around 2019.</li>
+<li>As today (2019-07-31) only 37 static website generators have a twitter account.</li>
+<li>Even leading static website frameworks (e.g., Next.js) have no twitter account.</li>
+<li>The number of followers results not only from the popularity of the generator but also from exciting and well-written tweeds.</li>
+</ul>
+</div>
+<div id="growth-of-the-popularity-of-static-websites-generators" class="section level1">
+<h1>Growth of the Popularity of Static Websites Generators</h1>
+<pre class="r"><code>&gt; sg_count = NULL
+&gt; for (i in 1:length(sg_data_collection)) {
++   sg_count[i] &lt;- nrow(sg_data_collection[[i]])
++ }
+&gt; sg_quantity &lt;- data.frame(cbind(sg_crawllist[2], sg_count))
+&gt; sg_quantity$datetime &lt;- as_date(as.POSIXct(sg_quantity$datetime))
+&gt; names(sg_quantity) &lt;- c(&quot;Date of Archived Websites&quot;, &quot;Number of Static Generators&quot;)
+&gt; ggplot(sg_quantity, aes(x = `Date of Archived Websites`, y = `Number of Static Generators`)) + 
++   geom_line() +
++   labs(title = &quot;Growth of the Number of Static Websites Generators&quot;)</code></pre>
+<p><img src="/post/2019/2019-08-01-comparing-website-generators-over-time.en_files/figure-html/sg-numbers-1.png" width="672" /></p>
+<p>I started my data scrapping of the archived webpages of <a href="https://www.staticgen.com/" class="uri">https://www.staticgen.com/</a> in May 2014. At that time the website listed only about 50 generators. Currently (August 2019) the website features 260 static site generators. The plot shows a step and continuous growing popularity of these applications.</p>
+</div>
+<div id="taking-the-first-ten-generators-at-every-selected-date" class="section level1">
+<h1>Taking the first ten generators at every selected date</h1>
+<p>I am interested in the development of the leading group of website generators measured by their number of repository stars as a proxy for their popularity. The result is a list of 18 generators which were part of the leading group at least at one date under the observation period.</p>
+<pre class="r"><code>&gt; get_first10 &lt;- function(l) {
++   names_first10 = NULL
++   for (i in 1:length(l)) {
++     names_first10 &lt;- c(names_first10, l[[i]]$name[1:10])
++   }
++   names_first10 &lt;- dplyr::distinct(data.frame(names_first10), names_first10)
++   dplyr::rename(names_first10, Name = names_first10)
++   return(names_first10)
++ }
+&gt; 
+&gt; sg_names &lt;- get_first10(sg_data_collection)
+&gt; as.list(sg_names)</code></pre>
+<pre><code>$names_first10
+ [1] Jekyll      Octopress   Pelican     Middleman   Docpad     
+ [6] Hexo        Metalsmith  Harp        Wintersmith Assemble   
+[11] Brunch      Hugo        GitBook     Gatsby      Nuxt       
+[16] Next.js     VuePress    Docusaurus 
+18 Levels: Assemble Brunch Docpad Docusaurus Gatsby GitBook Harp ... Wintersmith</code></pre>
+</div>
+<div id="website-generators-ranked-by-their-repository-stars" class="section level1">
+<h1>Website generators ranked by their repository stars</h1>
+<div id="get-ranked-data" class="section level2">
+<h2>Get ranked data</h2>
+<p>I have also stored the number of forks but will not display the plots here as they give not valuable insights.</p>
+<pre class="r"><code>&gt; get_sg_data &lt;- function(df, l) {
++   sg_df &lt;- data.frame()
++   for (i in 1:nrow(df)) {
++     row_content = NULL
++     sg_vec = NULL
++     my_name &lt;- df[i,]
++     for (j in 1:length(l)) {
++       my_rank &lt;-  which(l[[j]]$name == my_name)
++       if (!purrr::is_empty(my_rank)) {
++         row_content &lt;- append(row_content, list(Rank = my_rank, 
++                                                 Stars = as.integer(l[[j]]$repo_stars[my_rank]), 
++                                                 Forks = as.integer(l[[j]]$repo_forks[my_rank])))
++       } else {
++         row_content &lt;- append(row_content, list(Rank = NA, Stars = NA, Forks = NA))
++       }
++     }
++   sg_vec &lt;- append(list(my_name), row_content)
++   sg_df &lt;- data.frame(force_bind(sg_df, data.frame(sg_vec)))
++   }
++   
++   names(sg_df) &lt;- c(&quot;Name&quot;, &quot;Rank.Stars.Start&quot;, &quot;Stars.Start&quot;, &quot;Forks.Start&quot;,
++                             &quot;Rank.Stars.2015&quot;, &quot;Stars.2015&quot;, &quot;Forks.2015&quot;,
++                             &quot;Rank.Stars.2016&quot;, &quot;Stars.2016&quot;, &quot;Forks.2016&quot;,
++                             &quot;Rank.Stars.2017&quot;, &quot;Stars.2017&quot;, &quot;Forks.2017&quot;,
++                             &quot;Rank.Stars.2018&quot;, &quot;Stars.2018&quot;, &quot;Forks.2018&quot;,
++                             &quot;Rank.Stars.2019&quot;, &quot;Stars.2019&quot;, &quot;Forks.2019&quot;,
++                             &quot;Rank.Stars.End&quot;, &quot;Stars.End&quot;, &quot;Forks.End&quot;)
++   
++   return(sg_df)
++ }
+&gt; 
+&gt; # bit.ly/SO-rbind-colnames
+&gt; force_bind = function(df1, df2) {
++     colnames(df2) = colnames(df1)
++     dplyr::bind_rows(df1, df2)
++ }
+&gt; 
+&gt; 
+&gt; sg_data &lt;- get_sg_data(sg_names, sg_data_collection)
+&gt; sg_data</code></pre>
+<pre><code>          Name Rank.Stars.Start Stars.Start Forks.Start Rank.Stars.2015
+1       Jekyll                1       15422         115               1
+2    Octopress                2        7947         209               2
+3      Pelican                3        3468         116               3
+4    Middleman                4        3207          60               5
+5       Docpad                5        2194         183              10
+6         Hexo                6        2143          79               6
+7   Metalsmith                7        2129           8               7
+8         Harp                8        1982         103               9
+9  Wintersmith                9        1713          47              12
+10    Assemble               10        1502          29              11
+11      Brunch               NA          NA          NA               4
+12        Hugo               13        1241          65               8
+13     GitBook               NA          NA          NA              NA
+14      Gatsby               NA          NA          NA              NA
+15        Nuxt               NA          NA          NA              NA
+16     Next.js               NA          NA          NA              NA
+17    VuePress               NA          NA          NA              NA
+18  Docusaurus               NA          NA          NA              NA
+   Stars.2015 Forks.2015 Rank.Stars.2016 Stars.2016 Forks.2016
+1       17917         79               1      23038        132
+2        8600        261               3       9285        274
+3        4150        152               6       5343        165
+4        3713         46               8       4866         85
+5        2433        214              13       2737        199
+6        3619        180               4       7972        187
+7        2870         28               9       4280         33
+8        2530        136              10       3535        183
+9        2074         43              14       2642         33
+10       2143         61              12       2778         60
+11       3828         27               7       4893         41
+12       2768        154               5       7837        238
+13         NA         NA               2      10904        354
+14         NA         NA              18       1989         36
+15         NA         NA              NA         NA         NA
+16         NA         NA              NA         NA         NA
+17         NA         NA              NA         NA         NA
+18         NA         NA              NA         NA         NA
+   Rank.Stars.2017 Stars.2017 Forks.2017 Rank.Stars.2018 Stars.2018
+1                1      28075        150               1      32993
+2                5       9533        278              24       1616
+3                7       6422        123               7       7620
+4                9       5525         79              10       6117
+5               17       2870        182              18       2950
+6                4      13735        332               3      20452
+7               10       5451         45               8       6527
+8               11       4175        217              12       4594
+9               15       3036         32              15       3295
+10              14       3214         23              14       3484
+11               8       5701         86               9       6342
+12               2      14023        366               2      22954
+13               3      13896        625               5      17385
+14               6       6867         97               4      18226
+15              NA         NA         NA               6       9481
+16              NA         NA         NA              NA         NA
+17              NA         NA         NA              NA         NA
+18              NA         NA         NA              NA         NA
+   Forks.2018 Rank.Stars.2019 Stars.2019 Forks.2019 Rank.Stars.End
+1         130               1      36464       7993              2
+2          54              28       1678        171             36
+3         195              10       8462       1534             10
+4         118              14       6384        687             15
+5         188              22       2990        250             24
+6         220               5      24795       3376              5
+7          52              11       7090        621             13
+8         238              16       4740        308             16
+9          36              19       3407        344             20
+10         22              18       3637        249             18
+11        123              13       6546        455             14
+12        208               3      31527       3638              3
+13        842               6      19970       2785              7
+14        450               4      29684       3898              4
+15        265               7      17253       1410              6
+16         NA               2      33154       3610              1
+17         NA               8      10625       1346              8
+18         NA               9      10128        785              9
+   Stars.End Forks.End
+1      38245      8336
+2       1705       175
+3       8929      1583
+4       6498       696
+5       2992       251
+6      27387      3627
+7       7281       640
+8       4791       318
+9       3479       346
+10      3698       256
+11      6589       462
+12     36867      4118
+13     21030      3031
+14     36546      5517
+15     21347      1831
+16     39303      4811
+17     13370      1948
+18     12876      1142</code></pre>
+</div>
+<div id="facet-plot-of-all-18-generators-over-time" class="section level2">
+<h2>Facet plot of all 18 generators over time</h2>
+<pre class="r"><code>&gt; sg_temp &lt;- select(sg_data, c(&quot;Name&quot;, starts_with(&quot;Stars&quot;)))
+&gt; order_names &lt;- order(sg_temp$Name)
+&gt; sg_temp &lt;-  sg_temp[order_names, ]
+&gt; 
+&gt; # SEE: bit.ly/SO-flip-row-col
+&gt; sg_stars &lt;- data.frame(t(sg_temp[-1]))
+&gt; colnames(sg_stars) &lt;- sg_temp[, 1]
+&gt; rownames(sg_stars) &lt;- sg_quantity[, 1]
+&gt; sg_stars &lt;- as_tibble(rownames_to_column(sg_stars, var = &quot;Date&quot;))
+&gt; sg_stars$Date &lt;- as.Date(sg_stars$Date)
+&gt; sg_stars_long  &lt;- melt(sg_stars, id.vars = &quot;Date&quot;, 
++                  variable.name = &quot;Staticgen&quot;, value.name = &quot;Stars&quot;)
+&gt; 
+&gt; p &lt;- ggplot(sg_stars_long, aes(x = Date, y = Stars)) + 
++   geom_line(aes(group = Staticgen)) +  
++   labs(x = &quot;Date&quot;,
++      y = &quot;Rank by Repository Stars&quot;,
++      title = &quot;Comparison of Static Website Generators&quot;,
++      subtitle = &quot;Ranked by number of repository stars&quot;) +
++   facet_wrap(~Staticgen, ncol = 3)
+&gt; p</code></pre>
+<p><img src="/post/2019/2019-08-01-comparing-website-generators-over-time.en_files/figure-html/draw-stars-facets-1.png" width="672" /></p>
+<p>One can see that Gatsby, Hexo, Hugo, and Jekyll have a long and ongoing growth curve. But there are also with Next.js and Nuxt two newcomers with very positive developments.</p>
+</div>
+</div>
+<div id="bump-chart-rank-changes-over-time" class="section level1">
+<h1>Bump Chart: Rank changes over time</h1>
+<p>With this plot, it is difficult to distinguish the relative position of these generators to each other. Instead of absolute values, it is better to use a comparison of the ranking position. This type of plot is called a bump charts. For the following code, I have heavily used explanations and code snippets of various websites:</p>
+<ul>
+<li><a href="https://dominikkoch.github.io/Bump-Chart/">Bump Chart</a> by Dominik Koch at <a href="https://dominikkoch.github.io/">Data Science 42</a>.</li>
+<li><a href="https://datatodisplay.com/blog/chart-design/communicating-changes-rank-time/">Communicating changes in rank over time</a>: bumps charts and slopegraphs by Tim Brock at <a href="https://datatodisplay.com/index.php">Data to Display</a>. Brocks website also features a <a href="https://datatodisplay.com/examples/co2/">stunning interactive demonstration of bump charts</a>. (Click at the country names!!)</li>
+<li><a href="https://www.statology.org/how-to-easily-create-a-bump-chart-in-r-using-ggplot2/">How to Easily Create a Bump Chart</a> in R Using ggplot2 at <a href="https://www.statology.org/">Statology</a>.</li>
+<li><a href="https://luisdva.github.io/rstats/dog-bump-chart/">Dog breeds bump chart</a> by Luis Verde Arregoitia at <a href="https://luisdva.github.io/">Github.io</a>.</li>
+</ul>
+<div id="ggplot2-theme-for-bump-chars" class="section level2">
+<h2>ggplot2 theme for bump chars</h2>
+<p>For a better display, all articles suggest creating a specific theme for ggplot2.</p>
+<pre class="r"><code>&gt; my_theme &lt;- function() {
++ 
++   # Colors
++   color.background = &quot;white&quot;
++   color.text = &quot;#22211d&quot;
++ 
++   # Begin construction of chart
++   theme_bw(base_size=15) +
++ 
++     # Format background colors
++     theme(panel.background = element_rect(fill=color.background, color=color.background)) +
++     theme(plot.background  = element_rect(fill=color.background, color=color.background)) +
++     theme(panel.border     = element_rect(color=color.background)) +
++     theme(strip.background = element_rect(fill=color.background, color=color.background)) +
++ 
++     # Format the grid
++     theme(panel.grid.major.y = element_blank()) +
++     theme(panel.grid.minor.y = element_blank()) +
++     theme(axis.ticks       = element_blank()) +
++ 
++     # Format the legend
++     theme(legend.position = &quot;none&quot;) +
++ 
++     # Format title and axis labels
++     theme(plot.title       = element_text(color=color.text, size=20, face = &quot;bold&quot;)) +
++     theme(axis.title.x     = element_text(size=14, color=&quot;black&quot;, face = &quot;bold&quot;)) +
++     theme(axis.title.y     = element_text(size=14, color=&quot;black&quot;, face = &quot;bold&quot;, vjust=1.25)) +
++     theme(axis.text.x      = element_text(size=10, vjust=0.5, hjust=0.5, color = color.text)) +
++     theme(axis.text.y      = element_text(size=10, color = color.text)) +
++     theme(strip.text       = element_text(face = &quot;bold&quot;)) +
++ 
++     # Plot margins
++     theme(plot.margin = unit(c(0.35, 0.2, 0.3, 0.35), &quot;cm&quot;))
++ }</code></pre>
+</div>
+<div id="bump-chart-for-18-website-generators" class="section level2">
+<h2>Bump Chart for 18 Website Generators</h2>
+<pre class="r"><code>&gt; sg_temp &lt;- select(sg_data, c(&quot;Name&quot;, starts_with(&quot;Rank.Stars&quot;)))
+&gt; order_names &lt;- order(sg_temp$Name)
+&gt; sg_temp &lt;-  sg_temp[order_names, ]
+&gt; 
+&gt; # SEE: bit.ly/SO-flip-row-col
+&gt; sg_star_rank &lt;- data.frame(t(sg_temp[-1]))
+&gt; colnames(sg_star_rank) &lt;- sg_temp[, 1]
+&gt; rownames(sg_star_rank) &lt;- sg_quantity[, 1]
+&gt; sg_star_rank &lt;- as_tibble(rownames_to_column(sg_star_rank, var = &quot;Date&quot;))
+&gt; sg_star_rank$Date &lt;- as.Date(sg_star_rank$Date)
+&gt; sg_star_rank_long  &lt;- melt(sg_star_rank, id.vars = &quot;Date&quot;, 
++                  variable.name = &quot;Staticgen&quot;, value.name = &quot;Rank&quot;)
+&gt; Archive.Nr &lt;- rep(c(1, 2, 3, 4, 5, 6, 7), 18)
+&gt; sg_star_rank_long &lt;&lt;- data.frame(cbind(sg_star_rank_long, Archive.Nr))
+&gt; 
+&gt; 
+&gt; 
+&gt; # SEE: https://www.statology.org/how-to-easily-create-a-bump-chart-in-r-using-ggplot2/
+&gt; ggplot(sg_star_rank_long, aes(x = as.factor(Archive.Nr), y = Rank, group = Staticgen)) +
++   geom_line(aes(color = Staticgen, alpha = 1), size = 1) +
++   geom_point(aes(color = Staticgen, alpha = 1), size = 2) +
++   geom_point(color = &quot;#FFFFFF&quot;, size = 1) +
++   scale_y_reverse(breaks = 1:nrow(sg_star_rank_long)) + 
++   scale_x_discrete(breaks = 1:7) +
++   theme(legend.position = &#39;none&#39;) +
++   geom_text(data = sg_star_rank_long %&gt;% filter(Archive.Nr == &quot;1&quot;),
++             aes(label = Staticgen, x = 0.7) , hjust = .5,
++             fontface = &quot;bold&quot;,  size = 3) +
++   geom_text(data = sg_star_rank_long %&gt;% filter(Archive.Nr == &quot;7&quot;),
++             aes(label = Staticgen, x = 7.3) , hjust = 0.5,
++             fontface = &quot;bold&quot;,  size = 3) +
++   labs(x = &quot;1:Jun 2014, 7:Aug 2019, 2-6: Jan (2015-2019)&quot;,
++        y = &quot;Rank&quot;,
++        title = &quot;Comparison of Static Website Generators&quot;,
++        subtitle = &quot;Ranked by number of repository stars&quot;) +
++   my_theme()</code></pre>
+<p><img src="/post/2019/2019-08-01-comparing-website-generators-over-time.en_files/figure-html/bump-chart-star-rankings-1.png" width="864" /></p>
+<p>With this bump chart, one can see which generators are rising in their popularity. These relative developments were hidden by an overall positive trend of static website generators.</p>
+<p><span class="Z3988" title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=blogPost&amp;rft.title=Comparing%20Website%20Generators%20Over%20Time%20::%20Open%20Science%20Education&amp;rft.source=Comparing%20Website%20Generators%20Over%20Time&amp;rft.rights=CC%20BY-SA%204.0&amp;rft.description=This%20article%20is%20the%20follow-up%20of%20[Retrieving%20And%20Scrapping%20Archived%20Data%20With%20The%20Wayback%20Machine](https://rpubs.com/pbaumgartner/wayback).%20Here%20I%20will%20display%20some%20results%20from%20the%20scrapped%20archived%20web%20site%20https://www.staticgen.com/%20at%20seven%20dates,%20starting%20from%20May%202014%20to%20August%202019.%20The%20data%20for%20this%20article%20comes%20from%20the%20previous%20article.&amp;rft.identifier=https%3A%2F%2Fnotes.peter-baumgartner.net%2F2019%2F08%2F01%2Fcomparing-website-generators-over-time&amp;rft.aufirst=Peter&amp;rft.aulast=Baumgartner&amp;rft.au=Peter%20Baumgartner&amp;rft.date=&amp;rft.language=en"></span></p>
+</div>
+</div>
