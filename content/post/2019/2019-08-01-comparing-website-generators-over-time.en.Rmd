@@ -1,0 +1,315 @@
+---
+title: Comparing Website Generators Over Time
+author: Peter Baumgartner
+date: '2019-08-01'
+categories:
+  - API
+  - data-science-education
+  - Apps
+tags:
+  - r
+  - Static-Generators
+slug: comparing-website-generators-over-time
+description: 'This article is the follow-up of [Retrieving And Scrapping Archived Data With The Wayback Machine](https://rpubs.com/pbaumgartner/wayback). Here I will display some results from the scrapped archived web site https://www.staticgen.com/ at seven dates, starting from May 2014 to August 2019. The data for this article comes from the previous article mentioned above'
+disable_comments: no
+draft: no
+---
+
+# Introduction
+
+This article is the follow-up of [Retrieving And Scrapping Archived Data With The Wayback Machine](https://rpubs.com/pbaumgartner/wayback). Here I will display some results from the scrapped archived web site https://www.staticgen.com/ at seven dates, starting from May 2014 to August 2019. 
+
+
+{{% panel theme=\"info\" header=\"A remark on my own account\" %}}
+This blog entry is the first time that I am using RMarkdown for programming and displaying R code. I am not yet skilled how to do this. For instance I have included all code chunks even with my comments and some of my abandoned trials of programming code. This works well for me as a reminder and learning experience. I am not sure if this is valuable for other people as well or if its distracting because of an overload of information. Comments on this isssue are welcome.
+{{% /panel %}}
+
+
+
+The data for this article comes from the previous article, and I will load them with the following code chunk:
+
+```{r load-data}
+### Load dataset
+sg_crawllist <- readRDS("../../../data/sg_crawllist.rds")
+sg_data_collection <- readRDS("../../../data/sg_data_collection.rds")
+sg_names <- readRDS("../../../data/sg_names.rds")
+sg_data <- readRDS("../../../data/sg_data.rds")
+```
+
+# Setup
+
+```{r label = "global-options", highlight=TRUE}
+knitr::opts_chunk$set(
+        message = F,
+        error = F,
+        warning = F,
+        comment = NA,
+        highlight = T,
+        prompt = T
+        )
+### Set the global option options(stringsAsFactors = FALSE) 
+### inside a parent function and restore the option after the parent function exits
+if (!require("xfun"))
+        {install.packages("xfun", repos = 'http://cran.wu.ac.at/')
+        library(xfun)}
+xfun::stringsAsStrings()
+
+### install and load some important packages
+### https://github.com/tidyverse/tidyverse
+if (!require("tidyverse"))
+        {install.packages("tidyverse", repos = 'http://cran.wu.ac.at/')
+        library(tidyverse)}
+
+# lubridate, for date/times.
+if (!require("lubridate"))
+        {install.packages("lubridate", repos = 'http://cran.wu.ac.at/')
+        library(lubridate)}
+
+# reshape2, restructure and aggregate data using melt and dcast
+if (!require("reshape2"))
+        {install.packages("reshape2", repos = 'http://cran.wu.ac.at/')
+        library(reshape2)}
+
+```
+
+# Introduction
+
+This article is the follow-up of [Retrieving And Scrapping Archived Data With The Wayback Machine](https://rpubs.com/pbaumgartner/wayback). Here I will display some results from the scrapped archived web site https://www.staticgen.com/ at seven dates, starting from May 2014 to August 2019. The data for this article comes from the previous article, and I will load them with the following code chunk:
+
+My analysis will concentrate on three issues:
+
+1. Development of the number of static web site generators as displayed by the website https://www.staticgen.com/.
+2. Name of static website generators ranked by the number of stars for their repositories as a proxy for their popularity.
+3. Relative rankings of 18 website generators among each other at seven different dates.
+
+Other data (the number of forks, open issues, and followers on twitter) are not analyzed.  They have, in my opinion, only a weak relationship with the diffusion of the web site generator. Perhaps the exclusion of twitter followers needs more reflection:
+
++ The display of the number of twitter followers started only around 2019.
++ As today (2019-07-31) only 37 static website generators have a twitter account.
++ Even leading static website frameworks (e.g., Next.js) have no twitter account.
++ The number of followers results not only from the popularity of the generator but also from exciting and well-written tweeds.
+
+# Growth of the Popularity of Static Websites Generators
+
+
+```{r sg-numbers}
+
+sg_count = NULL
+for (i in 1:length(sg_data_collection)) {
+  sg_count[i] <- nrow(sg_data_collection[[i]])
+}
+sg_quantity <- data.frame(cbind(sg_crawllist[2], sg_count))
+sg_quantity$datetime <- as_date(as.POSIXct(sg_quantity$datetime))
+names(sg_quantity) <- c("Date of Archived Websites", "Number of Static Generators")
+ggplot(sg_quantity, aes(x = `Date of Archived Websites`, y = `Number of Static Generators`)) + 
+  geom_line() +
+  labs(title = "Growth of the Number of Static Websites Generators")
+```
+
+I started my data scrapping of the archived webpages of https://www.staticgen.com/ in May 2014. At that time the website listed only about 50 generators. Currently (August 2019) the website features 260 static site generators. The plot shows a  step and continuous growing popularity of these applications.
+
+# Taking the first ten generators at every selected date
+
+I am interested in the development of the leading group of website generators measured by their number of repository stars as a proxy for their popularity. The result is a list of 18 generators which were part of the leading group at least at one date under the observation period.
+
+```{r get-first-10-every-year}
+
+get_first10 <- function(l) {
+  names_first10 = NULL
+  for (i in 1:length(l)) {
+    names_first10 <- c(names_first10, l[[i]]$name[1:10])
+  }
+  names_first10 <- dplyr::distinct(data.frame(names_first10), names_first10)
+  dplyr::rename(names_first10, Name = names_first10)
+  return(names_first10)
+}
+
+sg_names <- get_first10(sg_data_collection)
+as.list(sg_names)
+
+
+```
+
+# Website generators ranked by their repository stars
+
+## Get ranked data
+
+I have also stored the number of forks but will not display the plots here as they give not valuable insights.
+
+```{r get-star_rank_data}
+
+get_sg_data <- function(df, l) {
+  sg_df <- data.frame()
+  for (i in 1:nrow(df)) {
+    row_content = NULL
+    sg_vec = NULL
+    my_name <- df[i,]
+    for (j in 1:length(l)) {
+      my_rank <-  which(l[[j]]$name == my_name)
+      if (!purrr::is_empty(my_rank)) {
+        row_content <- append(row_content, list(Rank = my_rank, 
+                                                Stars = as.integer(l[[j]]$repo_stars[my_rank]), 
+                                                Forks = as.integer(l[[j]]$repo_forks[my_rank])))
+      } else {
+        row_content <- append(row_content, list(Rank = NA, Stars = NA, Forks = NA))
+      }
+    }
+  sg_vec <- append(list(my_name), row_content)
+  sg_df <- data.frame(force_bind(sg_df, data.frame(sg_vec)))
+  }
+  
+  names(sg_df) <- c("Name", "Rank.Stars.Start", "Stars.Start", "Forks.Start",
+                            "Rank.Stars.2015", "Stars.2015", "Forks.2015",
+                            "Rank.Stars.2016", "Stars.2016", "Forks.2016",
+                            "Rank.Stars.2017", "Stars.2017", "Forks.2017",
+                            "Rank.Stars.2018", "Stars.2018", "Forks.2018",
+                            "Rank.Stars.2019", "Stars.2019", "Forks.2019",
+                            "Rank.Stars.End", "Stars.End", "Forks.End")
+  
+  return(sg_df)
+}
+
+# bit.ly/SO-rbind-colnames
+force_bind = function(df1, df2) {
+    colnames(df2) = colnames(df1)
+    dplyr::bind_rows(df1, df2)
+}
+
+
+sg_data <- get_sg_data(sg_names, sg_data_collection)
+sg_data
+
+```
+
+## Facet plot of all 18 generators over time
+
+```{r draw-stars-facets, fig.width=7, fig.height=10}
+
+sg_temp <- select(sg_data, c("Name", starts_with("Stars")))
+order_names <- order(sg_temp$Name)
+sg_temp <-  sg_temp[order_names, ]
+
+# SEE: bit.ly/SO-flip-row-col
+sg_stars <- data.frame(t(sg_temp[-1]))
+colnames(sg_stars) <- sg_temp[, 1]
+rownames(sg_stars) <- sg_quantity[, 1]
+sg_stars <- as_tibble(rownames_to_column(sg_stars, var = "Date"))
+sg_stars$Date <- as.Date(sg_stars$Date)
+sg_stars_long  <- melt(sg_stars, id.vars = "Date", 
+                 variable.name = "Staticgen", value.name = "Stars")
+
+p <- ggplot(sg_stars_long, aes(x = Date, y = Stars)) + 
+  geom_line(aes(group = Staticgen)) +  
+  labs(x = "Date",
+     y = "Rank by Repository Stars",
+     title = "Comparison of Static Website Generators",
+     subtitle = "Ranked by number of repository stars") +
+  facet_wrap(~Staticgen, ncol = 3)
+p
+
+```
+
+One can see that Gatsby, Hexo, Hugo, and Jekyll have a long and ongoing growth curve. But there are also with Next.js and Nuxt two newcomers with very positive developments. 
+
+# Bump Chart: Rank changes over time
+
+With this plot, it is difficult to distinguish the relative position of these generators to each other. Instead of absolute values, it is better to use a comparison of the ranking position. This type of plot is called a bump charts. For the following code, I have heavily used explanations and code snippets of various websites:
+
++ [Bump Chart](https://dominikkoch.github.io/Bump-Chart/) by Dominik Koch at [Data Science 42](https://dominikkoch.github.io/).
++ [Communicating changes in rank over time](https://datatodisplay.com/blog/chart-design/communicating-changes-rank-time/): bumps charts and slopegraphs by Tim Brock at [Data to Display](https://datatodisplay.com/index.php). Brocks website also features a [stunning interactive demonstration of bump charts](https://datatodisplay.com/examples/co2/). (Click at the country names!!)
++ [How to Easily Create a Bump Chart](https://www.statology.org/how-to-easily-create-a-bump-chart-in-r-using-ggplot2/) in R Using ggplot2 at [Statology](https://www.statology.org/).
++ [Dog breeds bump chart](https://luisdva.github.io/rstats/dog-bump-chart/) by Luis Verde Arregoitia at [Github.io](https://luisdva.github.io/). 
+
+
+## ggplot2 theme for bump chars
+
+For a better display, all articles suggest creating a specific theme for ggplot2.
+
+```{r create-my-theme}
+my_theme <- function() {
+
+  # Colors
+  color.background = "white"
+  color.text = "#22211d"
+
+  # Begin construction of chart
+  theme_bw(base_size=15) +
+
+    # Format background colors
+    theme(panel.background = element_rect(fill=color.background, color=color.background)) +
+    theme(plot.background  = element_rect(fill=color.background, color=color.background)) +
+    theme(panel.border     = element_rect(color=color.background)) +
+    theme(strip.background = element_rect(fill=color.background, color=color.background)) +
+
+    # Format the grid
+    theme(panel.grid.major.y = element_blank()) +
+    theme(panel.grid.minor.y = element_blank()) +
+    theme(axis.ticks       = element_blank()) +
+
+    # Format the legend
+    theme(legend.position = "none") +
+
+    # Format title and axis labels
+    theme(plot.title       = element_text(color=color.text, size=20, face = "bold")) +
+    theme(axis.title.x     = element_text(size=14, color="black", face = "bold")) +
+    theme(axis.title.y     = element_text(size=14, color="black", face = "bold", vjust=1.25)) +
+    theme(axis.text.x      = element_text(size=10, vjust=0.5, hjust=0.5, color = color.text)) +
+    theme(axis.text.y      = element_text(size=10, color = color.text)) +
+    theme(strip.text       = element_text(face = "bold")) +
+
+    # Plot margins
+    theme(plot.margin = unit(c(0.35, 0.2, 0.3, 0.35), "cm"))
+}
+
+```
+
+
+## Bump Chart for 18 Website Generators
+
+```{r bump-chart-star-rankings, fig.width=9, fig.height=10}
+sg_temp <- select(sg_data, c("Name", starts_with("Rank.Stars")))
+order_names <- order(sg_temp$Name)
+sg_temp <-  sg_temp[order_names, ]
+
+# SEE: bit.ly/SO-flip-row-col
+sg_star_rank <- data.frame(t(sg_temp[-1]))
+colnames(sg_star_rank) <- sg_temp[, 1]
+rownames(sg_star_rank) <- sg_quantity[, 1]
+sg_star_rank <- as_tibble(rownames_to_column(sg_star_rank, var = "Date"))
+sg_star_rank$Date <- as.Date(sg_star_rank$Date)
+sg_star_rank_long  <- melt(sg_star_rank, id.vars = "Date", 
+                 variable.name = "Staticgen", value.name = "Rank")
+Archive.Nr <- rep(c(1, 2, 3, 4, 5, 6, 7), 18)
+sg_star_rank_long <<- data.frame(cbind(sg_star_rank_long, Archive.Nr))
+
+
+
+# SEE: https://www.statology.org/how-to-easily-create-a-bump-chart-in-r-using-ggplot2/
+ggplot(sg_star_rank_long, aes(x = as.factor(Archive.Nr), y = Rank, group = Staticgen)) +
+  geom_line(aes(color = Staticgen, alpha = 1), size = 1) +
+  geom_point(aes(color = Staticgen, alpha = 1), size = 2) +
+  geom_point(color = "#FFFFFF", size = 1) +
+  scale_y_reverse(breaks = 1:nrow(sg_star_rank_long)) + 
+  scale_x_discrete(breaks = 1:7) +
+  theme(legend.position = 'none') +
+  geom_text(data = sg_star_rank_long %>% filter(Archive.Nr == "1"),
+            aes(label = Staticgen, x = 0.7) , hjust = .5,
+            fontface = "bold",  size = 3) +
+  geom_text(data = sg_star_rank_long %>% filter(Archive.Nr == "7"),
+            aes(label = Staticgen, x = 7.3) , hjust = 0.5,
+            fontface = "bold",  size = 3) +
+  labs(x = "1:Jun 2014, 7:Aug 2019, 2-6: Jan (2015-2019)",
+       y = "Rank",
+       title = "Comparison of Static Website Generators",
+       subtitle = "Ranked by number of repository stars") +
+  my_theme()
+```
+
+
+With this bump chart, one can see which generators are rising in their popularity. These relative developments were hidden by an overall positive trend of static website generators.
+
+
+
+
+
+<span class='Z3988' title='url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=blogPost&amp;rft.title=Comparing%20Website%20Generators%20Over%20Time%20::%20Open%20Science%20Education&amp;rft.source=Comparing%20Website%20Generators%20Over%20Time&amp;rft.rights=CC%20BY-SA%204.0&amp;rft.description=This%20article%20is%20the%20follow-up%20of%20[Retrieving%20And%20Scrapping%20Archived%20Data%20With%20The%20Wayback%20Machine](https://rpubs.com/pbaumgartner/wayback).%20Here%20I%20will%20display%20some%20results%20from%20the%20scrapped%20archived%20web%20site%20https://www.staticgen.com/%20at%20seven%20dates,%20starting%20from%20May%202014%20to%20August%202019.%20The%20data%20for%20this%20article%20comes%20from%20the%20previous%20article.&amp;rft.identifier=https%3A%2F%2Fnotes.peter-baumgartner.net%2F2019%2F08%2F01%2Fcomparing-website-generators-over-time&amp;rft.aufirst=Peter&amp;rft.aulast=Baumgartner&amp;rft.au=Peter%20Baumgartner&amp;rft.date=&amp;rft.language=en'></span>
