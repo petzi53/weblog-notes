@@ -1,18 +1,22 @@
 ---
-title: Comparing Website Generators Over Time
-author: Peter Baumgartner
+title: "Comparing Website Generators Over Time"
+author: "Peter Baumgartner"
 date: '2019-08-01'
-categories:
-  - API
-  - data-science-education
-  - Apps
-tags:
-  - r
-  - Static-Generators
-slug: comparing-website-generators-over-time
-description: 'This article is the follow-up of [Retrieving And Scrapping Archived Data With The Wayback Machine](https://rpubs.com/pbaumgartner/wayback). Here I will display some results from the scrapped archived web site https://www.staticgen.com/ at seven dates, starting from May 2014 to August 2019. The data for this article comes from the previous article mentioned above'
+description: This article is the follow-up of [Retrieving And Scrapping Archived Data
+  dates, starting from May 2014 to August 2019. The data for this article comes from
+  the previous article mentioned above
+  With The Wayback Machine](https://rpubs.com/pbaumgartner/wayback). Here I will display
+  some results from the scrapped archived web site https://www.staticgen.com/ at seven
 disable_comments: no
 draft: no
+slug: comparing-website-generators-over-time
+tags:
+- r
+- Static-Generators
+categories:
+- API
+- data-science-education
+- Apps
 ---
 
 # Introduction
@@ -28,7 +32,7 @@ This blog entry is the first time that I am using RMarkdown for programming and 
 
 The data for this article comes from the previous article, and I will load them with the following code chunk:
 
-```{r load-data, include=FALSE}
+```{r load-data, eval=FALSE, include=FALSE}
 ### Load dataset
 sg_crawllist <- readRDS("../../../data/sg_crawllist.rds")
 sg_data_collection <- readRDS("../../../data/sg_data_collection.rds")
