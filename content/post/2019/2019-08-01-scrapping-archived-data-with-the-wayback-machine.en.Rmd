@@ -1,0 +1,111 @@
+---
+title: Scrapping Archived Data with the Wayback Machine
+author: Peter Baumgartner
+date: '2019-08-01'
+categories:
+  - open-science
+  - web-service
+  - API
+tags:
+  - wayback machine
+  - web archive
+slug: scrapping-archived-data-with-the-wayback-machine
+description: 'In a previous article, I wrote about the possibilities of the Wayback
+  Machine for scientific writing. I argued that archiving web pages prevent link rots
+  when cited web resources are not available anymore. With this blog entry, I am looking
+  quasi into the reverse option: How to find and retrieve archived web pages for research
+  reasons?'
+disable_comments: no
+draft: no
+---
+
+In a [previous article](/2019/07/22/archiving-quoted-web-resources/), I wrote about the possibilities of the [Wayback Machine](https://archive.org/web/) for scientific writing. I argued that archiving web pages are essential for references as they prevent link rots when cited web resources are not available anymore. With this blog entry, I am looking quasi into the reverse option: How to find and retrieve archived web pages for research reasons? 
+
+Archives web pages as permanently stored data are indispensable for reproducibility issues. But they are also
+valuable research resources as they are data for historical and comparative research. I will demonstrate the research significance with the historical analysis of [static website generators](https://www.staticgen.com/).  This here is the first part and shows how to use the Wayback Machine for retrieving archived web pages. The second part displays the results of the analysis which would not be possible without web archiving.
+
+The nitty-gritty of this article comes from the excellent work of [Bob Rudis](https://rud.is/), who wrote many well documented [Tools to Work with the Various Internet Archive Wayback Machine APIs](https://github.com/hrbrmstr/wayback).
+
+## Some simple exercises
+
+### Preliminaries
+
+There are [three different APIs](https://archive.org/help/wayback_api.php) for the Wayback Machine: 
+
+1. Wayback Availability API
+2. Memento API and
+3. Wayback CDX Server API
+
+I will explain the first two. The CDX Server is for complex querying, filtering and analysis and I didn't use it for my example. At first you have to install the `wayback` and load Bob's script collection.
+
+```{r install-wayback}
+if (!require("wayback"))
+        {remotes::install_github("hrbrmstr/wayback", build_vignettes = TRUE)
+        library(wayback)}
+```
+
+## Does the Internet Archive have my research URL cached?
+
+The URL I am looking for is: https://www.staticgen.com/. I am going to
+use `archive_available(url, timestamp)`: The timestamp parameter is optional. If it is lacking then the query date is used. If the URL is stored then the function returns the chronologically nearest archived version. Return value is a tibble with one observation and 5 variables:
+
+```{r url-cached}
+staticgen_avail <- archive_available("https://www.staticgen.com/")
+staticgen_avail
+```
+
+## Retrieve site mementos from the Internet Archive
+
+Mementos are prior versions of web pages that have been cached from web crawlers. They can be found in web archives (such as the [Internet Archive](https://archive.org/)) or systems that support versioning such as wikis or revision control systems.
+
+With `get_mementos(url, timestamp = format(Sys.Date(), "%Y"))` we will receive a short list of relevant links to the archived content. The function returns the four link relation types as in the [Request for Comment for the Memento framework](https://mementoweb.org/guide/rfc/#Link-Header-Relation-Types) outlined.
+
+1. Link Relation Type "original"
+2. Link Relation Type "timemap"
+3. Link Relation Type "timegate"
+4. Link Relation Type "memento"
+
+Besides these 4 main types of link relations the function provides also the first, previous and last available memento. Normally the last memento is identical with the memento link relation type. In addition to the two columns `link' and `rel` there is a third one `ts`, containing the time stamps (empty for the first three link relation types). The return value in total is a tibble with 7 observations (rows) and three columns.
+
+```{r get-mementos}
+staticgen_mntos <- get_mementos("https://www.staticgen.com/")
+staticgen_mntos
+```
+
+## Get the point-in-time memento crawl list
+
+Providing an URL in the search field of the Wayback Machine results in the interactive browser version to the [calender view](https://web.archive.org/web/*/https://www.staticgen.com). Th dates with archived content are blue or green (redirected URL) circled. The bigger the circles the more snapshots were archived on these dates.
+
+We get these dated crawl list with the second observation of the `get_mementos` function. The execution of the next code chunk can take several moments, depending how many pages of the URL are archived. Be aware that the Wayback server is strained by this query, so do not repeat it several times but store the result on your hard disk.
+
+```{r get-timemap}
+staticgen_tm <- get_timemap(staticgen_mntos$link[2])
+staticgen_tm
+```
+
+Included into the `r nrow(staticgen_tm)` captures of the interactive browser version there are four rows, relating to the four link relation types mentioned above. The last line is empty. 
+
+
+## Summary: Putting all together
+
+We can put together all previous preliminay steps into a new function e.g., `get_crawl(url)`. This functions gets an URL and returns a list of all archived versions for this URL.
+
++ Check if for the URL exists an archived version. If not: stop execeution.
++ If exists an archived version, then retireve mementos for this url from the Internet Archive.
++ Get the point-in-time memento crawl list for this URL.
++ Clean up so that only memento links remain
++ Delete unnecessary rows `type` and `from`.
++ Convert row `datetime` from class 'character' to class 'datetime'.
++ Delete duplicate datetime records. (Sometimes there are more than one capture taken at the same day, refering to the URL and the port used.)
++ Filter rows with an algorithm, so that only those mementos remain which are suitable for the comparison analysis. For instance: Take the first memento for every year, or every month etc.
+
+As these steps are either already illustrated or not specific to the Wayback Machine, I will stop here with my explications. I have provided an [article on RPubs](https://rpubs.com/pbaumgartner/wayback) with all the details. But keep in mind that I am not very experienced in R and there may be much simpler and more elegant solutions.
+
+
+<div class="notices info" >
+<p class="centered">
+Read my [RPubs article](https://rpubs.com/pbaumgartner/wayback) with all the details of retrieving and web scrapping. Visit also my tutorial on [How-to use the Wayback Machine interactively?](/slide/wayback-machine-tutorial/).
+</div>
+
+
+
