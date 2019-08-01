@@ -109,3 +109,6 @@ Read my [RPubs article](https://rpubs.com/pbaumgartner/wayback) with all the det
 
 
 
+
+
+<span class='Z3988' title='url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=blogPost&amp;rft.title=Scrapping%20Archived%20Data%20with%20the%20Wayback%20Machine%20::%20Open%20Science%20Education&amp;rft.source=Scrapping%20Archived%20Data%20with%20the%20Wayback%20Machine&amp;rft.rights=CC%20BY-SA%204.0&amp;rft.description=In%20a%20previous%20article,%20I%20wrote%20about%20the%20possibilities%20of%20the%20Wayback%20Machine%20for%20scientific%20writing.%20I%20argued%20that%20archiving%20web%20pages%20prevent%20link%20rots%20when%20cited%20web%20resources%20are%20not%20available%20anymore.%20With%20this%20blog%20entry,%20I%20am%20looking%20quasi%20into%20the%20reverse%20option:%20How%20to%20find%20and%20retrieve%20archived%20web%20pages%20for%20research%20reasons?&amp;rft.identifier=https%3A%2F%2Fnotes.peter-baumgartner.net%2F2019%2F08%2F01%2Fscrapping-archived-data-with-the-wayback-machine&amp;rft.aufirst=Peter&amp;rft.aulast=Baumgartner&amp;rft.au=Peter%20Baumgartner&amp;rft.date=&amp;rft.language=en'></span>
