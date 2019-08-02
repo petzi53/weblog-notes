@@ -55,7 +55,19 @@ staticgen_avail</code></pre>
 </div>
 <div id="retrieve-site-mementos-from-the-internet-archive" class="section level2">
 <h2>Retrieve site mementos from the Internet Archive</h2>
-<p>Mementos are prior versions of web pages that have been cached from web crawlers. They can be found in web archives (such as the <a href="https://archive.org/">Internet Archive</a>) or systems that support versioning such as wikis or revision control systems.</p>
+<p>Mementos are prior versions of web pages cached by web crawlers and stored in web archives. The <a href="https://archive.org/">Internet Archive</a>) is one of these web archives but there exist other software as well, including systems that support versioning such as wikis or revision control systems. The HTTP-based Memento framework is a <a href="https://mementoweb.org/guide/rfc/">description for Time-Based Access to Resource States</a>.</p>
+<blockquote>
+<p>The HTTP-based Memento framework bridges the present and past Web. It facilitates obtaining representations of prior states of a given resource by introducing datetime negotiation and TimeMaps. Datetime negotiation is a variation on content negotiation that leverages the given resource’s URI and a user agent’s preferred datetime. TimeMaps are lists that enumerate URIs of resources that encapsulate prior states of the given resource. The framework also facilitates recognizing a resource that encapsulates a frozen prior state of another resource.</p>
+</blockquote>
+<p>There are several resources for a better understanding of the memento framework:</p>
+<ul>
+<li>An introductory <a href="https://mementoweb.org/guide/quick-intro/">guide to the memento solution</a></li>
+<li>An interactive <a href="https://timetravel.mementoweb.org/">Time Travel search engine</a></li>
+<li>There are many <a href="https://mementoweb.org/tools/">memento tools</a> already available. Most important for the general user are browser extensions for Google Chrome and Firefox.</li>
+<li>There exists an <a href="https://github.com/machawk1/awesome-memento">awesome-memento list</a> at Github with references to tons of resources.</li>
+<li>And last but not least there is the formal description as <a href="https://mementoweb.org/guide/rfc/">Request for Comments</a> (RFC 7089), from which I have taken the quote above.</li>
+</ul>
+<p>The <a href="https://web.archive.org/">Open Wayback software</a> used by the <a href="https://archive.org/">Internet Archive</a> is fully compliant with RFC 7089, the specification of the Memento protocol.</p>
 <p>With <code>get_mementos(url, timestamp = format(Sys.Date(), "%Y"))</code> we will receive a short list of relevant links to the archived content. The function returns the four link relation types as in the <a href="https://mementoweb.org/guide/rfc/#Link-Header-Relation-Types">Request for Comment for the Memento framework</a> outlined.</p>
 <ol style="list-style-type: decimal">
 <li>Link Relation Type “original”</li>
@@ -73,9 +85,9 @@ staticgen_mntos</code></pre>
 ## 2 http://web.archive.org/web/timemap/link/ht… timemap   NA                 
 ## 3 http://web.archive.org/web/https://www.sta… timegate  NA                 
 ## 4 http://web.archive.org/web/20130905221150/… first me… 2013-09-05 22:11:50
-## 5 http://web.archive.org/web/20190728161400/… prev mem… 2019-07-28 16:14:00
-## 6 http://web.archive.org/web/20190729021222/… memento   2019-07-29 02:12:22
-## 7 http://web.archive.org/web/20190729021222/… last mem… 2019-07-29 02:12:22</code></pre>
+## 5 http://web.archive.org/web/20190729021222/… prev mem… 2019-07-29 02:12:22
+## 6 http://web.archive.org/web/20190801211621/… memento   2019-08-01 21:16:21
+## 7 http://web.archive.org/web/20190801211621/… last mem… 2019-08-01 21:16:21</code></pre>
 </div>
 <div id="get-the-point-in-time-memento-crawl-list" class="section level2">
 <h2>Get the point-in-time memento crawl list</h2>
@@ -83,7 +95,7 @@ staticgen_mntos</code></pre>
 <p>We get these dated crawl list with the second observation of the <code>get_mementos</code> function. The execution of the next code chunk can take several moments, depending how many pages of the URL are archived. Be aware that the Wayback server is strained by this query, so do not repeat it several times but store the result on your hard disk.</p>
 <pre class="r"><code>staticgen_tm &lt;- get_timemap(staticgen_mntos$link[2])
 staticgen_tm</code></pre>
-<pre><code>## # A tibble: 488 x 5
+<pre><code>## # A tibble: 489 x 5
 ##    rel      link                     type       from         datetime      
 ##    &lt;chr&gt;    &lt;chr&gt;                    &lt;chr&gt;      &lt;chr&gt;        &lt;chr&gt;         
 ##  1 original http://staticgen.com:80/ &lt;NA&gt;       &lt;NA&gt;         &lt;NA&gt;          
@@ -96,8 +108,8 @@ staticgen_tm</code></pre>
 ##  8 memento  http://web.archive.org/… &lt;NA&gt;       &lt;NA&gt;         Thu, 26 Dec 2…
 ##  9 memento  http://web.archive.org/… &lt;NA&gt;       &lt;NA&gt;         Mon, 20 Jan 2…
 ## 10 memento  http://web.archive.org/… &lt;NA&gt;       &lt;NA&gt;         Mon, 20 Jan 2…
-## # … with 478 more rows</code></pre>
-<p>Included into the 488 captures of the interactive browser version there are four rows, relating to the four link relation types mentioned above. The last line is empty.</p>
+## # … with 479 more rows</code></pre>
+<p>Included into the 489 captures of the interactive browser version there are four rows, relating to the four link relation types mentioned above. The last line is empty.</p>
 </div>
 <div id="summary-putting-all-together" class="section level2">
 <h2>Summary: Putting all together</h2>

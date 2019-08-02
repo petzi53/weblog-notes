@@ -56,7 +56,20 @@ staticgen_avail
 
 ## Retrieve site mementos from the Internet Archive
 
-Mementos are prior versions of web pages that have been cached from web crawlers. They can be found in web archives (such as the [Internet Archive](https://archive.org/)) or systems that support versioning such as wikis or revision control systems.
+Mementos are prior versions of web pages cached by web crawlers and stored in web archives. The [Internet Archive](https://archive.org/)) is one of these web archives but there exist other software as well, including systems that support versioning such as wikis or revision control systems. The HTTP-based Memento framework is a [description for Time-Based Access to Resource States](https://mementoweb.org/guide/rfc/).
+
+> The HTTP-based Memento framework bridges the present and past Web. It facilitates obtaining representations of prior states of a given resource by introducing datetime negotiation and TimeMaps. Datetime negotiation is a variation on content negotiation that leverages the given resource's URI and a user agent's preferred datetime. TimeMaps are lists that enumerate URIs of resources that encapsulate prior states of the given resource. The framework also facilitates recognizing a resource that encapsulates a frozen prior state of another resource. 
+
+There are several resources for a better understanding of the memento framework:
+
++ An introductory [guide to the memento solution](https://mementoweb.org/guide/quick-intro/)
++ An interactive [Time Travel search engine](https://timetravel.mementoweb.org/)
++ There are many [memento tools](https://mementoweb.org/tools/) already available. Most important for the general user are browser extensions for Google Chrome and Firefox.
++ There exists an [awesome-memento list](https://github.com/machawk1/awesome-memento) at Github with references to tons of resources.
++ And last but not least there is the formal description as [Request for Comments](https://mementoweb.org/guide/rfc/) (RFC 7089), from which I have taken the quote above.
+
+The [Open Wayback software](https://web.archive.org/) used by the [Internet Archive](https://archive.org/) is fully compliant with RFC 7089, the specification of the Memento protocol.
+
 
 With `get_mementos(url, timestamp = format(Sys.Date(), "%Y"))` we will receive a short list of relevant links to the archived content. The function returns the four link relation types as in the [Request for Comment for the Memento framework](https://mementoweb.org/guide/rfc/#Link-Header-Relation-Types) outlined.
 
