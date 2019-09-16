@@ -19,7 +19,7 @@ revealOptions:
   progress: yes
   transition: concave
 slug: installiere-r
-theme: league
+theme: moon
 description: Tutorial zum Installieren der Statistik-Software R
 type: slide
 ---
@@ -58,8 +58,8 @@ Alle Programme sind [Open Source](http://praxistipps.chip.de/open-source-was-ist
 
 ## Die R-Startseite [CRAN](https://cran.r-project.org/) aufrufen
 
-<img src="/img/r-installation-deutsch/1-0_CRAN-Startpage-min.png">
-<!-- .element height="70%" width="70%" -->
+<img src="/img/r-installation-deutsch/1-0_CRAN-Startpage-min.png" style="width: 70%" />
+
 
 ---
 
@@ -69,8 +69,7 @@ Alle Programme sind [Open Source](http://praxistipps.chip.de/open-source-was-ist
 - Windows: gehen Sie zur nächsten Folie (Pfeil rechts)
 - Weiter für Mac: Pfeil nach unten wählen
 
-<img src="/img/r-installation-deutsch/1-1_Choose-Mac-Download-min.png">
-<!-- .element height="60%" width="70%" -->
+<img src="/img/r-installation-deutsch/1-1_Choose-Mac-Download-min.png" style="width: 70%" />
 
 ___
 
@@ -79,8 +78,8 @@ ___
 - Klicken Sie auf die neueste R-Version 
 - (hier `R-3.4.3.pkg`: Stand Januar 2018)
 
-<img src="/img/r-installation-deutsch/1-2_R-MacOS-Download-min.png">
-<!-- .element height="70%" width="70%" -->
+<img src="/img/r-installation-deutsch/1-2_R-MacOS-Download-min.png" style="width: 70%" />
+
 
 
 ___
@@ -92,8 +91,7 @@ ___
 - Wählen Sie einen Speicherort
 - Sichern Sie die Datei
 
-<img src="/img/r-installation-deutsch/1-3_R-Package-save-min.png">
-<!-- .element height="50%" width="70%" -->
+<img src="/img/r-installation-deutsch/1-3_R-Package-save-min.png" style="width: 70%" />
 
 
 ___
@@ -104,8 +102,8 @@ ___
 - Es öffnet sich das Installationsprogramm
 - Befolgen Sie die Anweisungen ("Fortfahren")
 
-<img src="/img/r-installation-deutsch/1-4_MacOS-Installation-R-min.png">
-<!-- .element height="50%" width="50%" -->
+<img src="/img/r-installation-deutsch/1-4_MacOS-Installation-R-min.png" style="width: 50%" />
+
 
 ___
 
@@ -114,8 +112,7 @@ ___
 - Rufen Sie die R.app auf
 - Geben Sie 2 +2 als Test ein:
 
-<img src="/img/r-installation-deutsch/1-5_MacOS-R-App-min.png">
-<!-- .element height="50%" width="40%" -->
+<img src="/img/r-installation-deutsch/1-5_MacOS-R-App-min.png" style="width: 50%" />
 
 ___
 
@@ -125,8 +122,8 @@ ___
 - Erscheint `[1] 4`? 
 - Dann haben Sie R erfolgreich installiert!
 
-<img src="/img/r-installation-deutsch/1-6_MacOS-R-App-min.png">
-<!-- .element height="50%" width="40%" -->
+<img src="/img/r-installation-deutsch/1-6_MacOS-R-App-min.png" style="width: 50%" />
+
 
 ___
 
@@ -145,8 +142,8 @@ Es kann sein, dass der Text Ihrer R-Version leicht unterschiedlich ist. So kann 
 
 Gehen Sie auf die [Download-Seite für Windows](https://cran.r-project.org/bin/windows/)
 
-<img src="/img/r-installation-deutsch/2-1_R-Windows-Download-min.png">
-<!-- .element height="70%" width="70%" -->
+<img src="/img/r-installation-deutsch/2-1_R-Windows-Download-min.png" style="width: 70%" />
+
 
 
 ___
@@ -155,8 +152,8 @@ ___
 
 [R Download für Windows](https://cran.r-project.org/bin/windows/base/)
 
-<img src="/img/r-installation-deutsch/2-2_R-Windows-Download-min.png">
-<!-- .element height="70%" width="70%" -->
+<img src="/img/r-installation-deutsch/2-2_R-Windows-Download-min.png" style="width: 70%" />
+
 
 ___
 

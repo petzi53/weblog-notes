@@ -19,7 +19,7 @@ revealOptions:
   progress: yes
   transition: concave
 slug: installiere-rstudio
-theme: league
+theme: moon
 description: Tutorial zum Installieren der R Entwicklungsumgebung RStudio für Mac
   und Windows
 type: slide
@@ -32,6 +32,7 @@ Bedienung dieser Diashow
 - Steuerungselemente: Pfeile rechts unten
 - **Achtung:** Manchmal gibt es außer vor und zurück auch hinauf und hinunter
 - Folienstruktur-Überblick: ESC-Taste
+- Zoomen: ALT + (STRG für LINUX) KLICK in das Objekt. Noch ein Klick: Herauszoomen.
 - Beenden: Mit dem Browser zurück gehen
 
 ---
@@ -53,14 +54,12 @@ Alle Programme sind [Open Source](http://praxistipps.chip.de/open-source-was-ist
 - R noch nicht installiert? Beginnen Sie mit [diesem Link](http://notes.peter-baumgartner.net/slide/installiere-r/) 
 - Ansonsten rufen Sie die [RStudio-Downloadseite](https://www.rstudio.com/products/rstudio/download/#download) auf
 
-<img src="/img/rstudio-installation-deutsch/download1-rstudio-min.png">
-<!-- .element height="70%" width="70%" -->
+<img src="/img/rstudio-installation-deutsch/download1-rstudio-min.png" style="width: 70%" />
 ---
 
 ## Wählen Sie Mac oder Windows-Downlaod
 
-<img src="/img/rstudio-installation-deutsch/download2-rstudio-min.png">
-<!-- .element height="70%" width="70%" -->
+<img src="/img/rstudio-installation-deutsch/download2-rstudio-min.png" style="width: 70%" />
 
 ---
 
@@ -77,15 +76,14 @@ Alle Programme sind [Open Source](http://praxistipps.chip.de/open-source-was-ist
 - Klicken Sie in die obere Leiste, damit Sie alle 4 Fensterbereiche sehen
 
 
-<img src="/img/rstudio-installation-deutsch/Rstudio-virgin-min.png">
-<!-- .element height="60%" width="60%" -->
+<img src="/img/rstudio-installation-deutsch/Rstudio-virgin-min.png" style="width: 60%" />
+
 
 ---
 
 - Erkunden Sie Fenster und Reiter von RStudio
 
-<img src="/img/rstudio-installation-deutsch/RStudio-4-panes-min.png">
-<!-- .element height="80%" width="80%" -->
+<img src="/img/rstudio-installation-deutsch/RStudio-4-panes-min.png" style="width: 80%" />
 
 ---
 

@@ -1,7 +1,7 @@
 ---
-title: Wayback Machine Tutorial
+title: Slide Test
 author: Peter Baumgartner
-date: '2019-07-21'
+date: '2019-09-16'
 categories:
   - how-to
   - slide
@@ -10,21 +10,15 @@ tags:
   - hugo
   - installation
 output:
-  html_document:
-    df_print: paged
-revealOptions:
-  center: yes
-  controls: yes
-  history: no
-  progress: yes
-  transition: concave
-slug: wayback-machine-tutorial
-theme: league
-description: How to use Wayback Machine to Archive and Retrieve Web Resources
-type: slide
+  revealjs::revealjs_presentation:
+    fig_width: 3
+    fig_height: 2
+    fig_caption: true
+slug: slide-test
+description: This is a test with Reveal.js slides!
 ---
 
-## How to use [Wayback Machine](https://web.archive.org/) (Slides)
+## Test [Wayback Machine](https://web.archive.org/) (Slides)
 
 * use the controls on the right bottom of the screen.
 * watch out: sometimes there is not only left & right, but also top & down.
@@ -33,123 +27,127 @@ type: slide
 
 ---
 
-## 1. Wayback Machine [Start Page](https://web.archive.org/)
+## 1. Wayback Machine (Test) [Start Page](https://web.archive.org/)
 
-<img src="/img/wayback-machine-tutorial/01-web.archive.org-home-min.png">
-<!-- .element height="70%" width="70%" -->
+<img src="../img/wayback-machine-tutorial/01-web.archive.org-home-min.png" style="width: 50%" />
+
+---
+
+```{r}
+knitr::kable(head(iris), format = 'html')
+```
 
 
 ---
 
 ## 2. Choose [Save Page Now](https://web.archive.org/save)
 
-<img src="/img/wayback-machine-tutorial/02-save-page-now-min.png">
-<!-- .element height="70%" width="70%" -->
+<img src="../img/wayback-machine-tutorial/02-save-page-now-min.png">
+
 
 ---
 
 ## 3. Saving Page (without Outlinks)
 
-<img src="/img/wayback-machine-tutorial/03-saved-page-min.png">
-<!-- .element height="70%" width="70%" -->
+<img src="../img/wayback-machine-tutorial/03-saved-page-min.png">
+
 
 ---
 
 ## 4. Saving page (with Outlinks)
 
-<img src="/img/wayback-machine-tutorial/04-saved-page-with-outgoing-links-min.png">
-<!-- .element height="70%" width="70%" -->
+<img src="../img/wayback-machine-tutorial/04-saved-page-with-outgoing-links-min.png">
 
 ---
 
 
 ## 5. Captured page
 
-<img src="/img/wayback-machine-tutorial/05-captured-snapshot-min.png">
+<img src="../img/wayback-machine-tutorial/05-captured-snapshot-min.png">
 <!-- .element height="70%" width="70%" -->
 
 ---
 
 ## 6. Retrieving archived page
 
-<img src="/img/wayback-machine-tutorial/06-retrieved-web-page-min.png">
+<img src="../img/wayback-machine-tutorial/06-retrieved-web-page-min.png">
 <!-- .element height="70%" width="70%" -->
 
 ---
 
 ## 7. [Search](https://web.archive.org/) for archived page
 
-<img src="/img/wayback-machine-tutorial/07-searching-for-archived-web-pages-min.png">
+<img src="../img/wayback-machine-tutorial/07-searching-for-archived-web-pages-min.png">
 <!-- .element height="70%" width="70%" -->
 
 ---
 
 ## 8. Calender view of archived page(s)
 
-<img src="/img/wayback-machine-tutorial/08-calender-view-of-wayback-machine-min.png">
+<img src="../img/wayback-machine-tutorial/08-calender-view-of-wayback-machine-min.png">
 <!-- .element height="70%" width="70%" -->
 
 ---
 
 ## 9. Collections of archived page(s)
 
-<img src="/img/wayback-machine-tutorial/09-show-type-of collections-min.png">
+<img src="../img/wayback-machine-tutorial/09-show-type-of collections-min.png">
 <!-- .element height="70%" width="70%" -->
 
 ---
 
 ## 10. Select captures to compare
 
-<img src="/img/wayback-machine-tutorial/10-select-archived-captures-to-compare-min.png">
+<img src="../img/wayback-machine-tutorial/10-select-archived-captures-to-compare-min.png">
 <!-- .element height="70%" width="70%" -->
 
 ---
 
 ## 11. Compare two captures
 
-<img src="/img/wayback-machine-tutorial/11-compare-archived-captures-min.png">
+<img src="../img/wayback-machine-tutorial/11-compare-archived-captures-min.png">
 <!-- .element height="70%" width="70%" -->
 
 ---
 
 ## 12. Capture(s) in Site Map view
 
-<img src="/img/wayback-machine-tutorial/12-exploring-captured-data-min.png">
+<img src="../img/wayback-machine-tutorial/12-exploring-captured-data-min.png">
 <!-- .element height="70%" width="70%" -->
 
 ---
 
 ## 13. Install browser extension
 
-<img src="/img/wayback-machine-tutorial/13-wayback-machine-chrome-browser-extension-min.png">
+<img src="../img/wayback-machine-tutorial/13-wayback-machine-chrome-browser-extension-min.png">
 <!-- .element height="70%" width="70%" -->
 
 ---
 
 ## 14. Web page not available
 
-<img src="/img/wayback-machine-tutorial/14-web-page-not-available-anymore-min.png">
+<img src="../img/wayback-machine-tutorial/14-web-page-not-available-anymore-min.png">
 <!-- .element height="70%" width="70%" -->
 
 ---
 
 ## 15. Retrieved web page
 
-<img src="/img/wayback-machine-tutorial/15-retrieved-archived-web-page-min.png">
+<img src="../img/wayback-machine-tutorial/15-retrieved-archived-web-page-min.png">
 <!-- .element height="70%" width="70%" -->
 
 ---
 
 ## 16. Access personal web archive
 
-<img src="/img/wayback-machine-tutorial/16-access-personal-web-archive-min.png">
+<img src="../img/wayback-machine-tutorial/16-access-personal-web-archive-min.png">
 <!-- .element height="70%" width="70%" -->
 
 ---
 
 ## 17. Personal web archive
 
-<img src="/img/wayback-machine-tutorial/17-personal-web-archive-min.png">
+<img src="../img/wayback-machine-tutorial/17-personal-web-archive-min.png">
 <!-- .element height="70%" width="70%" -->
 
 

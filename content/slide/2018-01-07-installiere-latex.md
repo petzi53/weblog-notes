@@ -18,7 +18,7 @@ revealOptions:
   progress: yes
   transition: concave
 slug: installiere-latex
-theme: league
+theme: moon
 description: Tutorial zum Installieren des LaTeX Textsystems für Mac und Windows
 type: slide
 ---
@@ -30,6 +30,7 @@ Bedienung dieser Diashow
 - Steuerungselemente: Pfeile rechts unten
 - **Achtung:** Manchmal gibt es außer vor und zurück auch hinauf und hinunter
 - Folienstruktur-Überblick: ESC-Taste
+- Zoomen: ALT + (STRG für LINUX) KLICK in das Objekt. Noch ein Klick: Herauszoomen.
 - Beenden: Mit dem Browser zurück gehen
 
 ---
@@ -52,22 +53,19 @@ Windows: Pfeil rechts unten nach rechts!
 
 Mac: Weiter mit Pfeil nach unten!
 
-<img src="/img/latex-installation-deutsch/1-1_MacOS-Startpage-min.png">
-<!-- .element height="55%" width="55%" -->
+<img src="/img/latex-installation-deutsch/1-1_MacOS-Startpage-min.png" style="width: 45%" />
 
 ___
 
 ## LaTeX-Installation für Mac (2)
 
-<img src="/img/latex-installation-deutsch/1-2_MacOS-Distribution-min.png">
-<!-- .element height="60%" width="60%" -->
+<img src="/img/latex-installation-deutsch/1-2_MacOS-Distribution-min.png" style="width: 60%" />
 
 ___
 
 ## LaTeX-Installation für Mac (3)
 
-<img src="/img/latex-installation-deutsch/1-3_MacOS-Download-min.png">
-<!-- .element height="60%" width="60%" -->
+<img src="/img/latex-installation-deutsch/1-3_MacOS-Download-min.png" style="width: 60%" />
 
 ___
 
@@ -80,22 +78,20 @@ ___
 
 ## LaTeX-Installation für Windows (1)
 
-<img src="/img/latex-installation-deutsch/2-1_Windows-Startpage-min.png">
-<!-- .element height="55%" width="55%" -->
+<img src="/img/latex-installation-deutsch/2-1_Windows-Startpage-min.png" style="width: 55%" />
 
 ___
 
 ## LaTeX-Installation für Windows (2)
 
-<img src="/img/latex-installation-deutsch/2-2_Windows-TexLive-Distribution-min.png">
-<!-- .element height="60%" width="60%" -->
+<img src="/img/latex-installation-deutsch/2-2_Windows-TexLive-Distribution-min.png" style="width: 60%" />
 
 ___
 
 ## LaTeX-Installation für Windows (3)
 
-<img src="/img/latex-installation-deutsch/2-3_Windows-Download-min.png">
-<!-- .element height="60%" width="60%" -->
+<img src="/img/latex-installation-deutsch/2-3_Windows-Download-min.png" style="width: 60%" />
+
 
 ___
 
