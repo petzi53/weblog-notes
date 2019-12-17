@@ -14,11 +14,10 @@ options	     | md  | Rmarkdown | Rmd   | work around
 ------------ | ----| --------- | ----- | -----------
 rendered by  | Blackfriday | Blackfriday | rmarkdown + blogdown + pandoc
 compile with save^[when server is down] | yes | no | no | Rmarkdown + Rmd needs "Touch File" when server is running
-output       | markdown | markdown | html
-intermediary files | no | yes | yes‚
-numbered table, figures |
-crossreferences
-
+output       | markdown | markdown | html  |
+intermediary files | no | yes | yes |
+numbered table, figures |     |     |     |
+crossreferences |       |     |     |     |
 bibliography | no  | no        | yes   | See [help](https://notes.peter-baumgartner.net/)-file
 run r code	 | no  | yes       | yes   | md: r code with fenced code chunk, but not executed 
 task list	 | yes | yes       | no
@@ -28,7 +27,7 @@ hugo toc     | yes | yes       | no    |
 snippets     | no  | yes       | yes   |
 shortcodes   | yes | yes       | no    |
 rel, relref  | yes | yes       | no    |
-emoj
+emoj         |     |           |       |
 
 
 
