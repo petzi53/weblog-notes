@@ -9,11 +9,11 @@ tags:
   - DORA
   - wakelet
 slug: dora-and-wakelet-two-badges
-description: 'Last week – just before Christmas – I received two badges: One from
+description: "Last week – just before Christmas – I received two badges: One from
   [DORA](https://sfdora.org/) (San Francisco Declaration on Research Assessment) and
   the other one from  [Wakelet](https://learn.wakelet.com/). I thought about a little
   thank-you gift. What I came up with --- killing two birds with one stone --- was
-  a Wakelet collection of DORA''s newsletter.'
+  a Wakelet collection of DORA's newsletter."
 disable_comments: no
 draft: no
 ---
