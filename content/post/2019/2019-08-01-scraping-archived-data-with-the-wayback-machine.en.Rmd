@@ -1,15 +1,16 @@
 ---
-title: Scrapping Archived Data with the Wayback Machine
+title: Scraping Archived Data with the Wayback Machine
 author: Peter Baumgartner
 date: '2019-08-01'
+lastmod: '2019-12-27'
 categories:
+  - API
   - open-science
   - web-service
-  - API
 tags:
   - wayback machine
   - web archive
-slug: scrapping-archived-data-with-the-wayback-machine
+slug: scraping-archived-data-with-the-wayback-machine
 description: 'In a previous article, I wrote about the possibilities of the Wayback
   Machine for scientific writing. I argued that archiving web pages prevent link rots
   when cited web resources are not available anymore. With this blog entry, I am looking

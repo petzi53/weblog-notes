@@ -2,10 +2,10 @@
 title: "Comparing Website Generators Over Time"
 author: "Peter Baumgartner"
 date: '2019-08-01'
-description: "This article is the follow-up of [Retrieving And Scrapping Archived Data
+lastmod: ~
+description: "This article is the follow-up of [Retrieving And Scraping Archived Data
   dates, starting from May 2014 to August 2019. The data for this article comes from
-  at seven the previous article mentioned above With The Wayback Machine](https://rpubs.com/pbaumgartner/wayback). Here I will display some results from the scrapped archived web site https://www.staticgen.com/."
-
+  at seven the previous article mentioned above With The Wayback Machine](https://rpubs.com/pbaumgartner/wayback). Here I will display some results from the scraped archived web site https://www.staticgen.com/."
 disable_comments: no
 draft: no
 slug: comparing-website-generators-over-time
@@ -20,7 +20,7 @@ categories:
 
 # Introduction
 
-This article is the follow-up of [Retrieving And Scrapping Archived Data With The Wayback Machine](https://rpubs.com/pbaumgartner/wayback). Here I will display some results from the scrapped archived web site https://www.staticgen.com/ at seven dates, starting from May 2014 to August 2019. 
+This article is the follow-up of [Retrieving And Scraping Archived Data With The Wayback Machine](https://rpubs.com/pbaumgartner/wayback). Here I will display some results from the scraped archived web site https://www.staticgen.com/ at seven dates, starting from May 2014 to August 2019. 
 
 
 {{% panel theme=\"info\" header=\"A remark on my own account\" %}}
@@ -75,9 +75,9 @@ if (!require("reshape2"))
 
 ```
 
-# Introduction
+# Plan of Analysis
 
-This article is the follow-up of [Retrieving And Scrapping Archived Data With The Wayback Machine](https://rpubs.com/pbaumgartner/wayback). Here I will display some results from the scrapped archived web site https://www.staticgen.com/ at seven dates, starting from May 2014 to August 2019. The data for this article comes from the previous article, and I will load them with the following code chunk:
+This article is the follow-up of [Retrieving And Scraping Archived Data With The Wayback Machine](https://rpubs.com/pbaumgartner/wayback). Here I will display some results from the scraped archived web site https://www.staticgen.com/ at seven dates, starting from May 2014 to August 2019. The data for this article comes from the previous article, and I will load them with the following code chunk:
 
 My analysis will concentrate on three issues:
 
@@ -109,7 +109,7 @@ ggplot(sg_quantity, aes(x = `Date of Archived Websites`, y = `Number of Static G
   labs(title = "Growth of the Number of Static Websites Generators")
 ```
 
-I started my data scrapping of the archived webpages of https://www.staticgen.com/ in May 2014. At that time the website listed only about 50 generators. Currently (August 2019) the website features 260 static site generators. The plot shows a  step and continuous growing popularity of these applications.
+I started my data scraping of the archived webpages of https://www.staticgen.com/ in May 2014. At that time the website listed only about 50 generators. Currently (August 2019) the website features 260 static site generators. The plot shows a  step and continuous growing popularity of these applications.
 
 # Taking the first ten generators at every selected date
 
@@ -313,4 +313,4 @@ With this bump chart, one can see which generators are rising in their popularit
 
 
 
-<span class='Z3988' title='url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=blogPost&amp;rft.title=Comparing%20Website%20Generators%20Over%20Time%20::%20Open%20Science%20Education&amp;rft.source=Comparing%20Website%20Generators%20Over%20Time&amp;rft.rights=CC%20BY-SA%204.0&amp;rft.description=This%20article%20is%20the%20follow-up%20of%20[Retrieving%20And%20Scrapping%20Archived%20Data%20With%20The%20Wayback%20Machine](https://rpubs.com/pbaumgartner/wayback).%20Here%20I%20will%20display%20some%20results%20from%20the%20scrapped%20archived%20web%20site%20https://www.staticgen.com/%20at%20seven%20dates,%20starting%20from%20May%202014%20to%20August%202019.%20The%20data%20for%20this%20article%20comes%20from%20the%20previous%20article.&amp;rft.identifier=https%3A%2F%2Fnotes.peter-baumgartner.net%2F2019%2F08%2F01%2Fcomparing-website-generators-over-time&amp;rft.aufirst=Peter&amp;rft.aulast=Baumgartner&amp;rft.au=Peter%20Baumgartner&amp;rft.date=&amp;rft.language=en'></span>
+<span class='Z3988' title='url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=blogPost&amp;rft.title=Comparing%20Website%20Generators%20Over%20Time%20::%20Open%20Science%20Education&amp;rft.source=Comparing%20Website%20Generators%20Over%20Time&amp;rft.rights=CC%20BY-SA%204.0&amp;rft.description=This%20article%20is%20the%20follow-up%20of%20[Retrieving%20And%20Scraping%20Archived%20Data%20With%20The%20Wayback%20Machine](https://rpubs.com/pbaumgartner/wayback).%20Here%20I%20will%20display%20some%20results%20from%20the%20scraped%20archived%20web%20site%20https://www.staticgen.com/%20at%20seven%20dates,%20starting%20from%20May%202014%20to%20August%202019.%20The%20data%20for%20this%20article%20comes%20from%20the%20previous%20article.&amp;rft.identifier=https%3A%2F%2Fnotes.peter-baumgartner.net%2F2019%2F08%2F01%2Fcomparing-website-generators-over-time&amp;rft.aufirst=Peter&amp;rft.aulast=Baumgartner&amp;rft.au=Peter%20Baumgartner&amp;rft.date=&amp;rft.language=en'></span>

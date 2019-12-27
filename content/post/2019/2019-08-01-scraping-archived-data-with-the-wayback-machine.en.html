@@ -1,15 +1,16 @@
 ---
-title: Scrapping Archived Data with the Wayback Machine
+title: Scraping Archived Data with the Wayback Machine
 author: Peter Baumgartner
 date: '2019-08-01'
+lastmod: '2019-12-27'
 categories:
+  - API
   - open-science
   - web-service
-  - API
 tags:
   - wayback machine
   - web archive
-slug: scrapping-archived-data-with-the-wayback-machine
+slug: scraping-archived-data-with-the-wayback-machine
 description: 'In a previous article, I wrote about the possibilities of the Wayback
   Machine for scientific writing. I argued that archiving web pages prevent link rots
   when cited web resources are not available anymore. With this blog entry, I am looking
@@ -51,7 +52,7 @@ staticgen_avail</code></pre>
 <pre><code>## # A tibble: 1 x 5
 ##   url          available closet_url                   timestamp           status
 ##   &lt;chr&gt;        &lt;lgl&gt;     &lt;chr&gt;                        &lt;dttm&gt;              &lt;chr&gt; 
-## 1 https://www… TRUE      http://web.archive.org/web/… 2019-12-15 00:00:00 200</code></pre>
+## 1 https://www… TRUE      http://web.archive.org/web/… 2019-12-26 00:00:00 200</code></pre>
 </div>
 <div id="retrieve-site-mementos-from-the-internet-archive" class="section level2">
 <h2>Retrieve site mementos from the Internet Archive</h2>
@@ -85,9 +86,9 @@ staticgen_mntos</code></pre>
 ## 2 http://web.archive.org/web/timemap/link/https:… timemap    NA                 
 ## 3 http://web.archive.org/web/https://www.staticg… timegate   NA                 
 ## 4 http://web.archive.org/web/20130905221150/http… first mem… 2013-09-05 22:11:50
-## 5 http://web.archive.org/web/20191215045108/http… prev meme… 2019-12-15 04:51:08
-## 6 http://web.archive.org/web/20191215191059/http… memento    2019-12-15 19:10:59
-## 7 http://web.archive.org/web/20191215191059/http… last meme… 2019-12-15 19:10:59</code></pre>
+## 5 http://web.archive.org/web/20191221234231/http… prev meme… 2019-12-21 23:42:31
+## 6 http://web.archive.org/web/20191226161546/http… memento    2019-12-26 16:15:46
+## 7 http://web.archive.org/web/20191226161546/http… last meme… 2019-12-26 16:15:46</code></pre>
 </div>
 <div id="get-the-point-in-time-memento-crawl-list" class="section level2">
 <h2>Get the point-in-time memento crawl list</h2>
@@ -95,7 +96,7 @@ staticgen_mntos</code></pre>
 <p>We get these dated crawl list with the second observation of the <code>get_mementos</code> function. The execution of the next code chunk can take several moments, depending how many pages of the URL are archived. Be aware that the Wayback server is strained by this query, so do not repeat it several times but store the result on your hard disk.</p>
 <pre class="r"><code>staticgen_tm &lt;- get_timemap(staticgen_mntos$link[2])
 staticgen_tm</code></pre>
-<pre><code>## # A tibble: 816 x 5
+<pre><code>## # A tibble: 845 x 5
 ##    rel      link                       type        from          datetime       
 ##    &lt;chr&gt;    &lt;chr&gt;                      &lt;chr&gt;       &lt;chr&gt;         &lt;chr&gt;          
 ##  1 original http://staticgen.com:80/   &lt;NA&gt;        &lt;NA&gt;          &lt;NA&gt;           
@@ -108,8 +109,8 @@ staticgen_tm</code></pre>
 ##  8 memento  http://web.archive.org/we… &lt;NA&gt;        &lt;NA&gt;          Thu, 26 Dec 20…
 ##  9 memento  http://web.archive.org/we… &lt;NA&gt;        &lt;NA&gt;          Mon, 20 Jan 20…
 ## 10 memento  http://web.archive.org/we… &lt;NA&gt;        &lt;NA&gt;          Mon, 20 Jan 20…
-## # … with 806 more rows</code></pre>
-<p>Included into the 816 captures of the interactive browser version there are four rows, relating to the four link relation types mentioned above. The last line is empty.</p>
+## # … with 835 more rows</code></pre>
+<p>Included into the 845 captures of the interactive browser version there are four rows, relating to the four link relation types mentioned above. The last line is empty.</p>
 </div>
 <div id="summary-putting-all-together" class="section level2">
 <h2>Summary: Putting all together</h2>
