@@ -8,7 +8,7 @@ tags:
   - markdown
 slug: comments-in-markdown
 lastmod: '2019-06-05'
-description: How to write comments in markdown?
+description: 'How to write comments in markdown?'
 disable_comments: no
 draft: no
 ---
