@@ -45,7 +45,8 @@ Another much better division can be drawn from her [beautiful infographics](http
 
 Aside from the fact that 'formal' and 'informal learning' has another meaning (see the definition by the [Council of Europe](https://www.coe.int/en/web/lang-migrants/formal-non-formal-and-informal-learning) on formal, non-formal, and informal learning). I do not understand why 'studying' is different from structured learning in an academic setting. And why should 'studying' be linked just with the doing-bubble?
 
-{{< figure src="/post/2020/2020-01-12-educational-tools-learning-theory.en.files/2019-C4LPT-HE-categorization-min.png?classes=border, shadow" width=60%
+
+{{< figure src="/post/2020/2020-01-12-educational-tools-learning-theory.en.files/2019-C4LPT-HE-categorization-min.png?classes=border, shadow" width="75%"
 	alt="Infographics on the usage of the top tools for higher edudation in 2019" 
 	title="Usage of top tools for higher edudation in 2019. Infographics by C4LPT (2019): https://www.toptools4learning.com/edu100/." >}}
 	
