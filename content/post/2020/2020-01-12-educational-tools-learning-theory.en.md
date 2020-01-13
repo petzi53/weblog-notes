@@ -103,11 +103,15 @@ Another complication arises from the fact that the educational judgment of devel
 + from the authoring perspective, e.g., the resource development view
 + from the angle of using the developed product
 
-Tools with two perspectives (e.g., blog services, screen-casting) I will classify from their product angle. This decision results mostly in _Learning I_, e.g., reading for blogging software, watching for screen-recording. 
+There are content development tools which can be used by learner and teacher alike. Those apps or web services with various perspectives (e.g., blog services, screen-casting, curation tools) I will classify from their ownership. If it is easily possible that students get their personal instance, then I will designate it as a multi-purpose tool with _Learning IV_. 
 
-But note: Every case has to be judged individually. For example, the learning activity level with curation services depends on the functionality of this tool type. Is the software characterized by features for social sharing (= _Learning II_), for collaborative development (= _Learning III_) or dominates the individual curation process (= _Learning I_, as the essential goal is offering curated content).
+With 'easy' I mean 
 
-There are content development tools which can be used by learner and teacher alike. In those cases, I will classify with the lowest learning mode. It is perfectly imaginable to use [Wakelet](https://wakelet.com/), a free curation tool, for students to research and curate content of a specified subject. Wakelet also has some basic features for collaboration; nonetheless, I will here take a conservative approach and judge it as _Learning I_. 
++ that it is free available (at least in a freemium variant)
++ that it is easy to install either through the download of packaged software without any special additional technical requirements, such as using the terminal or running a server, changing functionality programmatically  or only through a simple online registration) and
++ that it can be used easily in educational settings (no specialized hardware, platform-independent, etc. )
+
+But note: Every case has to be judged individually. Particularly critical for my classification are collaborative features. If the tool only contains functionality for producing content personally, then I will value it as productivity, respectively, knowledge management tool (_Learning I_).
 
 ## Conclusion
 
