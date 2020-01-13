@@ -107,9 +107,9 @@ There are content development tools which can be used by learner and teacher ali
 
 With 'easy' I mean 
 
-+ that it is free available (at least in a freemium variant)
-+ that it is easy to install either through the download of packaged software without any special additional technical requirements, such as using the terminal or running a server, changing functionality programmatically  or only through a simple online registration) and
-+ that it can be used easily in educational settings (no specialized hardware, platform-independent, etc. )
++ that it is free available at least in a freemium variant for personal usage. This definition of 'free available' does not apply if learners are entitled to free usage only via an institutional account. 
++ that it is easy to install either through the download of packaged software without any special additional technical requirements, such as using the terminal or running a server, changing functionality programmatically, or only through a simple online registration).
++ that it can be used easily in educational settings (no specialized hardware, platform-independent, etc.).
 
 But note: Every case has to be judged individually. Particularly critical for my classification are collaborative features. If the tool only contains functionality for producing content personally, then I will value it as productivity, respectively, knowledge management tool (_Learning I_).
 
