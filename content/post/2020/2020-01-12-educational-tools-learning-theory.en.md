@@ -58,14 +58,14 @@ Aside from the fact that 'formal' and 'informal learning' has another meaning (s
 
 Without going here into detail, I will use my categorization of learning theories published among others in The Zen Art of Teaching ([PDF](http://peter.baumgartner.name/wp-content/uploads/2012/12/Baumgartner_2004_The-Zen-Art-of-Teaching.pdf), 545 kB). This article outlines three different kinds of teaching modes:
 
-+  **Instruction**: Using static learning materials for reading, listening, and watching.
-+ **Cognition**: Using dynamic and elaborated didactical educational interactions for guided practice.
-+ **Construction**: Using collaborative scenarios for mastering unstructured situations.
++  **Instruction or Learning I**: Using static learning materials for reading, listening, and watching.
++ **Cognition or Learning II**: Using dynamic and elaborated didactical educational interactions for guided practice.
++ **Construction or Learning III**: Using collaborative scenarios for mastering unstructured situations.
 
 This categorization results in different educational aspects for each of the three teaching/learning modes:
 
 + **Kind of knowledge acquisition**: static –dynamic/procedural – social.
-+ **Teaching modes**: transfer – dialog – collaboration.
++ **Teaching modes**: transfer – dialog/discussion – collaboration.
 + **Learning strategies**: study – practice – mastering.
 + **Assessment methods**: correct answers – applying adequate techniques, processes, and procedures – success criteria.
 + **Teaching strategies**: explaining – observing and helping – collaborating.
@@ -77,6 +77,8 @@ Even though my suggestion is coarse-grained as it distinguishes only three types
 Sometimes it is not easy to classify tools unambiguously into one of the three categories. Modern tools incorporate many features that may address different types of learning modes. Take, for example, the use of a learning management system (LMS). You can use it for various activities (reading PDFs, work through quizzes, or writing collaboratively into a wiki). In those inconclusive situations, I will utilize the highest predominant functionality of the tools. 'Highest' means that _Learning II_ is more elevated than _Learning I_. This is not a quality rating of the different learning modes as all three modes have their value under certain conditions. 'Higher' or 'lower' address here the complexity of student activities.
 
 But what is the 'predominant functionality' of a tool? I assume that every educational technology, every technology-supported learning environment, or internet application, implement a theoretical learning model – irrespective of opinions and beliefs of developers and teachers. In the case of LMS dominates guided learning interactivity (_Learning II_). Although teachers may use tools ingeniously for purposes not foreseen from the developers, I think that these inventing teaching strategies are not the mainstream.
+
+Following other users on the web with the same subject interests, getting in contact with them, commenting their blogs, etc. entitles for _Learning II_ but does **not** qualify for _Learning III_.  I will rate an educational setting as cooperation only if the right to create or share content is distributed equally.
 
 ### General tools not intended primarily for education
 
@@ -118,9 +120,10 @@ But note: Every case has to be judged individually. Particularly critical for my
 
 To summarize my suggestion for an educational categorization of digital tools, I will define four types of apps, respectively web services:
 
-+ **Lernen 0**: Tools supporting personal knowledge management, productivity, and portals for web resources.
-+ **Lernen I**: Transfer of knowledge. The focus of learner engagement is primarily oriented to content to acquire factual knowledge.
-+ **Lernen II**: Applying knowledge, practicing procedures. The emphasis here is learner interactivity with dynamic content and dialog with teacher and co-learner. 
-+ **Lernen III**: Collaboratively solving challenges. Essential is producing a useful output, doing something creatively and cooperatively. 
++ **Learning 0**: Tools supporting personal knowledge management, productivity, and portals for web resources.
++ **Learning I**: Transfer of knowledge. The focus of learner engagement is primarily oriented to content to acquire factual knowledge.
++ **Learning II**: Applying knowledge, practicing procedures. The emphasis here is learner interactivity with dynamic content and dialog with teacher and co-learner. 
++ **Learning III**: Collaboratively solving challenges. Essential is producing a useful output, doing something creatively and cooperatively. 
++ **Learning IV**: Multi-purpose tool with features for Learning III **and** either Learning 0 or Learning I.
 	
 … to be continued
