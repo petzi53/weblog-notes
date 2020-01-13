@@ -10,7 +10,7 @@ tags:
   - taxonomy
 description: 'This article suggests a procedure to categorize the enormous amount of educational tools in the market. My approach uses a framework of three well-grounded learning theories: Instruction, Cognition, and Construction based on presentation modes (one-way teaching), dialog settings (two-way education), and collaborative scenarios (learning by mastering complex situations). As a proof of concept, I will use the [Top Tools for Learning](https://www.toptools4learning.com/) (TT4L), compiled by Jane Hart as a result of the 13th Annual Learning Tools Survey (published 18 September 2019).'
 disable_comments: yes
-draft: yes
+draft: no
 slug: educational-tools-and-learning-theory
 ---
 
@@ -49,3 +49,4 @@ Aside from the fact that 'formal' and 'informal learning' has another meaning (s
 	title="Usage of top tools for higher edudation in 2019. Infographics by C4LPT (2019): https://www.toptools4learning.com/edu100/." >}}
 	
 
+… to be continued
