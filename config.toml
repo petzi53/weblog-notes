@@ -49,6 +49,11 @@ enableGitInfo = true
 # https://gohugo.io/content-management/urls/#relative-urls
 relativeURLs = true # false = default value!
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [frontmatter]
   date = ["date", "publishDate", "lastmod"]
   lastmod = [":git", "lastmod", "date", "publishDate"]
