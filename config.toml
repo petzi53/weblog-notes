@@ -54,9 +54,9 @@ relativeURLs = true # false = default value!
 # As of Hugo v0.60.0, Goldmark is the default Markdown parser
 # see: http://www.ii.com/hugo-tips-fragments/#_markup
 [markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+ [markup.goldmark]
+   [markup.goldmark.renderer]
+     unsafe = true
 
 [frontmatter]
   date = ["date", "publishDate", "lastmod"]

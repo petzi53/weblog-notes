@@ -4,7 +4,7 @@ description: ""
 title: header
 no_coins: yes
 ---
-
-<a href="/"><img src="https://s.gravatar.com/avatar/79caee83cb792566a70ad95f6121a733?s=256" alt="Peter Baumgartner" /></a>
+<a href="/"><img src="/img/portrait-peter-baumgartner-min.jpg" alt="Portrait of Peter Baumgartner" /></a>
 <i><a href="/">Open Science Education</a></i>
+
 
