@@ -26,12 +26,12 @@ In this tutorial, I will show how to produce and embed bibliographic metadata in
 ## Bibliographic metadata in 14 small steps
 
 1. Start Zotero and your browser. Go to the page where you want to embed the metadata. You see the Zotero icon for web pages in the place where your web browsers shows the symbols for its installed extensions.
-<img class="border shadow" src="/tutorial/2019-06-19-coins.files/zotero-coins-01-min.png" alt="Screenshot of the target web page for embedding bibliographi metadata." width="60%" />
-<figcaption><h4>**Figure 01:** Target web page for embedding bibliographi metadata.</h4></figcaption>
+<img class="border shadow" src="/tutorial/2019-06-19-coins.files/zotero-coins-01-min.png" alt="Screenshot of the target web page for embedding bibliographic metadata." width="60%" />
+<figcaption><h4>**Figure 01:** Target web page for embedding bibliographic metadata.</h4></figcaption>
 
 2. Click on the icon and download the rudimentary bibliographic information for the web page.
 <img class="border shadow" src="/tutorial/2019-06-19-coins.files/zotero-coins-02-min.png" alt="Screenshot shows the menu to download the rudimentary bibliographic information with Zotero" width="60%" />
-<figcaption><h4>**Figure 02:** Download the rudimentary bibliographic information with Zotero</h4></figcaption>
+<figcaption><h4>**Figure 02:** Download the rudimentary bibliographic information with Zotero.</h4></figcaption>
 
 3. Change to Zotero and inspect the new downloaded entry. You will notice that many details are still missing.
 <img class="border shadow" src="/tutorial/2019-06-19-coins.files/zotero-coins-03-min.png" alt="Sreenshot of the Zotero bilbiograpy with the new downloaed biobliographic entry." width="60%" />
