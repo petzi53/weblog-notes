@@ -3,12 +3,16 @@ title: "How to Register with a Hosting Service to Buy Space for your Server"
 author: "Peter Baumgartner"
 date: '2020-12-16'
 slug: register-hosting-service
-categories: []
-tags: []
+categories:
+  - how-to
+tags:
+  - server
+  - webspace
 lastmod: null
-description: ''
-disable_comments: yes
-draft: yes
+description: 'What do you have to watch out for your registration with a hosting web service? I take, as an example, the German hoster Uberspace and show the process step-by-step.'
+disable_comments: no
+draft: no
+
 ---
 
 With this article, I begin a new series of step-by-step instructions focused on installing and working with open source tools on your own server space. I've learned some of these procedures participating as an audience member in a sequence of German web talks by [Guido Brombrach](https://www.oercamp.de/webinare/ostools/), organized by [OERcamp](https://www.oercamp.de/).
@@ -67,4 +71,4 @@ After scrolling down, you will see this second part of the form.
 <figcaption><h4>Step 5: Success page of the registration process.</h4></figcaption>
 
 1. When you see this page, your registration process was successful. Congrats!
-2. There are many helpful resources in the Uberspace [manual](https://manual.uberspace.de/) and [wiki](https://wiki.uberspace.de/. But if you are still stuck, don't be shy and ask the people at Uberspace directly via [email](hallo@uberspace.de). 
+2. There are many helpful resources in the Uberspace [manual](https://manual.uberspace.de/) and [wiki](https://wiki.uberspace.de/). But if you are still stuck, don't be shy and ask the people at Uberspace directly via [email](hallo@uberspace.de). 
