@@ -32,7 +32,7 @@ This article suggests a procedure to categorize the enormous amount of education
 
 Inspired by the yearly ranking of [Top Tools for Learning](https://www.toptools4learning.com/)  (TT4L) compiled by Jane Hart, I wanted to know if there are global changes or trends in e-learning over the years. The ranked list of tools goes back 13 years and is available for all past years via the [Wayback Machine](https://archive.org/web/web.php). As a plan for analysis and for presenting results, I imagine a similar procedure as I have used in [comparing static website generators](/2019/08/01/comparing-website-generators-over-time/) over the years. 
 
-## Inconsistencies in Jane Hart's categories
+## Inconsistencies in Jane's categories
 
 To compare the different rankings of the educational tools,  I will need a classification of all apps/web services based on pedagogical reasons. For my purposes, the [categorizations used by Jane Hart](http://c4lpt.co.uk/directory-of-learning-performance-tools/) (see right column) is not useful:
 
