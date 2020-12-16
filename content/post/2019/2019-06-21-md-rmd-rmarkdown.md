@@ -37,7 +37,6 @@ https://github.com/rstudio/blogdown/issues/358#issuecomment-465821489
 
 But see also 
 
-+ [Tests in md file]({{< ref "2019-06-10-md-file-test" >}})
 + Tests in Rmd file
 + Tests in Rmarkdown file
 

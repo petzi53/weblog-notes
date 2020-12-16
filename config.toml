@@ -9,7 +9,11 @@ googleAnalytics = "UA-106194253-6"
 # Enable comments by entering your Disqus shortname
 disqusShortname = "petzi-2"
 
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+# Message received at startup: 2020-12-11
+# You are recommended to ignore more items in the 'ignoreFiles' field in config.toml:
+# "\\.knit\\.md$", "\\.utf8\\.md$"
+# You are recommended to remove the item '_files$' in the 'ignoreFiles' field in config.toml.
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "\\.knit\\.md$", "\\.utf8\\.md$", "_cache$"]
 
 languageCode = "en-us"
 DefaultContentLanguage = "en"

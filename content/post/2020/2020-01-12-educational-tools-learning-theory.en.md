@@ -1,18 +1,29 @@
 ---
-title: 'Educational Tools & Learning Theory'
-author: Peter Baumgartner
+title: "Educational Tools & Learning Theory"
+author: "Peter Baumgartner"
 date: '2020-01-12'
 categories:
-  - eduTech
-  - learning-theory
+- eduTech
+- learning-theory
 tags:
-  - educational-design
-  - taxonomy
-description: 'This article suggests a procedure to categorize the enormous amount of educational tools in the market. My approach uses a framework of three well-grounded learning theories: Instruction, Cognition, and Construction based on presentation modes (one-way teaching), dialog settings (two-way education), and collaborative scenarios (learning by mastering complex situations). As a proof of concept, I will use the [Top Tools for Learning](https://www.toptools4learning.com/) (TT4L), compiled by Jane Hart as a result of the 13th Annual Learning Tools Survey (published 18 September 2019).'
+- educational-design
+- taxonomy
+description: 'This article suggests a procedure to categorize the enormous amount
+  of educational tools in the market. My approach uses a framework of three well-grounded
+  learning theories: Instruction, Cognition, and Construction based on presentation
+  modes (one-way teaching), dialog settings (two-way education), and collaborative
+  scenarios (learning by mastering complex situations). As a proof of concept, I will
+  use the [Top Tools for Learning](https://www.toptools4learning.com/) (TT4L), compiled
+  by Jane Hart as a result of the 13th Annual Learning Tools Survey (published 18
+  September 2019).'
+
 disable_comments: yes
 draft: no
 slug: educational-tools-and-learning-theory
 ---
+
+  
+
 
 {{< figure src="/post/2020/2020-01-12-educational-tools-learning-theory.en.files/2019-C4LPT-categorization-min.png?classes=border, shadow" class="floatright"
 alt="Categories of tools by Jane Hart" >}}
@@ -78,7 +89,7 @@ Sometimes it is not easy to classify tools unambiguously into one of the three c
 
 But what is the 'predominant functionality' of a tool? I assume that every educational technology, every technology-supported learning environment, or internet application, implement a theoretical learning model – irrespective of opinions and beliefs of developers and teachers. In the case of LMS dominates guided learning interactivity (_Learning II_). Although teachers may use tools ingeniously for purposes not foreseen from the developers, I think that these inventing teaching strategies are not the mainstream.
 
-Following other users on the web with the same subject interests, getting in contact with them, commenting their blogs, etc. entitles for _Learning II_ but does **not** qualify for _Learning III_.  I will rate an educational setting as cooperation only if the right to create or share content is distributed equally.
+Following other users on the web with the same subject interests, getting in contact with them, commenting their blogs, etc. entitles for _Learning II_ but does **not** qualify for _Learning III_.  I will rate only rate an educational setting as _Learning III_  if learners produce (individually or collaboratively) an artifact for learning purposes.
 
 ### General tools not intended primarily for education
 
@@ -97,7 +108,13 @@ Another issue favoring general tools are the questions themselves. See, for inst
 
 So the questions ask for **digital** tools, not for digital **educational** tools. The consequence is that the top list with a few exceptions **does not include subject-oriented software** (e.g., apps for learning math, science, languages). This bias is an essential drawback as many e-learning scenarios use these kinds of content-related software.
  
-The other side of the same coin is that there is a bias to personal knowledge management applications. Software like email clients, browsers, search engines, etc., are unquestionably also essential parts of a learning ecology. Using these tools always goes together with (informal) learning experiences. But their inclusion in an educational taxonomy of tools results in a relatively small proportion of individual apps or web services for content-oriented e-learning. To distinguish those personal productivity instruments from tools explicitly dedicated to learning, I have designated them with _Learning 0_. Under this category, I also have classified support tools like converters or  'neutral' web resources like portals for icons, images, or other material.
+The other side of the same coin is that there is a bias towards personal knowledge management applications. Software like email clients, browsers, search engines, etc., are unquestionably also essential parts of a learning ecology. Using these tools always goes together with (informal) learning experiences. But an educational taxonomy of tools for education should focus on apps or web services developed for e-learning. To distinguish those personal productivity instruments from tools explicitly dedicated to learning, I have designated them with _Learning 0_. Under this category, I also have classified support tools like converters or  'neutral' web resources like portals for icons, images, or other material.
+
+Summarizing this subsection is the following types of tools designated with _Learning 0_:
+
++ General productivity: Word processors, email clients, browsers, search engines, converters, translators, grammar checkers, image/icon/theme libraries, and other supporting tools. 
++ Personal knowledge management: Note-taking software, calendars,  project management, skill validation.
++ Hardware: Smartphones, tablets, interactive whiteboards.
 
 ### Developing learning material or using it?
 
@@ -106,15 +123,15 @@ Another complication arises from the fact that the educational judgment of devel
 + from the authoring perspective, e.g., the resource development view
 + from the angle of using the developed product
 
-There are content development tools which can be used by learner and teacher alike. Those apps or web services with various perspectives (e.g., blog services, screen-casting, curation tools) I will classify from their ownership. If it is easily possible that students get their personal instance, then I will designate it as a multi-purpose tool with _Learning IV_. 
+There are content development tools which can be used by learner and teacher alike. Those apps or web services with various perspectives (e.g., blog services, screen-casting, curation tools) I will classify from their ownership. If it is easily possible that students get their personal instance, then I will designate it as _Learning III_. 
 
 With 'easy' I mean 
 
 + that it is free available at least in a freemium variant for personal usage. This definition of 'free available' does not apply if learners are entitled to free usage only via an institutional account. 
 + that it is easy to install either through the download of packaged software without any special additional technical requirements, such as using the terminal or running a server, changing functionality programmatically, or only through a simple online registration).
-+ that it can be used easily in educational settings (no specialized hardware, platform-independent, etc.).
++ that it can be used easily in educational settings (no specialized knowledge necessary, learn time only 1-2hrs, no specialized hardware, platform-independent).
 
-But note: Every case has to be judged individually. Particularly critical for my classification are collaborative features. If the tool only contains functionality for producing content personally, then I will value it as productivity, respectively, knowledge management tool (_Learning I_).
+Note that every case has to be judged individually. For a correct classification with the mentioned rules, one has to look into pricing models, installation procedures, user interface, and typical application patterns.
 
 ## Conclusion
 
