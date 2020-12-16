@@ -49,6 +49,10 @@ enableGitInfo = true
 # https://gohugo.io/content-management/urls/#relative-urls
 relativeURLs = true # false = default value!
 
+
+
+# As of Hugo v0.60.0, Goldmark is the default Markdown parser
+# see: http://www.ii.com/hugo-tips-fragments/#_markup
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
@@ -66,6 +70,11 @@ relativeURLs = true # false = default value!
 [outputs]
     home = [ "HTML", "RSS", "JSON"]
 
+###############
+# WATCH OUT: Blackfriday Markdown parser will eventually be deprecated
+# maybe the following settings are not turned on
+# as Blackfriday is not default markdown parer anymore
+##############
 # Configure BlackFriday Markdown rendering.
 # See: https://gohugo.io/getting-started/configuration/#configure-blackfriday
 [blackfriday]
