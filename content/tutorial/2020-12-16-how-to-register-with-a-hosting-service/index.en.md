@@ -19,11 +19,11 @@ With this article, I begin a new series of step-by-step instructions focused on 
 
 ## 1. Step: Go to the URL of your hosting service
 
-<img class="border shadow" src="/tutorial/2020-12-16-how-to-register-with-a-hosting-service/index.en_files/00-startpage-min.jpg" alt="Startpage Uberspace (screenshot)" width="60%" />
-<figcaption><h4>Step 1: Go to the URL of [Uberspace](https://uberspace.de/en/) and scroll to the middle of the start page.</h4></figcaption>
+<img class="border shadow" src="/tutorial/2020-12-16-how-to-register-with-a-hosting-service/index.en_files/00-uberspace-startpage-min.png" alt="Startpage Uberspace" width="60%"/>
+<figcaption><h4>Step 1: Go to the URL of Uberspace and scroll to the middle of the start page.</h4></figcaption>
 
-+ Go to the start page of your hosting service. This tutorial uses [Uberspace](https://uberspace.de/en/). 
-+ Scroll to the middle of the page and click on the link SIGN ME UP!
+1. Go to the start page of your hosting service. This tutorial uses [Uberspace](https://uberspace.de/en/). 
+2. Scroll to the middle of the page and click on the link SIGN ME UP!
 
 ***
 
@@ -65,10 +65,23 @@ After scrolling down, you will see this second part of the form.
 
 ***
 
-## Step 5: Success!
+## Step 5: Success of web registration!
 
-<img class="border shadow" src="/tutorial/2020-12-16-how-to-register-with-a-hosting-service/index.en_files/03-success-min.jpg" alt="Screenshot shows the registration page of Uberspace" width="60%" />
-<figcaption><h4>Step 5: Success page of the registration process.</h4></figcaption>
+<img class="border shadow" src="/tutorial/2020-12-16-how-to-register-with-a-hosting-service/index.en_files/03-success-web-access-min.jpg" alt="Screenshot shows the registration page of Uberspace" width="60%" />
+<figcaption><h4>Step 5: Success page of the web registration process.</h4></figcaption>
 
 1. When you see this page, your registration process was successful. Congrats!
 2. There are many helpful resources in the Uberspace [manual](https://manual.uberspace.de/) and [wiki](https://wiki.uberspace.de/). But if you are still stuck, don't be shy and ask the people at Uberspace directly via [email](hallo@uberspace.de). 
+
+***
+
+## Step 6: Password for SSH access
+
+<img class="border shadow" src="/tutorial/2020-12-16-how-to-register-with-a-hosting-service/index.en.files/04-ssh-access-min.png" alt="Registration for SSH access" width="60%"/>
+<figcaption><h4>Step 6: Uberspace start page after logged in.</h4></figcaption>
+
+1. The successful registration for web access only means that you can now enter your uberspace web admin page. To get the page you see on the screenshot, you have to login into Uberspace and open the tab "Logins." 
+
+2. On the left side, you see your login for the Uberspace admin page (your web access). If you want, you can provide another password that will override your old one. As you can see, under 2a, I am already logged in. 
+
+3. What we need to do now is to provide a password for access to your server space. When you fill in this (different) password, you will get a red bar on top of the screen saying you have set an SSH password. With this password, you can now access your server with an FTP-client or via your terminal.
