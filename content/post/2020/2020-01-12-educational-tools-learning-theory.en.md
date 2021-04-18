@@ -14,7 +14,7 @@ description: 'This article suggests a procedure to categorize the enormous amoun
   modes (one-way teaching), dialog settings (two-way education), and collaborative
   scenarios (learning by mastering complex situations). As a proof of concept, I will
   use the [Top Tools for Learning](https://www.toptools4learning.com/) (TT4L), compiled
-  by Jane Hart as a result of the 13th Annual Learning Tools Survey (published 18
+  by [Jane Hart](https://www.toptools4learning.com/jane-hart/) as a result of the 13th Annual Learning Tools Survey (published 18
   September 2019).'
 
 disable_comments: yes
@@ -28,7 +28,7 @@ slug: educational-tools-and-learning-theory
 {{< figure src="/post/2020/2020-01-12-educational-tools-learning-theory.en.files/2019-C4LPT-categorization-min.png?classes=border, shadow" class="floatright"
 alt="Categories of tools by Jane Hart" >}}
 
-This article suggests a procedure to categorize the enormous amount of educational tools in the market. My approach uses a framework of three well-grounded learning theories: Instruction, Cognition, and Construction based on presentation modes (one-way teaching), dialog settings (two-way education), and collaborative scenarios (learning by mastering complex situations). As a proof of concept, I will use the [Top Tools for Learning](https://www.toptools4learning.com/) (TT4L), compiled by Jane Hart as a result of the 13th Annual Learning Tools Survey (published 18 September 2019).
+This article suggests a procedure to categorize the enormous amount of educational tools in the market. My approach uses a framework of three well-grounded learning theories: Instruction, Cognition, and Construction based on presentation modes (one-way teaching), dialog settings (two-way education), and collaborative scenarios (learning by mastering complex situations). As a proof of concept, I will use the [Top Tools for Learning](https://www.toptools4learning.com/) (TT4L), compiled by [Jane Hart](https://www.toptools4learning.com/jane-hart/) as a result of the 13th Annual Learning Tools Survey (published 18 September 2019).
 
 Inspired by the yearly ranking of [Top Tools for Learning](https://www.toptools4learning.com/)  (TT4L) compiled by Jane Hart, I wanted to know if there are global changes or trends in e-learning over the years. The ranked list of tools goes back 13 years and is available for all past years via the [Wayback Machine](https://archive.org/web/web.php). As a plan for analysis and for presenting results, I imagine a similar procedure as I have used in [comparing static website generators](/2019/08/01/comparing-website-generators-over-time/) over the years. 
 

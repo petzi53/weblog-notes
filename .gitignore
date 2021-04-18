@@ -3,6 +3,7 @@
 .RData
 .Ruserdata
 .DS_Store
-public
-blogdown
+/public
+/blogdown
 data/
+Thumbs.db
