@@ -12,7 +12,7 @@ tags:
 - unicode
 lastmod: null
 description: 'Recently I worked on some pull requests for [interactive tutorials](https://github.com/OpenIntroStat/ims-tutorials) for the  OpenIntro textbook Introduction to Modern Statistics. There I came across the [package `emo`](https://github.com/hadley/emo). Its purpose is: "Easily insert emoji into R and RMarkdown". This post describes some learnings on how to use this package.'
-disable_comments: yes
+disable_comments: no
 draft: no
 ---
 
