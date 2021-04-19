@@ -1,0 +1,54 @@
+---
+title: "Using Emojis in R and RMarkdown"
+author: "Peter Baumgartner"
+date: '2021-04-19'
+slug: using-emojis-in-r-and-rmarkdown
+categories:
+- Rmarkdown
+- package
+tags:
+- emo
+- emoji
+- unicode
+lastmod: null
+description: 'Recently I worked on some pull requests for [interactive tutorials](https://github.com/OpenIntroStat/ims-tutorials) for the  OpenIntro textbook Introduction to Modern Statistics. There I came across the [package `emo`](https://github.com/hadley/emo). Its purpose is: "Easily insert emoji into R and RMarkdown". This post describes some learnings on how to use this package.'
+disable_comments: no
+draft: yes
+---
+
+Recently I worked on some pull requests for [interactive tutorials](https://github.com/OpenIntroStat/ims-tutorials) for the  OpenIntro textbook Introduction to Modern Statistics. There I came across the [package `emo`](https://github.com/hadley/emo). Its purpose is: "Easily insert emoji into R and RMarkdown".
+
+I was surprised that there is a special package. I didn't think that including emojis wouldn't be a problem --- at least on the macOS. I only have to open the window for emojis and symbols (CMD-SHIFT-SPACE) and double click on the icon to insert it into the markdown document.  No big deal, so what's the matter?
+
+After I searched online, I saw that there many questions (and [solutions](https://stackoverflow.com/questions/52378661/how-to-display-emojis-in-ggplot2-using-emo-package-in-r)) about this problem. There is on CRAN a special [package `emojifont`](https://cran.r-project.org/web/packages/emojifont/index.html) for using emojis and [Font Awesome](https://fontawesome.com/) in base R and `ggplot2` graphics and with [`emoGG`](https://github.com/dill/emoGG) another one on GitHub.
+
+For me, it is still not clear what exactly the problem is. Perhaps it has to do with different operating systems? Does the Unicode not translate to all systems?
+
+Anyway, I looked into `emo,` and it turned out that it offers some useful functions when working with strings containing emojis. You can also add emojis to summarize p-values. Additionally, I learned several things:
+
+1. With `emojis_df <- emo::jis`, you get a data frame with 3570 emoticons categorized by 21 variables. 
+
+2. In  `emojis_df`, you will find the keywords for each emoji. But this is problematic as they are not unique. In the [ReadMe of `emo` in GitHub](https://github.com/hadley/emo#keywords), you will see a massive list of multiple references for each keyword.
+
+3. If you are using keywords, the command `emo::ji(<keyword>)` will randomly pick one. 
+
+
+```r
+emo::ji("face")
+emo::ji("face")
+emo::ji("face")
+```
+
+```
+## 🌛 
+## 🐱 
+## 😼
+```
+
+
+To identify, you have to use the short name of the [Common Local Data Repository](http://cldr.unicode.org/) (CDLR) included in the `emojis_df`.
+If you want to use emojis with a particular skin tone, you have to use the alias name as the CDLR name produces an error.
+Instead of looking up an emoji within the above-created data frame `emojis_df`, I found it more practicable to search in the official [Unicode Emoji List](https://www.unicode.org/emoji/charts/emoji-list.html). It has not so many different columns but focuses on icon display and CLDR short name.
+
+
+
