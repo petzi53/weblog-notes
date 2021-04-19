@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="{{ $.Language | default "en" }}" class="js csstransforms3d">
+<html lang="{{ .Page.Language | default "en" }}" class="js csstransforms3d">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    {{ .Hugo.Generator }}
+    {{ .hugo.Generator }}
     {{ partial "meta.html" . }}
     <title>{{ .Title }} :: {{ .Site.Title }}</title>
     <link rel="shortcut icon" href="{{"images/favicon.png" | relURL}}" type="image/x-icon" />
