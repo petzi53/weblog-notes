@@ -1,0 +1,101 @@
+---
+title: Toward a Taxonomy of Open Science (TOS)
+author: Peter Baumgartner
+date: '2019-06-24'
+categories:
+  - open-science
+  - theory
+tags:
+  - taxonomy
+slug: toward-a-taxonomy-of-open-science
+description: This post starts a series of ten contributions about a better understanding
+  of the different aspects of Open Science. I want to collect material to develop
+  a taxonomy of Open Science (TOS). The primary goal of this undertaking is not only
+  to build a hierarchical system where every notion is unambiguous but to develop
+  a heuristic tool useful for further research.
+bibliography:
+  - ../../references.bib
+disable_comments: no
+draft: no
+---
+
+This post starts a series of ten contributions about a better understanding of the different aspects of Open Science. I want to collect material to develop a taxonomy of Open Science (TOS). The primary goal of this undertaking is not only to build a hierarchical system where every notion is unambiguous but to develop a heuristic tool useful for further research.
+
+## The many faces of Open Science
+
+With a superficial approach to the topic, it almost looks as if Open Science is identical to Open Access. Indeed, Open Access represents within Open Science the strongest and far-reaching movement with the highest financial and political consequences. However, Open Access is only one (important) part of the Open Science movement, which consists of a wide variety of different viewpoints, each with distinct socio-political conditions and effects. The planned series of post on Open Science will show how extensive and diverse this area already is. A first impression about the complexity of the subject communicates the following graphic (Pontika et al. 2015).
+
+Although I consider this compilation of the numerous fields of Open Science to be valuable, I see – sensitized by my own work on taxonomies (Baumgartner and Bergner 2016; Baumgartner 2014; Baumgartner, Zauchner, and Bauer 2009) – in [Figure 1](#fig1) some inconsistency and shortcomings:
+
+-   I miss some critical areas such as Open Content, Open Educational Resources, and Open Licenses.
+-   There are theoretical discrepancies and overlaps, e.g., Open Science Workflows is under Open Reproducible Research. In my opinion we need different workflows not only in the area of reproducible research but in *all* Open Science activities. Another example: Irreproducible Research, is classified as a sub-item of Open Reproducible Research. However, how is it possible that the contraction of a thing is a sub-category of the very same thing? Irreproducible Research is not a part of Open Reproducible Research; it is plain and simple a misnomer.
+
+<img id="fig1" class="border shadow" src="/post/2019/2019-06-21-toward-a-taxonomy-of-open-science.en.files/foster-open-science-taxonomy-min.png" alt="A mindmap as a graphical representation of an Open Science taxonomy" width=60% />
+<figcaption>
+<h4>
+**Figure 1:** Open Science Taxonomy: Originally published in (Pontika et al. 2015, 3). See also the [interactive graphic](https://www.fosteropenscience.eu/resources), where all terms are linked to additional material on the [Foster website](https://www.fosteropenscience.eu/resources) (FOSTER consortium 2015).
+</h4>
+</figcaption>
+
+Maybe the above figure was not really intended to be inherently consistent? As there is another version with live links to different subject worked out by the members of the project team, the diagram maybe just functions as a starting point to explore in a more systematic way the various relevant topics? Anyway: I believe that a self-consistent taxonomy would a helpful for a better understanding and holistic perspective of Open Science.
+
+I can’t here already provide a comprehensive alternative proposal for a taxonomy. For a logically consistent counterdraft of a taxonomy I would need to look more detailed into all the different aspects of Open Science. At them moment my understanding and knowledge on Open Science is still elementary.
+
+But what I will do here, is to suggest a *different first level for a taxonomy of Open Science (TOS)*. Hopefully this will work out as a more precise and coherent starting point for further research. My recommendation corresponds to the nine elements of the first level of the FOSTER taxonomy: Open Access, Open Data, Open Reproducible Research, Open Science Definition, Open Science Evaluation, Open Science Guidelines, Open Science Policies, Open Science Projects, and Open Science Tools.
+
+My proposal contains also nine elements for the first level, but they differ essentially form the FOSTER taxonomy as the following graph shows:
+
+<img class="border shadow" src="/post/2019/2019-06-21-toward-a-taxonomy-of-open-science.en.files/Open-Science-0-min.png" usemap="#open-science-map" alt="Open Science Taxonomie" />
+<figcaption>
+<h4>
+**Figure 02:** Toward a taxonomy for Open Science (TOS)
+</h4>
+</figcaption>
+<map name="open-science-map">
+<area alt="CC-BY-SA 4.0" title="CC-BY-SA 4.0" href="https://creativecommons.org/licenses/by-sa/4.0/" coords="225,693,646,738" shape="rect">
+<area alt="Open Science" title="Open Science" href="/2019/06/24/toward-a-taxonomy-of-open-science/" coords="136,270,370,349" shape="rect">
+</map>
+
+I believe that **the essence of Open Science is a particular (new) set of activities during the research process**. These nine categories designate a particular set of activities.To describe these activities in detail is the keypart of a better understanding about Open Science. I have already stated in [another post](/2019/06/12/what-is-open-science-about/), that the “Open” in Open Science refers to the **participatory way of knowledge creation and the shared usage of its products**. Therefore we are going to look into the different phases of the research process and its exploitation.
+
+In the next couple of weeks, I will therefore look into these activities of the research process. Hopefully this will provide me nd a deeper understaning what kinds of processes Open Science constitute. This should provide me with the material for the third tier of a taxonomy for Open Science.
+
+Every time I will publish one of these articles, I will repeat my graph with a slight change: You will see a new red arrow to the left of the relevant first level category. Behind these marked categories you will find active links to the corresponding post.
+
+## References
+
+<span class="Z3988" title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=blogPost&amp;rft.title=Toward%20a%20Taxonomy%20of%20Open%20Science%20(TOS)%20::%20Open%20Science%20Education&amp;rft.source=Toward%20a%20Taxonomy%20of%20Open%20Science%20(TOS)&amp;rft.rights=CC%20BY-SA%204.0&amp;rft.description=This%20post%20starts%20a%20series%20of%20ten%20contributions%20about%20a%20better%20understanding%20of%20the%20different%20aspects%20of%20Open%20Science.%20I%20want%20to%20collect%20material%20to%20develop%20a%20taxonomy%20of%20Open%20Science%20(TOS).%20The%20primary%20goal%20of%20this%20undertaking%20is%20not%20only%20to%20build%20a%20hierarchical%20system%20where%20every%20notion%20is%20unambiguous%20but%20to%20develop%20a%20heuristic%20tool%20useful%20for%20further%20research.&amp;rft.identifier=https%3A%2F%2Fnotes.peter-baumgartner.net%2F2019%2F06%2F24%2Ftoward-a-taxonomy-of-open-science&amp;rft.aufirst=Peter&amp;rft.aulast=Baumgartner&amp;rft.au=Peter%20Baumgartner&amp;rft.date=&amp;rft.language=en"></span>
+
+<div id="refs" class="references csl-bib-body hanging-indent">
+
+<div id="ref-baumgartner_taxonomie_2014-5" class="csl-entry">
+
+Baumgartner, Peter. 2014. *<span class="nocase">Taxonomie von Unterrichtsmethoden: ein Plädoyer für didaktische Vielfalt</span>*. 2. aktualisierte und korrigierte Auflage. Münster: Waxmann.
+
+</div>
+
+<div id="ref-baumgartner_feedback-arten_2016" class="csl-entry">
+
+Baumgartner, Peter, and Ingrid Bergner. 2016. “<span class="nocase">Feedback-Arten für Online-Lernen: Taxonomie und Realisierung von Feedback-Mustern für Multiple-Choice Tests in Moodle</span>.” In *<span class="nocase">Digitale Medien: Zusammenarbeit in der Bildung</span>*, edited by Josef Wachtler, 201–10. Münster: Waxmann. <http://2016.gmw-online.de/wp-content/uploads/201.pdf>.
+
+</div>
+
+<div id="ref-baumgartner_potential_2009" class="csl-entry">
+
+Baumgartner, Peter, Sabine Zauchner, and Reinhard Bauer, eds. 2009. *Potential of e-Portfolios in Higher Education*. Innsbruck; Piscataway, N.J.: StudienVerlag ; Distributed by Transaction Publishers.
+
+</div>
+
+<div id="ref-foster_consortium_resources_2015" class="csl-entry">
+
+FOSTER consortium. 2015. “Resources \| FOSTER.” *The Future of Science Is Open*. <https://www.fosteropenscience.eu/resources>.
+
+</div>
+
+<div id="ref-pontika_fostering_2015" class="csl-entry">
+
+Pontika, Nancy, Petr Knoth, Matteo Cancellieri, and Samuel Pearce. 2015. “Fostering Open Science to Research Using a Taxonomy and an <span class="nocase">eLearning Portal</span>.” In *Proceedings of the 15th International Conference on Knowledge Technologies and Data-Driven Business*, 11:1–8. I-KNOW ’15. New York, NY, USA: ACM. <https://doi.org/10.1145/2809563.2809571>.
+
+</div>
+
+</div>
