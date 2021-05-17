@@ -4,8 +4,8 @@ author: "Peter Baumgartner"
 date: '2019-08-01'
 lastmod: ~
 description: "This article is the follow-up of [Retrieving And Scraping Archived Data
-  dates, starting from May 2014 to August 2019. The data for this article comes from
-  at seven the previous article mentioned above With The Wayback Machine](https://rpubs.com/pbaumgartner/wayback). Here I will display some results from the scraped archived web site https://www.staticgen.com/."
+ With The Wayback Machine](https://rpubs.com/pbaumgartner/wayback). Here I will display some results from the scraped archived web site https://www.staticgen.com/."  at seven 
+  dates, starting from May 2014 to August 2019. The data for this article comes from the previous mentioned article.
 disable_comments: no
 draft: no
 slug: comparing-website-generators-over-time

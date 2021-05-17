@@ -770,6 +770,7 @@ div.notices.tip {
 div.notices.tip p:first-child:after {
     content: 'Tip';
 }
+
 code, kbd, pre, samp {
     font-family: "Consolas", menlo, monospace;
     font-size: 92%;
